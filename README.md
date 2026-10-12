@@ -79,3 +79,9 @@
 - Cập nhật icon Android cho mọi mật độ màn hình và adaptive icon; đồng bộ icon PWA với giao diện mới.
 - Product version: `12.1.0`; Android `versionCode`: `23`.
 - Không thay đổi cấu trúc dữ liệu hoặc chức năng nghiệp vụ trong bản cập nhật icon này.
+
+
+## Update 12.1.0 — linked search and instant filters
+- Three-way search now reads projects, clients, pricing/position benchmarks and leads from the local database, including imported rows. Results are clickable to open the matching detail record.
+- Project and client filters apply immediately when a select changes; the redundant Apply buttons have been removed. Clear-filter buttons remain.
+- Android WebView assets are synced from the web source. Android internal build code: 24; product version remains 12.1.0.
