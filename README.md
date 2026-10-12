@@ -1,85 +1,46 @@
-# BPO Intelligence Hub v3 — Local Survey Edition
+# BPO Intelligence Hub — v12.0.0 (Combined Update)
 
-Ứng dụng tra cứu và survey thông tin dịch vụ BPO dành cho một Sales sử dụng trên một thiết bị. Ưu tiên tra cứu nhanh theo khu vực, dự án, vị trí nhân sự, mức lương, phí dịch vụ, mô hình dịch vụ, khách hàng hiện tại và doanh nghiệp tiềm năng.
+Ứng dụng tra cứu và quản lý dữ liệu BPO cho một người dùng trên thiết bị cá nhân. Bản này gộp các thay đổi trước đó vào một source thống nhất; số phiên bản sản phẩm hiển thị là **12.0.0**.
 
-## Tính năng
-- Dashboard dự án, khu vực, vị trí, khách hàng và cơ hội.
-- CRUD: dự án/nhân sự, khách hàng, benchmark lương và phí, cơ hội tiềm năng.
-- Tìm kiếm và lọc theo khu vực/ngành/trạng thái.
-- Hỗ trợ nghiên cứu thị trường: tạo truy vấn và mở Google, LinkedIn, VietnamWorks, CareerViet, TopCV, Indeed; lưu truy vấn vào ghi chú để Sales theo dõi.
-- Lưu dữ liệu cục bộ trên thiết bị bằng localStorage, không cần tài khoản, máy chủ hoặc API key.
-- Xuất/nhập bản sao lưu JSON.
-- Web/PWA source và Android WebView project.
-- GitHub Actions build APK debug.
+## Chức năng đã gộp
 
-## Quan trọng về dữ liệu
-App không tự thu thập hay trích xuất nội dung từ trang web; nó tạo truy vấn tìm kiếm trên các nguồn công khai để người dùng tự kiểm tra, xác minh và nhập kết quả. Không tự động đăng nhập mạng xã hội hay thu thập dữ liệu riêng tư. Mọi mức lương/phí cần có nguồn, ngày cập nhật, khu vực, đơn vị tính và trạng thái xác minh. Database chỉ tồn tại trên thiết bị/browser hiện tại; xóa dữ liệu ứng dụng hoặc đổi thiết bị có thể làm mất dữ liệu. Hãy xuất backup định kỳ.
+- **Tổng quan:** dashboard dự án, nhân sự, khách hàng và cơ hội tiềm năng.
+- **Tra cứu 3 chiều:** tìm theo vị trí công việc, khu vực hoặc ngành/lĩnh vực; hiển thị các yếu tố liên quan và các dự án đang chạy. Có gợi ý theo miền Bắc, miền Trung, miền Nam và các ngành BPO phổ biến. Danh mục gợi ý không phải xác nhận dự án thực tế.
+- **Dự án & nhân sự:** thêm/sửa/xóa, xem chi tiết; lọc theo khu vực, quận/huyện, phường/xã, trạng thái và ngành.
+- **Khách hàng:** xem chi tiết và lọc theo khu vực, nhóm, trạng thái.
+- **Lương & phí dịch vụ:** benchmark theo vị trí/khu vực/ngành; lọc khu vực, trạng thái nguồn và ngành. Số liệu mẫu phải được xác minh trước khi sử dụng.
+- **Cơ hội tiềm năng:** nhấn tên để xem chi tiết; sửa thông tin từ cửa sổ chi tiết.
+- **Giao diện:** màu chủ đạo tùy chỉnh, sáng/tối/theo hệ thống, cỡ chữ; màu nhấn được áp dụng nhất quán cho điều hướng, nút, bộ lọc và thành phần tra cứu.
+- **Excel & dữ liệu:** chỉ còn một ô chọn file; hỗ trợ template XLSX tích hợp, nhập XLSX khi thư viện SheetJS tải được, nhập CSV offline, xuất XLSX khi có thư viện hoặc CSV dự phòng. Có xem trước số dòng trước khi nhập.
+- **Tải tệp Android:** dùng hộp thoại lưu tệp hệ thống cho template, bản xuất và bản sao lưu JSON. Chọn thư mục/filename trong hộp thoại Android để tệp được lưu thật. Hủy hộp thoại thì không tạo tệp.
+- **Sao lưu & phục hồi:** xuất JSON và nhập lại dữ liệu từ bản sao lưu.
+- **Web/PWA + Android WebView:** cùng dùng một bộ source; Android assets được đồng bộ từ `web/`.
+- **GitHub Actions:** workflow build APK debug.
 
-Mặc định database trống, không có dữ liệu khách hàng hay benchmark giả lập.
+## Phiên bản Android
 
-## Chạy bản web
-Mở `web/index.html` trong trình duyệt để dùng thử. Với PWA/service worker đầy đủ hoặc một số trình duyệt, nên host thư mục `web/` qua HTTPS (ví dụ GitHub Pages/Netlify).
+- Product version (`versionName`): **12.0.0**.
+- Android build number (`versionCode`): **16**. Đây là mã nội bộ tăng đơn điệu để Android cho phép cài bản này đè lên các APK có build code 15; người dùng vẫn thấy phiên bản sản phẩm 12.0.0.
 
-## Build APK qua GitHub Actions
-1. Tạo repository GitHub mới.
-2. Upload **nội dung** thư mục `bpo-hub` vào root repository, không upload thêm một lớp thư mục ngoài. Phải thấy `.github/`, `android/`, `web/`, `README.md`.
-3. Mở Actions → **Build Android APK** → Run workflow.
-4. Tải artifact `BPO-Intelligence-Hub-debug-apk`; file APK nằm trong artifact.
+## Build APK bằng GitHub Actions
 
-Workflow dùng Java 17, Android SDK 35 và Gradle 8.7. APK debug cần kiểm thử trên thiết bị thực tế trước khi sử dụng chính thức.
+1. Tạo hoặc mở repository GitHub.
+2. Upload **nội dung thư mục `bpo-hub/`** vào root repository, không upload thêm một lớp thư mục ngoài. Phải thấy `.github/`, `android/`, `web/`, `README.md`.
+3. Mở **Actions → Build Android APK → Run workflow**.
+4. Khi workflow hoàn tất thành công, tải artifact `BPO-Intelligence-Hub-debug-apk`.
+5. Cài APK và kiểm tra trên điện thoại.
 
-## Nâng cấp sau này
-Khi cần nhiều Sales cùng sử dụng, có thể thay lớp lưu trữ local bằng PostgreSQL/Supabase và bổ sung đăng nhập, phân quyền, lịch sử chỉnh sửa và xử lý xung đột dữ liệu. Phiên bản hiện tại không có workspace nhiều người.
+## Lưu ý về dữ liệu và kiểm thử
 
-
-## v4 UI & market survey updates
-- App icon: `web/icon.svg` (also bundled into Android WebView assets).
-- Settings: light/dark/system theme, accent color and font size; stored locally.
-- Back navigation button in the page header.
-- Excel import/export uses SheetJS from a CDN; an offline connection is needed to load the parser. Download template from **Excel & dữ liệu** or use `BPO-Intelligence-Hub-Excel-Template.xlsx` supplied separately.
-- Seeded examples are explicitly marked DEMO; they are fictional and not actual clients/projects. Public salary information is linked in the dashboard and benchmark records. Salary references are not BPO service prices.
-
-### Public sources used for context
-- CareerViet Salary — IT Support benchmark: https://vietnamsalary.careerviet.vn/detail/IT-Support-kw
-- Adecco Vietnam Salary Guide 2026 (published March 2026): https://www.adecco.com/en-vn/insights/adecco-vietnam-salary-guide-2026
-- Institute of Strategy and Policy on Labour and Social Affairs, Vietnam labour market bulletin Q2 2026: https://isos.gov.vn/Ban-Tin-thi-truong-lao-dong/thong-tin-thi-truong-lao-dong-viet-nam-quy-ii-2026-44000.html
-- Reeracoen Vietnam salary guide article: https://www.reeracoen.com.vn/vi/employers/articles/vietnam-salary-guide-2025-what-employers-and-jobseekers-need-to-know
-
-Public sources are linked for manual review; this app does not scrape pages automatically. Verify salary range, date, location and methodology before using in a proposal.
+- Dữ liệu được lưu cục bộ trên thiết bị/trình duyệt hiện tại; xóa dữ liệu ứng dụng hoặc đổi thiết bị có thể làm mất dữ liệu. Xuất JSON backup định kỳ.
+- App không tự thu thập dữ liệu từ các website; phần nghiên cứu tạo truy vấn tới nguồn công khai để người dùng tự xác minh. Không nhập dữ liệu cá nhân nhạy cảm hoặc thông tin riêng tư.
+- Dự án demo được đánh dấu giả lập; không được coi là khách hàng hay dự án thật.
+- Source đã được kiểm tra cú pháp JavaScript và cấu trúc ZIP. APK cần được build bằng workflow và kiểm thử trên thiết bị thực tế; việc kiểm tra source không thay thế kiểm thử thiết bị.
 
 
-## v5: General workforce survey
-- Added general workforce survey categories: production workers, warehouse/packing, cleaning, security, delivery, customer service, telesales, data entry/back office, and IT roles.
-- Added public official minimum-wage benchmarks for Regions I–IV effective 2026-01-01 and links to official labor-market statistics. These legal floors are not market-average salary or BPO service fees.
-- Excel template is bundled in the app under Excel & Data and can be downloaded when needed. The template has README, Projects, Clients, SalaryFees, and Leads sheets.
-- General-role salary entries without confirmed numbers are intentionally left blank and marked for verification rather than inventing market wages.
-
-## v6 UX fixes
-- Redesigned back navigation icon and visibility.
-- Added project detail dialog from the project name.
-- Added district and ward filters for projects; fill `district` and `ward` fields in imported records to use them.
-- Fixed template download so it no longer returns before Excel fallback logic.
-- Added app-wide accent theme tokens and refreshed card/navigation styling.
-- Added responsive project detail styles.
-
-Note: this release is source-updated and syntax-checked; run GitHub Actions to build and test the APK on device.
-
-## v10 — Offline-friendly data workflow and stability pass
-- Excel import/export remains available through SheetJS when the library can load online.
-- Added CSV template generation, CSV export fallback and CSV import when offline, so the data workflow no longer hard-fails just because the XLSX parser CDN is unavailable.
-- CSV import previews the row count before committing; duplicate imported IDs are regenerated to avoid accidental collisions.
-- Removed a redundant duplicate filter-change listener; Android assets are synchronized from the web source.
-- Android app version: 10.0.0 (versionCode 10).
-
-Build status: source validation and packaging checks only. This environment does not have a configured Android SDK/Gradle installation, so the APK must be built by the included GitHub Actions workflow; the resulting APK still needs a real-device test.
-
-
-## v11 — Tra cứu liên kết vị trí × khu vực × ngành nghề
-
-- Bổ sung khối **Tra cứu 3 chiều** trên màn hình Tổng quan.
-- Có thể nhập/tìm theo vị trí công việc, khu vực hoặc ngành nghề; kết quả cập nhật tức thì và luôn hiển thị hai nhóm thông tin liên quan cùng danh sách dự án đang chạy.
-- Có danh mục gợi ý theo ghi chú người dùng: miền Bắc (Hà Nội, Hải Phòng, Bắc Ninh, Bắc Giang), miền Trung (Đà Nẵng, Huế, Quảng Nam), miền Nam (TP.HCM, Củ Chi, Long An, Bình Dương, Đồng Nai, VSIP 1/2/3); vị trí như phụ kho, CSKH, lễ tân, telesales, CSKH đa ngôn ngữ; lĩnh vực e-commerce, logistics, banking, finance, warehouse, F&B, FMCG, retail.
-- Các gợi ý chỉ hỗ trợ tìm kiếm, không được coi là dữ liệu dự án thật. Kết quả chỉ lấy từ hồ sơ dự án có trạng thái **Đang chạy**.
-- Có thể nhấn chip trong kết quả để dùng nó làm điều kiện tìm kiếm tiếp theo; nút Xóa tìm kiếm sẽ bỏ cả ba điều kiện.
-- Android app version: 11.0.0 (versionCode 11).
-- Kiểm tra cú pháp JavaScript bằng `node --check`; chưa xác nhận build APK hoặc chạy trên thiết bị thật trong môi trường này.
+## Detail views audit (product version 12.0.0)
+- Customer records: click company name to open detail modal.
+- Project records: click project/customer name to open detail modal.
+- Job/benchmark records: click job position to open detail modal.
+- Potential leads: click company/target name to open detail modal.
+- Detail modal includes an edit action wired to the relevant record form.

@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="vi">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#123c3a"><meta name="description" content="BPO Sales Intelligence Hub — quản lý dự án, khách hàng, mức lương và phí dịch vụ BPO.">
-<title>BPO Intelligence Hub</title><link rel="manifest" href="manifest.webmanifest"><link rel="icon" type="image/svg+xml" href="icon.svg"><link rel="stylesheet" href="styles.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#16796f"><meta name="description" content="BPO Sales Intelligence Hub — quản lý dự án, khách hàng, mức lương và phí dịch vụ BPO.">
+<title>BPO Intelligence Hub</title><link rel="manifest" href="manifest.webmanifest"><link rel="icon" type="image/svg+xml" href="icon.svg"><link rel="stylesheet" href="styles.css?v=12">
 </head><body>
 <div class="app-shell">
 <aside class="sidebar" id="sidebar"><div class="brand"><div class="brand-mark">B<span>+</span></div><div><strong>BPO Intelligence</strong><small>SALES WORKSPACE</small></div></div>
@@ -10,8 +10,9 @@
 <div class="sidebar-bottom"><div class="privacy-note"><span>◈</span><div><b>Dữ liệu & bảo mật</b><p>Dữ liệu lưu cục bộ trên thiết bị này. Hãy xuất bản sao lưu định kỳ.</p></div></div><button class="nav-item" id="exportBtn"><span>⇩</span> Xuất dữ liệu CSV</button><button class="nav-item" id="importBtn"><span>⇧</span> Nhập bản sao lưu</button><input type="file" id="importFile" accept=".json,application/json" hidden></div></aside>
 <main class="main"><header class="topbar"><button class="icon-btn mobile-menu" id="menuBtn" aria-label="Mở menu">☰</button><div class="heading-wrap"><button class="icon-btn back-btn" id="backBtn" aria-label="Quay lại" title="Quay lại">←</button><div><div class="eyebrow" id="crumb">SALES COMMAND CENTER</div><h1 id="pageTitle">Tổng quan thị trường</h1></div></div><div class="top-actions"><label class="searchbox"><span>⌕</span><input id="globalSearch" placeholder="Tìm khách hàng, vị trí, khu vực..." aria-label="Tìm kiếm"></label><button class="primary-btn" id="quickAdd">＋ Thêm dữ liệu</button></div></header>
 <section id="content" class="content" aria-live="polite"></section>
-<footer class="footer"><span>BPO Intelligence Hub · LOCAL DATABASE 3.1.0</span><span>Thông tin mẫu cần được xác minh trước khi sử dụng kinh doanh.</span></footer></main></div>
+<footer class="footer"><span>BPO Intelligence Hub · VERSION 12.0.0</span><span>Thông tin mẫu cần được xác minh trước khi sử dụng kinh doanh.</span></footer></main></div>
 <div class="modal-backdrop hidden" id="modalBackdrop"><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><header class="modal-head"><div><div class="eyebrow">DATA WORKSPACE</div><h2 id="modalTitle">Thêm dữ liệu</h2></div><button class="icon-btn" id="closeModal" aria-label="Đóng">×</button></header><form id="dataForm"><div id="formFields" class="form-grid"></div><div class="modal-actions"><button type="button" class="secondary-btn" id="cancelModal">Hủy</button><button type="submit" class="primary-btn">Lưu dữ liệu</button></div></form></section></div>
+<div class="modal-backdrop hidden" id="detailBackdrop"><section class="modal detail-modal" role="dialog" aria-modal="true" aria-labelledby="detailTitle"><header class="modal-head"><div><div class="eyebrow">BPO INTELLIGENCE</div><h2 id="detailTitle">Chi tiết</h2></div><button class="icon-btn" id="detailX" type="button" aria-label="Đóng">×</button></header><div id="detailBody"></div></section></div>
 <div class="toast" id="toast" role="status"></div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js" onerror="this.onerror=null;this.src='https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js'"></script><script src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js" onerror="this.onerror=null;this.src='https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js'"></script><script src="app.js?v=12.1"></script>
 </body></html>
