@@ -63,3 +63,23 @@ Public sources are linked for manual review; this app does not scrape pages auto
 - Added responsive project detail styles.
 
 Note: this release is source-updated and syntax-checked; run GitHub Actions to build and test the APK on device.
+
+## v10 — Offline-friendly data workflow and stability pass
+- Excel import/export remains available through SheetJS when the library can load online.
+- Added CSV template generation, CSV export fallback and CSV import when offline, so the data workflow no longer hard-fails just because the XLSX parser CDN is unavailable.
+- CSV import previews the row count before committing; duplicate imported IDs are regenerated to avoid accidental collisions.
+- Removed a redundant duplicate filter-change listener; Android assets are synchronized from the web source.
+- Android app version: 10.0.0 (versionCode 10).
+
+Build status: source validation and packaging checks only. This environment does not have a configured Android SDK/Gradle installation, so the APK must be built by the included GitHub Actions workflow; the resulting APK still needs a real-device test.
+
+
+## v11 — Tra cứu liên kết vị trí × khu vực × ngành nghề
+
+- Bổ sung khối **Tra cứu 3 chiều** trên màn hình Tổng quan.
+- Có thể nhập/tìm theo vị trí công việc, khu vực hoặc ngành nghề; kết quả cập nhật tức thì và luôn hiển thị hai nhóm thông tin liên quan cùng danh sách dự án đang chạy.
+- Có danh mục gợi ý theo ghi chú người dùng: miền Bắc (Hà Nội, Hải Phòng, Bắc Ninh, Bắc Giang), miền Trung (Đà Nẵng, Huế, Quảng Nam), miền Nam (TP.HCM, Củ Chi, Long An, Bình Dương, Đồng Nai, VSIP 1/2/3); vị trí như phụ kho, CSKH, lễ tân, telesales, CSKH đa ngôn ngữ; lĩnh vực e-commerce, logistics, banking, finance, warehouse, F&B, FMCG, retail.
+- Các gợi ý chỉ hỗ trợ tìm kiếm, không được coi là dữ liệu dự án thật. Kết quả chỉ lấy từ hồ sơ dự án có trạng thái **Đang chạy**.
+- Có thể nhấn chip trong kết quả để dùng nó làm điều kiện tìm kiếm tiếp theo; nút Xóa tìm kiếm sẽ bỏ cả ba điều kiện.
+- Android app version: 11.0.0 (versionCode 11).
+- Kiểm tra cú pháp JavaScript bằng `node --check`; chưa xác nhận build APK hoặc chạy trên thiết bị thật trong môi trường này.
