@@ -1,4 +1,4 @@
-name: Build Android APK
+name: Build BPO Intelligence Hub APK
 
 on:
   workflow_dispatch:
@@ -19,13 +19,46 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.7'
+      - name: Sync latest web app into Android assets
+        run: |
+          test -f web/index.html
+          test -f web/app.js
+          test -f web/styles.css
+          mkdir -p android/app/src/main/assets
+          cp web/index.html android/app/src/main/assets/index.html
+          cp web/app.js android/app/src/main/assets/app.js
+          cp web/styles.css android/app/src/main/assets/styles.css
+          cp web/manifest.webmanifest android/app/src/main/assets/manifest.webmanifest
+          cp web/icon.svg android/app/src/main/assets/icon.svg
+          mkdir -p android/app/src/main/assets/assets
+          if [ -f web/assets/BPO-Intelligence-Hub-Excel-Template.xlsx ]; then
+            cp web/assets/BPO-Intelligence-Hub-Excel-Template.xlsx android/app/src/main/assets/assets/
+          fi
+          echo "Payload sizes:"
+          wc -c android/app/src/main/assets/index.html android/app/src/main/assets/app.js android/app/src/main/assets/styles.css
+      - name: Verify launcher icon resources
+        run: |
+          test -f android/app/src/main/res/mipmap-mdpi/ic_launcher.png
+          test -f android/app/src/main/res/mipmap-hdpi/ic_launcher.png
+          test -f android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+          test -f android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+          test -f android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+          grep -q '@mipmap/ic_launcher' android/app/src/main/AndroidManifest.xml
       - name: Build debug APK
         working-directory: android
         run: gradle --no-daemon assembleDebug
+      - name: Verify APK contents
+        run: |
+          APK=android/app/build/outputs/apk/debug/app-debug.apk
+          test -s "$APK"
+          ls -lh "$APK"
+          unzip -l "$APK" | grep -E 'assets/(index.html|app.js|styles.css)|mipmap-.*/ic_launcher.png' || true
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
