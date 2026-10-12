@@ -85,3 +85,11 @@
 - Three-way search now reads projects, clients, pricing/position benchmarks and leads from the local database, including imported rows. Results are clickable to open the matching detail record.
 - Project and client filters apply immediately when a select changes; the redundant Apply buttons have been removed. Clear-filter buttons remain.
 - Android WebView assets are synced from the web source. Android internal build code: 24; product version remains 12.1.0.
+
+## Sao lưu JSON mã hóa / giải mã (v12.1.0)
+- Trang **Excel & dữ liệu** có nút **Xuất sao lưu mã hóa (.bpoenc)** và **Chọn file JSON / mã hóa để khôi phục**.
+- File `.bpoenc` dùng AES-256-GCM; khóa được tạo từ mật khẩu qua PBKDF2-HMAC-SHA256 với salt ngẫu nhiên và 210.000 vòng lặp. Mỗi file có IV ngẫu nhiên riêng.
+- Trên Android, mã hóa/giải mã dùng API mật mã của Java; trên trình duyệt web, dùng Web Crypto API khi chạy trong ngữ cảnh được hỗ trợ.
+- File JSON sao lưu thường vẫn được hỗ trợ. Khi chọn file mã hóa, app hỏi mật khẩu trước khi giải mã và xác thực cấu trúc dữ liệu trước khi khôi phục.
+- Mật khẩu không được lưu trong app. Nếu quên mật khẩu, không thể khôi phục nội dung file mã hóa. Hãy giữ mật khẩu riêng và lưu an toàn.
+- Product version giữ `12.1.0`; Android `versionCode` tăng lên `25` để cài cập nhật APK.

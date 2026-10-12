@@ -19,6 +19,15 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.IOException;
 import android.util.Base64;
+import org.json.JSONObject;
+import java.nio.charset.StandardCharsets;
+import java.security.SecureRandom;
+import javax.crypto.Cipher;
+import javax.crypto.SecretKey;
+import javax.crypto.SecretKeyFactory;
+import javax.crypto.spec.GCMParameterSpec;
+import javax.crypto.spec.PBEKeySpec;
+import javax.crypto.spec.SecretKeySpec;
 
 public class MainActivity extends Activity {
     private WebView webView;
@@ -89,6 +98,53 @@ public class MainActivity extends Activity {
     }
 
     private class FileSaveBridge {
+        private static final int BACKUP_ITERATIONS = 210000;
+        private SecretKey deriveBackupKey(String password, byte[] salt, int iterations) throws Exception {
+            PBEKeySpec spec = new PBEKeySpec(password.toCharArray(), salt, iterations, 256);
+            try {
+                SecretKeyFactory factory = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA256");
+                byte[] keyBytes = factory.generateSecret(spec).getEncoded();
+                return new SecretKeySpec(keyBytes, "AES");
+            } finally { spec.clearPassword(); }
+        }
+        @JavascriptInterface public String encryptBackup(String plainJson, String password) {
+            try {
+                if (password == null || password.length() < 8) return "ERROR:Mật khẩu cần tối thiểu 8 ký tự.";
+                byte[] salt = new byte[16]; byte[] iv = new byte[12]; SecureRandom random = new SecureRandom();
+                random.nextBytes(salt); random.nextBytes(iv);
+                SecretKey key = deriveBackupKey(password, salt, BACKUP_ITERATIONS);
+                Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
+                cipher.init(Cipher.ENCRYPT_MODE, key, new GCMParameterSpec(128, iv));
+                byte[] ciphertext = cipher.doFinal(plainJson.getBytes(StandardCharsets.UTF_8));
+                JSONObject envelope = new JSONObject();
+                envelope.put("format", "BPOHUB_ENCRYPTED_BACKUP"); envelope.put("version", 1);
+                envelope.put("algorithm", "AES-256-GCM"); envelope.put("kdf", "PBKDF2-SHA256");
+                envelope.put("iterations", BACKUP_ITERATIONS);
+                envelope.put("salt", Base64.encodeToString(salt, Base64.NO_WRAP));
+                envelope.put("iv", Base64.encodeToString(iv, Base64.NO_WRAP));
+                envelope.put("ciphertext", Base64.encodeToString(ciphertext, Base64.NO_WRAP));
+                envelope.put("createdAt", new java.text.SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", java.util.Locale.US).format(new java.util.Date()));
+                return envelope.toString();
+            } catch (Exception e) { return "ERROR:Không mã hóa được file sao lưu."; }
+        }
+        @JavascriptInterface public String decryptBackup(String envelopeJson, String password) {
+            try {
+                if (password == null || password.length() < 1) return "ERROR:Chưa nhập mật khẩu.";
+                JSONObject envelope = new JSONObject(envelopeJson);
+                if (!"BPOHUB_ENCRYPTED_BACKUP".equals(envelope.optString("format"))) return "ERROR:Định dạng file mã hóa không hợp lệ.";
+                int iterations = envelope.optInt("iterations", BACKUP_ITERATIONS);
+                if (iterations < 100000 || iterations > 1000000) return "ERROR:Thông số mã hóa không hợp lệ.";
+                byte[] salt = Base64.decode(envelope.getString("salt"), Base64.DEFAULT);
+                byte[] iv = Base64.decode(envelope.getString("iv"), Base64.DEFAULT);
+                byte[] ciphertext = Base64.decode(envelope.getString("ciphertext"), Base64.DEFAULT);
+                SecretKey key = deriveBackupKey(password, salt, iterations);
+                Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
+                cipher.init(Cipher.DECRYPT_MODE, key, new GCMParameterSpec(128, iv));
+                byte[] plain = cipher.doFinal(ciphertext);
+                return new String(plain, StandardCharsets.UTF_8);
+            } catch (javax.crypto.AEADBadTagException e) { return "ERROR:Sai mật khẩu hoặc file đã bị thay đổi."; }
+              catch (Exception e) { return "ERROR:Không giải mã được file. Hãy kiểm tra mật khẩu và định dạng."; }
+        }
         @JavascriptInterface public void saveFile(String filename, String mimeType, String base64) {
             runOnUiThread(() -> {
                 try {
