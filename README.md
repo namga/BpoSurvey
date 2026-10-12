@@ -53,3 +53,13 @@ Public sources are linked for manual review; this app does not scrape pages auto
 - Added public official minimum-wage benchmarks for Regions I–IV effective 2026-01-01 and links to official labor-market statistics. These legal floors are not market-average salary or BPO service fees.
 - Excel template is bundled in the app under Excel & Data and can be downloaded when needed. The template has README, Projects, Clients, SalaryFees, and Leads sheets.
 - General-role salary entries without confirmed numbers are intentionally left blank and marked for verification rather than inventing market wages.
+
+## v6 UX fixes
+- Redesigned back navigation icon and visibility.
+- Added project detail dialog from the project name.
+- Added district and ward filters for projects; fill `district` and `ward` fields in imported records to use them.
+- Fixed template download so it no longer returns before Excel fallback logic.
+- Added app-wide accent theme tokens and refreshed card/navigation styling.
+- Added responsive project detail styles.
+
+Note: this release is source-updated and syntax-checked; run GitHub Actions to build and test the APK on device.
