@@ -4,8 +4,8 @@
   "description": "Tra cứu và survey thị trường dịch vụ BPO",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#f5f8f7",
-  "theme_color": "#123c3a",
+  "background_color": "#f7f9ff",
+  "theme_color": "#5b43c4",
   "lang": "vi",
   "icons": [
     {

@@ -1,6 +1,6 @@
-# BPO Intelligence Hub — v12.0.0 (Combined Update)
+# BPO Intelligence Hub — v12.1.0 (Professional App Icon)
 
-Ứng dụng tra cứu và quản lý dữ liệu BPO cho một người dùng trên thiết bị cá nhân. Bản này gộp các thay đổi trước đó vào một source thống nhất; số phiên bản sản phẩm hiển thị là **12.0.0**.
+Ứng dụng tra cứu và quản lý dữ liệu BPO cho một người dùng trên thiết bị cá nhân. Bản này gộp các thay đổi trước đó vào một source thống nhất; số phiên bản sản phẩm hiển thị là **12.1.0**.
 
 ## Chức năng đã gộp
 
@@ -19,8 +19,8 @@
 
 ## Phiên bản Android
 
-- Product version (`versionName`): **12.0.0**.
-- Android build number (`versionCode`): **19**. Đây là mã nội bộ để Android cho phép cập nhật APK; người dùng vẫn thấy phiên bản sản phẩm 12.0.0.
+- Product version (`versionName`): **12.1.0**.
+- Android build number (`versionCode`): **23**. Đây là mã nội bộ để Android cho phép cập nhật APK; người dùng thấy phiên bản sản phẩm 12.1.0.
 
 ## Build APK bằng GitHub Actions
 
@@ -65,3 +65,17 @@
 - Chọn “＋ Khác (nhập mới)” để nhập giá trị mới. Giá trị tùy chỉnh được lưu vào bản ghi và tự xuất hiện trong danh sách lựa chọn của các biểu mẫu sau.
 - Các giá trị hiện có trong dữ liệu cũng được thêm vào danh sách, giúp sửa bản ghi cũ không làm mất lựa chọn.
 - Phiên bản sản phẩm vẫn là 12.0.0; versionCode Android tăng lên 20 để cho phép cài cập nhật APK.
+
+
+## Giao diện v12 – Visual Refresh
+- Làm mới giao diện theo phong cách SaaS hiện đại, tím-indigo thống nhất toàn app.
+- Cải thiện tương phản, khoảng cách, bo góc, trạng thái hover/focus, bảng, form và modal.
+- Tối ưu dashboard cho màn hình điện thoại và chế độ tối.
+- Phiên bản sản phẩm vẫn là 12.0.0; Android versionCode 22 để cài cập nhật.
+
+
+## App icon update — v12.1.0
+- Thiết kế icon launcher tối giản: chữ B cách điệu kết hợp biểu đồ tăng trưởng, tông tím–xanh trên nền sáng.
+- Cập nhật icon Android cho mọi mật độ màn hình và adaptive icon; đồng bộ icon PWA với giao diện mới.
+- Product version: `12.1.0`; Android `versionCode`: `23`.
+- Không thay đổi cấu trúc dữ liệu hoặc chức năng nghiệp vụ trong bản cập nhật icon này.
