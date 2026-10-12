@@ -20,7 +20,7 @@
 ## Phiên bản Android
 
 - Product version (`versionName`): **12.0.0**.
-- Android build number (`versionCode`): **16**. Đây là mã nội bộ tăng đơn điệu để Android cho phép cài bản này đè lên các APK có build code 15; người dùng vẫn thấy phiên bản sản phẩm 12.0.0.
+- Android build number (`versionCode`): **19**. Đây là mã nội bộ để Android cho phép cập nhật APK; người dùng vẫn thấy phiên bản sản phẩm 12.0.0.
 
 ## Build APK bằng GitHub Actions
 
@@ -44,3 +44,17 @@
 - Job/benchmark records: click job position to open detail modal.
 - Potential leads: click company/target name to open detail modal.
 - Detail modal includes an edit action wired to the relevant record form.
+
+## Bản cập nhật UX v12.0.0
+- Vuốt từ cạnh trái sang phải để quay lại; nút Back và phím Back Android đóng modal/menu trước, quay về màn hình trước hoặc trang Tổng quan. Tại trang Tổng quan, nhấn Back hai lần trong 2 giây để thoát.
+- Menu di động có lớp nền để đóng menu khi chạm ra ngoài; bỏ xử lý click điều hướng bị lặp.
+- Cỡ chữ mặc định tăng lên 15px, tăng cỡ chữ bảng và biểu mẫu.
+- Trường lương/phí hỗ trợ nhập số thập phân bằng dấu phẩy hoặc dấu chấm; thêm đơn vị tính lương theo giờ/tháng, phí theo người/giờ, người/tháng, phần trăm lương hoặc phí cố định/lần, cùng thuế/VAT (%).
+- Phiên bản sản phẩm giữ `12.0.0`; Android `versionCode` tăng lên `18` để cài cập nhật đè lên bản build trước.
+
+
+## Import dữ liệu từ bảng có sẵn
+- Trang Excel & dữ liệu tự nhận diện các tiêu đề tiếng Việt tương đương: `Khu vực`, `Lĩnh vực của KH`, `Tên Dự án (tên KH)`, `Vị trí nhân sự`, `Phí Dịch vụ – năm gần nhất`.
+- Có thể nhập workbook `.xlsx` hoặc xuất sheet thành `.csv` UTF-8. Dữ liệu tự động tạo/cập nhật hồ sơ dự án, khách hàng tiềm năng và benchmark vị trí/phí.
+- Mức phí được phân tích từ chuỗi như `480,000 VNĐ/nhân sự/ngày (năm 2026)`; đơn vị ngày/giờ/tháng được giữ lại. Bản ghi nhập từ dữ liệu tùy biến được đánh dấu `Cần xác minh`; kiểm tra trước khi sử dụng.
+- Giữ nguyên `versionName 12.0.0`; Android `versionCode 19` để cho phép cập nhật APK mới.

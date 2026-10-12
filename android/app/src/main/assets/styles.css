@@ -60,3 +60,18 @@ body.theme-dark .nav-item.active{background:var(--accent-soft)!important;color:#
 .callout{border-color:var(--accent-border)!important;background:var(--accent-tint)!important;color:var(--accent-dark)!important}
 .record-open,.lead-score,.source-link{color:var(--accent)!important}
 #filterResultCount{font-size:12px;color:var(--muted);margin:0 0 10px}
+
+/* v12 UX: reliable back navigation, mobile menu and more readable defaults */
+body{font-size:15px}
+.nav-item{font-size:15px;min-height:46px}
+.topbar h1{font-size:26px}
+.back-btn{width:42px;height:42px;font-size:26px;border-radius:12px;display:grid;place-items:center;box-shadow:0 2px 8px rgba(16,45,40,.08)}
+.heading-wrap{gap:10px;min-width:0}
+.mobile-menu{width:44px;height:44px;font-size:22px;touch-action:manipulation}
+.mobile-nav-backdrop{display:none}
+.field label{font-size:12px}
+.field input,.field select,.field textarea,.control{font-size:15px}
+@media(max-width:720px){.mobile-nav-backdrop.visible{display:block;position:fixed;inset:0;background:rgba(10,32,29,.42);z-index:14;touch-action:manipulation}.sidebar{z-index:15;padding-top:22px}.topbar{position:sticky;top:0;z-index:10;background:var(--white);padding:12px 13px;gap:9px}.heading-wrap{gap:7px}.back-btn{width:38px;height:38px}.mobile-menu{width:40px;height:40px}.topbar h1{font-size:19px;line-height:1.25}.topbar .eyebrow{font-size:9px}.content{font-size:15px}.control{min-height:44px}.primary-btn,.secondary-btn{min-height:42px}.field input,.field select,.field textarea{min-height:44px}}
+
+/* Readability pass: increase dense table and helper text slightly */
+td{font-size:13px}.cell-main{font-size:13px}.cell-sub{font-size:11px;line-height:1.4}.metric-label,.section-head p,.panel-head p{font-size:13px}.eyebrow{font-size:11px}.field label{font-size:12px}

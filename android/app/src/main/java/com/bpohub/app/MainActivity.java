@@ -13,6 +13,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.graphics.Color;
 import android.widget.Toast;
+import android.os.SystemClock;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -26,6 +27,7 @@ public class MainActivity extends Activity {
     private static final int SAVE_FILE_REQUEST = 4103;
     private byte[] pendingSaveBytes;
     private String pendingSaveMime = "application/octet-stream";
+    private long lastRootBackAt = 0L;
 
     @Override public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -130,5 +132,14 @@ public class MainActivity extends Activity {
     }
 
     @Override protected void onSaveInstanceState(Bundle outState) { super.onSaveInstanceState(outState); if (webView != null) webView.saveState(outState); }
-    @Override public void onBackPressed() { if (webView != null && webView.canGoBack()) webView.goBack(); else super.onBackPressed(); }
+    @Override public void onBackPressed() {
+        if (webView == null) { super.onBackPressed(); return; }
+        webView.evaluateJavascript("(function(){return window.handleAppBack?window.handleAppBack():false})()", value -> {
+            boolean handled = "true".equals(value);
+            if (handled) { lastRootBackAt = 0L; return; }
+            long now = SystemClock.elapsedRealtime();
+            if (now - lastRootBackAt < 2000L) { finish(); }
+            else { lastRootBackAt = now; Toast.makeText(MainActivity.this, "Đang ở trang chính. Nhấn Back lần nữa để thoát.", Toast.LENGTH_SHORT).show(); }
+        });
+    }
 }
