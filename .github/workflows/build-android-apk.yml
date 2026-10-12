@@ -14,18 +14,30 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
       - name: Set up Java 17
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '17'
+
+      # Avoid setup-android auto-installing the obsolete "tools" package.
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
+        with:
+          packages: ''
+
+      - name: Install required Android SDK packages
+        run: |
+          yes | sdkmanager --licenses >/dev/null || true
+          sdkmanager "platform-tools" "platforms;android-35" "build-tools;35.0.0"
+
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.7'
-      - name: Sync latest web app into Android assets
+
+      - name: Sync web app into Android assets
         run: |
           test -f web/index.html
           test -f web/app.js
@@ -34,14 +46,15 @@ jobs:
           cp web/index.html android/app/src/main/assets/index.html
           cp web/app.js android/app/src/main/assets/app.js
           cp web/styles.css android/app/src/main/assets/styles.css
-          cp web/manifest.webmanifest android/app/src/main/assets/manifest.webmanifest
-          cp web/icon.svg android/app/src/main/assets/icon.svg
-          mkdir -p android/app/src/main/assets/assets
+          if [ -f web/manifest.webmanifest ]; then cp web/manifest.webmanifest android/app/src/main/assets/manifest.webmanifest; fi
+          if [ -f web/icon.svg ]; then cp web/icon.svg android/app/src/main/assets/icon.svg; fi
           if [ -f web/assets/BPO-Intelligence-Hub-Excel-Template.xlsx ]; then
+            mkdir -p android/app/src/main/assets/assets
             cp web/assets/BPO-Intelligence-Hub-Excel-Template.xlsx android/app/src/main/assets/assets/
           fi
-          echo "Payload sizes:"
+          echo "Android web payload:"
           wc -c android/app/src/main/assets/index.html android/app/src/main/assets/app.js android/app/src/main/assets/styles.css
+
       - name: Verify launcher icon resources
         run: |
           test -f android/app/src/main/res/mipmap-mdpi/ic_launcher.png
@@ -50,15 +63,18 @@ jobs:
           test -f android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
           test -f android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
           grep -q '@mipmap/ic_launcher' android/app/src/main/AndroidManifest.xml
+
       - name: Build debug APK
         working-directory: android
         run: gradle --no-daemon assembleDebug
-      - name: Verify APK contents
+
+      - name: Verify APK output
         run: |
           APK=android/app/build/outputs/apk/debug/app-debug.apk
           test -s "$APK"
           ls -lh "$APK"
-          unzip -l "$APK" | grep -E 'assets/(index.html|app.js|styles.css)|mipmap-.*/ic_launcher.png' || true
+          unzip -l "$APK" | grep -E 'assets/(index.html|app.js|styles.css)|ic_launcher' || true
+
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
