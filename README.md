@@ -58,3 +58,10 @@
 - Có thể nhập workbook `.xlsx` hoặc xuất sheet thành `.csv` UTF-8. Dữ liệu tự động tạo/cập nhật hồ sơ dự án, khách hàng tiềm năng và benchmark vị trí/phí.
 - Mức phí được phân tích từ chuỗi như `480,000 VNĐ/nhân sự/ngày (năm 2026)`; đơn vị ngày/giờ/tháng được giữ lại. Bản ghi nhập từ dữ liệu tùy biến được đánh dấu `Cần xác minh`; kiểm tra trước khi sử dụng.
 - Giữ nguyên `versionName 12.0.0`; Android `versionCode 19` để cho phép cập nhật APK mới.
+
+
+## Danh mục khu vực và ngành nghề (v12.0.0)
+- Biểu mẫu dự án, khách hàng, benchmark và cơ hội dùng danh sách chọn có sẵn cho Khu vực và Ngành/lĩnh vực.
+- Chọn “＋ Khác (nhập mới)” để nhập giá trị mới. Giá trị tùy chỉnh được lưu vào bản ghi và tự xuất hiện trong danh sách lựa chọn của các biểu mẫu sau.
+- Các giá trị hiện có trong dữ liệu cũng được thêm vào danh sách, giúp sửa bản ghi cũ không làm mất lựa chọn.
+- Phiên bản sản phẩm vẫn là 12.0.0; versionCode Android tăng lên 20 để cho phép cài cập nhật APK.

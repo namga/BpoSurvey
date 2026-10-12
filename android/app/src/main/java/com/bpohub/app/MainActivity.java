@@ -47,8 +47,28 @@ public class MainActivity extends Activity {
             @Override public boolean onShowFileChooser(WebView view, ValueCallback<Uri[]> callback, WebChromeClient.FileChooserParams params) {
                 if (filePathCallback != null) filePathCallback.onReceiveValue(null);
                 filePathCallback = callback;
-                try { startActivityForResult(params.createIntent(), FILE_CHOOSER_REQUEST); }
-                catch (Exception e) { filePathCallback = null; callback.onReceiveValue(null); return false; }
+                try {
+                    // Do not restrict the Android picker to application/json MIME types.
+                    // Files saved by different file managers may be reported as application/octet-stream.
+                    // Open all files and validate the selected JSON backup inside the app.
+                    Intent picker = new Intent(Intent.ACTION_OPEN_DOCUMENT);
+                    picker.addCategory(Intent.CATEGORY_OPENABLE);
+                    picker.setType("*/*");
+                    picker.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+                    startActivityForResult(picker, FILE_CHOOSER_REQUEST);
+                } catch (Exception firstError) {
+                    try {
+                        Intent picker = new Intent(Intent.ACTION_GET_CONTENT);
+                        picker.addCategory(Intent.CATEGORY_OPENABLE);
+                        picker.setType("*/*");
+                        startActivityForResult(Intent.createChooser(picker, "Chọn file sao lưu JSON"), FILE_CHOOSER_REQUEST);
+                    } catch (Exception fallbackError) {
+                        filePathCallback = null;
+                        callback.onReceiveValue(null);
+                        Toast.makeText(MainActivity.this, "Không mở được trình chọn tệp. Hãy kiểm tra ứng dụng Tệp trên điện thoại.", Toast.LENGTH_LONG).show();
+                        return false;
+                    }
+                }
                 return true;
             }
         });
