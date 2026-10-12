@@ -30,3 +30,26 @@ Workflow dùng Java 17, Android SDK 35 và Gradle 8.7. APK debug cần kiểm th
 
 ## Nâng cấp sau này
 Khi cần nhiều Sales cùng sử dụng, có thể thay lớp lưu trữ local bằng PostgreSQL/Supabase và bổ sung đăng nhập, phân quyền, lịch sử chỉnh sửa và xử lý xung đột dữ liệu. Phiên bản hiện tại không có workspace nhiều người.
+
+
+## v4 UI & market survey updates
+- App icon: `web/icon.svg` (also bundled into Android WebView assets).
+- Settings: light/dark/system theme, accent color and font size; stored locally.
+- Back navigation button in the page header.
+- Excel import/export uses SheetJS from a CDN; an offline connection is needed to load the parser. Download template from **Excel & dữ liệu** or use `BPO-Intelligence-Hub-Excel-Template.xlsx` supplied separately.
+- Seeded examples are explicitly marked DEMO; they are fictional and not actual clients/projects. Public salary information is linked in the dashboard and benchmark records. Salary references are not BPO service prices.
+
+### Public sources used for context
+- CareerViet Salary — IT Support benchmark: https://vietnamsalary.careerviet.vn/detail/IT-Support-kw
+- Adecco Vietnam Salary Guide 2026 (published March 2026): https://www.adecco.com/en-vn/insights/adecco-vietnam-salary-guide-2026
+- Institute of Strategy and Policy on Labour and Social Affairs, Vietnam labour market bulletin Q2 2026: https://isos.gov.vn/Ban-Tin-thi-truong-lao-dong/thong-tin-thi-truong-lao-dong-viet-nam-quy-ii-2026-44000.html
+- Reeracoen Vietnam salary guide article: https://www.reeracoen.com.vn/vi/employers/articles/vietnam-salary-guide-2025-what-employers-and-jobseekers-need-to-know
+
+Public sources are linked for manual review; this app does not scrape pages automatically. Verify salary range, date, location and methodology before using in a proposal.
+
+
+## v5: General workforce survey
+- Added general workforce survey categories: production workers, warehouse/packing, cleaning, security, delivery, customer service, telesales, data entry/back office, and IT roles.
+- Added public official minimum-wage benchmarks for Regions I–IV effective 2026-01-01 and links to official labor-market statistics. These legal floors are not market-average salary or BPO service fees.
+- Excel template is bundled in the app under Excel & Data and can be downloaded when needed. The template has README, Projects, Clients, SalaryFees, and Leads sheets.
+- General-role salary entries without confirmed numbers are intentionally left blank and marked for verification rather than inventing market wages.
