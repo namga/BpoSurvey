@@ -1,6 +1,6 @@
-# BPO Intelligence Hub — v12.1.0 (Professional App Icon)
+# BPO Intelligence Hub — v12.2.0 (Settings Icon Refresh)
 
-Ứng dụng tra cứu và quản lý dữ liệu BPO cho một người dùng trên thiết bị cá nhân. Bản này gộp các thay đổi trước đó vào một source thống nhất; số phiên bản sản phẩm hiển thị là **12.1.0**.
+Ứng dụng tra cứu và quản lý dữ liệu BPO cho một người dùng trên thiết bị cá nhân. Bản này gộp các thay đổi trước đó vào một source thống nhất; số phiên bản sản phẩm hiển thị là **12.2.0**.
 
 ## Chức năng đã gộp
 
@@ -19,8 +19,8 @@
 
 ## Phiên bản Android
 
-- Product version (`versionName`): **12.1.0**.
-- Android build number (`versionCode`): **37**. Đây là mã nội bộ để Android cho phép cập nhật APK; người dùng thấy phiên bản sản phẩm 12.1.0.
+- Product version (`versionName`): **12.2.0**.
+- Android build number (`versionCode`): **37**. Đây là mã nội bộ để Android cho phép cập nhật APK; người dùng thấy phiên bản sản phẩm 12.2.0.
 
 ## Build APK bằng GitHub Actions
 
@@ -74,61 +74,61 @@
 - Phiên bản sản phẩm vẫn là 12.0.0; Android versionCode 22 để cài cập nhật.
 
 
-## App icon update — v12.1.0
+## App icon update — v12.2.0
 - Thiết kế icon launcher tối giản: chữ B cách điệu kết hợp biểu đồ tăng trưởng, tông tím–xanh trên nền sáng.
 - Cập nhật icon Android cho mọi mật độ màn hình và adaptive icon; đồng bộ icon PWA với giao diện mới.
-- Product version: `12.1.0`; Android `versionCode`: `23`.
+- Product version: `12.2.0`; Android `versionCode`: `43`.
 - Không thay đổi cấu trúc dữ liệu hoặc chức năng nghiệp vụ trong bản cập nhật icon này.
 
 
-## Update 12.1.0 — linked search and instant filters
+## Update 12.2.0 — linked search and instant filters
 - Three-way search now reads projects, clients, pricing/position benchmarks and leads from the local database, including imported rows. Results are clickable to open the matching detail record.
 - Project and client filters apply immediately when a select changes; the redundant Apply buttons have been removed. Clear-filter buttons remain.
-- Android WebView assets are synced from the web source. Android internal build code: 24; product version remains 12.1.0.
+- Android WebView assets are synced from the web source. Android internal build code: 24; product version remains 12.2.0.
 
-## Sao lưu JSON mã hóa / giải mã (v12.1.0)
+## Sao lưu JSON mã hóa / giải mã (v12.2.0)
 - Trang **Excel & dữ liệu** có nút **Xuất sao lưu mã hóa (.bpoenc)** và **Chọn file JSON / mã hóa để khôi phục**.
 - File `.bpoenc` dùng AES-256-GCM; khóa được tạo từ mật khẩu qua PBKDF2-HMAC-SHA256 với salt ngẫu nhiên và 210.000 vòng lặp. Mỗi file có IV ngẫu nhiên riêng.
 - Trên Android, mã hóa/giải mã dùng API mật mã của Java; trên trình duyệt web, dùng Web Crypto API khi chạy trong ngữ cảnh được hỗ trợ.
 - File JSON sao lưu thường vẫn được hỗ trợ. Khi chọn file mã hóa, app hỏi mật khẩu trước khi giải mã và xác thực cấu trúc dữ liệu trước khi khôi phục.
 - Mật khẩu không được lưu trong app. Nếu quên mật khẩu, không thể khôi phục nội dung file mã hóa. Hãy giữ mật khẩu riêng và lưu an toàn.
-- Product version giữ `12.1.0`; Android `versionCode` tăng lên `25` để cài cập nhật APK.
+- Product version giữ `12.2.0`; Android `versionCode` tăng lên `25` để cài cập nhật APK.
 
 
-## Theme refresh — v12.1.0
+## Theme refresh — v12.2.0
 
 - Cài đặt giao diện được chuyển thành bộ chọn theme dạng thẻ, áp dụng ngay khi chạm.
 - Bổ sung hai theme mới: **Tươi trẻ, năng động** (xanh lá/teal, điểm nhấn vàng) và **Lãng mạn, thơ mộng** (hồng/hoa cà).
 - Giữ các theme **Mặc định / Hiện đại**, **Tối (Dark)** và **Theo hệ thống**. Theme Theo hệ thống tự theo dõi thay đổi chế độ sáng/tối của thiết bị.
 - Đồng bộ palette cho nền, sidebar, thẻ KPI, nút, bộ lọc, bảng và biểu mẫu; tùy chọn màu nhấn riêng vẫn hoạt động. Có thể khôi phục màu nhấn mặc định theo theme.
-- Product version vẫn là `12.1.0`; Android `versionCode` là `26`.
+- Product version vẫn là `12.2.0`; Android `versionCode` là `26`.
 
 
-### v12.1.0 — Three-way search data integrity fix
+### v12.2.0 — Three-way search data integrity fix
 - Fresh installs start with empty business records; no demo projects, clients, leads, or sample benchmarks are inserted automatically.
 - On upgrade, only known built-in sample IDs (`P-DEMO-*`, `C-DEMO-*`, `R-PUBLIC-*`, `L-DEMO-*`) are removed; other locally stored records are preserved.
 - Three-way search suggestion lists are generated only from saved projects, pricing benchmarks, clients, and leads.
 - When no matching records exist, the UI explicitly asks the user to add/import data.
-- Product version remains 12.1.0; Android versionCode 27.
+- Product version remains 12.2.0; Android versionCode 27.
 
 
-### v12.1.0 — startup and navigation hotfix
+### v12.2.0 — startup and navigation hotfix
 - Fixed a startup crash on fresh installs: `load()` was called before `EMPTY_DB` had initialized, causing a temporal-dead-zone `ReferenceError`. Because the app script stopped during initialization, delegated navigation and the mobile menu never received their event handlers.
 - Moved the empty database definition before initialization and replaced `structuredClone` in the fallback path with a plain empty-object copy for older Android WebView compatibility.
 - Removed the unused hard-coded demo seed dataset from the application bundle. Fresh installs begin with empty business data; known sample records are filtered from existing local storage.
-- Synced web JavaScript into Android assets and updated asset cache tokens. Product version remains `12.1.0`; Android `versionCode` is `28`.
+- Synced web JavaScript into Android assets and updated asset cache tokens. Product version remains `12.2.0`; Android `versionCode` is `28`.
 
 
-### v12.1.0 — dashboard compactness and search UX fix
+### v12.2.0 — dashboard compactness and search UX fix
 
 - Three-way search now shows a short prompt until at least one of position, region, or industry is entered; it no longer renders every saved record by default.
 - Matching result tables are limited to 8 rows initially, with a bounded internal scroll area and an explicit expand/collapse control. The three dimension chip lists are also height-limited on mobile.
 - “Cập nhật gần đây” now has its own record-type filter (all, projects, clients, benchmarks/fees, opportunities), shows 3 records by default, and can expand to 20.
-- Product version remains `12.1.0`; Android `versionCode` is `29`.
+- Product version remains `12.2.0`; Android `versionCode` is `29`.
 
 
-## Quality pass (product version 12.1.0)
-- Android build code: 31 (product version remains 12.1.0).
+## Quality pass (product version 12.2.0)
+- Android build code: 31 (product version remains 12.2.0).
 - Uses system font fallbacks to avoid blocking startup on remote Google Fonts.
 - Filtered lists update in place, preserve current filter selections and show a live result count.
 - Navigation back button is removed from layout when unavailable; edge-swipe avoids controls, tables and modals.
@@ -137,9 +137,22 @@
 - Sidebar backup action is labeled JSON backup to match the actual exported format.
 
 
-### v12.1.0 — Three-way search suggestion popup fix
+### v12.2.0 — Three-way search suggestion popup fix
 
 - Replaced native HTML `datalist` suggestions in the three-way market finder with an opaque, theme-aware custom dropdown for Android WebView compatibility.
 - Supports tap-to-select, typing custom values, keyboard arrows, Enter, and Escape.
 - Preserves the existing search/filter logic and keeps results sourced from saved records only.
-- Product version remains 12.1.0; Android build code is 36.
+- Product version remains 12.2.0; Android build code is 36.
+
+
+## Version 12.2.0 — Settings icon refresh
+- Replaced the Unicode gear with a crisp inline SVG precision-slider icon, better aligned with the app's modern theme.
+- Preserved the `settingsBtn` identifier and click handler so opening Settings continues to work.
+- Updated Android product version to `12.2.0` and build code to `42`.
+- Web assets are mirrored to Android assets and validated before build.
+
+
+## Settings icon correction — v12.2.0
+- Replaced the mistaken three-slider symbol with a conventional outlined gear icon.
+- Kept the existing `settingsBtn` ID, click handler, theme-based `currentColor`, and Settings navigation.
+- Product version remains `12.2.0`; Android build code is `43`.

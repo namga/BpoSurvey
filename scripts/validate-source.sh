@@ -8,6 +8,6 @@ cmp web/icon.svg android/app/src/main/assets/icon.svg
 cmp web/manifest.webmanifest android/app/src/main/assets/manifest.webmanifest
 cmp web/assets/bpo-header-bg.webp android/app/src/main/assets/assets/bpo-header-bg.webp
 cmp web/assets/BPO-Intelligence-Hub-Excel-Template.xlsx android/app/src/main/assets/assets/BPO-Intelligence-Hub-Excel-Template.xlsx
-grep -q "versionName '12.1.0'" android/app/build.gradle
-grep -q 'versionCode 40' android/app/build.gradle
-printf 'Source validation passed. Product 12.1.0 / Android build 40.\n'
+grep -q "versionName '12.2.0'" android/app/build.gradle
+grep -q 'versionCode 44' android/app/build.gradle
+printf 'Source validation passed. Product 12.2.0 / Android build 44.\n'

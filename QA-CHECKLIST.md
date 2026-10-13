@@ -1,9 +1,9 @@
-# BPO Intelligence Hub 12.1.0 — QA checklist
+# BPO Intelligence Hub 12.2.0 — QA checklist
 
 ## Automated checks
 - `node --check web/app.js`
 - Web `index.html`, `app.js`, `styles.css`, icon, manifest and bundled Excel template are mirrored into Android assets by GitHub Actions.
-- Build workflow checks the source syntax, product version (`12.1.0`) and Android build code (`31`) before compiling.
+- Build workflow checks the source syntax, product version (`12.2.0`) and Android build code (`43`) before compiling.
 - Excel template has headers only and contains no demo/example records.
 
 ## Manual smoke test after installing the APK

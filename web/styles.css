@@ -662,3 +662,72 @@ body.theme-dark .main>.topbar{background-color:#111a31!important;background-imag
 @media(max-width:720px){.main>.topbar>.top-actions{grid-template-columns:minmax(0,1fr) 42px!important;gap:8px!important}.main>.topbar .page-back-btn{grid-column:1;min-height:40px;padding:0 9px}.main>.topbar .page-back-btn span{font-size:22px}.main>.topbar .page-back-btn b{font-size:12px}.main>.topbar .searchbox{grid-column:1}.main>.topbar .settings-btn{grid-column:2}.main>.topbar.has-page-back>.top-actions{grid-template-columns:max-content minmax(0,1fr) 42px!important}.main>.topbar.has-page-back .page-back-btn{grid-column:1}.main>.topbar.has-page-back .searchbox{grid-column:2}.main>.topbar.has-page-back .settings-btn{grid-column:3}.search-overlay-top{grid-template-columns:36px minmax(0,1fr);gap:9px;padding:12px 12px 14px}.search-overlay-back{width:36px;height:42px;font-size:29px}.search-overlay-box{height:48px;padding:0 13px;gap:9px}.search-overlay-box input{font-size:16px}.search-overlay-content{padding:24px 17px calc(25px + env(safe-area-inset-bottom,0px))}.search-suggest-section>h2{font-size:23px}.search-suggest-group h3{font-size:15px}.search-suggest-chip{font-size:13px;padding:9px 12px}}
 @media(max-width:390px){.main>.topbar>.top-actions{grid-template-columns:minmax(0,1fr) 38px!important;gap:5px!important}.main>.topbar.has-page-back>.top-actions{grid-template-columns:max-content minmax(0,1fr) 38px!important}.main>.topbar .page-back-btn{min-height:36px;padding:0 7px;gap:3px}.main>.topbar .page-back-btn b{font-size:11px}.main>.topbar .settings-btn{width:38px;height:38px}.main>.topbar .searchbox{height:42px;padding:0 9px}.search-overlay-top{padding-inline:9px;gap:7px}.search-overlay-content{padding-inline:13px}}
 body.search-open{overflow:hidden;overscroll-behavior:none}
+
+
+/* v12.1.41: unify dashboard and inner-page search sizing; compact chevron Back. */
+.page-back-btn span,.search-overlay-back span{font-size:24px;line-height:1;font-weight:500;display:inline-block;transform:translateY(-1px)}
+@media(max-width:720px){
+  .main>.topbar>.top-actions{display:grid!important;grid-template-columns:minmax(0,1fr) 42px!important;align-items:center!important;gap:8px!important;width:100%!important;min-width:0!important}
+  .main>.topbar:not(.has-page-back)>.top-actions .searchbox{grid-column:1!important;display:flex!important;width:100%!important;min-width:0!important;max-width:none!important;visibility:visible!important;opacity:1!important}
+  .main>.topbar:not(.has-page-back)>.top-actions .settings-btn{grid-column:2!important}
+  .main>.topbar.has-page-back>.top-actions{grid-template-columns:max-content minmax(0,1fr) 42px!important}
+  .main>.topbar.has-page-back>.top-actions .page-back-btn{grid-column:1!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;padding:0 9px!important;gap:2px!important;min-width:0!important}
+  .main>.topbar.has-page-back>.top-actions .searchbox{grid-column:2!important;display:flex!important;width:100%!important;min-width:0!important;max-width:none!important;visibility:visible!important;opacity:1!important}
+  .main>.topbar.has-page-back>.top-actions .settings-btn{grid-column:3!important}
+  .main>.topbar .searchbox input#globalSearch{display:block!important;flex:1 1 auto!important;width:100%!important;min-width:0!important;opacity:1!important;visibility:visible!important;background:transparent!important}
+  .main>.topbar .searchbox>span{display:block!important;flex:0 0 auto!important}
+}
+@media(max-width:390px){
+  .main>.topbar>.top-actions{grid-template-columns:minmax(0,1fr) 38px!important;gap:6px!important}
+  .main>.topbar.has-page-back>.top-actions{grid-template-columns:max-content minmax(0,1fr) 38px!important}
+  .main>.topbar.has-page-back>.top-actions .page-back-btn{padding:0 7px!important}
+}
+
+
+/* v12.2.0: conventional gear Settings icon; button behavior and theme colors unchanged */
+.main>.topbar .settings-btn{position:relative;overflow:hidden;isolation:isolate}
+.main>.topbar .settings-btn::before{content:"";position:absolute;inset:5px;border-radius:50%;background:linear-gradient(145deg,rgba(255,255,255,.14),rgba(255,255,255,0));pointer-events:none;z-index:-1}
+.settings-btn .settings-icon{display:block;width:25px;height:25px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;transition:transform .24s ease}
+.settings-btn:hover .settings-icon{transform:rotate(18deg)}
+.settings-btn:focus-visible{outline:3px solid var(--accent-tint,#ded4ff);outline-offset:3px}
+@media(max-width:720px){.main>.topbar .settings-btn .settings-icon{width:24px;height:24px}}
+
+/* v12.2.1: theme-aware menu and gear controls with subtle interaction feedback.
+   Colors are driven by applySettings() CSS variables so every theme/custom accent is respected. */
+.main>.topbar .mobile-menu,
+.main>.topbar .settings-btn{
+  color:var(--accent)!important;
+  background:color-mix(in srgb,var(--accent) 12%,var(--white))!important;
+  border:1px solid color-mix(in srgb,var(--accent) 38%,var(--line))!important;
+  box-shadow:0 4px 14px color-mix(in srgb,var(--accent) 12%,transparent)!important;
+  transition:color .18s ease,background-color .18s ease,border-color .18s ease,box-shadow .18s ease,transform .18s ease!important;
+  -webkit-tap-highlight-color:transparent;
+  touch-action:manipulation;
+}
+.main>.topbar .mobile-menu:hover,
+.main>.topbar .settings-btn:hover{
+  color:var(--accent-strong,var(--accent))!important;
+  background:color-mix(in srgb,var(--accent) 20%,var(--white))!important;
+  border-color:var(--accent)!important;
+  box-shadow:0 7px 18px color-mix(in srgb,var(--accent) 20%,transparent)!important;
+  transform:translateY(-1px);
+}
+.main>.topbar .mobile-menu:active,
+.main>.topbar .settings-btn:active{
+  background:color-mix(in srgb,var(--accent) 25%,var(--white))!important;
+  box-shadow:0 2px 7px color-mix(in srgb,var(--accent) 16%,transparent)!important;
+  transform:scale(.95);
+}
+.main>.topbar .mobile-menu:focus-visible,
+.main>.topbar .settings-btn:focus-visible{
+  outline:3px solid var(--accent-border)!important;
+  outline-offset:3px;
+}
+.main>.topbar .settings-btn .settings-icon{stroke:currentColor;transition:transform .22s ease}
+.main>.topbar .settings-btn:hover .settings-icon{transform:rotate(12deg)}
+@media(hover:none){
+  .main>.topbar .mobile-menu:hover,.main>.topbar .settings-btn:hover{transform:none}
+}
+@media(prefers-reduced-motion:reduce){
+  .main>.topbar .mobile-menu,.main>.topbar .settings-btn,.main>.topbar .settings-btn .settings-icon{transition:none!important}
+}
