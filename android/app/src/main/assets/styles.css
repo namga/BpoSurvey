@@ -360,7 +360,7 @@ body.theme-dark .sidebar .nav-item.active{background:var(--sidebar-active)!impor
 @media(max-width:560px){.global-search-result{align-items:flex-start;flex-wrap:wrap;gap:5px 9px}.global-search-kind{flex-basis:100%}.global-search-copy{flex-basis:calc(100% - 8px)}.global-search-status{max-width:none;text-align:left;margin-left:0}}
 
 
-/* v12.1.32 mobile header refinement: aligned menu/back and compact search */
+/* v12.1.32 prior header refinement; superseded by v12.1.33 row-based Back layout */
 .back-btn{display:inline-flex;align-items:center;justify-content:center;gap:4px;width:auto;min-width:0;height:36px;padding:0 12px;border:1px solid rgba(105,65,198,.12);border-radius:999px;background:rgba(255,255,255,.92);color:var(--accent);font-size:13px;font-weight:650;white-space:nowrap;box-shadow:0 5px 16px rgba(38,27,76,.09),inset 0 1px 0 rgba(255,255,255,.9);transition:transform .16s ease,box-shadow .16s ease,background .16s ease}
 .back-btn>span{font-size:25px;line-height: .7;font-weight:400;margin-top:-2px}
 .back-btn>b{font-size:12px;font-weight:700}
@@ -394,3 +394,154 @@ body.theme-dark .sidebar .nav-item.active{background:var(--sidebar-active)!impor
   .topbar #quickAdd{font-size:11px;padding:9px 9px}
 }
 @media(prefers-reduced-motion:reduce){.back-btn{transition:none}}
+
+
+/* v12.1.33: Back label belongs on the search/action row, not beside the page title. */
+@media(min-width:721px){
+  .topbar>.top-actions{display:flex;align-items:center;gap:10px;min-width:0}
+  .topbar .back-btn{flex:0 0 auto}
+  .topbar .searchbox{flex:0 1 260px;min-width:130px;width:260px}
+}
+@media(max-width:720px){
+  .topbar{display:grid;grid-template-columns:42px minmax(0,1fr);grid-template-areas:"menu heading" "actions actions";align-items:center;column-gap:10px;row-gap:10px;padding:12px 12px 11px;min-height:0}
+  .topbar>.mobile-menu{grid-area:menu;align-self:center;justify-self:start;margin-top:5px;width:42px;height:42px}
+  .topbar>.heading-wrap{grid-area:heading;display:flex;align-items:center;min-width:0;width:100%;align-self:center}
+  .topbar .heading-wrap>div{flex:1;min-width:0}
+  .topbar .eyebrow{font-size:8px;line-height:1.25;letter-spacing:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:3px}
+  .topbar h1{font-size:18px;line-height:1.18;letter-spacing:-.35px;overflow-wrap:normal;word-break:normal}
+  .topbar>.top-actions{grid-area:actions;display:grid;grid-template-columns:max-content minmax(0,1fr) max-content;align-items:center;justify-content:stretch;gap:7px;width:100%;min-width:0;margin:0}
+  .topbar .back-btn{grid-column:1;flex:0 0 auto;width:auto;height:36px;min-width:0;padding:0 9px;gap:2px;border-radius:999px;font-size:12px;box-shadow:0 3px 10px rgba(38,27,76,.08);white-space:nowrap}
+  .topbar .back-btn>span{font-size:22px;line-height:1}
+  .topbar .back-btn>b{font-size:11px;line-height:1;white-space:nowrap}
+  .topbar .back-btn[hidden]{display:none!important}
+  .topbar .searchbox{grid-column:2;width:100%;max-width:none;min-width:0;height:38px;padding:0 9px;gap:5px;border-radius:11px}
+  .topbar .searchbox span{font-size:18px;flex:0 0 auto}
+  .topbar .searchbox input{font-size:12px;min-width:0}
+  .topbar .searchbox input::placeholder{overflow:hidden;text-overflow:ellipsis}
+  .topbar #quickAdd{grid-column:3;min-width:0;min-height:38px;padding:8px 9px;font-size:11px;border-radius:11px;white-space:nowrap}
+}
+@media(max-width:390px){
+  .topbar{grid-template-columns:39px minmax(0,1fr);column-gap:8px;padding-inline:10px;row-gap:9px}
+  .topbar>.mobile-menu{width:39px;height:39px;margin-top:5px}
+  .topbar h1{font-size:17px}
+  .topbar>.top-actions{grid-template-columns:max-content minmax(0,1fr) max-content;gap:5px}
+  .topbar .back-btn{flex-basis:auto;width:auto;height:35px;padding:0 7px}
+  .topbar .back-btn>b{font-size:10px}
+  .topbar .searchbox{height:37px;padding-inline:7px}
+  .topbar .searchbox input{font-size:11px}
+  .topbar #quickAdd{min-height:37px;padding:8px 7px;font-size:10px}
+}
+
+
+/* v12.1.34: taller, balanced mobile header; keep Back label on search row. */
+@media(max-width:720px){
+  .topbar{
+    padding:22px 16px 20px;
+    row-gap:17px;
+    column-gap:12px;
+  }
+  .topbar>.mobile-menu{
+    width:46px;height:46px;margin-top:0;border-radius:15px;
+  }
+  .topbar .eyebrow{font-size:9px;letter-spacing:1.15px;margin-bottom:5px;line-height:1.35}
+  .topbar h1{font-size:clamp(19px,5vw,22px);line-height:1.24;letter-spacing:-.35px}
+  .topbar>.top-actions{gap:9px}
+  .topbar .back-btn{height:40px;padding:0 11px;font-size:12px}
+  .topbar .back-btn>span{font-size:24px}
+  .topbar .back-btn>b{font-size:12px}
+  .topbar .searchbox{height:42px;padding-inline:10px;border-radius:13px}
+  .topbar .searchbox input{font-size:13px}
+  .topbar #quickAdd{min-height:42px;padding:10px 11px;font-size:12px;border-radius:13px}
+}
+@media(max-width:390px){
+  .topbar{padding:19px 12px 18px;row-gap:15px;column-gap:9px}
+  .topbar>.mobile-menu{width:43px;height:43px}
+  .topbar h1{font-size:18px}
+  .topbar>.top-actions{gap:6px}
+  .topbar .back-btn{height:38px;padding-inline:8px}
+  .topbar .back-btn>b{font-size:11px}
+  .topbar .searchbox{height:40px;padding-inline:8px}
+  .topbar .searchbox input{font-size:12px}
+  .topbar #quickAdd{min-height:40px;padding:9px 8px;font-size:11px}
+}
+
+/* v12.1.35: vibrant pill-search header inspired by the user's reference */
+@media(max-width:720px){
+  .topbar{
+    display:grid!important;
+    grid-template-columns:42px minmax(0,1fr)!important;
+    grid-template-areas:"heading heading" "menu actions"!important;
+    align-items:center!important;
+    gap:12px 10px!important;
+    padding:17px 14px 16px!important;
+    min-height:0!important;
+    background:#ffe52b!important;
+    border-bottom:1px solid rgba(20,20,20,.08)!important;
+    color:#171717!important;
+  }
+  .topbar>.heading-wrap{grid-area:heading!important;min-width:0!important;width:100%!important;padding:0 2px!important;}
+  .topbar .eyebrow{color:rgba(25,25,25,.62)!important;font-size:9px!important;letter-spacing:1.25px!important;margin:0 0 3px!important;line-height:1.25!important;}
+  .topbar h1{color:#171717!important;font-size:clamp(19px,5vw,22px)!important;line-height:1.18!important;letter-spacing:-.35px!important;overflow-wrap:anywhere!important;}
+  .topbar>.mobile-menu{grid-area:menu!important;align-self:center!important;justify-self:start!important;width:42px!important;height:42px!important;margin:0!important;border:0!important;border-radius:50%!important;background:transparent!important;box-shadow:none!important;color:#171717!important;font-size:25px!important;padding:0!important;}
+  .topbar>.top-actions{grid-area:actions!important;display:grid!important;grid-template-columns:max-content minmax(0,1fr) max-content!important;align-items:center!important;gap:7px!important;width:100%!important;min-width:0!important;margin:0!important;}
+  .topbar .back-btn{grid-column:1!important;display:flex!important;align-items:center!important;justify-content:center!important;gap:2px!important;width:auto!important;min-width:0!important;height:38px!important;padding:0 9px!important;border:0!important;border-radius:999px!important;background:rgba(255,255,255,.92)!important;color:#202020!important;box-shadow:0 2px 7px rgba(20,20,20,.08)!important;white-space:nowrap!important;font-size:12px!important;}
+  .topbar .back-btn>span{font-size:22px!important;line-height:1!important;}
+  .topbar .back-btn>b{font-size:11px!important;line-height:1!important;white-space:nowrap!important;}
+  .topbar .back-btn[hidden]{display:none!important;}
+  .topbar .searchbox{grid-column:2!important;display:flex!important;align-items:center!important;width:100%!important;max-width:none!important;min-width:0!important;height:48px!important;padding:0 15px!important;gap:10px!important;border:0!important;border-radius:999px!important;background:#fff!important;color:#171717!important;box-shadow:0 2px 9px rgba(30,30,30,.06)!important;}
+  .topbar .searchbox span{font-size:25px!important;line-height:1!important;color:#171717!important;flex:0 0 auto!important;}
+  .topbar .searchbox input{min-width:0!important;width:100%!important;font-size:14px!important;color:#171717!important;background:transparent!important;}
+  .topbar .searchbox input::placeholder{color:#858585!important;opacity:1!important;overflow:hidden!important;text-overflow:ellipsis!important;}
+  .topbar #quickAdd{grid-column:3!important;min-width:0!important;max-width:none!important;min-height:38px!important;height:38px!important;padding:0 10px!important;border:0!important;border-radius:999px!important;background:#171717!important;color:#fff!important;box-shadow:0 2px 7px rgba(20,20,20,.1)!important;font-size:11px!important;white-space:nowrap!important;}
+}
+@media(max-width:390px){
+  .topbar{padding:15px 10px 14px!important;gap:10px 7px!important;grid-template-columns:36px minmax(0,1fr)!important;}
+  .topbar>.mobile-menu{width:36px!important;height:40px!important;font-size:23px!important;}
+  .topbar>.top-actions{grid-template-columns:max-content minmax(0,1fr) max-content!important;gap:5px!important;}
+  .topbar .back-btn{height:36px!important;padding:0 6px!important;}
+  .topbar .back-btn>b{font-size:10px!important;}
+  .topbar .searchbox{height:43px!important;padding:0 10px!important;gap:6px!important;}
+  .topbar .searchbox span{font-size:22px!important;}
+  .topbar .searchbox input{font-size:12px!important;}
+  .topbar #quickAdd{height:36px!important;min-height:36px!important;padding:0 7px!important;font-size:10px!important;}
+}
+
+/* v12.1.0: keep the pill-search header layout, but inherit the selected app theme.
+   The reference image informs shape and spacing only; it does not set a yellow palette. */
+@media(max-width:720px){
+  .topbar{
+    background:var(--white)!important;
+    color:var(--ink)!important;
+    border-bottom:1px solid var(--line)!important;
+    box-shadow:0 4px 18px rgba(30,35,50,.035)!important;
+  }
+  .topbar .eyebrow{color:var(--muted)!important}
+  .topbar h1{color:var(--ink)!important}
+  .topbar>.mobile-menu{
+    color:var(--ink)!important;
+    background:var(--white)!important;
+    border:1px solid var(--line)!important;
+    box-shadow:0 2px 8px rgba(30,35,50,.05)!important;
+  }
+  .topbar .back-btn{
+    background:var(--white)!important;
+    color:var(--accent)!important;
+    border:1px solid var(--accent-border)!important;
+    box-shadow:0 3px 10px rgba(38,27,76,.07)!important;
+  }
+  .topbar .searchbox{
+    background:var(--white)!important;
+    color:var(--ink)!important;
+    border:1px solid var(--line)!important;
+    box-shadow:0 2px 8px rgba(30,35,50,.04)!important;
+  }
+  .topbar .searchbox span{color:var(--accent)!important}
+  .topbar .searchbox input{color:var(--ink)!important}
+  .topbar .searchbox input::placeholder{color:var(--muted)!important}
+  .topbar #quickAdd{
+    background:var(--accent)!important;
+    color:#fff!important;
+    border:0!important;
+    box-shadow:0 3px 10px rgba(38,27,76,.12)!important;
+  }
+}

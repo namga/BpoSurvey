@@ -8,5 +8,5 @@ cmp web/icon.svg android/app/src/main/assets/icon.svg
 cmp web/manifest.webmanifest android/app/src/main/assets/manifest.webmanifest
 cmp web/assets/BPO-Intelligence-Hub-Excel-Template.xlsx android/app/src/main/assets/assets/BPO-Intelligence-Hub-Excel-Template.xlsx
 grep -q "versionName '12.1.0'" android/app/build.gradle
-grep -q 'versionCode 32' android/app/build.gradle
-printf 'Source validation passed. Product 12.1.0 / Android build 32.\n'
+grep -q 'versionCode 35' android/app/build.gradle
+printf 'Source validation passed. Product 12.1.0 / Android build 35.\n'
