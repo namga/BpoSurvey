@@ -7,7 +7,7 @@ android {
         applicationId 'com.bpohub.app'
         minSdk 23
         targetSdk 34
-        versionCode 44
+        versionCode 45
         versionName '12.2.0'
     }
 }

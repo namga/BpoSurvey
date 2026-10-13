@@ -731,3 +731,83 @@ body.search-open{overflow:hidden;overscroll-behavior:none}
 @media(prefers-reduced-motion:reduce){
   .main>.topbar .mobile-menu,.main>.topbar .settings-btn,.main>.topbar .settings-btn .settings-icon{transition:none!important}
 }
+
+/* v12.2.2: equalize header control heights for a balanced mobile/desktop toolbar. */
+.main>.topbar{
+  --header-control-height:52px;
+  --header-control-radius:999px;
+}
+.main>.topbar>.mobile-menu,
+.main>.topbar .page-back-btn,
+.main>.topbar .searchbox,
+.main>.topbar .settings-btn{
+  box-sizing:border-box!important;
+  height:var(--header-control-height)!important;
+  min-height:var(--header-control-height)!important;
+  max-height:var(--header-control-height)!important;
+  align-self:center!important;
+}
+.main>.topbar>.mobile-menu,
+.main>.topbar .settings-btn{
+  width:var(--header-control-height)!important;
+  min-width:var(--header-control-height)!important;
+  padding:0!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+}
+.main>.topbar .page-back-btn{
+  border-radius:var(--header-control-radius)!important;
+  padding-inline:14px!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:4px!important;
+}
+.main>.topbar .searchbox{
+  min-height:var(--header-control-height)!important;
+  max-height:var(--header-control-height)!important;
+  display:flex!important;
+  align-items:center!important;
+}
+@media(max-width:720px){
+  .main>.topbar{--header-control-height:46px}
+  .main>.topbar>.mobile-menu,
+  .main>.topbar .page-back-btn,
+  .main>.topbar .searchbox,
+  .main>.topbar .settings-btn{height:46px!important;min-height:46px!important;max-height:46px!important}
+  .main>.topbar>.mobile-menu,
+  .main>.topbar .settings-btn{width:46px!important;min-width:46px!important}
+  .main>.topbar.has-page-back>.top-actions{grid-template-columns:max-content minmax(0,1fr) 46px!important}
+  .main>.topbar:not(.has-page-back)>.top-actions{grid-template-columns:minmax(0,1fr) 46px!important}
+}
+@media(max-width:390px){
+  .main>.topbar{--header-control-height:42px}
+  .main>.topbar>.mobile-menu,
+  .main>.topbar .page-back-btn,
+  .main>.topbar .searchbox,
+  .main>.topbar .settings-btn{height:42px!important;min-height:42px!important;max-height:42px!important}
+  .main>.topbar>.mobile-menu,
+  .main>.topbar .settings-btn{width:42px!important;min-width:42px!important}
+  .main>.topbar.has-page-back>.top-actions{grid-template-columns:max-content minmax(0,1fr) 42px!important}
+  .main>.topbar:not(.has-page-back)>.top-actions{grid-template-columns:minmax(0,1fr) 42px!important}
+  .main>.topbar .page-back-btn{padding-inline:9px!important}
+}
+/* The dedicated search screen uses the same vertical rhythm for its Back and search controls. */
+.search-overlay-top{--search-control-height:48px}
+.search-overlay-back,.search-overlay-box{
+  box-sizing:border-box!important;
+  height:var(--search-control-height)!important;
+  min-height:var(--search-control-height)!important;
+  max-height:var(--search-control-height)!important;
+  align-self:center!important;
+}
+.search-overlay-back{width:var(--search-control-height)!important;min-width:var(--search-control-height)!important}
+@media(max-width:720px){
+  .search-overlay-top{--search-control-height:46px}
+  .search-overlay-back{width:46px!important;min-width:46px!important}
+}
+@media(max-width:390px){
+  .search-overlay-top{--search-control-height:42px}
+  .search-overlay-back{width:42px!important;min-width:42px!important}
+}

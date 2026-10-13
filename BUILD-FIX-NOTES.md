@@ -14,3 +14,8 @@ Build from GitHub Actions: Actions → Build BPO Intelligence Hub APK → Run wo
 - Search results can open the corresponding saved record detail.
 - Added a compact `← Back` control on non-overview pages; the Overview page keeps the header uncluttered.
 - Android assets are synchronized from `web/` and source validation checks build code 40.
+
+## v12.2.0 build 45 — Header control height consistency
+- Unified menu, Back, search, and Settings control heights across desktop and mobile breakpoints.
+- Unified the dedicated search overlay Back and search field heights.
+- Kept product version at 12.2.0; incremented Android versionCode to 45.
