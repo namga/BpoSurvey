@@ -6,8 +6,8 @@ android {
     defaultConfig {
         applicationId 'com.bpohub.app'
         minSdk 23
-        targetSdk 35
-        versionCode 37
+        targetSdk 34
+        versionCode 40
         versionName '12.1.0'
     }
 }

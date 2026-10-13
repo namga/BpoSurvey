@@ -6,7 +6,8 @@ cmp web/app.js android/app/src/main/assets/app.js
 cmp web/styles.css android/app/src/main/assets/styles.css
 cmp web/icon.svg android/app/src/main/assets/icon.svg
 cmp web/manifest.webmanifest android/app/src/main/assets/manifest.webmanifest
+cmp web/assets/bpo-header-bg.webp android/app/src/main/assets/assets/bpo-header-bg.webp
 cmp web/assets/BPO-Intelligence-Hub-Excel-Template.xlsx android/app/src/main/assets/assets/BPO-Intelligence-Hub-Excel-Template.xlsx
 grep -q "versionName '12.1.0'" android/app/build.gradle
-grep -q 'versionCode 37' android/app/build.gradle
-printf 'Source validation passed. Product 12.1.0 / Android build 37.\n'
+grep -q 'versionCode 40' android/app/build.gradle
+printf 'Source validation passed. Product 12.1.0 / Android build 40.\n'

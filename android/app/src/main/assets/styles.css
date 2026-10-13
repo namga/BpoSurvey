@@ -578,3 +578,87 @@ body.theme-dark .finder-suggestion:hover,body.theme-dark .finder-suggestion:focu
 @media(max-width:390px){.topbar>.top-actions{grid-template-columns:max-content minmax(0,1fr) 36px!important;gap:5px!important}.topbar .settings-btn{width:36px;height:36px;font-size:18px}.topbar .back-btn{padding-inline:7px}.topbar .back-btn>b{font-size:10px}.topbar .searchbox{padding-inline:8px!important}}
 
 .dashboard-region-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:18px}
+
+/* v12.1.39: branded image header, no redundant Back button, Android-safe top inset. */
+.main>.topbar{
+  position:relative;isolation:isolate;overflow:hidden;min-height:132px;
+  padding:25px 30px 23px;
+  color:#f8fbff;border-bottom:1px solid rgba(150,175,210,.24);
+  background-color:#111a31!important;
+  background-image:linear-gradient(100deg,rgba(10,22,38,.93) 0%,rgba(13,25,47,.83) 52%,rgba(22,24,57,.56) 100%),url("assets/bpo-header-bg.webp")!important;
+  background-size:cover;background-position:center 52%;
+  box-shadow:0 8px 26px rgba(12,22,42,.12);
+}
+.main>.topbar .heading-wrap{position:relative;z-index:1;min-width:0}
+.main>.topbar .eyebrow{color:#b9d9e8!important;font-size:12px!important;font-weight:800;letter-spacing:2px!important;line-height:1.4;margin-bottom:8px!important;white-space:normal;overflow-wrap:anywhere}
+.main>.topbar h1{color:#fff!important;font-size:clamp(25px,3vw,32px)!important;line-height:1.14;letter-spacing:-.55px}
+.main>.topbar .top-actions{position:relative;z-index:1;display:flex;align-items:center;gap:12px;min-width:0}
+.main>.topbar .searchbox{flex:0 1 430px;width:430px;max-width:45vw;min-width:150px;height:48px;border-radius:999px;background:rgba(255,255,255,.96)!important;border:1px solid rgba(255,255,255,.72)!important;box-shadow:0 5px 18px rgba(0,0,0,.13)}
+.main>.topbar .settings-btn{width:48px;height:48px;background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.35);box-shadow:0 4px 14px rgba(0,0,0,.12);backdrop-filter:blur(8px)}
+.main>.topbar .mobile-menu{color:#fff;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.32);box-shadow:0 4px 14px rgba(0,0,0,.12);backdrop-filter:blur(8px)}
+.main>.topbar .searchbox span{color:var(--accent)!important}
+.main>.topbar .searchbox input{color:#20243b!important}
+.main>.topbar .searchbox input::placeholder{color:#777b8d!important}
+.main>.topbar .back-btn{display:none!important}
+@media(max-width:720px){
+  .main>.topbar{display:grid!important;grid-template-columns:44px minmax(0,1fr);grid-template-areas:"menu heading" "actions actions";align-items:center;column-gap:12px;row-gap:16px;min-height:0;padding:calc(22px + env(safe-area-inset-top, 0px)) 16px 20px!important}
+  .main>.topbar>.mobile-menu{grid-area:menu;width:44px;height:44px;margin:0!important;align-self:center;justify-self:start;border-radius:15px;font-size:24px}
+  .main>.topbar>.heading-wrap{grid-area:heading;display:flex;align-items:center;width:100%;min-width:0}
+  .main>.topbar .eyebrow{font-size:11px!important;letter-spacing:1.65px!important;margin-bottom:6px!important;line-height:1.35}
+  .main>.topbar h1{font-size:clamp(23px,6vw,29px)!important;line-height:1.16;overflow-wrap:anywhere}
+  .main>.topbar>.top-actions{grid-area:actions;display:grid!important;grid-template-columns:minmax(0,1fr) 46px!important;gap:10px!important;width:100%;min-width:0;margin:0}
+  .main>.topbar .searchbox{grid-column:1;width:100%;max-width:none;min-width:0;height:47px;padding:0 15px;border-radius:999px;gap:9px}
+  .main>.topbar .searchbox span{font-size:22px}
+  .main>.topbar .searchbox input{font-size:14px;min-width:0}
+  .main>.topbar .settings-btn{grid-column:2;width:46px;height:46px;font-size:21px}
+}
+@media(max-width:390px){
+  .main>.topbar{padding-left:12px!important;padding-right:12px!important;row-gap:13px}
+  .main>.topbar>.mobile-menu{width:41px;height:41px}
+  .main>.topbar .eyebrow{font-size:10px!important;letter-spacing:1.25px!important}
+  .main>.topbar h1{font-size:23px!important}
+  .main>.topbar>.top-actions{grid-template-columns:minmax(0,1fr) 42px!important;gap:8px!important}
+  .main>.topbar .searchbox{height:43px;padding:0 12px}
+  .main>.topbar .settings-btn{width:42px;height:42px}
+}
+body.theme-dark .main>.topbar{background-color:#111a31!important;background-image:linear-gradient(100deg,rgba(10,22,38,.93) 0%,rgba(13,25,47,.83) 52%,rgba(22,24,57,.56) 100%),url("assets/bpo-header-bg.webp")!important;color:#fff!important}
+
+/* v12.1.40: full-screen search experience and consistent simple Back controls. */
+.page-back-btn{display:inline-flex;align-items:center;justify-content:center;gap:5px;flex:0 0 auto;min-height:40px;padding:0 12px;border:1px solid var(--line);border-radius:999px;background:var(--white);color:var(--ink);box-shadow:0 3px 10px rgba(25,20,55,.07);cursor:pointer;white-space:nowrap}
+.page-back-btn span{font-size:22px;line-height:1;color:var(--accent)}
+.page-back-btn b{font-size:12px;font-weight:700}
+.page-back-btn[hidden]{display:none!important}
+.search-overlay[hidden]{display:none!important}
+.search-overlay{position:fixed;inset:0;z-index:10000;display:flex;flex-direction:column;overflow:hidden;background:var(--bg);color:var(--ink);padding-top:env(safe-area-inset-top,0px)}
+.search-overlay-top{display:grid;grid-template-columns:42px minmax(0,1fr);align-items:center;gap:12px;padding:14px 16px 16px;background:var(--white);border-bottom:1px solid var(--line);box-shadow:0 3px 14px rgba(24,20,52,.045)}
+.search-overlay-back{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border:0;border-radius:50%;background:transparent;color:var(--ink);font-size:31px;line-height:1;cursor:pointer}
+.search-overlay-back:active{background:var(--surface,#f1eef9)}
+.search-overlay-box{display:flex;align-items:center;gap:12px;min-width:0;height:52px;padding:0 17px;border:1px solid var(--line);border-radius:999px;background:var(--bg);box-shadow:none}
+.search-overlay-box span{font-size:29px;line-height:1;color:var(--muted)}
+.search-overlay-box input{width:100%;min-width:0;border:0;outline:0;background:transparent;color:var(--ink);font:inherit;font-size:17px;box-shadow:none!important}
+.search-overlay-box input::placeholder{color:var(--muted);opacity:1}
+.search-overlay-content{flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;padding:27px 22px calc(30px + env(safe-area-inset-bottom,0px));}
+.search-suggest-section>h2{margin:0 0 8px;font-size:25px;line-height:1.2;letter-spacing:-.5px;color:var(--ink)}
+.search-suggest-subtitle{margin:0 0 24px;color:var(--muted);font-size:14px;line-height:1.5}
+.search-suggest-group{padding:0 0 23px;margin:0 0 21px;border-bottom:1px solid var(--line)}
+.search-suggest-group h3{display:flex;align-items:center;gap:9px;margin:0 0 13px;font-size:16px;color:var(--ink)}
+.search-suggest-group h3 span{color:var(--accent);font-size:20px}
+.search-suggest-chips{display:flex;flex-wrap:wrap;gap:9px}
+.search-suggest-chip{max-width:100%;padding:10px 14px;border:1px solid var(--line);border-radius:999px;background:var(--white);color:var(--ink);font:inherit;font-size:14px;text-align:left;overflow-wrap:anywhere;cursor:pointer;box-shadow:0 2px 6px rgba(30,24,65,.035)}
+.search-suggest-chip:active{border-color:var(--accent);background:var(--surface,#f3efff)}
+.search-suggest-none{color:var(--muted);font-size:13px}
+.search-overlay .global-search-panel{max-width:900px;margin:0 auto;background:transparent;border:0;box-shadow:none;padding:0}
+.search-overlay .global-search-panel .panel-head{padding:0 0 14px}
+.search-overlay .global-search-panel .panel-head h3{font-size:20px}
+.search-overlay .global-search-results{display:grid;gap:9px}
+.search-overlay .global-search-result{display:grid;grid-template-columns:minmax(75px,auto) minmax(0,1fr);gap:5px 12px;width:100%;padding:14px;border:1px solid var(--line);border-radius:15px;background:var(--white);color:var(--ink);text-align:left}
+.search-overlay .global-search-copy{min-width:0;display:flex;flex-direction:column;gap:4px}
+.search-overlay .global-search-copy b{overflow-wrap:anywhere}
+.search-overlay .global-search-copy small{color:var(--muted);line-height:1.4}
+.search-overlay .global-search-status{grid-column:2;color:var(--muted);font-size:12px}
+.search-empty{max-width:700px;margin:20px auto;padding:20px;border:1px solid var(--line);border-radius:16px;background:var(--white)}
+.search-empty p{margin:8px 0 0;color:var(--muted)}
+@media(min-width:721px){.topbar>.top-actions .page-back-btn{margin-right:2px}.search-overlay-top{grid-template-columns:48px minmax(0,680px);justify-content:center}.search-overlay-back{justify-self:end}.search-overlay-content{width:100%;max-width:960px;margin:0 auto}}
+@media(max-width:720px){.main>.topbar>.top-actions{grid-template-columns:minmax(0,1fr) 42px!important;gap:8px!important}.main>.topbar .page-back-btn{grid-column:1;min-height:40px;padding:0 9px}.main>.topbar .page-back-btn span{font-size:22px}.main>.topbar .page-back-btn b{font-size:12px}.main>.topbar .searchbox{grid-column:1}.main>.topbar .settings-btn{grid-column:2}.main>.topbar.has-page-back>.top-actions{grid-template-columns:max-content minmax(0,1fr) 42px!important}.main>.topbar.has-page-back .page-back-btn{grid-column:1}.main>.topbar.has-page-back .searchbox{grid-column:2}.main>.topbar.has-page-back .settings-btn{grid-column:3}.search-overlay-top{grid-template-columns:36px minmax(0,1fr);gap:9px;padding:12px 12px 14px}.search-overlay-back{width:36px;height:42px;font-size:29px}.search-overlay-box{height:48px;padding:0 13px;gap:9px}.search-overlay-box input{font-size:16px}.search-overlay-content{padding:24px 17px calc(25px + env(safe-area-inset-bottom,0px))}.search-suggest-section>h2{font-size:23px}.search-suggest-group h3{font-size:15px}.search-suggest-chip{font-size:13px;padding:9px 12px}}
+@media(max-width:390px){.main>.topbar>.top-actions{grid-template-columns:minmax(0,1fr) 38px!important;gap:5px!important}.main>.topbar.has-page-back>.top-actions{grid-template-columns:max-content minmax(0,1fr) 38px!important}.main>.topbar .page-back-btn{min-height:36px;padding:0 7px;gap:3px}.main>.topbar .page-back-btn b{font-size:11px}.main>.topbar .settings-btn{width:38px;height:38px}.main>.topbar .searchbox{height:42px;padding:0 9px}.search-overlay-top{padding-inline:9px;gap:7px}.search-overlay-content{padding-inline:13px}}
+body.search-open{overflow:hidden;overscroll-behavior:none}

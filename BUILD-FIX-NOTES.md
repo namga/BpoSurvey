@@ -7,3 +7,10 @@
 - GitHub Actions runs the source validation script via bash, avoiding executable-bit issues.
 
 Build from GitHub Actions: Actions → Build BPO Intelligence Hub APK → Run workflow.
+
+## Search overlay and Back navigation update (12.1.0 / Android build 40)
+- Added a full-screen search view inspired by the supplied reference: simple arrow Back, pill search field, and scrollable suggestions.
+- Suggestions are generated only from saved project positions, regions, industries, customer records, benchmarks, and opportunities. Empty datasets are clearly identified; no fake records are inserted.
+- Search results can open the corresponding saved record detail.
+- Added a compact `← Back` control on non-overview pages; the Overview page keeps the header uncluttered.
+- Android assets are synchronized from `web/` and source validation checks build code 40.
