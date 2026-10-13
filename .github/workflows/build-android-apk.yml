@@ -68,7 +68,7 @@ jobs:
           wc -c android/app/src/main/assets/index.html android/app/src/main/assets/app.js android/app/src/main/assets/styles.css
 
       - name: Verify synchronized source payload
-        run: ./scripts/validate-source.sh
+        run: bash ./scripts/validate-source.sh
 
       - name: Verify launcher icon resources
         run: |
