@@ -358,3 +358,39 @@ body.theme-dark .sidebar{background:var(--sidebar-bg)!important;color:var(--side
 body.theme-dark .sidebar .nav-item.active{background:var(--sidebar-active)!important;color:#fff!important}
 .global-search-panel{margin:-6px 0 18px}.global-search-results{display:grid;gap:4px}.global-search-result{display:flex;align-items:center;gap:12px;width:100%;min-width:0;text-align:left;padding:12px 10px;border:1px solid transparent;border-radius:10px;background:var(--white);color:var(--ink)}.global-search-result:hover{background:var(--accent-tint);border-color:var(--accent-border)}.global-search-kind{flex:0 0 92px;font-size:11px;font-weight:700;color:var(--accent)}.global-search-copy{display:flex;flex-direction:column;gap:3px;flex:1;min-width:0}.global-search-copy b{overflow-wrap:anywhere}.global-search-copy small{font-size:11px;color:var(--muted)}.global-search-status{font-size:11px;color:var(--muted);text-align:right;max-width:120px;overflow-wrap:anywhere}
 @media(max-width:560px){.global-search-result{align-items:flex-start;flex-wrap:wrap;gap:5px 9px}.global-search-kind{flex-basis:100%}.global-search-copy{flex-basis:calc(100% - 8px)}.global-search-status{max-width:none;text-align:left;margin-left:0}}
+
+
+/* v12.1.32 mobile header refinement: aligned menu/back and compact search */
+.back-btn{display:inline-flex;align-items:center;justify-content:center;gap:4px;width:auto;min-width:0;height:36px;padding:0 12px;border:1px solid rgba(105,65,198,.12);border-radius:999px;background:rgba(255,255,255,.92);color:var(--accent);font-size:13px;font-weight:650;white-space:nowrap;box-shadow:0 5px 16px rgba(38,27,76,.09),inset 0 1px 0 rgba(255,255,255,.9);transition:transform .16s ease,box-shadow .16s ease,background .16s ease}
+.back-btn>span{font-size:25px;line-height: .7;font-weight:400;margin-top:-2px}
+.back-btn>b{font-size:12px;font-weight:700}
+.back-btn:hover{transform:translateY(-1px);box-shadow:0 7px 18px rgba(38,27,76,.13)}
+.back-btn:active{transform:scale(.97)}
+@media(max-width:720px){
+  .topbar{display:grid;grid-template-columns:42px minmax(0,1fr);grid-template-areas:"menu heading" "actions actions";align-items:center;column-gap:11px;row-gap:12px;padding:14px 14px 13px;min-height:0}
+  .topbar>.mobile-menu{grid-area:menu;align-self:center;justify-self:start;margin-top:7px;width:42px;height:42px;border-radius:14px;background:rgba(255,255,255,.96);box-shadow:0 5px 16px rgba(38,27,76,.08);border-color:rgba(105,65,198,.12)}
+  .topbar>.heading-wrap{grid-area:heading;display:flex;align-items:center;gap:9px;min-width:0;width:100%;align-self:center}
+  .topbar .back-btn{flex:0 0 auto;height:33px;padding:0 10px;gap:3px;border-radius:999px;background:rgba(255,255,255,.98);box-shadow:0 4px 13px rgba(38,27,76,.10);font-size:12px}
+  .topbar .back-btn>span{font-size:23px}
+  .topbar .back-btn>b{font-size:11px}
+  .topbar .heading-wrap>div{flex:1;min-width:0}
+  .topbar .eyebrow{font-size:8px;line-height:1.3;letter-spacing:1.05px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:3px}
+  .topbar h1{font-size:18px;line-height:1.18;letter-spacing:-.4px;overflow-wrap:anywhere}
+  .topbar>.top-actions{grid-area:actions;display:grid;grid-template-columns:minmax(0,205px) max-content;justify-content:space-between;align-items:center;gap:8px;width:100%;min-width:0;margin:0}
+  .topbar .searchbox{width:100%;max-width:205px;min-width:0;height:40px;padding:0 10px;border-radius:12px;gap:6px}
+  .topbar .searchbox span{font-size:19px;flex:0 0 auto}
+  .topbar .searchbox input{font-size:13px;min-width:0}
+  .topbar .searchbox input::placeholder{overflow:hidden;text-overflow:ellipsis}
+  .topbar #quickAdd{min-height:40px;padding:9px 11px;font-size:12px;border-radius:12px;white-space:nowrap}
+}
+@media(max-width:390px){
+  .topbar{grid-template-columns:39px minmax(0,1fr);column-gap:8px;padding-inline:11px}
+  .topbar>.mobile-menu{width:39px;height:39px;margin-top:8px}
+  .topbar .back-btn{padding:0 8px;gap:2px}
+  .topbar .heading-wrap{gap:7px}
+  .topbar h1{font-size:17px}
+  .topbar>.top-actions{grid-template-columns:minmax(0,1fr) max-content;gap:7px}
+  .topbar .searchbox{max-width:100%;height:39px}
+  .topbar #quickAdd{font-size:11px;padding:9px 9px}
+}
+@media(prefers-reduced-motion:reduce){.back-btn{transition:none}}
