@@ -20,7 +20,7 @@
 ## Phiên bản Android
 
 - Product version (`versionName`): **12.1.0**.
-- Android build number (`versionCode`): **29**. Đây là mã nội bộ để Android cho phép cập nhật APK; người dùng thấy phiên bản sản phẩm 12.1.0.
+- Android build number (`versionCode`): **37**. Đây là mã nội bộ để Android cho phép cập nhật APK; người dùng thấy phiên bản sản phẩm 12.1.0.
 
 ## Build APK bằng GitHub Actions
 

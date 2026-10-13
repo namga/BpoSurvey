@@ -562,3 +562,19 @@ body.theme-dark .sidebar .nav-item.active{background:var(--sidebar-active)!impor
 body.theme-dark .finder-suggestions,body.theme-dark .finder-suggestion{background:#211b34;color:#f1edfb;border-color:#493766}
 body.theme-dark .finder-suggestion:hover,body.theme-dark .finder-suggestion:focus,body.theme-dark .finder-suggestion.active,body.theme-dark .finder-suggestion[aria-selected=true]{background:#382a55;color:#e5d9ff}
 @media(max-width:720px){.finder-suggestions{max-height:34vh;border-radius:12px}.finder-suggestion{min-height:46px;font-size:14px}}
+
+
+/* v12.1.37: compact action header with Settings shortcut; backups live in Settings. */
+.settings-btn{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border:1px solid var(--line);border-radius:50%;background:var(--white);color:var(--accent);box-shadow:0 3px 10px rgba(38,27,76,.07);font-size:21px;line-height:1;cursor:pointer;transition:transform .16s ease,box-shadow .16s ease}
+.settings-btn:hover{transform:translateY(-1px);box-shadow:0 5px 14px rgba(38,27,76,.12)}
+.settings-btn:active{transform:scale(.96)}
+.topbar .top-actions{align-items:center}
+.topbar .back-btn[hidden]{display:none!important}
+.backup-settings-panel .panel-head{align-items:flex-start}
+.backup-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.backup-actions button{min-height:42px}
+@media(min-width:721px){.topbar>.top-actions{display:flex;align-items:center;gap:10px;min-width:0}.topbar .searchbox{flex:0 1 360px;min-width:150px;width:360px}.topbar .settings-btn{margin-left:auto}}
+@media(max-width:720px){.topbar>.top-actions{display:grid!important;grid-template-columns:max-content minmax(0,1fr) max-content!important;gap:8px!important}.topbar .back-btn{grid-column:1!important}.topbar .searchbox{grid-column:2!important;width:100%!important;max-width:none!important;min-width:0!important}.topbar .settings-btn{grid-column:3!important;width:40px;height:40px;font-size:20px}.backup-actions{display:grid;grid-template-columns:1fr;gap:9px}.backup-actions button{width:100%;justify-content:center}}
+@media(max-width:390px){.topbar>.top-actions{grid-template-columns:max-content minmax(0,1fr) 36px!important;gap:5px!important}.topbar .settings-btn{width:36px;height:36px;font-size:18px}.topbar .back-btn{padding-inline:7px}.topbar .back-btn>b{font-size:10px}.topbar .searchbox{padding-inline:8px!important}}
+
+.dashboard-region-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:18px}
