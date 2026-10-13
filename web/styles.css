@@ -235,3 +235,48 @@ body.theme-dark .detail-item strong{color:#f0ecfa}
  .footer{padding:10px 15px 16px;flex-direction:column;gap:5px}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* v12.1 theme system: unified palettes and live theme picker */
+:root{--surface-alt:#f0edff;--sidebar-bg:#21134d;--sidebar-text:#e9e4ff;--sidebar-active:#37236e;--welcome-start:#4f46e5;--welcome-end:#7c3aed}
+body{background:var(--bg);color:var(--ink)}
+.sidebar{background:var(--sidebar-bg)!important;color:var(--sidebar-text)!important}
+.sidebar .brand strong{color:#fff!important}.sidebar .brand small{color:color-mix(in srgb,var(--sidebar-text) 68%,transparent)!important}
+.sidebar .nav-item{color:color-mix(in srgb,var(--sidebar-text) 82%,transparent)!important}
+.sidebar .nav-item:hover,.sidebar .nav-item.active{background:var(--sidebar-active)!important;color:#fff!important}
+.sidebar .nav-item.active{box-shadow:inset 3px 0 var(--accent)!important}
+.sidebar .privacy-note{background:color-mix(in srgb,var(--sidebar-bg) 70%,white 8%)!important;border-color:color-mix(in srgb,var(--sidebar-text) 18%,transparent)!important}
+.welcome{background:linear-gradient(115deg,var(--welcome-start),var(--welcome-end))!important}
+.welcome .eyebrow,.welcome p{color:color-mix(in srgb,#fff 86%,transparent)!important}
+.metric-icon,.activity-dot,.finder-mark,.finder-result-head>span{background:var(--accent-soft)!important;color:var(--accent)!important}
+.bar-fill{background:linear-gradient(90deg,var(--accent),color-mix(in srgb,var(--accent) 55%,white))!important}
+.primary-btn{background:linear-gradient(135deg,var(--accent),var(--accent-strong))!important;color:#fff!important}
+.secondary-btn,.small-btn{background:var(--surface-alt);color:var(--ink);border-color:var(--line)}
+.topbar,.panel,.metric,.mini-card,.market-stat,.research-result,.table-wrap,.setting-card,.modal{background:var(--white);border-color:var(--line)}
+th{background:var(--surface-alt);color:var(--muted);border-color:var(--line)}
+td{border-color:var(--line)}tbody tr:hover{background:color-mix(in srgb,var(--accent) 4%,var(--white))}
+.control,.field input,.field select,.field textarea,.searchbox{background:var(--white);color:var(--ink);border-color:var(--line)}
+.callout{background:var(--surface-alt)!important;border-color:var(--accent-border)!important;color:var(--ink)!important}
+.nav-item.active{background:var(--accent-tint)!important;color:var(--accent)!important}
+body.theme-dark .sidebar .nav-item.active{background:var(--sidebar-active)!important;color:#fff!important}
+body.theme-dark .welcome{background:linear-gradient(115deg,var(--welcome-start),var(--welcome-end))!important}
+body.theme-dark .topbar,body.theme-dark .panel,body.theme-dark .metric,body.theme-dark .mini-card,body.theme-dark .market-stat,body.theme-dark .research-result,body.theme-dark .setting-card,body.theme-dark .table-wrap,body.theme-dark .modal{background:var(--white);border-color:var(--line)}
+body.theme-dark .control,body.theme-dark .field input,body.theme-dark .field select,body.theme-dark .field textarea,body.theme-dark .searchbox{background:var(--white);color:var(--ink);border-color:var(--line)}
+body.theme-dark th{background:var(--surface-alt);color:var(--muted)}body.theme-dark .secondary-btn,body.theme-dark .small-btn{background:var(--surface-alt);color:var(--ink);border-color:var(--line)}
+html[data-theme="fresh"] .welcome .primary-btn,html[data-theme="romantic"] .welcome .primary-btn{background:#fff!important;color:var(--accent)!important}
+html[data-theme="fresh"] .sidebar .nav-item.active{background:var(--sidebar-active)!important;color:#fff!important}
+html[data-theme="romantic"] .sidebar .nav-item.active{background:var(--sidebar-active)!important;color:#fff!important}
+html[data-theme="romantic"] .welcome:after{color:#ffffff18}
+html[data-theme="fresh"] .welcome:after{color:#ffffff16}
+.theme-picker-panel{padding:18px;border:1px solid var(--line);border-radius:18px;background:var(--white);box-shadow:var(--shadow);margin-bottom:18px}
+.theme-choice-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.theme-choice{position:relative;display:flex;align-items:flex-start;gap:12px;text-align:left;padding:16px 42px 14px 14px;border:1px solid var(--line);border-radius:15px;background:var(--white);color:var(--ink);min-width:0;transition:border-color .18s,box-shadow .18s,transform .18s}
+.theme-choice:hover{border-color:var(--theme-preview);transform:translateY(-1px);box-shadow:0 7px 20px color-mix(in srgb,var(--theme-preview) 12%,transparent)}
+.theme-choice.selected{border:2px solid var(--theme-preview);padding:15px 41px 13px 13px;background:linear-gradient(135deg,var(--theme-preview-soft),var(--white))}
+.theme-choice-icon{width:43px;height:43px;flex:0 0 43px;display:grid;place-items:center;border-radius:13px;background:var(--theme-preview-soft);color:var(--theme-preview);font-size:24px;font-weight:800}
+.theme-choice-copy{display:flex;flex-direction:column;gap:5px;min-width:0}.theme-choice-copy strong{font-size:14px;line-height:1.35}.theme-choice-copy small{font-size:11px;color:var(--muted);line-height:1.45}
+.theme-mini-swatches{display:flex;gap:5px;margin-top:5px}.theme-mini-swatches i{width:20px;height:6px;border-radius:8px;background:var(--theme-preview)}.theme-mini-swatches i:nth-child(2){opacity:.72}.theme-mini-swatches i:nth-child(3){opacity:.45}.theme-mini-swatches i:nth-child(4){background:var(--theme-preview-soft);border:1px solid var(--line)}
+.theme-choice-check{position:absolute;right:12px;top:12px;width:22px;height:22px;border-radius:50%;display:grid;place-items:center;background:var(--theme-preview);color:white;font-size:12px;opacity:0;transform:scale(.8);transition:.18s}.theme-choice.selected .theme-choice-check{opacity:1;transform:scale(1)}
+.settings-grid{margin-top:0}.setting-card .control{width:100%;margin-top:8px}.setting-card label{display:block;margin-top:15px;color:var(--muted);font-size:12px;font-weight:700}.setting-card .text-btn{margin-top:16px;padding-left:0}
+@media(max-width:720px){.theme-choice-grid{grid-template-columns:1fr}.theme-picker-panel{padding:12px}.theme-choice{padding:13px 40px 12px 12px}.theme-choice.selected{padding:12px 39px 11px 11px}.theme-choice-icon{width:39px;height:39px;flex-basis:39px}.settings-grid{grid-template-columns:1fr}}
+
+.brand-mark{color:#fff!important}.brand-mark span{color:#fff!important}

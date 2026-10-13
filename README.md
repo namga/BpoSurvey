@@ -20,7 +20,7 @@
 ## Phiên bản Android
 
 - Product version (`versionName`): **12.1.0**.
-- Android build number (`versionCode`): **23**. Đây là mã nội bộ để Android cho phép cập nhật APK; người dùng thấy phiên bản sản phẩm 12.1.0.
+- Android build number (`versionCode`): **26**. Đây là mã nội bộ để Android cho phép cập nhật APK; người dùng thấy phiên bản sản phẩm 12.1.0.
 
 ## Build APK bằng GitHub Actions
 
@@ -93,3 +93,20 @@
 - File JSON sao lưu thường vẫn được hỗ trợ. Khi chọn file mã hóa, app hỏi mật khẩu trước khi giải mã và xác thực cấu trúc dữ liệu trước khi khôi phục.
 - Mật khẩu không được lưu trong app. Nếu quên mật khẩu, không thể khôi phục nội dung file mã hóa. Hãy giữ mật khẩu riêng và lưu an toàn.
 - Product version giữ `12.1.0`; Android `versionCode` tăng lên `25` để cài cập nhật APK.
+
+
+## Theme refresh — v12.1.0
+
+- Cài đặt giao diện được chuyển thành bộ chọn theme dạng thẻ, áp dụng ngay khi chạm.
+- Bổ sung hai theme mới: **Tươi trẻ, năng động** (xanh lá/teal, điểm nhấn vàng) và **Lãng mạn, thơ mộng** (hồng/hoa cà).
+- Giữ các theme **Mặc định / Hiện đại**, **Tối (Dark)** và **Theo hệ thống**. Theme Theo hệ thống tự theo dõi thay đổi chế độ sáng/tối của thiết bị.
+- Đồng bộ palette cho nền, sidebar, thẻ KPI, nút, bộ lọc, bảng và biểu mẫu; tùy chọn màu nhấn riêng vẫn hoạt động. Có thể khôi phục màu nhấn mặc định theo theme.
+- Product version vẫn là `12.1.0`; Android `versionCode` là `26`.
+
+
+### v12.1.0 — Three-way search data integrity fix
+- Fresh installs start with empty business records; no demo projects, clients, leads, or sample benchmarks are inserted automatically.
+- On upgrade, only known built-in sample IDs (`P-DEMO-*`, `C-DEMO-*`, `R-PUBLIC-*`, `L-DEMO-*`) are removed; other locally stored records are preserved.
+- Three-way search suggestion lists are generated only from saved projects, pricing benchmarks, clients, and leads.
+- When no matching records exist, the UI explicitly asks the user to add/import data.
+- Product version remains 12.1.0; Android versionCode 27.
