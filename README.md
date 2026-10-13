@@ -110,3 +110,10 @@
 - Three-way search suggestion lists are generated only from saved projects, pricing benchmarks, clients, and leads.
 - When no matching records exist, the UI explicitly asks the user to add/import data.
 - Product version remains 12.1.0; Android versionCode 27.
+
+
+### v12.1.0 — startup and navigation hotfix
+- Fixed a startup crash on fresh installs: `load()` was called before `EMPTY_DB` had initialized, causing a temporal-dead-zone `ReferenceError`. Because the app script stopped during initialization, delegated navigation and the mobile menu never received their event handlers.
+- Moved the empty database definition before initialization and replaced `structuredClone` in the fallback path with a plain empty-object copy for older Android WebView compatibility.
+- Removed the unused hard-coded demo seed dataset from the application bundle. Fresh installs begin with empty business data; known sample records are filtered from existing local storage.
+- Synced web JavaScript into Android assets and updated asset cache tokens. Product version remains `12.1.0`; Android `versionCode` is `28`.
