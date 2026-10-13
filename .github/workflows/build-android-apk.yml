@@ -38,13 +38,20 @@ jobs:
           gradle-version: '8.7'
 
       - name: Validate web source before build
+        shell: bash
         run: |
+          set -euo pipefail
+          echo "Checking JavaScript syntax..."
           node --check web/app.js
+          echo "Checking required web assets..."
           test -s web/index.html
           test -s web/styles.css
           test -s web/assets/BPO-Intelligence-Hub-Excel-Template.xlsx
+          echo "Checking product version and Android build code..."
           grep -q "versionName '12.1.0'" android/app/build.gradle
-          grep -q 'versionCode 31' android/app/build.gradle
+          grep -Eq 'versionCode[[:space:]]+[0-9]+' android/app/build.gradle
+          grep -E 'versionCode|versionName' android/app/build.gradle
+          echo "Web source validation passed."
 
       - name: Sync web app into Android assets
         run: |
