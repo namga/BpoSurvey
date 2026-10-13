@@ -20,7 +20,7 @@
 ## Phiên bản Android
 
 - Product version (`versionName`): **12.1.0**.
-- Android build number (`versionCode`): **26**. Đây là mã nội bộ để Android cho phép cập nhật APK; người dùng thấy phiên bản sản phẩm 12.1.0.
+- Android build number (`versionCode`): **29**. Đây là mã nội bộ để Android cho phép cập nhật APK; người dùng thấy phiên bản sản phẩm 12.1.0.
 
 ## Build APK bằng GitHub Actions
 
@@ -117,3 +117,21 @@
 - Moved the empty database definition before initialization and replaced `structuredClone` in the fallback path with a plain empty-object copy for older Android WebView compatibility.
 - Removed the unused hard-coded demo seed dataset from the application bundle. Fresh installs begin with empty business data; known sample records are filtered from existing local storage.
 - Synced web JavaScript into Android assets and updated asset cache tokens. Product version remains `12.1.0`; Android `versionCode` is `28`.
+
+
+### v12.1.0 — dashboard compactness and search UX fix
+
+- Three-way search now shows a short prompt until at least one of position, region, or industry is entered; it no longer renders every saved record by default.
+- Matching result tables are limited to 8 rows initially, with a bounded internal scroll area and an explicit expand/collapse control. The three dimension chip lists are also height-limited on mobile.
+- “Cập nhật gần đây” now has its own record-type filter (all, projects, clients, benchmarks/fees, opportunities), shows 3 records by default, and can expand to 20.
+- Product version remains `12.1.0`; Android `versionCode` is `29`.
+
+
+## Quality pass (product version 12.1.0)
+- Android build code: 31 (product version remains 12.1.0).
+- Uses system font fallbacks to avoid blocking startup on remote Google Fonts.
+- Filtered lists update in place, preserve current filter selections and show a live result count.
+- Navigation back button is removed from layout when unavailable; edge-swipe avoids controls, tables and modals.
+- Excel template sheets contain headers only; no illustrative/sample rows are imported accidentally.
+- Save failures restore the last successfully persisted local database snapshot and show an error.
+- Sidebar backup action is labeled JSON backup to match the actual exported format.

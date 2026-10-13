@@ -37,6 +37,15 @@ jobs:
         with:
           gradle-version: '8.7'
 
+      - name: Validate web source before build
+        run: |
+          node --check web/app.js
+          test -s web/index.html
+          test -s web/styles.css
+          test -s web/assets/BPO-Intelligence-Hub-Excel-Template.xlsx
+          grep -q "versionName '12.1.0'" android/app/build.gradle
+          grep -q 'versionCode 31' android/app/build.gradle
+
       - name: Sync web app into Android assets
         run: |
           test -f web/index.html
@@ -52,8 +61,14 @@ jobs:
             mkdir -p android/app/src/main/assets/assets
             cp web/assets/BPO-Intelligence-Hub-Excel-Template.xlsx android/app/src/main/assets/assets/
           fi
+          cmp web/index.html android/app/src/main/assets/index.html
+          cmp web/app.js android/app/src/main/assets/app.js
+          cmp web/styles.css android/app/src/main/assets/styles.css
           echo "Android web payload:"
           wc -c android/app/src/main/assets/index.html android/app/src/main/assets/app.js android/app/src/main/assets/styles.css
+
+      - name: Verify synchronized source payload
+        run: ./scripts/validate-source.sh
 
       - name: Verify launcher icon resources
         run: |
