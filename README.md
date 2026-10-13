@@ -135,3 +135,11 @@
 - Excel template sheets contain headers only; no illustrative/sample rows are imported accidentally.
 - Save failures restore the last successfully persisted local database snapshot and show an error.
 - Sidebar backup action is labeled JSON backup to match the actual exported format.
+
+
+### v12.1.0 — Three-way search suggestion popup fix
+
+- Replaced native HTML `datalist` suggestions in the three-way market finder with an opaque, theme-aware custom dropdown for Android WebView compatibility.
+- Supports tap-to-select, typing custom values, keyboard arrows, Enter, and Escape.
+- Preserves the existing search/filter logic and keeps results sourced from saved records only.
+- Product version remains 12.1.0; Android build code is 36.

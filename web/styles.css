@@ -545,3 +545,20 @@ body.theme-dark .sidebar .nav-item.active{background:var(--sidebar-active)!impor
     box-shadow:0 3px 10px rgba(38,27,76,.12)!important;
   }
 }
+
+
+/* v12.1.0: Android WebView-safe autocomplete for three-way market search.
+   Avoid native datalist popups, which can overlap text and controls in WebView. */
+.finder-field{position:relative;z-index:1}
+.finder-field:focus-within{z-index:40}
+.finder-autocomplete{position:relative;width:100%;min-width:0}
+.finder-autocomplete>.control{width:100%;min-width:0}
+.finder-suggestions{display:none;position:absolute;left:0;right:0;top:calc(100% + 5px);z-index:80;max-height:min(240px,38vh);overflow-y:auto;overscroll-behavior:contain;background:var(--white,#fff);color:var(--text,#28243b);border:1px solid var(--accent-border,rgba(105,65,198,.28));border-radius:14px;box-shadow:0 12px 30px rgba(30,22,55,.18);padding:5px;isolation:isolate;opacity:1}
+.finder-suggestions.open{display:block}
+.finder-suggestion{display:block;width:100%;min-height:44px;padding:10px 12px;border:0;border-radius:9px;background:var(--white,#fff);color:var(--text,#28243b);font:inherit;font-size:14px;line-height:1.35;text-align:left;white-space:normal;overflow-wrap:anywhere;cursor:pointer;touch-action:manipulation}
+.finder-suggestion+.finder-suggestion{border-top:1px solid var(--line,#ece8f4)}
+.finder-suggestion:hover,.finder-suggestion:focus,.finder-suggestion.active,.finder-suggestion[aria-selected=true]{outline:none;background:var(--accent-tint,#f3efff);color:var(--accent,#6941c6)}
+.finder-suggestion-empty{padding:12px;color:var(--muted,#817b91);font-size:13px;line-height:1.45}
+body.theme-dark .finder-suggestions,body.theme-dark .finder-suggestion{background:#211b34;color:#f1edfb;border-color:#493766}
+body.theme-dark .finder-suggestion:hover,body.theme-dark .finder-suggestion:focus,body.theme-dark .finder-suggestion.active,body.theme-dark .finder-suggestion[aria-selected=true]{background:#382a55;color:#e5d9ff}
+@media(max-width:720px){.finder-suggestions{max-height:34vh;border-radius:12px}.finder-suggestion{min-height:46px;font-size:14px}}
