@@ -92,14 +92,14 @@ jobs:
           DEVICE_APP="build/ios-device/Build/Products/Release-iphoneos/App.app"
           test -d "$DEVICE_APP"
           ditto -c -k --sequesterRsrc --keepParent "$DEVICE_APP" artifacts/BPO-Intelligence-Hub-iOS-unsigned-device-app.zip
-          cat > artifacts/README-iOS-build.txt <<'TXT'
-BPO Intelligence Hub iOS build artifacts
-
-- BPO-Intelligence-Hub-iOS-Simulator.app: use with an iOS Simulator; not for direct installation on a physical iPhone.
-- BPO-Intelligence-Hub-iOS-unsigned-device-app.zip: unsigned iOS device build output for signing/distribution preparation. It is NOT an installable IPA.
-
-A signed IPA for a physical iPhone, TestFlight, or App Store requires Apple signing assets and an appropriate Apple Developer account. This workflow deliberately does not store certificates or signing secrets in the repository.
-TXT
+          printf '%s\n' \
+            'BPO Intelligence Hub iOS build artifacts' \
+            '' \
+            '- BPO-Intelligence-Hub-iOS-Simulator.app: use with an iOS Simulator; not for direct installation on a physical iPhone.' \
+            '- BPO-Intelligence-Hub-iOS-unsigned-device-app.zip: unsigned iOS device build output for signing/distribution preparation. It is NOT an installable IPA.' \
+            '' \
+            'A signed IPA for a physical iPhone, TestFlight, or App Store requires Apple signing assets and an appropriate Apple Developer account. This workflow deliberately does not store certificates or signing secrets in the repository.' \
+            > artifacts/README-iOS-build.txt
 
       - name: Upload iOS build artifacts
         uses: actions/upload-artifact@v4
