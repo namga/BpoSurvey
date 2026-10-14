@@ -1,0 +1,16 @@
+{
+  "name": "bpo-intelligence-hub",
+  "version": "12.3.0",
+  "private": true,
+  "description": "BPO Intelligence Hub web app wrapped with Capacitor for iOS builds",
+  "scripts": {
+    "ios:sync": "cap sync ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3",
+    "@capacitor/ios": "^7.4.3"
+  }
+}

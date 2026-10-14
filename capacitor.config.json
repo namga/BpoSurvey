@@ -1,0 +1,8 @@
+{
+  "appId": "com.bpohub.intelligencehub",
+  "appName": "BPO Intelligence Hub",
+  "webDir": "www",
+  "server": {
+    "iosScheme": "https"
+  }
+}

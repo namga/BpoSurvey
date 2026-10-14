@@ -1,0 +1,56 @@
+name: Update BPO market signals daily
+
+on:
+  schedule:
+    # 08:00 Vietnam time (UTC+7)
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-signals-update
+  cancel-in-progress: false
+
+jobs:
+  update-market-signals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch public RSS headlines
+        run: python scripts/update-market-signals.py
+
+      - name: Validate generated JSON
+        run: |
+          python -m json.tool web/data/market-signals.json >/dev/null
+          python - <<'PY'
+          import json
+          with open('web/data/market-signals.json', encoding='utf-8') as f:
+              data = json.load(f)
+          assert isinstance(data.get('items'), list) and data['items'], 'No market signals generated'
+          assert data.get('updatedAt'), 'Missing update timestamp'
+          print(f"Validated {len(data['items'])} signals; updatedAt={data['updatedAt']}")
+          PY
+
+      - name: Commit updated market signals
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add web/data/market-signals.json
+          if git diff --cached --quiet; then
+            echo "No market feed changes to commit."
+          else
+            git commit -m "chore: refresh daily BPO market signals"
+            git push
+          fi

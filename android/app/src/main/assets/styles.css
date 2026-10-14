@@ -896,3 +896,6 @@ body.search-open{overflow:hidden;overscroll-behavior:none}
 .stats-market-panel .panel-head{align-items:flex-start}
 .stats-market-panel .toolbar{margin-top:10px}
 @media(max-width:520px){.stats-map-key{align-items:flex-start;flex-direction:column;gap:8px}.stats-market-panel .panel-head{flex-direction:column}}
+
+/* Daily market signal feed */
+.market-live-panel{margin-top:16px}.market-live-meta{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:var(--muted);font-size:11px;margin:4px 0 12px}.market-signal-list{display:grid;gap:0}.market-signal-item{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;padding:13px 0;border-top:1px solid var(--line)}.market-signal-copy{min-width:0}.market-signal-copy>a{font-weight:750;line-height:1.5;color:var(--ink);text-decoration:none}.market-signal-copy>a:hover{color:var(--green);text-decoration:underline}.market-signal-copy p{font-size:11px;color:var(--muted);margin:5px 0 0}.market-signal-open{flex-shrink:0;color:var(--green);font-weight:800;text-decoration:none;padding:4px 8px;border-radius:8px;background:var(--bg)}body.theme-dark .market-signal-item{border-color:var(--line)}

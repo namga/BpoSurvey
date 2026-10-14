@@ -35,3 +35,10 @@ Build from GitHub Actions: Actions → Build BPO Intelligence Hub APK → Run wo
 - Added market record type to opportunity forms and details, plus regional statistics, filterable competitor/potential rows, and public search links.
 - Public web results are not auto-imported; the user verifies the source and manually saves the record to preserve source accuracy.
 - Updated web asset cache keys, footer version, Android versionName and workflow version assertion to 12.2.1.
+
+
+## v12.3.0 — daily market signals
+- Added daily RSS collection workflow and manual run option.
+- Added dashboard panel for current headlines, source links, publication timestamps and refresh status.
+- Android/iOS build jobs inject the public raw JSON URL so installed apps can fetch refreshed signals without reinstalling. This requires a public GitHub repository; no secrets are bundled.
+- Android build number: 49.

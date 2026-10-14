@@ -1,6 +1,6 @@
-# BPO Intelligence Hub — v12.2.1 (Status Map & Market Projects)
+# BPO Intelligence Hub — v12.3.0 (Daily Market Signals)
 
-Ứng dụng tra cứu và quản lý dữ liệu BPO cho một người dùng trên thiết bị cá nhân. Bản này gộp các thay đổi trước đó vào một source thống nhất; số phiên bản sản phẩm hiển thị là **12.2.1**.
+Ứng dụng tra cứu và quản lý dữ liệu BPO cho một người dùng trên thiết bị cá nhân. Bản này gộp các thay đổi trước đó vào một source thống nhất; số phiên bản sản phẩm hiển thị là **12.3.0**.
 
 ## Chức năng đã gộp
 
@@ -15,12 +15,12 @@
 - **Tải tệp Android:** dùng hộp thoại lưu tệp hệ thống cho template, bản xuất và bản sao lưu JSON. Chọn thư mục/filename trong hộp thoại Android để tệp được lưu thật. Hủy hộp thoại thì không tạo tệp.
 - **Sao lưu & phục hồi:** xuất JSON và nhập lại dữ liệu từ bản sao lưu.
 - **Web/PWA + Android WebView:** cùng dùng một bộ source; Android assets được đồng bộ từ `web/`.
-- **GitHub Actions:** workflow build APK debug.
+- **GitHub Actions:** workflow build APK debug và workflow build iOS bằng Capacitor trên macOS runner.
 
 ## Phiên bản Android
 
-- Product version (`versionName`): **12.2.1**.
-- Android build number (`versionCode`): **48**. Đây là mã nội bộ để Android cho phép cập nhật APK; người dùng thấy phiên bản sản phẩm 12.2.0.
+- Product version (`versionName`): **12.3.0**.
+- Android build number (`versionCode`): **49**. Đây là mã nội bộ để Android cho phép cập nhật APK; người dùng thấy phiên bản sản phẩm 12.3.0.
 
 ## Build APK bằng GitHub Actions
 
@@ -29,6 +29,17 @@
 3. Mở **Actions → Build Android APK → Run workflow**.
 4. Khi workflow hoàn tất thành công, tải artifact `BPO-Intelligence-Hub-debug-apk`.
 5. Cài APK và kiểm tra trên điện thoại.
+
+## Build iOS bằng GitHub Actions (Capacitor)
+
+Workflow `.github/workflows/build-ios-app.yml` dùng macOS runner, đóng gói `web/` vào Capacitor và build hai đầu ra: ứng dụng cho iOS Simulator và bản build thiết bị iOS chưa ký (unsigned).
+
+1. Upload **nội dung thư mục `bpo-hub/`** lên root repository, cùng cấp `.github/`, `web/`, `android/`, `package.json` và `capacitor.config.json`.
+2. Mở **Actions → Build BPO Intelligence Hub iOS → Run workflow**. Workflow cũng tự chạy khi có thay đổi trong `web/` hoặc cấu hình Capacitor trên nhánh `main`/`master`.
+3. Tải artifact `BPO-Intelligence-Hub-iOS-build`.
+4. Bản `.app` Simulator dùng để chạy trong iOS Simulator trên máy Mac. File ZIP device là bản build **chưa ký**, dùng cho bước ký/phát hành tiếp theo.
+
+**Giới hạn tài khoản Apple:** workflow này không tạo IPA đã ký và không thể cài trực tiếp bản unsigned lên iPhone. Để phân phối lên iPhone, TestFlight hoặc App Store, cần cấu hình chứng chỉ/provisioning profile và tài khoản Apple Developer phù hợp. Chưa cần đưa chứng chỉ bí mật vào repository để thử build unsigned.
 
 ## Lưu ý về dữ liệu và kiểm thử
 
@@ -163,3 +174,14 @@
 - Added `recordType` to opportunity records: `Dự án đối thủ`, `Dự án tiềm năng`, or `Cơ hội khách hàng`. Existing records remain compatible and default to `Cơ hội khách hàng` in the legacy opportunity list.
 - Regional statistics now include competitor and potential project counts, a separate filterable table, and public web-search links per region. Web results are opened externally and must be manually reviewed and saved; the app does not silently scrape external websites.
 - Product version `12.2.1`; Android `versionCode` `48`.
+
+
+## Version 12.3.0 — Daily Market Signals
+
+- Added `.github/workflows/update-market-signals.yml`, scheduled daily at 08:00 Vietnam time (01:00 UTC), with a manual `workflow_dispatch` option.
+- `scripts/update-market-signals.py` collects public Google News RSS headlines on BPO/outsourcing, contact center/customer service, hiring, labor and salary topics. It records headline, publisher, original article URL, publication date and topic; it does not scrape article bodies or invent market facts.
+- The workflow validates the generated JSON and commits `web/data/market-signals.json`. All GitHub Actions must have permission to write repository contents; the repository must allow GitHub Actions to create commits.
+- The dashboard shows up to 10 current headlines, last refresh time and a manual refresh button. It attempts to fetch the remote feed when the app opens; the installed Android/iOS build receives its public raw GitHub feed URL during the build workflow. **The repository must be public for an unsigned client to fetch the raw JSON without credentials.** Never embed a personal access token in the app.
+- In hosted web deployments, `data/market-signals.json` is loaded relative to the site. The Android/iOS build workflows generate `market-feed-config.js` with the repository raw URL.
+- The daily feed action needs to run successfully at least once before fresh results appear. GitHub scheduled workflows may be delayed, and upstream RSS availability can vary. If all queries fail, the script preserves the previous feed and fails visibly in Actions.
+- Product version `12.3.0`; Android `versionCode 49`.
