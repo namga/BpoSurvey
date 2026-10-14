@@ -1,6 +1,6 @@
 {
   "name": "bpo-intelligence-hub",
-  "version": "12.3.0",
+  "version": "12.3.1",
   "private": true,
   "description": "BPO Intelligence Hub web app wrapped with Capacitor for iOS builds",
   "scripts": {

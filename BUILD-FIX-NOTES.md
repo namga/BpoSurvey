@@ -37,7 +37,7 @@ Build from GitHub Actions: Actions → Build BPO Intelligence Hub APK → Run wo
 - Updated web asset cache keys, footer version, Android versionName and workflow version assertion to 12.2.1.
 
 
-## v12.3.0 — daily market signals
+## v12.3.1 — daily market signals
 - Added daily RSS collection workflow and manual run option.
 - Added dashboard panel for current headlines, source links, publication timestamps and refresh status.
 - Android/iOS build jobs inject the public raw JSON URL so installed apps can fetch refreshed signals without reinstalling. This requires a public GitHub repository; no secrets are bundled.
