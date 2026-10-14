@@ -1,6 +1,6 @@
-# BPO Intelligence Hub — v12.3.3 (Daily Market Signals)
+# BPO Intelligence Hub — v12.3.4 (Daily Market Signals)
 
-Ứng dụng tra cứu và quản lý dữ liệu BPO cho một người dùng trên thiết bị cá nhân. Bản này gộp các thay đổi trước đó vào một source thống nhất; số phiên bản sản phẩm hiển thị là **12.3.3**.
+Ứng dụng tra cứu và quản lý dữ liệu BPO cho một người dùng trên thiết bị cá nhân. Bản này gộp các thay đổi trước đó vào một source thống nhất; số phiên bản sản phẩm hiển thị là **12.3.4**.
 
 ## Chức năng đã gộp
 
@@ -19,8 +19,8 @@
 
 ## Phiên bản Android
 
-- Product version (`versionName`): **12.3.3**.
-- Android build number (`versionCode`): **49**. Đây là mã nội bộ để Android cho phép cập nhật APK; người dùng thấy phiên bản sản phẩm 12.3.3.
+- Product version (`versionName`): **12.3.4**.
+- Android build number (`versionCode`): **49**. Đây là mã nội bộ để Android cho phép cập nhật APK; người dùng thấy phiên bản sản phẩm 12.3.4.
 
 ## Build APK bằng GitHub Actions
 
@@ -176,7 +176,7 @@ Workflow `.github/workflows/build-ios-app.yml` dùng macOS runner, đóng gói `
 - Product version `12.2.1`; Android `versionCode` `48`.
 
 
-## Version 12.3.3 — Daily Market Signals
+## Version 12.3.4 — Daily Market Signals
 
 - Added `.github/workflows/update-market-signals.yml`, scheduled daily at 08:00 Vietnam time (01:00 UTC), with a manual `workflow_dispatch` option.
 - `scripts/update-market-signals.py` collects public Google News RSS headlines on BPO/outsourcing, contact center/customer service, hiring, labor and salary topics. It records headline, publisher, original article URL, publication date and topic; it does not scrape article bodies or invent market facts.
@@ -184,15 +184,15 @@ Workflow `.github/workflows/build-ios-app.yml` dùng macOS runner, đóng gói `
 - The dashboard shows up to 10 current headlines, last refresh time and a manual refresh button. It attempts to fetch the remote feed when the app opens; the installed Android/iOS build receives its public raw GitHub feed URL during the build workflow. **The repository must be public for an unsigned client to fetch the raw JSON without credentials.** Never embed a personal access token in the app.
 - In hosted web deployments, `data/market-signals.json` is loaded relative to the site. The Android/iOS build workflows generate `market-feed-config.js` with the repository raw URL.
 - The daily feed action needs to run successfully at least once before fresh results appear. GitHub scheduled workflows may be delayed, and upstream RSS availability can vary. If all queries fail, the script preserves the previous feed and fails visibly in Actions.
-- Product version `12.3.3`; Android `versionCode 52`.
+- Product version `12.3.4`; Android `versionCode 52`.
 
 
-## Version 12.3.3 — Market signal list
+## Version 12.3.4 — Market signal list
 - Market signal panel now shows the first 10 items and provides a “Xem thêm” button to reveal 10 more per tap until all fetched RSS items are visible.
-- Product version `12.3.3`; Android `versionCode 52`.
+- Product version `12.3.4`; Android `versionCode 52`.
 
 
-## Version 12.3.3 — Numbered market signal pagination
+## Version 12.3.4 — Numbered market signal pagination
 - Market signals now use numbered pages (10 items per page), with previous/next buttons and current-page highlighting.
 - Shows the displayed range (for example, 1–10 / 60) and lets users select pages 1, 2, 3, 4, etc.
-- Product version `12.3.3`; Android `versionCode 52`.
+- Product version `12.3.4`; Android `versionCode 52`.
