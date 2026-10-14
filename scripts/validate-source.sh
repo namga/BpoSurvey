@@ -8,8 +8,8 @@ cmp web/icon.svg android/app/src/main/assets/icon.svg
 cmp web/manifest.webmanifest android/app/src/main/assets/manifest.webmanifest
 cmp web/assets/bpo-header-bg.webp android/app/src/main/assets/assets/bpo-header-bg.webp
 cmp web/assets/BPO-Intelligence-Hub-Excel-Template.xlsx android/app/src/main/assets/assets/BPO-Intelligence-Hub-Excel-Template.xlsx
-grep -q "versionName '12.3.1'" android/app/build.gradle
-grep -q 'versionCode 50' android/app/build.gradle
+grep -q "versionName '12.3.3'" android/app/build.gradle
+grep -q 'versionCode 52' android/app/build.gradle
 grep -q 'data-view="statistics"' web/index.html
 grep -q 'function statisticsPage' web/app.js
 grep -q 'Bản đồ phân bố theo trạng thái' web/app.js
@@ -22,5 +22,7 @@ test -s web/data/market-signals.json
 python3 -m json.tool web/data/market-signals.json >/dev/null
 ! grep -q 'Tín hiệu thị trường từ nguồn công khai' web/app.js
 grep -q 'Tín hiệu thị trường mới nhất' web/app.js
+grep -q 'data-market-page' web/app.js
+grep -q 'market-signal-pagination' web/styles.css
 grep -q 'update-market-signals.yml' README.md
-printf 'Source validation passed. Product 12.3.1 / Android build 50.\n'
+printf 'Source validation passed. Product 12.3.3 / Android build 52.\n'

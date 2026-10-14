@@ -48,7 +48,7 @@ jobs:
           test -s web/styles.css
           test -s web/assets/BPO-Intelligence-Hub-Excel-Template.xlsx
           echo "Checking product version and Android build code..."
-          grep -q "versionName '12.3.1'" android/app/build.gradle
+          grep -q "versionName '12.3.3'" android/app/build.gradle
           grep -Eq 'versionCode[[:space:]]+[0-9]+' android/app/build.gradle
           grep -E 'versionCode|versionName' android/app/build.gradle
           echo "Web source validation passed."

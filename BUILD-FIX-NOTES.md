@@ -42,3 +42,15 @@ Build from GitHub Actions: Actions → Build BPO Intelligence Hub APK → Run wo
 - Added dashboard panel for current headlines, source links, publication timestamps and refresh status.
 - Android/iOS build jobs inject the public raw JSON URL so installed apps can fetch refreshed signals without reinstalling. This requires a public GitHub repository; no secrets are bundled.
 - Android build number: 49.
+
+
+## v12.3.2 — show more market signals
+- Market signal panel still starts with 10 items to keep the overview compact.
+- Added “Xem thêm” button to reveal 10 additional items per tap until all fetched RSS items are shown.
+- Product version 12.3.2; Android versionCode 51.
+
+
+## v12.3.3 — numbered market signal pages
+- Replaced the incremental “show more” control with numbered pagination, 10 items per page.
+- Added previous/next controls, current-page state, and visible range text.
+- Product version 12.3.3; Android versionCode 52.
