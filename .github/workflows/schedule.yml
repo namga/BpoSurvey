@@ -1,4 +1,4 @@
-- name: Schedule Workflow
+name: Schedule Workflow
   # You may pin to the exact commit or the version.
   # uses: austenstone/schedule@e5a5e92bfb7cbfdc7f46f569638279f45e825145
   uses: austenstone/schedule@v1.3
