@@ -19,3 +19,19 @@ Build from GitHub Actions: Actions → Build BPO Intelligence Hub APK → Run wo
 - Unified menu, Back, search, and Settings control heights across desktop and mobile breakpoints.
 - Unified the dedicated search overlay Back and search field heights.
 - Kept product version at 12.2.0; incremented Android versionCode to 45.
+
+## Update: dedicated project statistics (12.2.0 / Android build 47)
+- Added a dedicated `Thống kê khu vực` navigation view.
+- Added project totals, running-project totals, total recorded headcount, and headcount for projects whose status is exactly `Đang chạy`.
+- Added a schematic Vietnam map with markers for recognized areas, using counts from locally stored project records only.
+- Added a region breakdown showing project counts, running counts, and recorded headcount.
+- Removed the long region distribution chart from the main overview and replaced it with a compact shortcut to statistics.
+- Kept product version `12.2.0`; incremented Android `versionCode` to `47`.
+- Source validation passed. A local APK build was not run because Gradle is not installed in this environment; GitHub Actions remains the APK build path.
+
+
+## v12.2.1 build 48 — status map and market pipeline
+- Map markers use green for active projects, red for projects requiring verification, and purple for competitor/potential records.
+- Added market record type to opportunity forms and details, plus regional statistics, filterable competitor/potential rows, and public search links.
+- Public web results are not auto-imported; the user verifies the source and manually saves the record to preserve source accuracy.
+- Updated web asset cache keys, footer version, Android versionName and workflow version assertion to 12.2.1.

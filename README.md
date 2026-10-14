@@ -1,6 +1,6 @@
-# BPO Intelligence Hub — v12.2.0 (Settings Icon Refresh)
+# BPO Intelligence Hub — v12.2.1 (Status Map & Market Projects)
 
-Ứng dụng tra cứu và quản lý dữ liệu BPO cho một người dùng trên thiết bị cá nhân. Bản này gộp các thay đổi trước đó vào một source thống nhất; số phiên bản sản phẩm hiển thị là **12.2.0**.
+Ứng dụng tra cứu và quản lý dữ liệu BPO cho một người dùng trên thiết bị cá nhân. Bản này gộp các thay đổi trước đó vào một source thống nhất; số phiên bản sản phẩm hiển thị là **12.2.1**.
 
 ## Chức năng đã gộp
 
@@ -19,8 +19,8 @@
 
 ## Phiên bản Android
 
-- Product version (`versionName`): **12.2.0**.
-- Android build number (`versionCode`): **37**. Đây là mã nội bộ để Android cho phép cập nhật APK; người dùng thấy phiên bản sản phẩm 12.2.0.
+- Product version (`versionName`): **12.2.1**.
+- Android build number (`versionCode`): **48**. Đây là mã nội bộ để Android cho phép cập nhật APK; người dùng thấy phiên bản sản phẩm 12.2.0.
 
 ## Build APK bằng GitHub Actions
 
@@ -156,3 +156,10 @@
 - Replaced the mistaken three-slider symbol with a conventional outlined gear icon.
 - Kept the existing `settingsBtn` ID, click handler, theme-based `currentColor`, and Settings navigation.
 - Product version remains `12.2.0`; Android build code is `43`.
+
+
+## Version 12.2.1 — status map and competitor / potential projects
+- Map markers distinguish active projects (green), projects requiring verification (red), and competitor/potential records (purple), with counts on each marker where the region can be matched.
+- Added `recordType` to opportunity records: `Dự án đối thủ`, `Dự án tiềm năng`, or `Cơ hội khách hàng`. Existing records remain compatible and default to `Cơ hội khách hàng` in the legacy opportunity list.
+- Regional statistics now include competitor and potential project counts, a separate filterable table, and public web-search links per region. Web results are opened externally and must be manually reviewed and saved; the app does not silently scrape external websites.
+- Product version `12.2.1`; Android `versionCode` `48`.
