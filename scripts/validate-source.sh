@@ -12,7 +12,7 @@ grep -q "versionName '12.2.1'" android/app/build.gradle
 grep -q 'versionCode 48' android/app/build.gradle
 grep -q 'data-view="statistics"' web/index.html
 grep -q 'function statisticsPage' web/app.js
-grep -q 'Bản đồ phân bố dự án' web/app.js
+grep -q 'Bản đồ phân bố theo trạng thái' web/app.js
 grep -q 'map-point-verify circle{fill:#d94848}' web/styles.css
 grep -q 'map-point-active circle{fill:#159b72}' web/styles.css
 grep -q 'Dự án đối thủ' web/app.js
