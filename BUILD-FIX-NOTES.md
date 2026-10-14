@@ -54,3 +54,9 @@ Build from GitHub Actions: Actions → Build BPO Intelligence Hub APK → Run wo
 - Replaced the incremental “show more” control with numbered pagination, 10 items per page.
 - Added previous/next controls, current-page state, and visible range text.
 - Product version 12.3.3; Android versionCode 52.
+
+
+## v12.3.5 — Android validation workflow fix
+
+- Updated source validator and Android workflow to check product version 12.3.5 and versionCode 54.
+- Added the missing header background asset copy to the Android sync step, which is required by the payload validation script.
