@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T05:16:14Z",
+  "updatedAt": "2026-10-16T05:41:27Z",
   "provider": "Google News RSS",
   "itemCount": 60,
   "items": [
@@ -292,6 +292,13 @@
       "topic": "Tuyển dụng / lao động"
     },
     {
+      "title": "ASEAN Cup 2026: Việt Nam lần đầu tiên bảo vệ thành công ngôi vô địch bóng đá Đông Nam Á - Báo Tin tức và Dân tộc",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUkY5N29MOGFib1JLM2t5YXItelpRMWV1TTUtMkZobGlZYk9QRC16eE1IRnJzNG9hSkdHbnB5T3FzcHpTZnhWeENtTjRKSWdEQllvUDdaSUkwTkZhUGJjbGk1cFJTaGxIMjZNR0N0c3dRMUxDN3phMjluUEtQcFBURGtTSmRpZFRZNFIweUpoY0tvWHYxRG14MTlrTFY2U0RzYlVVQzgxVnBobVJ5ZlNrTDdYQ21WZ3NUaHJwT0l3NWs?oc=5",
+      "source": "Báo Tin tức và Dân tộc",
+      "published": "2026-08-26T07:00:00Z",
+      "topic": "Tuyển dụng / lao động"
+    },
+    {
       "title": "Tuyển Việt Nam bảo vệ thành công ngôi vô địch ASEAN Cup - Laodong.vn",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPb21zQ1RRWm0zaXlSbUlnR0M5bnhnU2NvX1NIR2t2cng3ZEp3QlJfeGRRcDBWa0tuNzFmVHEtU3NEampUTnViNUlUendERUZYNk8xZ1hQUFpNbTlpdjdkWVZlWFVVbF83MHdFb3pFOGlwZVVROG1kRDZLcjVHbVk4ZlZsbG92RmFJVDlwd3o4SXF6UmNWWHlibENR?oc=5",
       "source": "Laodong.vn",
@@ -299,9 +306,9 @@
       "topic": "Tuyển dụng / lao động"
     },
     {
-      "title": "ASEAN Cup 2026: Việt Nam lần đầu tiên bảo vệ thành công ngôi vô địch bóng đá Đông Nam Á - Báo Tin tức và Dân tộc",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUkY5N29MOGFib1JLM2t5YXItelpRMWV1TTUtMkZobGlZYk9QRC16eE1IRnJzNG9hSkdHbnB5T3FzcHpTZnhWeENtTjRKSWdEQllvUDdaSUkwTkZhUGJjbGk1cFJTaGxIMjZNR0N0c3dRMUxDN3phMjluUEtQcFBURGtTSmRpZFRZNFIweUpoY0tvWHYxRG14MTlrTFY2U0RzYlVVQzgxVnBobVJ5ZlNrTDdYQ21WZ3NUaHJwT0l3NWs?oc=5",
-      "source": "Báo Tin tức và Dân tộc",
+      "title": "Lịch thi đấu bóng đá ASEAN Cup 2026 hôm nay (26.8): Tuyển Việt Nam vs Thái Lan - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOHpCWXFaejA3TzVYckFjczNnWUlzZG1MVUl3ZklIdnM4dTk2d3RfNGt6aXlPSDVqSTdydjdoeHlyRVViZDdScjI0UldOMmhHcXJ5bzhkei00MkJkTW9ubDlVWHlONHA3N2lGXzk1ZzNhTThadkQ1R09UbTI0TjF5RjA5TTFzN3BBQkdueWxaX0ZDalQ3MDBJX1lfNDVOOXBQMURZMl95MnA0MUlLQk5JUE9FeFNBd3g5ZUE?oc=5",
+      "source": "Laodong.vn",
       "published": "2026-08-26T07:00:00Z",
       "topic": "Tuyển dụng / lao động"
     },
@@ -362,25 +369,11 @@
       "topic": "Tuyển dụng / lao động"
     },
     {
-      "title": "AEON Việt Nam mở đợt tuyển dụng lớn tới 1.000 lao động - CafeF",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdUtnU3ZCbnJOd013czhVRXNoenFpYndLbF9pT2dNZ0ZlUmNwMEJVckd3X09fZklqV1dYeXpiRlN4VnZUbEN0cV9rUWxkZkNnUVBCRmZtVGIwUXYzQlIzSXdEWXZLU0ZvbzgxODdianVPdGRYUTFWZ3hHYzh0Rl9rS3NzNVFtR3IxZ1FLSWJqX1VDcHBHZ1l1Mg?oc=5",
-      "source": "CafeF",
-      "published": "2026-07-13T07:00:00Z",
-      "topic": "Contact center / CSKH"
-    },
-    {
       "title": "SMEs move from digital awareness to implementation as trust becomes key - vietnamnews.vn",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZlNLeGlGWGdwV01SbXZQM0FqTEl3OXVMZjNEcFg1UVpicTNzRUJhckZpY0k4Q1Vrb0ZFc2lsZUVzam9HOGd4S19KOVN0TTRSUjZpdXF6Rjg5d0tiUFBxX0VIMmRMeWpFNGNQcm4waEVZVllQZXZVZVRqdU90bDE5eXdlcmhna3dPTllYNk16QnRqSzJUaTZmTU50dUhOaXY3RDhBdmxkaERHSkdpSXNXeVU1MXM5dw?oc=5",
       "source": "vietnamnews.vn",
       "published": "2026-07-10T07:00:00Z",
       "topic": "Công ty / dự án mới"
-    },
-    {
-      "title": "Hơn 109.000 cơ hội việc làm tại phiên giao dịch trực tuyến kết nối 8 địa phương - Báo Tin tức và Dân tộc",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNlMyZHNXZ095ekMzcHUzWFE2RlRkYjlaMzhLSVFKaEdwTWJGVmpNVmp6a3RpQVJxZlpTa3hqZ1hCcURqc21ESy1HLUhBekd2OXhmb085NmRKVlV5NGhDY0dHelJnd3gtbjJEMHlITElMaDZxbXk2dHB5ZGZoUS15RGJRcFlLVWVpOGVySDE1MnJrUnJjcy15bDhkS1hXQVZ4ODBIRkVSUHludTZIUFIxeEQxT0o5SmM?oc=5",
-      "source": "Báo Tin tức và Dân tộc",
-      "published": "2026-07-09T07:00:00Z",
-      "topic": "Tuyển dụng / lao động"
     },
     {
       "title": "Hà Nội targets to become international logistics hub - vietnamnews.vn",
@@ -422,6 +415,13 @@
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMTZiNWZwaUF6VENteVVHZFdOS3RXc04yYmNYc2NlM3hENFVFYjRpQ0hMVnpYN1hFeGVEamdUT0RXZk1FWVBuRDdib2p5REdYU29RN29nWVVKXzVmcHNOREtNcjNUYmg1NkVjNHdSWG1OZUc5V1lZM0lBU3RZVG0tOF83dHRZLTNOUTBLVlVrbGFrN3ZfblF6Xzd0b1FaN3ozSUIyUmFUUmxRcFA0SHp2VVhMcm5aUEJtOWZQeU54NHA4UHd2c3c?oc=5",
       "source": "Tạp chí Công Thương",
       "published": "2026-06-29T07:00:00Z",
+      "topic": "Tuyển dụng / lao động"
+    },
+    {
+      "title": "Doanh nghiệp ký thỏa ước lao động, tăng giá trị bữa ăn ca góp phần nâng cao đời sống công nhân - chinhsachcuocsong.vnanet.vn",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMU5oZjVNbnV0cnBCYWhzVXQxUVh2UkZ1WHdDWFllTmpKTnR1Ri1yUDd4QjVrQS1oRVY5LXBsRk00bThMY21STnV1ek93RXlMeG9pMnpHeG9fMTJvZnFqRzNRbXduY2RiVG96Ul85UFkzRTFUQlhZSkNRdGlCUjl2T2g1S29WZnVUcFVMX0JkTDZ5d2taVzJoVnUtX2VXOW1qaE52TnhrR05JbnBxd1RJbFVrOHlMelFQUzZkSDdoYnFxZERVelJ6WHlXdTdYdEFVWDVhWWNLVQ?oc=5",
+      "source": "chinhsachcuocsong.vnanet.vn",
+      "published": "2026-06-27T07:00:00Z",
       "topic": "Tuyển dụng / lao động"
     }
   ],
