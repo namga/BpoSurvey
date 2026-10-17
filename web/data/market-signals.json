@@ -1,9 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T05:41:27Z",
+  "updatedAt": "2026-10-17T05:11:02Z",
   "provider": "Google News RSS",
   "itemCount": 60,
   "items": [
+    {
+      "title": "VDSC and eCloudvalley apply AI to enhance the investor experience. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQURVNUhWMnd0UmlaRFJSc1FpU2x3OEdUY21VeEdQY2RzdkpKZGUtTXZwU3FzSU5JTDVxcTl2ZUU3ZEtELWZFN2V0ekh2MlNiWnEwTzBKWll4blhhZm1WV01aWXlSNVd6RUx4VDNGdTFfaHJmb0RXc285SUFxZ1YtTWo5N1NJbXZRRHpaemJrSHk4ZWY3WFhIbGVSRXg?oc=5",
+      "source": "Vietnam.vn",
+      "published": "2026-10-16T08:21:02Z",
+      "topic": "Công ty / dự án mới"
+    },
+    {
+      "title": "Miền Tây thiếu người, có nên nhập khẩu lao động? - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1PczVGUklHR1ltM21lOXJjODlSUWRiTWIzTy11YjdJdkpoZUZTTnFmYmhGcW1kR0dodGlMTXJBZDVZR3Z0bUtMWUluZk9KTEp6VC1OWmhkeEJnWDhHdFY3dUhRV0RsMlRveHoweHF5blBWODh0dTJqaw?oc=5",
+      "source": "Vietnam.vn",
+      "published": "2026-10-16T07:47:16Z",
+      "topic": "Tuyển dụng / lao động"
+    },
+    {
+      "title": "Đồng hành trước các biến động việc làm - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE11d3BicUVoajVwLTBoZmpJT252MDhGcGlHbXA0T3dDaEFMTnlJZEc5U1VKSTNkNVpIUGc2Rmh1bkVBNENhNGFESVpvUFROTk92Q2t0Y2JfUTBXeGJLNy1OU0FVRVhFR0FSV1F6S1J3?oc=5",
+      "source": "Vietnam.vn",
+      "published": "2026-10-16T04:43:56Z",
+      "topic": "Tuyển dụng / lao động"
+    },
+    {
+      "title": "The breakthrough formula for next-generation industrial parks. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CWU1aamhaYWNteGswRnh0dERhaTVrYTA0UW1mQ2RqTU5KbkZ6NVJKc0Z5MlFrNmd2WWZ5VEdJNUJmRUEzLU9LSDJ5X3RMdi1iNk0zbDVPT0xSbjREVzNuMjUySFU3bUNXcmdFNFFlenhxVHIxUE5rRElYZzFCZDQ?oc=5",
+      "source": "Vietnam.vn",
+      "published": "2026-10-16T02:50:16Z",
+      "topic": "Công ty / dự án mới"
+    },
     {
       "title": "Asiantuntijat: Yrityksille voi kertyä \"koulutusvelkaa\" tekoälyn vuoksi. - Vietnam.vn",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHgtS3hiaHBvY2pMNC1nQ2E3VDh1NFBfRWpXNFN0VGZEVFNlR2lQZ2J4MmZ3eGJ2Wm5HU0p3Vk5FOEZybzN1Q0M0TTdJLTR6NENhSE9yNTdScUlwTGdhUm85WjBtYm93anhxdmZ3SnhjSWNPTG5fdjZtNm1WMHlCb1pDcw?oc=5",
@@ -19,25 +47,11 @@
       "topic": "Nhân sự / tiền lương"
     },
     {
-      "title": "Cử tri Cần Thơ mong rà soát việc phân vùng lương tối thiểu, phù hợp mức sống thực tế - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNakpxQkN1Y05CYTA0Tk5KRXNJNWZUY2VtcmRLZnlHWTBpTDBzOWwzZDVEX2tCSjhHbEZBUjZXdHNqV2VxTWQ4VEZEbXNOQVl0dmw0MktnY2xzRmRQMFVrS3B4elNobWV4amhtVVlQbF92X2RJTDdORl9reW95a2FaMW9jSHJHYUZBZFJSVjNvajFBYU91ZEpteEVwbkd2ZEVxb0FDTVV6UFN4SldYdkZCRmZ1TlYxd1BUSm9lOFg5RGFlQQ?oc=5",
+      "title": "Đề xuất mới về lương hưu, bảo hiểm hưu trí bổ sung từ năm 2027 - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPY25ibzNLV0M4ck8xVzc2c2hlSU15V3lsb2RobnlFQXdqYzdtOEVpOVhYTzgxb2wzOTQzLXJsS3ExaXdvZzlwNVRmSzVrdnBRblp5U0NXM3Z4b0VfM3ppS2I1Y29GR2liSjBRV0xpTk0yMWZkN3NiNUNwMGNIandHT05jLWdDU3pjOUJFS0ExeklDUTQ1UENVV2ZrS3VjRlBXRmc?oc=5",
       "source": "Laodong.vn",
-      "published": "2026-10-13T05:46:40Z",
+      "published": "2026-10-14T13:40:34Z",
       "topic": "Nhân sự / tiền lương"
-    },
-    {
-      "title": "Xây dựng các nghị định, thông tư về tiền lương, mức lương tối thiểu, bảo hiểm xã hội - xaydungchinhsach.chinhphu.vn",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOV1YwMVpOUGpIaFI0emY2WlBEQjF4R2dWUTFpX0swTHZmV1dHZlplWXl0cTRhdTczNTYtLXo4eFpISFlJTXhmcUdiNUhEWkNJa2MycXdQc2U2NXkwOHV5QjdPR3RBQjhoTUI5ZVlKc1JJb0pfWm45MWNVeHhiRmwwaUxWSXJDVExmYmUtYy1sWkpGdVl3Z0JJaW5tMTk3eER2cHh4b3U5aVVHQ1l0alQ3V2FmNndkZVYtUTFGRjZNcDZZVm4xeWFLeXlublRoRF9mdzJwcEhxenQ?oc=5",
-      "source": "xaydungchinhsach.chinhphu.vn",
-      "published": "2026-10-13T03:38:45Z",
-      "topic": "Nhân sự / tiền lương"
-    },
-    {
-      "title": "Connecting Vietnamese and Singaporean logistics businesses for trade and commerce. - Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxON211aVdNTWd1OEEtcl90eV9WRDZicjFscXRHeGxoWlVyMDVXOE5WcDJYbjRmSkRza3g1V3AtUjRrdDcxUEJKczQtX0VIMWJmVlBmWXo0Yi1DeUpXYS1MdlAzRy1IREFTQ0lDZkhFMEFvVENucXRYSDBfemo5YlQyMzgzTGxwb2NzS1JWSlZqWFFDaHlB?oc=5",
-      "source": "Vietnam.vn",
-      "published": "2026-10-12T16:13:07Z",
-      "topic": "Công ty / dự án mới"
     },
     {
       "title": "An Khánh commune prioritizes attracting investment in logistics and high-tech industries. - Vietnam.vn",
@@ -52,6 +66,13 @@
       "source": "Vietnam.vn",
       "published": "2026-10-12T09:54:44Z",
       "topic": "Tuyển dụng / lao động"
+    },
+    {
+      "title": "Xây dựng các nghị định, thông tư về tiền lương, mức lương tối thiểu, bảo hiểm xã hội - xaydungchinhsach.chinhphu.vn",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOV1YwMVpOUGpIaFI0emY2WlBEQjF4R2dWUTFpX0swTHZmV1dHZlplWXl0cTRhdTczNTYtLXo4eFpISFlJTXhmcUdiNUhEWkNJa2MycXdQc2U2NXkwOHV5QjdPR3RBQjhoTUI5ZVlKc1JJb0pfWm45MWNVeHhiRmwwaUxWSXJDVExmYmUtYy1sWkpGdVl3Z0JJaW5tMTk3eER2cHh4b3U5aVVHQ1l0alQ3V2FmNndkZVYtUTFGRjZNcDZZVm4xeWFLeXlublRoRF9mdzJwcEhxenQ?oc=5",
+      "source": "xaydungchinhsach.chinhphu.vn",
+      "published": "2026-10-12T07:00:00Z",
+      "topic": "Nhân sự / tiền lương"
     },
     {
       "title": "Việc làm linh hoạt thời gian chiếm ưu thế trong lựa chọn của lao động trẻ - Vietnam.vn",
@@ -89,37 +110,9 @@
       "topic": "Tuyển dụng / lao động"
     },
     {
-      "title": "How can businesses increase investment in AI to retain customers? - Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObmV6MGRrNEstY0NfQUs5QmZRTTBfa0Ftc3RvdlNTVWtYS05kXzlmVnkwSGhsZkJoNFp6ODNYd2wtaGFMSW9JZHNvNnB3WlVJVERra0Zra1R0dl8tbHhwaEFtUE1wQWhGWDNEU2NwUnQ4R2JrN2dBT1RialVvbTlOMVVENDh6bnI2bDV5ZEtmVXdYVEU?oc=5",
-      "source": "Vietnam.vn",
-      "published": "2026-10-06T19:10:25Z",
-      "topic": "Công ty / dự án mới"
-    },
-    {
-      "title": "Tanzanian businesses are looking to strengthen cooperation with Vietnam. - Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMHRZTkxGU0dmZFBWSVZsQW82NEZ2eWdFa3NXNkJyTzg2OWtZRUxkUzZKeUN1V0FaY3cyR3dIVTBWbDBVNjdDTkFKQlEtTGFfWi1lS0hzckw2a2d4bDc4d3J3andQT0d0ZmRFazJSQlhxcEpqUjlNSW1icEhiZ01CRmlHOVNmYkx5THpHY0N6a24?oc=5",
-      "source": "Vietnam.vn",
-      "published": "2026-10-06T16:21:24Z",
-      "topic": "Công ty / dự án mới"
-    },
-    {
-      "title": "Thương hiệu mỹ phẩm nội địa Trung Quốc được nhiều người Việt ưa chuộng bất ngờ phải lên tiếng xin lỗi, chuyện gì xảy ra? - CafeBiz",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQd0RUWTRzNmRWQ1BNSVRZVG9idHUybkIzeExTRC1FbkdqVWI4a1dFSDNrOF9qdDZNbm5JQk5qV201TGx3RWNSelhEUy1UR3dTWGdFYWhLUlBQUUZOVGgzbEk5UGlCdEFZeXhYN0xfa2FQLU94eVQ1S1M1aFBETjBtZUZGQnFQZC1jQWwtYnh0UHM1WG9xVFNab3VZS3pJdUg1SmIxRjRrVWZwczBTdG5RcXFOaVc5dWxsbFdmeXExS2xUVG5KTFdsanc1Q3dBdmJ6eHZNVFJlNDhuQ3pvbVNrLWg3LWdSRzJKcVVxUHMyWl9LQQ?oc=5",
-      "source": "CafeBiz",
-      "published": "2026-10-03T07:00:00Z",
-      "topic": "Contact center / CSKH"
-    },
-    {
       "title": "Các định hướng điều chỉnh tiền lương khu vực công, chính sách cho cán bộ không chuyên trách ở cơ sở và lộ trình cải cách tiền lương đối với người lao động khu vực doanh nghiệp - Bộ Nội Vụ",
       "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOU3NtdUlzWHBKaXBWMm1JdEZFM3E2c0RnY2lDWXZJY3dTNWhpOWlIYW9Va2w5bWI0VFJqdVFvZXN0Q0RUTGdNcF9faExxZjg4YU5Va3hLU2pOTlhFeVM3NjRxbkprVlY5eDBKcFhXUmx1bmx5V3BsdkF1cTZZVGI3WlhqT3BEMW1KYmxVM1N1XzJhME1zRUlFNkp2aFh3aEoySGFxVno4RDFiYk9DQ3dXdGdRd2NwWTVnNkdTWWNoZElPRE9NQ3RkNjE5eTJ4YnpLM1cyQ1FaLUcwY1BMa24tanJIeXN1eDdaSXhLYjh5SFpLaWpkd2RPTkpWWWpJS1Vha2Z6MFdWWm1TaE5LWnB6aEJjbmZWX2E5Nkx6VGtta3FFeFdmNVFyM0FFS0tscW5GUU9fRTlNOA?oc=5",
       "source": "Bộ Nội Vụ",
-      "published": "2026-10-03T07:00:00Z",
-      "topic": "Nhân sự / tiền lương"
-    },
-    {
-      "title": "Bộ Nội vụ tiếp thu đề xuất điều chỉnh vùng lương tối thiểu của 7 địa phương - Tạp chí Điện tử Luật sư Việt Nam",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNXptOFB0MUlwOERjUkRJakxfN3pUTzRSVDl5N3c2ZTFVMzN4akN6bHdWZzZzUi1qTjdteUZRdUxfYW9rdjJYbVh0OTM5YkdnQmpWaTVfN0VZWVpzLU1UUTJsQ1NRVGZQbHhkc1l5Z0VCRmJHTDB4NjBnYUt0ck9TY0xXWERWZ2RDTjFoRFdWV0xKWmt5ZVpvQklRSDhQdzRsXzMybTBrcw?oc=5",
-      "source": "Tạp chí Điện tử Luật sư Việt Nam",
       "published": "2026-10-03T07:00:00Z",
       "topic": "Nhân sự / tiền lương"
     },
@@ -138,11 +131,11 @@
       "topic": "Tuyển dụng / lao động"
     },
     {
-      "title": "Lương tối thiểu vùng năm 2027 có thể đạt 5,7 triệu đồng/tháng? - VOV.VN",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNXJkaG8yQkh4b01raWJubFNlX0JKanNaZXBlbW1XWWpXdWNCMXNuQ0pVOXd5bE5rOXlhbnB2aWVqVmJVLVp1bGZpeXdxZzkzcGpTMnhCTGNSdnV3dmJiSVIxZVdxYy1kOHBJN042U3d5cnFadXh2akdNenhEV19Eel9NU1dHNHpOaDFBRG9sM3NKd0NQQWRQWm9zUkhONHBkQUE?oc=5",
-      "source": "VOV.VN",
+      "title": "Hà Nội: Nhiều cơ hội việc làm, đãi ngộ hấp dẫn người lao động - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOGdUeGlQV1ptc1YycDNZNjhQd2x1d3BYMjZ0MVVwalNqS0F3bmwwZGpLN0hvdmhRSnlyRDBLUTBUN0k1NFpuTWN5bzFFV2JsdVNudWJLRnhNQkxiSVVLaTBudHJvZmxXMGR1SmR5UDVjX0ZtZjRYTWxpM2VKTEgyOXhscXd1MlRkUXc?oc=5",
+      "source": "Vietnam.vn",
       "published": "2026-09-29T07:00:00Z",
-      "topic": "Nhân sự / tiền lương"
+      "topic": "Tuyển dụng / lao động"
     },
     {
       "title": "Đề xuất DANH MỤC ĐỊA BÀN ÁP DỤNG MỨC LƯƠNG TỐI THIỂU VÙNG từ 01/01/2027 - xaydungchinhsach.chinhphu.vn",
@@ -156,6 +149,13 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQm1ZTXFpZ2VfWHRVRlBYOXhhcHgtS055SkY5Tm9EeWhXMlVubThYbHhsRkloWUNjV0l4emlmRGJhQUlxbm9FWXdCWU4zTGhYVGdaUzZTVFdJNjlpMXB0Y2FxZW1WOWR6UE80aGJudVlMTXhiaFE2ZlF6dE1wbUF1V0g1dDB1c2JzUno1ZERQR3F6cl85ZG9jUHA3d29XMExJaDZ1S3pveGNPVEt4WHFUNVdGdw?oc=5",
       "source": "baodautu",
       "published": "2026-09-28T07:00:00Z",
+      "topic": "Nhân sự / tiền lương"
+    },
+    {
+      "title": "Các xã, phường ở Hà Nội có mức lương tối thiểu vùng dự kiến 5,7 triệu đồng từ 1.1.2027 - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQenlIeHBrOVRpMEpHM1h6Nk9YY3A4Tk5RY0pKYjBsNHpWa0F6UXBsS3RCSnltcFdINWN0UUR2TU9GMHZGcXQyWTZjVjhRRFhBbGpwS2QzXzV5VEdFbmZtX285SFNMWlU3U1g3eGkzR2ZCM3pwR19KNHFPb3RuSnRpQTNXS1lSdFB2Mzg5NkNVYlhNS1hRNE8yd1lJV2htaTlBMFhBczg3TzNWQXN5Vk5ydUpFVWw5WVdpZWMwWWlB?oc=5",
+      "source": "Laodong.vn",
+      "published": "2026-09-26T07:00:00Z",
       "topic": "Nhân sự / tiền lương"
     },
     {
@@ -187,13 +187,6 @@
       "topic": "Nhân sự / tiền lương"
     },
     {
-      "title": "Tăng lương tối thiểu, vùng lương cao nhất lên mức 5,7 triệu đồng/tháng từ 1/1/2027 - Báo Thanh tra",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZ1Rsbm0wYzdLdXhwb2QwOUx0QnlBV3hoc1pRejZSLWpqRmxDTjI5Y2h6XzZxeUFub2NoUDJiRXVRaEYyOXhJbENBTzFiejFxUkxPSXRRZzBZamZ4ZkRjSmN3ODhtZnR6azlVVkVXM3hxVVdiTlpUa0FNNUx1dGFHTF9LYzA0Y2NjY1A4SDlwa3otVy1OZWgzLVE5bzNBOHBHN0QtM0xTVTR3dEdZRGJmYU1JM2JNcHRuMmFDZVdZOWw1bGlZd2M2Q3NBVHZBTDQ?oc=5",
-      "source": "Báo Thanh tra",
-      "published": "2026-09-24T07:00:00Z",
-      "topic": "Nhân sự / tiền lương"
-    },
-    {
       "title": "Lương tối thiểu dự kiến tăng cao nhất lên 5,7 triệu đồng/tháng từ năm 2027 - VnEconomy",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT2ZNVkhNS1RsRlRnRXp2WmRJdm5nTGJTWlg5eFpOYkpvSTREa1RIQlk1cEE1UHo3UUVLNE91TFEwZ2llWDBzOXJqdHdJZDREZUJWandxREMyZFFjb1NwZUVNV2lLcC16WWlPTVpXSGdlbmxELWRabWV1bXhaU3k4RG1IMTRSU29qV2ZxRnRrMmVjUy16VjBrZHBuQTlHUQ?oc=5",
       "source": "VnEconomy",
@@ -201,9 +194,9 @@
       "topic": "Nhân sự / tiền lương"
     },
     {
-      "title": "Bộ Nội vụ tiếp thu đề xuất nâng vùng lương tối thiểu của 7 địa phương - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRWpob0JuSWhKNjZ2N2pwckw1UlJ0TmpmT01GTmRTT2NDa0FOY0dac2E4UktNekRhcF8ydGtzQUFIdGJyY0dfUVlkdGtxelQzZ0hDRGFCMXdabjRjeU82dC1qRFRwdlJDT0VYbjl4YlZkM3l6Z09rZFJBNktfcHRjQlBfVUdWNlNwODJYTVBsZW4yUHBCTy1LRnhuUXpoX3NaQnhQOFpyczMyQzFM?oc=5",
-      "source": "Laodong.vn",
+      "title": "Tăng lương tối thiểu, vùng lương cao nhất lên mức 5,7 triệu đồng/tháng từ 1/1/2027 - Báo Thanh tra",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZ1Rsbm0wYzdLdXhwb2QwOUx0QnlBV3hoc1pRejZSLWpqRmxDTjI5Y2h6XzZxeUFub2NoUDJiRXVRaEYyOXhJbENBTzFiejFxUkxPSXRRZzBZamZ4ZkRjSmN3ODhtZnR6azlVVkVXM3hxVVdiTlpUa0FNNUx1dGFHTF9LYzA0Y2NjY1A4SDlwa3otVy1OZWgzLVE5bzNBOHBHN0QtM0xTVTR3dEdZRGJmYU1JM2JNcHRuMmFDZVdZOWw1bGlZd2M2Q3NBVHZBTDQ?oc=5",
+      "source": "Báo Thanh tra",
       "published": "2026-09-24T07:00:00Z",
       "topic": "Nhân sự / tiền lương"
     },
@@ -218,13 +211,6 @@
       "title": "Dự kiến điều chỉnh vùng áp dụng lương tối thiểu của 7 địa phương - CafeF",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZVNBZndqeDhkZjRHZ0taTVhyV3BqbHkzbXU3VFU3R3pqQ0E4TVY1cFZMdFcwT1VBUF9HSFNDS19iNUpoeWREc05HOG5DUmhMNkhtZUp6S29sb0dCaGNoNFozS1pmUUFPdWM2Z1RYa3Z5OUJoV09ScjJndjZBc2daRGRsRUhzVzlLWXFGZWJPOWpoOVN0MVdheXN3TEhheHYyMHBEVVlHbw?oc=5",
       "source": "CafeF",
-      "published": "2026-09-24T07:00:00Z",
-      "topic": "Nhân sự / tiền lương"
-    },
-    {
-      "title": "Từ 1/1/2027, lương tối thiểu vùng chênh nhau 1.660.000 đồng/tháng: Mức 5.700.000 đồng áp dụng vùng nào theo dự thảo? - nguoiquansat.vn",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOdGVaSkk0V2pYLWpXeEdXdE5uSUVMOTVMbG5ReWg1ekpES2xGcnpnV255X05GYThtZlB4eHRKZjVxS3NyQnhuYkdkbEo2V2tDdkdqZFpaRm1QZThSM2dQaFNQN0d3NnhkM0t1SUxpd3gya3hPYWVxZEtqQ19xVDdHcGRqem5UdWJtOXlQM1hVLWR6OUsxbUxUX1RkNm1PWXd1aWotb1JOc0VpVWowdDR4cEdiWDg4ZDJhQkEtMXM2V1pIejIzZnBObGJERk1rUFRTYWJnVXUxYm9Nc3VYYmJSeDBxNA?oc=5",
-      "source": "nguoiquansat.vn",
       "published": "2026-09-24T07:00:00Z",
       "topic": "Nhân sự / tiền lương"
     },
@@ -255,6 +241,13 @@
       "source": "Tạp chí Điện tử Luật sư Việt Nam",
       "published": "2026-09-21T07:00:00Z",
       "topic": "Nhân sự / tiền lương"
+    },
+    {
+      "title": "SPX Express is stepping up investment in infrastructure and expanding its service network. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVXRyb2V6MDJ3cDFEM1lyRkkyeU9qME9uZTYyaEdWUUkzdjd3QjFVTzRIMVZmaXI5N1JlMzIzQW9TTzl4TGNva0xqdXFVUEdTbXpheXBFWUZtdmw4R3czOXd0VlpYTmJtRXdHZ0M3RG1LX3VXQmlMYkloejZHQlVzUnZmWFlwRnJqMUx5eEZhX0s?oc=5",
+      "source": "Vietnam.vn",
+      "published": "2026-09-17T07:00:00Z",
+      "topic": "Công ty / dự án mới"
     },
     {
       "title": "SPX Express is stepping up investment in infrastructure and service network. - Vietnam.vn",
@@ -292,10 +285,10 @@
       "topic": "Tuyển dụng / lao động"
     },
     {
-      "title": "ASEAN Cup 2026: Việt Nam lần đầu tiên bảo vệ thành công ngôi vô địch bóng đá Đông Nam Á - Báo Tin tức và Dân tộc",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUkY5N29MOGFib1JLM2t5YXItelpRMWV1TTUtMkZobGlZYk9QRC16eE1IRnJzNG9hSkdHbnB5T3FzcHpTZnhWeENtTjRKSWdEQllvUDdaSUkwTkZhUGJjbGk1cFJTaGxIMjZNR0N0c3dRMUxDN3phMjluUEtQcFBURGtTSmRpZFRZNFIweUpoY0tvWHYxRG14MTlrTFY2U0RzYlVVQzgxVnBobVJ5ZlNrTDdYQ21WZ3NUaHJwT0l3NWs?oc=5",
-      "source": "Báo Tin tức và Dân tộc",
-      "published": "2026-08-26T07:00:00Z",
+      "title": "Thủ tướng chúc mừng tuyển Việt Nam bảo vệ thành công ngôi vô địch ASEAN Cup 2026 - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTVZHcGFTaHBxTjVlaUNUTVVqLW9oSjdqRHY1WlNkeG96c0h3VUMtLWFjMk9iQ1k4dEFzdHp3bHZLRFctVzVhYVBvem05ZmJWNnQ4ZUZidmhSVFBqZHZpRlVUTXBGVUJTc1JBS24wYlhtMU9NYnJ0Q2tEOFR6TjVoMnEtOUFLVEVfSTBGVC12NmxRMzJQdm1zc3N4cTdxalVqWDZkTzB6TEpsb2tFWTdsdF9pTHNfQVpvdVFDVQ?oc=5",
+      "source": "Laodong.vn",
+      "published": "2026-08-27T07:00:00Z",
       "topic": "Tuyển dụng / lao động"
     },
     {
@@ -306,11 +299,11 @@
       "topic": "Tuyển dụng / lao động"
     },
     {
-      "title": "Lịch thi đấu bóng đá ASEAN Cup 2026 hôm nay (26.8): Tuyển Việt Nam vs Thái Lan - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOHpCWXFaejA3TzVYckFjczNnWUlzZG1MVUl3ZklIdnM4dTk2d3RfNGt6aXlPSDVqSTdydjdoeHlyRVViZDdScjI0UldOMmhHcXJ5bzhkei00MkJkTW9ubDlVWHlONHA3N2lGXzk1ZzNhTThadkQ1R09UbTI0TjF5RjA5TTFzN3BBQkdueWxaX0ZDalQ3MDBJX1lfNDVOOXBQMURZMl95MnA0MUlLQk5JUE9FeFNBd3g5ZUE?oc=5",
-      "source": "Laodong.vn",
+      "title": "Tăng lương tối thiểu vùng năm 2027: Cân bằng lợi ích người lao động và doanh nghiệp - Báo Phú Thọ",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdS1iLU5xVzVmdEJmUERuUWJTeXVsYTE2WDdkNlA4VzI1S0NaSTh6NklRcmVacXgzemJSanMzUkszT2syY2dJYU9tcmpYci1mLXR5OEJYRDIzNlV6ck54UTVuSDFxQlE1T1NhLXpaMzBCY2kwV3RSSFpsTDUzNDJqVnZTbFFkTDBiTGdwVXVwQzJ4Z0pSaUEyYU40SnlmRFY3ZDJLQ2pndkRidngxaWNvNGxENGo?oc=5",
+      "source": "Báo Phú Thọ",
       "published": "2026-08-26T07:00:00Z",
-      "topic": "Tuyển dụng / lao động"
+      "topic": "Nhân sự / tiền lương"
     },
     {
       "title": "Bị khiếu nại vì phân cảnh \"chất lỏng lạ\", bộ anime \"Yani Neko\" vẫn thoát án phạt nhờ quyết định từ BPO - Lag.vn",
@@ -362,11 +355,18 @@
       "topic": "Công ty / dự án mới"
     },
     {
-      "title": "Tuyển Việt Nam bước vào chiến dịch bảo vệ chức vô địch ASEAN Cup - Báo Tin tức và Dân tộc",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTWM0YzFLUzd2UER4TV92dUNCQ3BHSmdzOUNDdVQtbDFRMGdXejFPaVYteTVRZXc5WG5ucFBZOWotNVp5bURLdkJoQVJoRkZZMEo2d1NLR3Q3WFQ0a1labzRmZUtld25lNzBoSW9rdlFzSXJGdVlBWVlTamMzUkduZkNEd2tVenQ1S0FPdTlnRzRxVTNjdEtHczV4ZGJueWNma21J?oc=5",
-      "source": "Báo Tin tức và Dân tộc",
-      "published": "2026-07-16T07:00:00Z",
-      "topic": "Tuyển dụng / lao động"
+      "title": "Lương tối thiểu vùng I được đề xuất tăng lên 5,7 triệu đồng - baodautu",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdDdPZ0NpVVR5MWN6VWNtNnBxRUNidjExeGZYRFZpcHg2em1DLXR2U1BCTWREZVNWNFNjQ3kwY0NBSmdOSVA0S1h4Uko5TnAyV2lTYlRxYVVSTGluSTJmem9LMktoZDJ6aTBDZEZsdWExMFNScmlDMzVYMXdsalUzTUlaZzgwMUl5MVpTQUlRWUt5NFh1QUE?oc=5",
+      "source": "baodautu",
+      "published": "2026-07-22T07:00:00Z",
+      "topic": "Nhân sự / tiền lương"
+    },
+    {
+      "title": "AEON Việt Nam mở đợt tuyển dụng lớn tới 1.000 lao động - CafeF",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdUtnU3ZCbnJOd013czhVRXNoenFpYndLbF9pT2dNZ0ZlUmNwMEJVckd3X09fZklqV1dYeXpiRlN4VnZUbEN0cV9rUWxkZkNnUVBCRmZtVGIwUXYzQlIzSXdEWXZLU0ZvbzgxODdianVPdGRYUTFWZ3hHYzh0Rl9rS3NzNVFtR3IxZ1FLSWJqX1VDcHBHZ1l1Mg?oc=5",
+      "source": "CafeF",
+      "published": "2026-07-13T07:00:00Z",
+      "topic": "Contact center / CSKH"
     },
     {
       "title": "SMEs move from digital awareness to implementation as trust becomes key - vietnamnews.vn",
@@ -404,13 +404,6 @@
       "topic": "Công ty / dự án mới"
     },
     {
-      "title": "Hướng dẫn nộp báo cáo y tế lao động 6 tháng đầu năm 2026 - LuatVietnam",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeU92REIzVnN6alBqNDRRUnh1a3NSREhkLWI1elNuMTUzQXZpODlkdVY1azA3aFNtWXM3OXYtREcyVlNRS0llSmxRN3dWR19vMjFGaThaSTYtTzhCU29ySG1ybWxrTFhBRHM5YnV2S2ZkZi1xakM1LVZRNTh3SGpvRVkyLWVaeEczTHNkZ0czVms1ZjBhRld0d2Vab2dsNlVBbFUzOFZyR2VWRS11eDRQX201U2szZTJScWc?oc=5",
-      "source": "LuatVietnam",
-      "published": "2026-07-02T07:00:00Z",
-      "topic": "Tuyển dụng / lao động"
-    },
-    {
       "title": "Công đoàn VEAM: Đồng hành cùng người lao động, tạo động lực hoàn thành nhiệm vụ năm 2026 - Tạp chí Công Thương",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMTZiNWZwaUF6VENteVVHZFdOS3RXc04yYmNYc2NlM3hENFVFYjRpQ0hMVnpYN1hFeGVEamdUT0RXZk1FWVBuRDdib2p5REdYU29RN29nWVVKXzVmcHNOREtNcjNUYmg1NkVjNHdSWG1OZUc5V1lZM0lBU3RZVG0tOF83dHRZLTNOUTBLVlVrbGFrN3ZfblF6Xzd0b1FaN3ozSUIyUmFUUmxRcFA0SHp2VVhMcm5aUEJtOWZQeU54NHA4UHd2c3c?oc=5",
       "source": "Tạp chí Công Thương",
@@ -418,11 +411,18 @@
       "topic": "Tuyển dụng / lao động"
     },
     {
-      "title": "Doanh nghiệp ký thỏa ước lao động, tăng giá trị bữa ăn ca góp phần nâng cao đời sống công nhân - chinhsachcuocsong.vnanet.vn",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMU5oZjVNbnV0cnBCYWhzVXQxUVh2UkZ1WHdDWFllTmpKTnR1Ri1yUDd4QjVrQS1oRVY5LXBsRk00bThMY21STnV1ek93RXlMeG9pMnpHeG9fMTJvZnFqRzNRbXduY2RiVG96Ul85UFkzRTFUQlhZSkNRdGlCUjl2T2g1S29WZnVUcFVMX0JkTDZ5d2taVzJoVnUtX2VXOW1qaE52TnhrR05JbnBxd1RJbFVrOHlMelFQUzZkSDdoYnFxZERVelJ6WHlXdTdYdEFVWDVhWWNLVQ?oc=5",
-      "source": "chinhsachcuocsong.vnanet.vn",
-      "published": "2026-06-27T07:00:00Z",
-      "topic": "Tuyển dụng / lao động"
+      "title": "Tổng LĐLĐVN đề xuất phương án tăng lương tối thiểu vùng cao nhất là 9,8% so với năm 2026 - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOT0pBVXBCYmtmLW1rMHRnZ0hmem1SUzdSWFJBYUxtdExVYktrVTFQZTUtLURDZUNrM25UNUlRX0htYmFIRWZxcW4yeS1ZRkE5RURudXpQaHRRMHFqSEstQUdFbldTM2F4d2dxbW45Y0FTVVhxbVdDRF81NHlvT1NkOEgwaDZSX0MzbUJQZzNqZnFUMVpxV1hpcnpqMEpldTllNm14ZFZoQjJnMlA3QUZfTzFad2pvb2dqTFJnQXB4UmFUTWgwRkE?oc=5",
+      "source": "Laodong.vn",
+      "published": "2026-06-23T07:00:00Z",
+      "topic": "Nhân sự / tiền lương"
+    },
+    {
+      "title": "Investment attraction to transform seaports into logistics hubs - vietnamnews.vn",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdjgyWElCdUNqaEhDcEFQeUdwODQzbkxndWVSc29QdHZ5X3JpRzNyS1Jja2VQRXRqWk9zRlk0Y19oOWtOQlJzeFpYZXVROEFHT1E2bVhBVkhNaEFtaVhNdVRDUFpfYWVrLXBwZUo2MDNUVWU3eS1iZm9pSlZ5LUliY0NGYmZXNFoyUU5aZDVONzFqUTJKSU4yMkZSLURCMkY5MUpraHNiY0g2bG8?oc=5",
+      "source": "vietnamnews.vn",
+      "published": "2026-06-11T07:00:00Z",
+      "topic": "Công ty / dự án mới"
     }
   ],
   "sourceErrors": [],
