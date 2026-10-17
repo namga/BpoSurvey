@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T05:11:02Z",
+  "updatedAt": "2026-10-17T05:26:53Z",
   "provider": "Google News RSS",
   "itemCount": 60,
   "items": [
@@ -128,13 +128,6 @@
       "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOTHhlRFNPbHNnT08wUUhrZm5LVWt4NTZDd2V6aVIwODBFa3Q1OTBOMF85UUlIT0xaNFpQaW5JdldWdWVyOEJTWDZURDBNay1sZHcyX1RXcTdsR2g3dVVmTTh1SGR5OVRVbDJ0T2tFcGJYTzJhNVNESVhoTlo4emZMNHhxUEJ6cHpXOXZxVUZPMTZqSnJfbFNwdXQ3RFg4V1c1UXY3X29BUXhtVlVibElWVUR2N1RsOGRTTGp5SXNESHdaOTEwcUZRSG9RazM0UUIwQjE0UW40cUpTdm4tdHRWOWowLXdNQUR3ckF2bnJRQzJUN3U3WmRfQVNITnJNenFPMFp2Qzk5MS0za01LN1E0SV9B?oc=5",
       "source": "Bộ Nội Vụ",
       "published": "2026-10-02T07:00:00Z",
-      "topic": "Tuyển dụng / lao động"
-    },
-    {
-      "title": "Hà Nội: Nhiều cơ hội việc làm, đãi ngộ hấp dẫn người lao động - Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOGdUeGlQV1ptc1YycDNZNjhQd2x1d3BYMjZ0MVVwalNqS0F3bmwwZGpLN0hvdmhRSnlyRDBLUTBUN0k1NFpuTWN5bzFFV2JsdVNudWJLRnhNQkxiSVVLaTBudHJvZmxXMGR1SmR5UDVjX0ZtZjRYTWxpM2VKTEgyOXhscXd1MlRkUXc?oc=5",
-      "source": "Vietnam.vn",
-      "published": "2026-09-29T07:00:00Z",
       "topic": "Tuyển dụng / lao động"
     },
     {
@@ -402,6 +395,13 @@
       "source": "Vietnam+ (VietnamPlus)",
       "published": "2026-07-06T07:00:00Z",
       "topic": "Công ty / dự án mới"
+    },
+    {
+      "title": "Pháp luật về hợp đồng lao động đối với người lao động nước ngoài làm việc tại Việt Nam - Tạp chí Công Thương",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX0d0SHRqYlJTc1ZnX2hKWDVjZ2FScmNQMXJLekFJYkRnWnV4V2lrbkMyQVdGcnZZWmhaaW1qU2pqS0VjSzFhZ0UyRWJmbjd3SmtEa2lWd1pCWFlNYUpUdm5HRnl5WE1aMk9vU2wxQ25ZVHZCWGZzODB0UVlqSGFJYzFnU0p2TDRhbGM4bkN6azRwbE1XLUUyRjJqQ1haWjhfTDlNYUNUN3Q1alhpaWZsZ1ZnMkxNaVVWd0kxTlZ4bmJpUnc?oc=5",
+      "source": "Tạp chí Công Thương",
+      "published": "2026-07-01T07:00:00Z",
+      "topic": "Tuyển dụng / lao động"
     },
     {
       "title": "Công đoàn VEAM: Đồng hành cùng người lao động, tạo động lực hoàn thành nhiệm vụ năm 2026 - Tạp chí Công Thương",
