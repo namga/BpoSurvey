@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-24T05:12:32Z",
+  "updatedAt": "2026-10-24T05:36:02Z",
   "provider": "Google News RSS",
   "itemCount": 60,
   "items": [
@@ -17,20 +17,6 @@
       "source": "Vietnam.vn",
       "published": "2026-10-22T11:55:08Z",
       "topic": "Công ty / dự án mới"
-    },
-    {
-      "title": "Đảm bảo thu nhập, khơi nguồn sáng tạo cho người lao động - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVUFkTVU1ODB5b0otR2JTX25DTF9VSGMwTXBOWmQ0N290b2R2R3hGZG1YYlV6a2wyRzZfRGdZbWQ1MGdVaUliZVdWZkJrZWo2VFlRdThoYWFZcXV4SFlHUzNJVl9SYnd2UHM3Z0R5RE8zZnVYblFyVjMzaWxIM2hOUl9wQjNNUkoyNEt0bllsSTRmMnBHRXdpZGNTVTE?oc=5",
-      "source": "Laodong.vn",
-      "published": "2026-10-22T05:00:00Z",
-      "topic": "Nhân sự / tiền lương"
-    },
-    {
-      "title": "Bản tin Nhân lực, Nhân tài (22/10): Nhân lực bán dẫn tăng tốc, rà soát lương tối thiểu và chính sách trọng dụng nhân tài - Tạp chí điện tử Nhân lực Nhân tài Việt",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQZGk3MVNWWGNaMzVMRmZTZThRcV81MXR0blVvQW9zQmIwUTBhdl8yZHl5c0I2SWE5YW1yWVJTYWVhRXNONU1DZUZWSkswTkNfalFibGVOSHhKemZPUWtaaHRsTC1mY3FCZlpIYTJmTi1fSmktTVVWZFNwU1hZUXptclYtNjRrakxuTGEtTU94S1JBaDhhVWgwYXo3bGlCdTdxQ3ZMaTNaUzRveWtyLTctTzhvTi1BSEl2ODA5Q1AxVkwxV1o2eDRMRmhEYkpHSjh0dmo1UWJ1X3NxY1A4ZzhkNkhSOW0?oc=5",
-      "source": "Tạp chí điện tử Nhân lực Nhân tài Việt",
-      "published": "2026-10-22T03:45:01Z",
-      "topic": "Nhân sự / tiền lương"
     },
     {
       "title": "VinaCapital and AP Moller Capital signed a memorandum of understanding to explore investment opportunities in logistics infrastructure in Vietnam. - Vietnam.vn",
@@ -222,6 +208,13 @@
       "topic": "Nhân sự / tiền lương"
     },
     {
+      "title": "Tăng lương tối thiểu, vùng lương cao nhất lên mức 5,7 triệu đồng/tháng từ 1/1/2027 - Báo Thanh tra",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZ1Rsbm0wYzdLdXhwb2QwOUx0QnlBV3hoc1pRejZSLWpqRmxDTjI5Y2h6XzZxeUFub2NoUDJiRXVRaEYyOXhJbENBTzFiejFxUkxPSXRRZzBZamZ4ZkRjSmN3ODhtZnR6azlVVkVXM3hxVVdiTlpUa0FNNUx1dGFHTF9LYzA0Y2NjY1A4SDlwa3otVy1OZWgzLVE5bzNBOHBHN0QtM0xTVTR3dEdZRGJmYU1JM2JNcHRuMmFDZVdZOWw1bGlZd2M2Q3NBVHZBTDQ?oc=5",
+      "source": "Báo Thanh tra",
+      "published": "2026-09-24T07:00:00Z",
+      "topic": "Nhân sự / tiền lương"
+    },
+    {
       "title": "Nghịch lý khó tuyển công nhân vệ sinh môi trường - Báo Đại Đoàn Kết",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRlRsLTRzRlB5MS0tVkt6TTZCeHNTem1zT0JYZEhSWEtUWVp1Y2dxY2Q3Y2ZHcVEtRVNGYkNKcXc2b1VvMENRUV9aQThXdjlNaUJVdmZzTC0yRDdub1lxNGp3dTNHYUFXU1pMak4xd1ZNV05ubEhISmVOUWFFWG9XTw?oc=5",
       "source": "Báo Đại Đoàn Kết",
@@ -262,13 +255,6 @@
       "source": "Tạp chí Điện tử Luật sư Việt Nam",
       "published": "2026-09-21T07:00:00Z",
       "topic": "Nhân sự / tiền lương"
-    },
-    {
-      "title": "Ho Chi Minh City grants license for $980 million logistics project within TikTok ecosystem. - Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTDExRmxhaE5hUHdQazdIZTREWFFydFk0MlJXQnlJWlhUbjFaWjJmZlhvdE1YVWVWLV9pdFpHb2NQeEcwcFJmblJxdHNVSEpkY0l4ZDhJX1ZGUmlVeDkzM2YyMTdGTnBkU0s2SGVEWGExVHRSVUJtS0V1WEREOGZkY2VwNEVGMmpaek1aQnpOWGcxdnM4bUdyMm4tRzMwZw?oc=5",
-      "source": "Vietnam.vn",
-      "published": "2026-09-09T07:00:00Z",
-      "topic": "Công ty / dự án mới"
     },
     {
       "title": "Viettel Post revenue hits $400 million in first half as logistics investment accelerates - vietnamnews.vn",
@@ -362,6 +348,13 @@
       "topic": "Công ty / dự án mới"
     },
     {
+      "title": "Vietnam’s Bac Ninh approves nearly $7bn in new investment projects - Tuoi Tre News | The News Gateway to Vietnam",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUV9oYU9tQXFWYlN6VGJtcE03R25uTnhYbXJHYThOdndjLVpRbnp3SHVIbE5qM0RxQk1MSUhWV3piY0xOWS00NDdydHZLU0Q0a3ljQnBCQWZRUTJlYXRSWHNGSDVOeWhCcFNKclBhX0YtZjNaWHZELVVxeUpKSDVTNGQ4SEtvdlNObXY4akNrTWQ5LW0xSWtPMmRXWGU1dGVveFIycDl5eUNlS2pPVXY3Zg?oc=5",
+      "source": "Tuoi Tre News | The News Gateway to Vietnam",
+      "published": "2026-08-06T07:00:00Z",
+      "topic": "Công ty / dự án mới"
+    },
+    {
       "title": "Vorwerk opens Việt Nam office, reinforcing long-term investment commitment - vietnamnews.vn",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSVRjSVE3YVhyd2t5U3ZTNkVlektqVXQ3SUZqa0pSUVloR2gyOWdIRXRYZmY1MnJfMGN3d1dfc0M4aHRzM0Vxb2ZQVVRRZkl0dm5CVmhkamlKdkZ5ZFZnNzBFNEVsenYxQWhQWXJKWmQ5WW9pNkszRFNIa2pfNV9UWkp3d1k3SGxyQkUyLUtIWnUzVkpGM09fSEd5UXVTUmNRLXRRY2NoOTFlQzNEWUR3cU1CbGd2aUFTNEdV?oc=5",
       "source": "vietnamnews.vn",
@@ -387,6 +380,13 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdDdPZ0NpVVR5MWN6VWNtNnBxRUNidjExeGZYRFZpcHg2em1DLXR2U1BCTWREZVNWNFNjQ3kwY0NBSmdOSVA0S1h4Uko5TnAyV2lTYlRxYVVSTGluSTJmem9LMktoZDJ6aTBDZEZsdWExMFNScmlDMzVYMXdsalUzTUlaZzgwMUl5MVpTQUlRWUt5NFh1QUE?oc=5",
       "source": "baodautu",
       "published": "2026-07-22T07:00:00Z",
+      "topic": "Nhân sự / tiền lương"
+    },
+    {
+      "title": "Lương tối thiểu vùng tăng từ 2027, người lao động được thêm bao nhiêu tiền? - Thanh Niên",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONUkzQWFtemlqakNrSDRPQlliU2xHVHlRbjZ5SGxTSkNpYTZwU19OUjVucVdUTHVYa3I3VWJTRXlsaVo0RVU1RFFFQ1FEWW40XzdiMDVjdUdQRWJvMmtFYmxZb204TkJxYW9wMFVwOEk0ekw1YlJxNnZycmFRdmpnT0xHUTBIaDUxVDdWYTVUY0pIcjhfMEtyYkFmdEt2bnFZMVhySFBWVkd4X0N2X2tNRTZRNmpIYUU?oc=5",
+      "source": "Thanh Niên",
+      "published": "2026-07-20T07:00:00Z",
       "topic": "Nhân sự / tiền lương"
     },
     {
