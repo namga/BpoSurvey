@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T05:34:24Z",
+  "updatedAt": "2026-10-26T05:54:20Z",
   "provider": "Google News RSS",
   "itemCount": 60,
   "items": [
@@ -31,13 +31,6 @@
       "source": "Vietnam.vn",
       "published": "2026-10-25T03:03:28Z",
       "topic": "Công ty / dự án mới"
-    },
-    {
-      "title": "“Nợ thì phải trả, nhưng tài sản chưa chắc truyền lại được” - Fili.vn",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWmxRNm55al9SRDNBUXlFLU5hRWVYWWZXUDVxNXR1d1B6c0k2N2gzOWRIUzJtTTF1UkZtRHk1aWlXbjZteVNRallUMGJJZnRiMU5FQjhncFNCd1dwRWVweVROcGJBSlBkc1hPeTFNVVFkcXJfNVhEdUxjbjdXd21FN3VLU3hjOTZFa1VvN2xTQUpuSWl5VEtzUnc2aW4?oc=5",
-      "source": "Fili.vn",
-      "published": "2026-10-24T13:28:45Z",
-      "topic": "Nhân sự / tiền lương"
     },
     {
       "title": "KUKA Vietnam inaugurates its Hanoi headquarters - Opening a new chapter for growth and innovation. - Vietnam.vn",
@@ -204,6 +197,13 @@
       "title": "Tăng lương tối thiểu vùng, cải thiện đời sống người lao động - Báo Nhân Dân điện tử",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPV2xXSjNzdnE1Z2RPN2llUmR2RG5yOFVBTFdvaGtYSXRqYzlqYXdBMVE0ejFocUVkWktESldrQVdSV0xLTS1DZkxpRUxvWlJud3FnenkyQ1YtdnBBQkw2eURHdUFhVVpEal8xSkh5Y0pfX1pVRUhDd0dFVEp3S1lLT1o5eVk5UFJ3THlOQVB4bDhyOFp4Y3hmZGd3?oc=5",
       "source": "Báo Nhân Dân điện tử",
+      "published": "2026-09-24T07:00:00Z",
+      "topic": "Nhân sự / tiền lương"
+    },
+    {
+      "title": "Doanh nghiệp trả lương thấp nhất cao hơn 32% so với lương tối thiểu - Báo Dân trí",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV3Q1WnlLZnhWS0pEMUlwMUt3T0p1MTYyT1Z6QU9BVFJ4Q0E5LXlCR2JGYUVMLUREa3JLUmllNnBHdzNfLWRwUExFa2JxVFVMRWlnRGwyVmRwa0R0U1JpeGozbTJuMUR1QVdfZTQ5SHpQc0RCMGJVZ0ZqZncwQ1V3ZEFNVUxDNTdCclVkUXQyaVlJc0NwaWo5VkNHejh6b1BBeXp0M05NUm8tcUNWV2o3TFR5aEZKYjNl?oc=5",
+      "source": "Báo Dân trí",
       "published": "2026-09-24T07:00:00Z",
       "topic": "Nhân sự / tiền lương"
     },
