@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T06:37:13Z",
+  "updatedAt": "2026-10-29T06:53:15Z",
   "provider": "Google News RSS",
   "itemCount": 60,
   "items": [
@@ -166,13 +166,6 @@
       "topic": "Công ty / dự án mới"
     },
     {
-      "title": "Xây dựng các nghị định, thông tư về tiền lương, mức lương tối thiểu, bảo hiểm xã hội - xaydungchinhsach.chinhphu.vn",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOV1YwMVpOUGpIaFI0emY2WlBEQjF4R2dWUTFpX0swTHZmV1dHZlplWXl0cTRhdTczNTYtLXo4eFpISFlJTXhmcUdiNUhEWkNJa2MycXdQc2U2NXkwOHV5QjdPR3RBQjhoTUI5ZVlKc1JJb0pfWm45MWNVeHhiRmwwaUxWSXJDVExmYmUtYy1sWkpGdVl3Z0JJaW5tMTk3eER2cHh4b3U5aVVHQ1l0alQ3V2FmNndkZVYtUTFGRjZNcDZZVm4xeWFLeXlublRoRF9mdzJwcEhxenQ?oc=5",
-      "source": "xaydungchinhsach.chinhphu.vn",
-      "published": "2026-10-12T07:00:00Z",
-      "topic": "Nhân sự / tiền lương"
-    },
-    {
       "title": "Gia Lai prepares all necessary conditions for the Vietnam Logistics Forum 2026. - Vietnam.vn",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUFZ2Qm1QWHpOWG9VRlJKMV92aUJQbzBNY2JueWx2UDJRQVlQV05mZVdTVkUxVld6b01Uc2RaTnFyaFR2RHVqajljMWY0RjFVT3d1V3pQX18zaWN0bVVFd05TdnpieV9KN0JKdkxyZG9YZm16cTJYNDBkenBiUVFlTnEzaXUyWkhlUTBvSlRLNXdZeFNmV2F2dA?oc=5",
       "source": "Vietnam.vn",
@@ -187,25 +180,11 @@
       "topic": "Contact center / CSKH"
     },
     {
-      "title": "Bộ Nội vụ tiếp thu đề xuất điều chỉnh vùng lương tối thiểu của 7 địa phương - Tạp chí Điện tử Luật sư Việt Nam",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNXptOFB0MUlwOERjUkRJakxfN3pUTzRSVDl5N3c2ZTFVMzN4akN6bHdWZzZzUi1qTjdteUZRdUxfYW9rdjJYbVh0OTM5YkdnQmpWaTVfN0VZWVpzLU1UUTJsQ1NRVGZQbHhkc1l5Z0VCRmJHTDB4NjBnYUt0ck9TY0xXWERWZ2RDTjFoRFdWV0xKWmt5ZVpvQklRSDhQdzRsXzMybTBrcw?oc=5",
-      "source": "Tạp chí Điện tử Luật sư Việt Nam",
-      "published": "2026-10-03T07:00:00Z",
-      "topic": "Nhân sự / tiền lương"
-    },
-    {
       "title": "Bộ Nội vụ Việt Nam ký bản ghi nhớ với chính quyền bang Saskatchewan (Canada) hợp tác về di chuyển lao động có đạo đức và bảo vệ người lao động di cư - Bộ Nội Vụ",
       "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOTHhlRFNPbHNnT08wUUhrZm5LVWt4NTZDd2V6aVIwODBFa3Q1OTBOMF85UUlIT0xaNFpQaW5JdldWdWVyOEJTWDZURDBNay1sZHcyX1RXcTdsR2g3dVVmTTh1SGR5OVRVbDJ0T2tFcGJYTzJhNVNESVhoTlo4emZMNHhxUEJ6cHpXOXZxVUZPMTZqSnJfbFNwdXQ3RFg4V1c1UXY3X29BUXhtVlVibElWVUR2N1RsOGRTTGp5SXNESHdaOTEwcUZRSG9RazM0UUIwQjE0UW40cUpTdm4tdHRWOWowLXdNQUR3ckF2bnJRQzJUN3U3WmRfQVNITnJNenFPMFp2Qzk5MS0za01LN1E0SV9B?oc=5",
       "source": "Bộ Nội Vụ",
       "published": "2026-10-02T07:00:00Z",
       "topic": "Tuyển dụng / lao động"
-    },
-    {
-      "title": "Sau tăng lương, doanh nghiệp không được cắt giảm chế độ có lợi cho người lao động - baodautu",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQm1ZTXFpZ2VfWHRVRlBYOXhhcHgtS055SkY5Tm9EeWhXMlVubThYbHhsRkloWUNjV0l4emlmRGJhQUlxbm9FWXdCWU4zTGhYVGdaUzZTVFdJNjlpMXB0Y2FxZW1WOWR6UE80aGJudVlMTXhiaFE2ZlF6dE1wbUF1V0g1dDB1c2JzUno1ZERQR3F6cl85ZG9jUHA3d29XMExJaDZ1S3pveGNPVEt4WHFUNVdGdw?oc=5",
-      "source": "baodautu",
-      "published": "2026-09-28T07:00:00Z",
-      "topic": "Nhân sự / tiền lương"
     },
     {
       "title": "Lương tối thiểu dự kiến là 5,7 triệu đồng/tháng - Báo Tiền Phong",
@@ -215,23 +194,16 @@
       "topic": "Nhân sự / tiền lương"
     },
     {
-      "title": "Đề xuất tăng lương tối thiểu vùng 7,8% từ đầu năm 2027 để bảo đảm mức sống cho người lao động - Thuonghieucongluan.com.vn",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTzk1YkI3NHRUQnIzeGZFeWRMdmlncFV2MGhJa0dNZmxYYVllYzFHQmdFM0wxOHFBY3czSDNVOUozcVhjeUpkT0ExVDZueHg1aGk1TG9xak5SZ3NoOGZrU0xQYXRSYzY0MnhxWXllRnA2TTZfdjVTSXdGM08xbzhZcTZBY0hqdy1IN3dadDNmMUZkWWloSlBkMWhETnY1cVJ0T285aVkxV3F3bllkbjlqamdnTDdxQXFTamJGMlZUVXRVS0k5ME95aExQZlpWOWwyMEJqSTdR?oc=5",
-      "source": "Thuonghieucongluan.com.vn",
-      "published": "2026-09-24T07:00:00Z",
-      "topic": "Nhân sự / tiền lương"
-    },
-    {
-      "title": "Tăng lương tối thiểu vùng, cải thiện đời sống người lao động - Báo Nhân Dân điện tử",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPV2xXSjNzdnE1Z2RPN2llUmR2RG5yOFVBTFdvaGtYSXRqYzlqYXdBMVE0ejFocUVkWktESldrQVdSV0xLTS1DZkxpRUxvWlJud3FnenkyQ1YtdnBBQkw2eURHdUFhVVpEal8xSkh5Y0pfX1pVRUhDd0dFVEp3S1lLT1o5eVk5UFJ3THlOQVB4bDhyOFp4Y3hmZGd3?oc=5",
-      "source": "Báo Nhân Dân điện tử",
-      "published": "2026-09-24T07:00:00Z",
-      "topic": "Nhân sự / tiền lương"
-    },
-    {
       "title": "Lương tối thiểu dự kiến tăng cao nhất lên 5,7 triệu đồng/tháng từ năm 2027 - VnEconomy",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT2ZNVkhNS1RsRlRnRXp2WmRJdm5nTGJTWlg5eFpOYkpvSTREa1RIQlk1cEE1UHo3UUVLNE91TFEwZ2llWDBzOXJqdHdJZDREZUJWandxREMyZFFjb1NwZUVNV2lLcC16WWlPTVpXSGdlbmxELWRabWV1bXhaU3k4RG1IMTRSU29qV2ZxRnRrMmVjUy16VjBrZHBuQTlHUQ?oc=5",
       "source": "VnEconomy",
+      "published": "2026-09-24T07:00:00Z",
+      "topic": "Nhân sự / tiền lương"
+    },
+    {
+      "title": "Mức sống tối thiểu cao hơn 3,7% khi lương tối thiểu tăng từ 1/1/2027 - Báo Dân trí",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeHlhU0gzTlRJdGE1UGEwd3U2dVRIa2I0T25BdE83cnlmb2JMNUNQbTc2MjdCaWJOQ3hrUXdyZm1Ga3pzbXd0dVF4MWlZVEc4YzlWTy0tWHA3dFBQQ1NLb09YSkM1NW1sSmVROWlEdEphRDRaOFJHMDl4RlAzaWViRURpTW8xRWhXNmNPOW5fT3B3ZXFoTmJ6bXpLMXhuVFU3LXlES0xGMXZ4RUpqdHRIOHMxYWUydw?oc=5",
+      "source": "Báo Dân trí",
       "published": "2026-09-24T07:00:00Z",
       "topic": "Nhân sự / tiền lương"
     },
@@ -250,10 +222,10 @@
       "topic": "Công ty / dự án mới"
     },
     {
-      "title": "Bộ Nội vụ giải đáp về đề xuất tăng lương tối thiểu vùng từ năm 2027 - Tạp chí Điện tử Luật sư Việt Nam",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOY3hMdEVpa3V0SWR2SE5GSm5ZRWVGMlNBWngtdGxDRXU0c2FLWE9pZVlySnVFejEzQVFTYk9QT2JETGlXaVdkMDBwUDB1T1k2azAtTGx4OFgtV0M4YVlJWXNZS1ItamdMUm9HV1FZS0V6VzdXTnp5SzhiVGduR29iOGN0aWF5NS1EaGlUZDJ0ZnlJSnRqbEl6QTJqOTc?oc=5",
-      "source": "Tạp chí Điện tử Luật sư Việt Nam",
-      "published": "2026-09-21T07:00:00Z",
+      "title": "Nếu lương tối thiểu tăng 7,8% từ 2027, mức sống người lao động ra sao? - Báo Dân trí",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWEhPWGxBX015bG1wX3IxYmRWRWxzOWVNN0haaFB5ekZUaTFBSmFwY1haNG9ubHh3dkFjczlSN0g1ZGRHUm52bnNHTXFGZmdHaVl3UGVkbWlVNEZCdU0xR1Ixb3Y0b0JpTkYwQlNXU2FsZ1h4QS1wTUVKTjhwaXNVc2ZrVDlHVnEyNmUzeDcwTTFDY0RTQ0pQTTZqX19wQ3ZOb0dQb1BrMlk1VTM1Nk81dmZCVGNSdERV?oc=5",
+      "source": "Báo Dân trí",
+      "published": "2026-09-17T07:00:00Z",
       "topic": "Nhân sự / tiền lương"
     },
     {
@@ -278,13 +250,6 @@
       "topic": "Contact center / CSKH"
     },
     {
-      "title": "Tăng lương tối thiểu từ 2027: Đòn bẩy tăng trưởng hai con số - Công dân khuyến học",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSnRSUGp3Nm1yUUs5MGNnS2hQZkVkbFVEWGRZZlY2dWlFRnRXOHVTY20xMEJaMThuRGlPMmVKOTRSVUVucU04a1c1OW9ObDZSMFpEUjF0Wnp4WTFJTnhVZE9DcDc4Ukw4enpTclFQblBqM1pTN28yVTFhT0szSWxtSHZwSnhBc25yclYtM1FTTmE1Z0NXMWdVakJzMndZMXJWUnFNSXE2OXh3QnJhSWtF?oc=5",
-      "source": "Công dân khuyến học",
-      "published": "2026-09-04T07:00:00Z",
-      "topic": "Nhân sự / tiền lương"
-    },
-    {
       "title": "Thủ tướng chúc mừng tuyển Việt Nam bảo vệ thành công ngôi vô địch ASEAN Cup 2026 - Laodong.vn",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTVZHcGFTaHBxTjVlaUNUTVVqLW9oSjdqRHY1WlNkeG96c0h3VUMtLWFjMk9iQ1k4dEFzdHp3bHZLRFctVzVhYVBvem05ZmJWNnQ4ZUZidmhSVFBqZHZpRlVUTXBGVUJTc1JBS24wYlhtMU9NYnJ0Q2tEOFR6TjVoMnEtOUFLVEVfSTBGVC12NmxRMzJQdm1zc3N4cTdxalVqWDZkTzB6TEpsb2tFWTdsdF9pTHNfQVpvdVFDVQ?oc=5",
       "source": "Laodong.vn",
@@ -299,23 +264,16 @@
       "topic": "Tuyển dụng / lao động"
     },
     {
-      "title": "Tăng lương tối thiểu vùng năm 2027: Cân bằng lợi ích người lao động và doanh nghiệp - Báo Phú Thọ",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdS1iLU5xVzVmdEJmUERuUWJTeXVsYTE2WDdkNlA4VzI1S0NaSTh6NklRcmVacXgzemJSanMzUkszT2syY2dJYU9tcmpYci1mLXR5OEJYRDIzNlV6ck54UTVuSDFxQlE1T1NhLXpaMzBCY2kwV3RSSFpsTDUzNDJqVnZTbFFkTDBiTGdwVXVwQzJ4Z0pSaUEyYU40SnlmRFY3ZDJLQ2pndkRidngxaWNvNGxENGo?oc=5",
-      "source": "Báo Phú Thọ",
-      "published": "2026-08-26T07:00:00Z",
+      "title": "Bộ Nội vụ nêu căn cứ lương tối thiểu được đề xuất tăng 7,8% từ năm 2027 - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONi1Rb1BvU3Y1aEh1cFBYZ3ZiTUxNS2lRTHhUWTNMY0ZpU0Y5SFRLOVI2RGlRN21IQmRhbmpWcHlWR1pKRW5WeERENldYdkc2aVNlWl9BM3lWUUNpamJTN3d3NTNYa0JaVXNSTUtaWVZWRG5lSzhuVG5yZ0RicHRZZkJLSWZBa2ZwVHFQSnF5SWlKQVZHVllVX3AwUFF5QVRDSEM5MXpCSHBnQ3Na?oc=5",
+      "source": "Laodong.vn",
+      "published": "2026-08-25T07:00:00Z",
       "topic": "Nhân sự / tiền lương"
     },
     {
-      "title": "Mức tăng lương tối thiểu 7,8% hài hòa lợi ích doanh nghiệp và người lao động - VnEconomy",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTUd5X2dlc00yZTFScmZJWi15TjNTN3lEdXROVTVtOW9XUUFtb2t4ci1ZY3RDQl9oanprQ1Rvb1loeVdiZmxUbjZncEhET08yLW9iUm1JRE9FVUgzS0tGRlJORGZxSlI4aFRSVHBFVnNQSXEwUF9RdWFEREZrQjE5MlZyYzdmWlREUEhuSVBxNXFQVjFzM3VTa2JDdlVDMHhP?oc=5",
-      "source": "VnEconomy",
-      "published": "2026-08-24T07:00:00Z",
-      "topic": "Nhân sự / tiền lương"
-    },
-    {
-      "title": "Dự thảo Nghị định quy định mức lương tối thiểu: Lương sẽ tăng thế nào từ 1/1/2027? - Báo Thanh tra",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTjk0dDNZY2dUUHhZZ1Fnb1F5UUpMLWxvMDgzYWZId1FuV3RoSTBlWTljd2swVmx1eE9vbXg2Q3V4U254N1dkU0hFSHdtOUNMd3JiVVk0SDZUUFUxVFZNb0V3cG9teWRLTzQzMXdjR3VfM0t4QnByQUc3eFhnQVRUMWcwSzJWVjh5Z1NsaUpkOWdLbmRiRFJxdHhod3QxX1Rpb0EtbDJyZHFTY0FNbGRSYnVOVVlTeDZGcXRrbjZMdzdjZHJaTHhsR1VYZVI0QnQ2?oc=5",
-      "source": "Báo Thanh tra",
+      "title": "Phương án tăng lương tối thiểu 7,8% từ 2027 căn cứ trên những yếu tố nào? - Báo Dân trí",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPckRKUjQ2dVE3cWRiMzUtR3JISF9PZ09mQzN4dkJJWUpQbUpRalc5SWVhbV9RWk9yOHVKcDd1Y1R0aXFWbDRFMUliWFpyeTVRc0V4SmwxQWdfZl9QUFhjVnVZMFl2TjFYN09SZlA3bmVycXlKb1I0WnQ4bU5aYmE4R19qc1pxNEJyWTFiZTFaaF9FM24tcTFhTk5xMGtqTGNCcGJNbERiUC1BMlR2QUZ6UUF1Qy1rYlp4ckRiTUVn?oc=5",
+      "source": "Báo Dân trí",
       "published": "2026-08-24T07:00:00Z",
       "topic": "Nhân sự / tiền lương"
     },
@@ -327,11 +285,18 @@
       "topic": "Nhân sự / tiền lương"
     },
     {
-      "title": "Định hướng chính sách điều chỉnh tiền lương đối với lao động khu vực doanh nghiệp - VnEconomy",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRzB1aHk0WGdNS1o0aUtxN1BDZWVIbXkxc3hwSGJjaFJqRGhRdWhxSkdVdDRsMW9mMGxzNHVwczQwOV8wSGlEMi03SjljZE92VWZKenA1eElBQ3p4a3NidENlMTdUTFgtTUJIbVFZWVhwMWN2N2dCaDl6S2tqNEgzeXJMTzlNSkh5T0lVTVVId3RiNkd6ZUpzOWVubng5dXc3VUJMb2dZdmxFdw?oc=5",
-      "source": "VnEconomy",
+      "title": "Lương tối thiểu năm 2027 dự kiến tăng 7,8%, bảo đảm thu nhập thực tế người lao động - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYm53c2FqN2c5V2xTR3VEWlBRTWlhclJzM2lQUi1UVzYtWjVpS0FPeUhfc1R6TGpzU09Dam9GZ3JJUElIeHBrOEZpbkJTdmZGSGU1anlpMDA5NmNkRWxqOVBOVlZaakd6eDY1eFVmUFhpZG9NY0lRYVYtU3p0MUdVdjVfZ3l4M0tqUmFaeWh6QjZVZnZqRHphM09wMm0wZHgwazQ4czVvTG9BRkQ1SmE0bHNncnp2UDdkaWRZ?oc=5",
+      "source": "Laodong.vn",
       "published": "2026-08-18T07:00:00Z",
       "topic": "Nhân sự / tiền lương"
+    },
+    {
+      "title": "Bị khiếu nại vì phân cảnh \"chất lỏng lạ\", bộ anime \"Yani Neko\" vẫn thoát án phạt nhờ quyết định từ BPO - Lag.vn",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWDdVOEVaT0hxY0NjZ1NKbHBlXzJfNjB5cFdHZEFRR1hJZXY3T3V4cmYzUlBWdTRJemc4SnUzRDNoRlFZMWstTEc5OWpqaTR1NmJ3VklWNTBLSGxrLVQ0TkZhWHJrTHJBMEtCMU9mY3BONnRieVNiX1hvSFJJWURidjBGY0RKUVg1dTNjWDV0SHVKRHFOcE9EZjFNM2NNS19YY0MzVTUyTdIBpgFBVV95cUxQaWlyUWFXaGhxSlNKOU1rYTJ2bC1GaUk1alB5VWFHY1ZmOTJZLUlmWmwxZWdkdEd2bC1pZzk2Xy1EeGlBb2lfT0psRGxRdHRIRXZPX0lkSEhMTlpvQjZOdVhZdlVaT2otV1AtdXRZUGZLU19wUWhsQV9LUXBMa1N6bGV0Szh3N041akhlVFJfSzhwdldkVTdHYnV1Rk1lRUVTYktaUk1R?oc=5",
+      "source": "Lag.vn",
+      "published": "2026-08-16T07:00:00Z",
+      "topic": "BPO / outsourcing"
     },
     {
       "title": "Từ 15/8, EVN đưa số điện thoại tổng đài chăm sóc khách hàng 1558 vào hoạt động - Thời báo Tài chính Việt Nam",
@@ -348,6 +313,13 @@
       "topic": "Tuyển dụng / lao động"
     },
     {
+      "title": "Lương tối thiểu vùng dự kiến tăng từ năm 2027 và các khoản tiền có thể tăng theo - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONlJHUUM3Ty1qT1NoRE5wdFc5RE1JQUlmaU5DUk55LXp1VTVKeVI0dTZNS0Z2ODgxVDBwaHh5MXg4em5jRTRYQzBiblJHU0VaUTZHY2lCSHpoZ0dFTnRYUG5jMmlZVW5UcklaNER5V1FnaWxtTFpENktiTDZCOUxiRlZ2NVNGOE5ROXdwOXA1X1lETDBDUGxSQ1pTU3l2YXM2V3ZXNDJYaU9qWVlWZjhEWWpqTFdvRS0xVXhV?oc=5",
+      "source": "Laodong.vn",
+      "published": "2026-08-02T07:00:00Z",
+      "topic": "Nhân sự / tiền lương"
+    },
+    {
       "title": "Việt Nam lọt 'mắt xanh' của tập đoàn BPO hàng đầu thế giới - VietnamFinance",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYUJZR3otdzBCNFA3b2RwMDBadlZIQnNQeEM0aUhwX29BWWE4dlNVOTVXRThvZUlXV3I4emM2eGQ0NFE5OHNHbjJ2WHBYSV84cWs1bS1WZEJIcS14WXd5U05uMHRfSkJnUEZUOFZtaTBzZDdvRFN0b3NsQm1JdmJDbjE0WTZabnRab01uSEFmYmVVXzBsZ1FVcVctaw?oc=5",
       "source": "VietnamFinance",
@@ -362,9 +334,16 @@
       "topic": "Nhân sự / tiền lương"
     },
     {
-      "title": "Đề xuất tăng lương tối thiểu vùng 7,8% từ 1/1/2027 và điều chỉnh địa bàn áp dụng - Báo và phát thanh, truyền hình Quảng Trị",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVkRoMEVuRHhkTDQ0RGRqcnNMOVFVV3NaMHJUMGNKQm9Wc2NnNUtqdDlGX0tHcVhXQmVwakZOVWIxMWJxZjNxdTlhdWZNRFNQVFdYS2I5N1ctN01CamllYnM1YXUzeDNZNkpCb3QtcGFVTnByU2xobW1JZ0xsMGtRRmtUNjhhaHZqdWMwNkpwdmdRMTJ2ck9CSG5YSC01cGdHU2lOMk80ZFpENlh6UlZIZWxOYnVWYlZYUUR1R3N2TQ?oc=5",
-      "source": "Báo và phát thanh, truyền hình Quảng Trị",
+      "title": "Mức lương tối thiểu vùng 2027 chi tiết của 34 tỉnh, thành (dự kiến) - LuatVietnam",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNF9MNk04aUs2dVoxdzc4Qm9PZXJrTEVveU9nXy1tY0hjMDhKTmsxV0VDNWlfWnNiUDYwbEpwVWpzb3VaMGtXTDhIX0xxaWpKejBudmpESjg4OG9nQmNqWGpxRGJlOVBLblFvUlA5YUJkVllYNXE0X01vV2JGdGNlSzd1TDd4c19rOUg0SkNxWGVVYVBCUWZESzFEWXpQc0tLVzFWc1BrU1M3RmlLTl9IRzk3Wkp5NDNJT2gyVnhpMTNZTkFhdXZ4enhJdw?oc=5",
+      "source": "LuatVietnam",
+      "published": "2026-07-22T07:00:00Z",
+      "topic": "Nhân sự / tiền lương"
+    },
+    {
+      "title": "Bộ Nội vụ đề xuất tăng lương tối thiểu vùng bình quân 7,8% từ ngày 1/1/2027 - baochinhphu.vn",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTVdta0JyNzVJRnF6SlZBX1FPa3QxbFNUck1ielFMRkJQMzE1ZEFLd2Z1bFllTUk3SUtlMnBkNm9qZzFYZ0FnSUNsWWtmakIyTXAtcW16RmFrT2FzX0xxTVlfU1E3clRBX3Nxd2o0VjVVN2dDa0JvOU1XajZxMVlJT0lYejlCeWh1THljWXkzZ3RmMVVMSnRyRUczaThtS3JTQ0tfdE40dU9qTUx3b0xjbm1NWlVISXpjQ1E?oc=5",
+      "source": "baochinhphu.vn",
       "published": "2026-07-22T07:00:00Z",
       "topic": "Nhân sự / tiền lương"
     },
@@ -373,6 +352,20 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONUkzQWFtemlqakNrSDRPQlliU2xHVHlRbjZ5SGxTSkNpYTZwU19OUjVucVdUTHVYa3I3VWJTRXlsaVo0RVU1RFFFQ1FEWW40XzdiMDVjdUdQRWJvMmtFYmxZb204TkJxYW9wMFVwOEk0ekw1YlJxNnZycmFRdmpnT0xHUTBIaDUxVDdWYTVUY0pIcjhfMEtyYkFmdEt2bnFZMVhySFBWVkd4X0N2X2tNRTZRNmpIYUU?oc=5",
       "source": "Báo Thanh Niên",
       "published": "2026-07-20T07:00:00Z",
+      "topic": "Nhân sự / tiền lương"
+    },
+    {
+      "title": "Thống nhất TĂNG LƯƠNG TỐI THIỂU VÙNG - xaydungchinhsach.chinhphu.vn",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcnRRZ1VfS2xxcU9zaUw4X2U0VzFZVW1wZzRid2xpVkdFbG56WFRQbC1RenY1dDdDenJiMTF1Ykh2OEVqMHFZdWFtNGk0SWtVeEZEUzNmamJpRUZLeHBQWGRIYXZUdlJuWElhV29GbS0wRUwxc0hPUkFEMm1HZTEzMkhpVEpaejBXemlsZ1R4eWFYYlM4NldidnoyQVgwS0FjeGxKUHFhZmRFakY3?oc=5",
+      "source": "xaydungchinhsach.chinhphu.vn",
+      "published": "2026-07-20T07:00:00Z",
+      "topic": "Nhân sự / tiền lương"
+    },
+    {
+      "title": "Đề xuất 2 phương án TĂNG LƯƠNG TỐI THIỂU - xaydungchinhsach.chinhphu.vn",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQM0Jna2lmNU80UmZyWDJENXFGQzM0OEJtcEg3UW1IMDNRdHQzY3RqVHFac21KVHN2N0xzclF3OGllSVFlTlJ0djBvZmtjUVBTcXF1R0xVTmNrOTRSZ0VQdV9sY1pBLU94MmNSVmZKdGNBNzl1RElxZDdTeVV2SXNIQ3lwYVFBLVRqNTJwNmR4ZmRYNFhDeFU2UkVFYXUyb3Zva2R0UWVOaDJieWh2WEpsZEJSSTduTVcyeUl5UThaQVU5Q0dW?oc=5",
+      "source": "xaydungchinhsach.chinhphu.vn",
+      "published": "2026-07-16T07:00:00Z",
       "topic": "Nhân sự / tiền lương"
     },
     {
@@ -397,6 +390,13 @@
       "topic": "Công ty / dự án mới"
     },
     {
+      "title": "Đề xuất tăng lương tối thiểu 9,8% vì nhiều lao động vẫn chưa đủ sống - Báo VietNamNet",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdEdRdDVaVUpxUlBxNDl0VUFyQ19ZNUNkODcteDFfcTV1Z3ZfczFWR3JYVnAzNWFzc3lybUN2a1BEeVZpSGtWMDBqdWpmYnNWNzFWeFZNNlFWbVdtMzk1c20tZW5nd25PVEx2dVlld3BKX08xLVpfUENfMldOdnEtT3Z6YWV6c2Z6SWRmVEFRTncxYlE3VXBjTTdMZDkxdzA?oc=5",
+      "source": "Báo VietNamNet",
+      "published": "2026-07-08T07:00:00Z",
+      "topic": "Nhân sự / tiền lương"
+    },
+    {
       "title": "Thông cáo báo chí về tình hình lao động, việc làm quý II và 6 tháng đầu năm 2026 – General Statistics Office of Vietnam - General Statistics Office of Vietnam",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMWItUW9RQl9pQkRIMjk5WnExQ1NsM0luVVo4ODE5RGNSbmtiVUYyd2RXaG5mLVdKNjlOSGZBR0loSGxCNE84OU11d01DdmFpbzJYQkNESzhMNjI5YnByODVsaUY3eTN5Rm02XzZJYzUtd3NMaXVlQlJKZlRDRTZ6RDA3VTJNb1BUZG9vSTdMSTdVc1padEFyc0g4cG9ZUFVKajlhaTVfWE4xcDZ0M3h0QU9vUFlfMzJRaXBUUGIxMk9ucExEX29Z?oc=5",
       "source": "General Statistics Office of Vietnam",
@@ -404,16 +404,16 @@
       "topic": "Tuyển dụng / lao động"
     },
     {
-      "title": "Tổng LĐLĐVN đề xuất phương án tăng lương tối thiểu vùng cao nhất là 9,8% so với năm 2026 - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOT0pBVXBCYmtmLW1rMHRnZ0hmem1SUzdSWFJBYUxtdExVYktrVTFQZTUtLURDZUNrM25UNUlRX0htYmFIRWZxcW4yeS1ZRkE5RURudXpQaHRRMHFqSEstQUdFbldTM2F4d2dxbW45Y0FTVVhxbVdDRF81NHlvT1NkOEgwaDZSX0MzbUJQZzNqZnFUMVpxV1hpcnpqMEpldTllNm14ZFZoQjJnMlA3QUZfTzFad2pvb2dqTFJnQXB4UmFUTWgwRkE?oc=5",
+      "title": "Đề xuất tăng lương tối thiểu vùng 2027 đến 9,8%: Tạo động lực nâng cao năng suất lao động - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUTdFMzJaS0Qzd01uV09QSThYVldKT2d2UTVpQlBLdlZZV1pVOXFzWGk4UE5pUFViN21iUkIxSmxUeVI4eXAwa0Fhd2dadk56UmxySGdLcXRWUUs4VlBZV2Z5TE05aHE3RGg5VU9jVUZ3cDBadWU2d3IwenZMQnBZZi1uMzcxZk5FbURnT3JxYURnOXliUmtZVmdXcVVNc1BtTGgyR0hmRUtkQ0kyblNHOWhtVE4tenl0T1NYN3Y1MlZlbDZhUGc?oc=5",
       "source": "Laodong.vn",
-      "published": "2026-06-23T07:00:00Z",
+      "published": "2026-06-24T07:00:00Z",
       "topic": "Nhân sự / tiền lương"
     },
     {
-      "title": "Tổng LĐLĐVN đề xuất điều chỉnh mức lương tối thiểu từ ngày 1.1.2027 - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX0lIUlVqS2gyNGpiLVlyV3lNNWQ4djVaZ1p2V1BNRFFROTI1YVQ2MjR4VTgwWDQ4UDFtR0JRelVodFVSMm1SajZjaVRDOWdUOU1ST2JVN05mZWpBWkJpc2x1WkN5SWFxZ1Z2ZmlpSGwyYVNGX0lxMDZsNzFnaWhtMjVQY01Kb2FYVzlvdWgzSXJuaHR4Vmx3Z1gtVW5BRFVDUXV1bUtXNHQ5UQ?oc=5",
-      "source": "Laodong.vn",
+      "title": "Đề xuất tăng lương tối thiểu ở mức 9,8% và 8,5% từ 1/1/2027 - Báo Dân trí",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTGhvSkxjN09xNHE3bWRQcEZ4bGlFemxTNlFFREtYbHN4MmlwQktUUWk0TlB5QlowTnVtTWJtcFVWaGp6X0pWbjNhX3A2aTdvbGtraGpqV2NOSm90NldNQTRNRUxNeHM2TXJGaWViU2ZxMDlKRi13dnQ5cVpUMWJXX2RKeFBZYnljMXhtUHpKbjVHQ3hOUEhwME5lZ3g4Vl9VUmthRkE0VQ?oc=5",
+      "source": "Báo Dân trí",
       "published": "2026-06-23T07:00:00Z",
       "topic": "Nhân sự / tiền lương"
     },
