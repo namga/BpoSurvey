@@ -3,11 +3,25 @@ plugins { id 'com.android.application' }
 android {
     namespace 'com.bpohub.app'
     compileSdk 35
+    signingConfigs {
+        release {
+            storeFile file(System.getenv('ANDROID_KEYSTORE_PATH') ?: 'release-keystore.jks')
+            storePassword System.getenv('ANDROID_KEYSTORE_PASSWORD') ?: ''
+            keyAlias System.getenv('ANDROID_KEY_ALIAS') ?: ''
+            keyPassword System.getenv('ANDROID_KEY_PASSWORD') ?: ''
+        }
+    }
     defaultConfig {
         applicationId 'com.bpohub.app'
         minSdk 23
-        targetSdk 34
-        versionCode 50
-        versionName '12.3.1'
+        targetSdk 35
+        versionCode 56
+        versionName '12.3.7'
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+        }
     }
 }

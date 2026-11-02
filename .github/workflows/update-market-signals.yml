@@ -1,8 +1,8 @@
-name: Update BPO market signals daily
+name: Update BPO market and recruitment signals daily
 
 on:
   schedule:
-    # 08:00 Vietnam time (UTC+7)
+    # Run directly at 08:00 Vietnam time; no workflow-dispatch chaining needed.
     - cron: '0 1 * * *'
   workflow_dispatch:
 
@@ -34,23 +34,24 @@ jobs:
       - name: Validate generated JSON
         run: |
           python -m json.tool web/data/market-signals.json >/dev/null
+          python -m json.tool web/data/recruitment-signals.json >/dev/null
           python - <<'PY'
           import json
-          with open('web/data/market-signals.json', encoding='utf-8') as f:
-              data = json.load(f)
-          assert isinstance(data.get('items'), list) and data['items'], 'No market signals generated'
-          assert data.get('updatedAt'), 'Missing update timestamp'
-          print(f"Validated {len(data['items'])} signals; updatedAt={data['updatedAt']}")
+          for path in ('web/data/market-signals.json', 'web/data/recruitment-signals.json'):
+              with open(path, encoding='utf-8') as f: data = json.load(f)
+              assert isinstance(data.get('items'), list), f'{path}: items must be a list'
+              assert data.get('updatedAt'), f'{path}: missing update timestamp'
+              print(f"Validated {path}: {len(data['items'])} items; updatedAt={data['updatedAt']}")
           PY
 
       - name: Commit updated market signals
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add web/data/market-signals.json
+          git add web/data/market-signals.json web/data/recruitment-signals.json
           if git diff --cached --quiet; then
             echo "No market feed changes to commit."
           else
-            git commit -m "chore: refresh daily BPO market signals"
+            git commit -m "chore: refresh daily BPO market and recruitment signals"
             git push
           fi

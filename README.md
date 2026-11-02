@@ -1,6 +1,6 @@
-# BPO Intelligence Hub — v12.3.1 (Daily Market Signals)
+# BPO Intelligence Hub — v12.3.7 (Market & Recruitment Intelligence)
 
-Ứng dụng tra cứu và quản lý dữ liệu BPO cho một người dùng trên thiết bị cá nhân. Bản này gộp các thay đổi trước đó vào một source thống nhất; số phiên bản sản phẩm hiển thị là **12.3.1**.
+Ứng dụng tra cứu và quản lý dữ liệu BPO cho một người dùng trên thiết bị cá nhân. Bản này gộp các thay đổi trước đó vào một source thống nhất; số phiên bản sản phẩm hiển thị là **12.3.7**.
 
 ## Chức năng đã gộp
 
@@ -19,8 +19,8 @@
 
 ## Phiên bản Android
 
-- Product version (`versionName`): **12.3.1**.
-- Android build number (`versionCode`): **49**. Đây là mã nội bộ để Android cho phép cập nhật APK; người dùng thấy phiên bản sản phẩm 12.3.1.
+- Product version (`versionName`): **12.3.7**.
+- Android build number (`versionCode`): **56**. Đây là mã nội bộ để Android cho phép cập nhật; người dùng thấy phiên bản sản phẩm 12.3.7. Target SDK is 35.
 
 ## Build APK bằng GitHub Actions
 
@@ -29,6 +29,44 @@
 3. Mở **Actions → Build Android APK → Run workflow**.
 4. Khi workflow hoàn tất thành công, tải artifact `BPO-Intelligence-Hub-debug-apk`.
 5. Cài APK và kiểm tra trên điện thoại.
+
+
+## Build signed Android App Bundle (AAB) for Google Play
+
+The workflow `.github/workflows/build-android-aab.yml` builds a **release-signed AAB** using a keystore supplied through GitHub Actions Secrets. The signing key is deliberately not included in this source ZIP. Keep a backup of the keystore and its passwords; losing the upload key can complicate future updates. If this app was already published, use the same upload key as that release.
+
+### 1. Create an upload keystore (only if you do not already have one)
+
+Run this on a trusted computer with Java installed, and store the resulting `bpo-release-key.jks` safely outside the repository:
+
+```bash
+keytool -genkeypair -v -keystore bpo-release-key.jks -alias bpo-hub -keyalg RSA -keysize 4096 -validity 10000
+```
+
+Do not upload the `.jks` file into GitHub or include it in the source ZIP. Convert it to a one-line Base64 string locally:
+
+- Linux: `base64 -w 0 bpo-release-key.jks`
+- macOS: `base64 < bpo-release-key.jks | tr -d '\n'`
+
+### 2. Add GitHub repository secrets
+
+Open **Settings → Secrets and variables → Actions → New repository secret** and create these four secrets:
+
+- `ANDROID_KEYSTORE_BASE64`: the Base64 output from the keystore file.
+- `ANDROID_KEYSTORE_PASSWORD`: the keystore password.
+- `ANDROID_KEY_ALIAS`: `bpo-hub` (or the alias you chose).
+- `ANDROID_KEY_PASSWORD`: the private-key password.
+
+Never put these values in source code, README, workflow YAML, or a public issue.
+
+### 3. Build the AAB
+
+1. Push the source to the repository default branch.
+2. Open **Actions → Build signed BPO Intelligence Hub AAB → Run workflow**.
+3. When it succeeds, download artifact `BPO-Intelligence-Hub-release-aab`. The output is `app-release.aab`.
+4. Upload the AAB to the Google Play Console internal testing track first, then test before production release.
+
+The workflow fails early with a clear message if any signing secret is missing. Source validation alone does not mean an AAB has been built; run the workflow to verify the signed output.
 
 ## Build iOS bằng GitHub Actions (Capacitor)
 
@@ -176,7 +214,7 @@ Workflow `.github/workflows/build-ios-app.yml` dùng macOS runner, đóng gói `
 - Product version `12.2.1`; Android `versionCode` `48`.
 
 
-## Version 12.3.1 — Daily Market Signals
+## Version 12.3.5 — Daily Market Signals
 
 - Added `.github/workflows/update-market-signals.yml`, scheduled daily at 08:00 Vietnam time (01:00 UTC), with a manual `workflow_dispatch` option.
 - `scripts/update-market-signals.py` collects public Google News RSS headlines on BPO/outsourcing, contact center/customer service, hiring, labor and salary topics. It records headline, publisher, original article URL, publication date and topic; it does not scrape article bodies or invent market facts.
@@ -184,4 +222,42 @@ Workflow `.github/workflows/build-ios-app.yml` dùng macOS runner, đóng gói `
 - The dashboard shows up to 10 current headlines, last refresh time and a manual refresh button. It attempts to fetch the remote feed when the app opens; the installed Android/iOS build receives its public raw GitHub feed URL during the build workflow. **The repository must be public for an unsigned client to fetch the raw JSON without credentials.** Never embed a personal access token in the app.
 - In hosted web deployments, `data/market-signals.json` is loaded relative to the site. The Android/iOS build workflows generate `market-feed-config.js` with the repository raw URL.
 - The daily feed action needs to run successfully at least once before fresh results appear. GitHub scheduled workflows may be delayed, and upstream RSS availability can vary. If all queries fail, the script preserves the previous feed and fails visibly in Actions.
-- Product version `12.3.1`; Android `versionCode 50`.
+- Product version `12.3.5`; Android `versionCode 54`.
+
+
+## Version 12.3.5 — Market signal list
+- Market signal panel now shows the first 10 items and provides a “Xem thêm” button to reveal 10 more per tap until all fetched RSS items are visible.
+- Product version `12.3.5`; Android `versionCode 54`.
+
+
+## Version 12.3.5 — Numbered market signal pagination
+- Market signals now use numbered pages (10 items per page), with previous/next buttons and current-page highlighting.
+- Shows the displayed range (for example, 1–10 / 60) and lets users select pages 1, 2, 3, 4, etc.
+- Product version `12.3.5`; Android `versionCode 54`.
+
+
+## Version 12.3.5 — Android source validation fix
+
+- Updated validation assertions to match product version `12.3.5` and Android `versionCode 54`.
+- Fixed Android workflow to sync the header background asset before validating the synchronized source payload.
+
+## Daily market-signal workflow
+
+- `.github/workflows/update-market-signals.yml` runs daily at 08:00 Vietnam time (01:00 UTC) and dispatches the separate `update-market-signals.yml` workflow.
+- `.github/workflows/update-market-signals.yml` can also be started manually from Actions. It fetches public RSS headlines, validates `web/data/market-signals.json`, and commits changed data.
+- In GitHub Actions, check **Update BPO market and recruitment signals daily** to confirm that RSS fetching, validation, and committing actually succeeded. The updater runs directly on schedule; it no longer relies on a second workflow dispatch.
+- Scheduled workflows must be present on the repository's default branch. Repository Actions permissions must allow workflows to run, and scheduled runs can be delayed by GitHub.
+
+
+## Version 12.3.7 — Market & recruitment intelligence
+- Updated Android `versionName` to `12.3.7`, `versionCode` to `56`, and `targetSdk` to `35`.
+- Added a release AAB workflow using GitHub Actions Secrets for signing. No keystore or password is stored in this repository.
+
+
+## Market and recruitment intelligence (12.3.7)
+
+- `.github/workflows/update-market-signals.yml` runs directly every day at 08:00 Vietnam time (01:00 UTC), and can also be run manually from Actions. It collects public Google News RSS headlines into `web/data/market-signals.json` and `web/data/recruitment-signals.json`.
+- The updater validates both JSON files and commits successful updates. It preserves a prior feed if all upstream queries for that feed fail; check the Actions logs for source-query warnings.
+- The Research page shows public recruitment-related headlines with source links and a LinkedIn search link for manual cross-checking. LinkedIn is not scraped and the feed does not claim to verify that a job is still open or that salary details are accurate.
+- APK/AAB workflows generate `market-feed-config.js` with raw GitHub URLs for both feeds and bundle both JSON files as offline fallbacks. Build on the repository's default branch to use that branch's live feeds.
+- For reliable scheduled runs, keep the repository active and check the updater workflow's run history and commit permissions.
