@@ -1,6 +1,6 @@
-# BPO Intelligence Hub — v12.3.7 (Market & Recruitment Intelligence)
+# BPO Intelligence Hub — v12.3.8 (Market & Recruitment Intelligence)
 
-Ứng dụng tra cứu và quản lý dữ liệu BPO cho một người dùng trên thiết bị cá nhân. Bản này gộp các thay đổi trước đó vào một source thống nhất; số phiên bản sản phẩm hiển thị là **12.3.7**.
+Ứng dụng tra cứu và quản lý dữ liệu BPO cho một người dùng trên thiết bị cá nhân. Bản này gộp các thay đổi trước đó vào một source thống nhất; số phiên bản sản phẩm hiển thị là **12.3.8**.
 
 ## Chức năng đã gộp
 
@@ -19,8 +19,8 @@
 
 ## Phiên bản Android
 
-- Product version (`versionName`): **12.3.7**.
-- Android build number (`versionCode`): **56**. Đây là mã nội bộ để Android cho phép cập nhật; người dùng thấy phiên bản sản phẩm 12.3.7. Target SDK is 35.
+- Product version (`versionName`): **12.3.8**.
+- Android build number (`versionCode`): **56**. Đây là mã nội bộ để Android cho phép cập nhật; người dùng thấy phiên bản sản phẩm 12.3.8. Target SDK is 35.
 
 ## Build APK bằng GitHub Actions
 
@@ -249,12 +249,12 @@ Workflow `.github/workflows/build-ios-app.yml` dùng macOS runner, đóng gói `
 - Scheduled workflows must be present on the repository's default branch. Repository Actions permissions must allow workflows to run, and scheduled runs can be delayed by GitHub.
 
 
-## Version 12.3.7 — Market & recruitment intelligence
-- Updated Android `versionName` to `12.3.7`, `versionCode` to `56`, and `targetSdk` to `35`.
+## Version 12.3.8 — Market & recruitment intelligence
+- Updated Android `versionName` to `12.3.8`, `versionCode` to `56`, and `targetSdk` to `35`.
 - Added a release AAB workflow using GitHub Actions Secrets for signing. No keystore or password is stored in this repository.
 
 
-## Market and recruitment intelligence (12.3.7)
+## Market and recruitment intelligence (12.3.8)
 
 - `.github/workflows/update-market-signals.yml` runs directly every day at 08:00 Vietnam time (01:00 UTC), and can also be run manually from Actions. It collects public Google News RSS headlines into `web/data/market-signals.json` and `web/data/recruitment-signals.json`.
 - The updater validates both JSON files and commits successful updates. It preserves a prior feed if all upstream queries for that feed fail; check the Actions logs for source-query warnings.
