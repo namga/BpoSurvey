@@ -15,8 +15,8 @@ android {
         applicationId 'com.bpohub.app'
         minSdk 23
         targetSdk 35
-        versionCode 57
-        versionName '12.3.8'
+        versionCode 60
+        versionName '12.4.2'
     }
     buildTypes {
         release {

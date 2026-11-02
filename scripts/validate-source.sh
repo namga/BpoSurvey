@@ -9,8 +9,8 @@ cmp web/manifest.webmanifest android/app/src/main/assets/manifest.webmanifest
 cmp web/market-feed-config.js android/app/src/main/assets/market-feed-config.js
 cmp web/assets/bpo-header-bg.webp android/app/src/main/assets/assets/bpo-header-bg.webp
 cmp web/assets/BPO-Intelligence-Hub-Excel-Template.xlsx android/app/src/main/assets/assets/BPO-Intelligence-Hub-Excel-Template.xlsx
-grep -q "versionName '12.3.8'" android/app/build.gradle
-grep -q 'versionCode 57' android/app/build.gradle
+grep -q "versionName '12.4.2'" android/app/build.gradle
+grep -q 'versionCode 60' android/app/build.gradle
 grep -q 'data-view="statistics"' web/index.html
 grep -q 'function statisticsPage' web/app.js
 grep -q 'Bản đồ phân bố theo trạng thái' web/app.js
@@ -31,4 +31,4 @@ grep -q 'data-market-page' web/app.js
 grep -q 'market-signal-pagination' web/styles.css
 grep -q 'update-market-signals.yml' README.md
 grep -q 'BPO_RECRUITMENT_FEED_URL' web/app.js
-printf 'Source validation passed. Product 12.3.8 / Android build 57.\n'
+printf 'Source validation passed. Product 12.4.2 / Android build 60.\n'

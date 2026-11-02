@@ -47,8 +47,8 @@ jobs:
           set -euo pipefail
           node --check web/app.js
           bash scripts/validate-source.sh
-          grep -q "versionName '12.3.8'" android/app/build.gradle
-          grep -q 'versionCode 57' android/app/build.gradle
+          grep -q "versionName '12.4.2'" android/app/build.gradle
+          grep -q 'versionCode 60' android/app/build.gradle
           grep -q 'targetSdk 35' android/app/build.gradle
 
       - name: Check signing secrets
