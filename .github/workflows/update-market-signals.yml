@@ -50,6 +50,10 @@ jobs:
               assert isinstance(data.get('items'), list), f'{path}: items must be a list'
               assert data.get('updatedAt'), f'{path}: missing update timestamp'
               print(f"Validated {path}: {len(data['items'])} items; updatedAt={data['updatedAt']}")
+          with open('web/data/market-signals.json', encoding='utf-8') as f: market = json.load(f)
+          with open('web/data/recruitment-signals.json', encoding='utf-8') as f: recruitment = json.load(f)
+          if not market.get('items') and not recruitment.get('items'):
+              raise SystemExit('Both feeds are empty. RSS collection did not return any articles; inspect Fetch public RSS headlines step.')
           PY
 
       - name: Commit updated market signals

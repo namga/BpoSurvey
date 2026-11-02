@@ -31,4 +31,4 @@ grep -q 'data-market-page' web/app.js
 grep -q 'market-signal-pagination' web/styles.css
 grep -q 'update-market-signals.yml' README.md
 grep -q 'BPO_RECRUITMENT_FEED_URL' web/app.js
-printf 'Source validation passed. Product 12.3.7 / Android build 56.\n'
+printf 'Source validation passed. Product 12.3.8 / Android build 57.\n'

@@ -105,21 +105,42 @@ jobs:
           test -f android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
           grep -q '@mipmap/ic_launcher' android/app/src/main/AndroidManifest.xml
 
+      - name: Read app name and version
+        id: app_meta
+        shell: bash
+        run: |
+          set -euo pipefail
+          VERSION_NAME=$(sed -nE "s/^[[:space:]]*versionName[[:space:]]+['\"]([^'\"]+)['\"].*/\1/p" android/app/build.gradle | head -n1)
+          test -n "$VERSION_NAME"
+          APP_NAME="BPO-Intelligence-Hub"
+          echo "version_name=$VERSION_NAME" >> "$GITHUB_OUTPUT"
+          echo "apk_name=${APP_NAME}-v${VERSION_NAME}.apk" >> "$GITHUB_OUTPUT"
+          echo "artifact_name=${APP_NAME}-v${VERSION_NAME}-APK" >> "$GITHUB_OUTPUT"
+          echo "Building ${APP_NAME} v${VERSION_NAME}"
+
       - name: Build debug APK
         working-directory: android
         run: gradle --no-daemon assembleDebug
 
-      - name: Verify APK output
+      - name: Rename and verify APK output
+        env:
+          VERSION_NAME: ${{ steps.app_meta.outputs.version_name }}
+          APK_NAME: ${{ steps.app_meta.outputs.apk_name }}
         run: |
-          APK=android/app/build/outputs/apk/debug/app-debug.apk
-          test -s "$APK"
-          ls -lh "$APK"
-          unzip -l "$APK" | grep -E 'assets/(index.html|app.js|styles.css)|ic_launcher' || true
+          set -euo pipefail
+          SOURCE_APK=android/app/build/outputs/apk/debug/app-debug.apk
+          test -s "$SOURCE_APK"
+          mkdir -p dist
+          cp "$SOURCE_APK" "dist/$APK_NAME"
+          test -s "dist/$APK_NAME"
+          echo "APK file: dist/$APK_NAME"
+          ls -lh "dist/$APK_NAME"
+          unzip -l "dist/$APK_NAME" | grep -E 'assets/(index.html|app.js|styles.css)|ic_launcher' || true
 
-      - name: Upload APK artifact
+      - name: Upload versioned APK artifact
         uses: actions/upload-artifact@v4
         with:
-          name: BPO-Intelligence-Hub-debug-apk
-          path: android/app/build/outputs/apk/debug/app-debug.apk
+          name: ${{ steps.app_meta.outputs.artifact_name }}
+          path: dist/${{ steps.app_meta.outputs.apk_name }}
           if-no-files-found: error
           retention-days: 14
