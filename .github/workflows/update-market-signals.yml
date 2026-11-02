@@ -38,6 +38,7 @@ jobs:
           window.BPO_MARKET_FEED_URL = 'https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/web/data/market-signals.json';
           window.BPO_RECRUITMENT_FEED_URL = 'https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/web/data/recruitment-signals.json';
           EOF
+          echo "Configured public feed URLs for ${GITHUB_REPOSITORY} on ${GITHUB_REF_NAME}."
 
       - name: Validate generated JSON
         run: |

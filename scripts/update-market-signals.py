@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Fetch public Google News RSS results for BPO market and recruitment intelligence."""
 from __future__ import annotations
-import json, sys, time, urllib.parse, urllib.request, xml.etree.ElementTree as ET
+import json, sys, time, urllib.parse, urllib.request, urllib.error, xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -11,18 +11,18 @@ DATA = ROOT / "web" / "data"
 MARKET_OUTPUT = DATA / "market-signals.json"
 RECRUITMENT_OUTPUT = DATA / "recruitment-signals.json"
 MARKET_QUERIES = [
-    ("BPO / outsourcing", '("BPO" OR "business process outsourcing" OR "dịch vụ thuê ngoài") Vietnam'),
-    ("Contact center / CSKH", '("contact center" OR "call center" OR "chăm sóc khách hàng") Vietnam tuyển dụng'),
-    ("Tuyển dụng / lao động", '(tuyển dụng OR tuyển công nhân OR lao động) (kho OR sản xuất OR vệ sinh OR bảo vệ) Vietnam'),
-    ("Nhân sự / tiền lương", '(tiền lương OR lương tối thiểu OR thị trường lao động) Việt Nam'),
-    ("Công ty / dự án mới", '(outsourcing OR BPO OR logistics OR customer service) Vietnam investment OR hiring'),
+    ("BPO / outsourcing", 'BPO Vietnam outsourcing'),
+    ("Contact center / CSKH", 'contact center call center Vietnam tuyển dụng'),
+    ("Tuyển dụng / lao động", 'tuyển dụng lao động kho sản xuất Việt Nam'),
+    ("Nhân sự / tiền lương", 'tiền lương thị trường lao động Việt Nam'),
+    ("Công ty / dự án mới", 'outsourcing BPO logistics customer service Vietnam hiring'),
 ]
 RECRUITMENT_QUERIES = [
-    ("BPO / Contact Center", '(BPO OR "business process outsourcing" OR "contact center" OR "call center") (hiring OR tuyển dụng OR tuyển nhân viên) Vietnam'),
-    ("Kho vận / Logistics", '(warehouse OR logistics OR kho vận OR nhân viên kho) (hiring OR tuyển dụng) Vietnam'),
-    ("Sản xuất / Nhân sự số lượng lớn", '(tuyển công nhân OR tuyển dụng số lượng lớn OR mass hiring) Vietnam'),
-    ("Chăm sóc khách hàng / Sales", '("customer service" OR telesales OR "chăm sóc khách hàng" OR sales) (job OR hiring OR tuyển dụng) Vietnam'),
-    ("Lương / Phúc lợi", '(mức lương OR salary OR "salary range") (BPO OR logistics OR warehouse OR "customer service") Vietnam'),
+    ("BPO / Contact Center", 'BPO contact center call center hiring tuyển dụng Vietnam'),
+    ("Kho vận / Logistics", 'warehouse logistics kho vận hiring tuyển dụng Vietnam'),
+    ("Sản xuất / Nhân sự số lượng lớn", 'tuyển công nhân tuyển dụng số lượng lớn Vietnam'),
+    ("Chăm sóc khách hàng / Sales", 'customer service telesales chăm sóc khách hàng sales tuyển dụng Vietnam'),
+    ("Lương / Phúc lợi", 'mức lương salary BPO logistics warehouse customer service Vietnam'),
 ]
 
 def iso_now() -> str:
@@ -38,9 +38,26 @@ def fetch(query: str, topic: str, category: str) -> list[dict]:
     params = urllib.parse.urlencode({"q": query, "hl": "vi", "gl": "VN", "ceid": "VN:vi"})
     url = "https://news.google.com/rss/search?" + params
     req = urllib.request.Request(url, headers={"User-Agent": "BPO-Intelligence-Hub-Public-RSS/2.0"})
-    with urllib.request.urlopen(req, timeout=25) as response: payload = response.read()
+    payload = b""
+    last_error = None
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as response:
+                status = getattr(response, "status", 200)
+                payload = response.read()
+            if status != 200:
+                raise RuntimeError(f"HTTP {status}")
+            break
+        except Exception as exc:
+            last_error = exc
+            if attempt < 2:
+                time.sleep(1.5 * (attempt + 1))
+    if not payload:
+        raise RuntimeError(f"RSS request failed after retries: {last_error}")
     root = ET.fromstring(payload); items = []
-    for node in root.findall("./channel/item"):
+    nodes = root.findall("./channel/item")
+    print(f"RSS response: HTTP 200, {len(nodes)} raw entries for query: {query}")
+    for node in nodes:
         title, link = clean(node.findtext("title")), clean(node.findtext("link"))
         if not title or not link: continue
         source_node = node.find("source")
