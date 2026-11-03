@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
   "feed": "recruitment",
-  "updatedAt": "2026-11-02T07:31:38Z",
+  "updatedAt": "2026-11-03T07:45:23Z",
   "provider": "Google News RSS",
-  "itemCount": 35,
+  "itemCount": 37,
   "items": [
     {
       "title": "Sôi động thị trường việc làm | Việt Nam hôm nay - VTVgo",
@@ -37,15 +37,6 @@
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAyTE12Z2NIbUVFVUl4dF80UGYwMEx1VzVrdGM1TmpxOGx3aExtM2lnRmFVa1NiMzI2eVhlWklRcGxZNDM4cUkzSm8xN0pJRGRGc3IyamdmR2Z0VWQzMG1FVmx0d1JIWkNBel9VMTlEc0VmUlVuenBLenpkc1k?oc=5",
       "source": "Vietnam.vn",
       "published": "2026-10-24T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Vingroup của tỷ phú Phạm Nhật Vượng đang xây hơn 20 đại dự án trên cả nước, một doanh nghiệp đối tác cần tuyển 15.000 lái xe, lái máy - CafeF",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNcWtrU1JoZE5RX2VrRmRpenkwM3JwTFZ2Ry05T3dCRmFWUEdYUl9jRkY5SXBmaVdHcnpydEo0ZV9KTkUxWlI1cDRIN0ZlLTJQQm1oWVg4cnRxaEhBVHpfRHE1UUM2TTdfTXNNa2J2OVFWN21MZmgtREEyVmxjLU9nZ0RudTRYUFRBTXo0SHJkY0dpNk5ET1RlNTVlLTlqWXRVU2h1LXZxZUktMXZQQkF6blk0QnVwTEMyMHdIcW40VDRBVFVvNUVVaWFqblBLRFRrcDlxMXphWmYzdTZpekJyTExXakZpclRpSzVoT2xOZkdqcHR1eXJQSkk5bGxVNzA?oc=5",
-      "source": "CafeF",
-      "published": "2026-10-05T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
@@ -186,8 +177,17 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "KFC tuyển dụng dễ không, lương nhân viên KFC bao nhiêu 1 giờ? - Việc Làm 24h",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBKN3R3aEJibVdNb3JacmZldk9PSEh3VGFjYzgxSmVPOG9sS2I2bEtJM1pjdTFVM3ExT3B2VHhhZFJyY0E2Q0xGZUJTaHU5REdCNXVWRXUycVhTR2RuOWhESmFVX19FQzFNLU5zbEcxSmxzV2c?oc=5",
+      "title": "Emart tuyển dụng: Môi trường làm việc minh bạch, đãi ngộ hấp dẫn - Việc Làm 24h",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAxR2hGSnpMRHJ0M2hPekZZMHE4TktUaVpGWlp4aE54LVlSNjhrOWxmYWZ0N3R6WlZyOTFPbktCMDZDNk5iZlU4eEZ4WXJ3aVhvOFROY2Q3TDlCTGcwMVFHMGxRQlAxWjBiZl9ldDBfLWgwUnVwX0E?oc=5",
+      "source": "Việc Làm 24h",
+      "published": "2026-05-01T07:00:00Z",
+      "topic": "Chăm sóc khách hàng / Sales",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Các vị trí Bosch tuyển dụng: Mức lương và mẹo ứng tuyển vào công ty tại Việt Nam - Việc Làm 24h",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16aUdFcFV4dmZxakxyQ0pQTXB1cTB0b20zWV9sNlBZd2ppTGx3dDB2YVZ6eTZmRmM4c2E0SlYwbWtzTlktTmdROE9JTHBTbHVfWEUwQm83WXRhSDZoR0JqWFNicGcwaXVqWmxHZ3lvNWJRUkppQnc?oc=5",
       "source": "Việc Làm 24h",
       "published": "2026-05-01T07:00:00Z",
       "topic": "Chăm sóc khách hàng / Sales",
@@ -204,11 +204,20 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Emart tuyển dụng: Môi trường làm việc minh bạch, đãi ngộ hấp dẫn - Việc Làm 24h",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAxR2hGSnpMRHJ0M2hPekZZMHE4TktUaVpGWlp4aE54LVlSNjhrOWxmYWZ0N3R6WlZyOTFPbktCMDZDNk5iZlU4eEZ4WXJ3aVhvOFROY2Q3TDlCTGcwMVFHMGxRQlAxWjBiZl9ldDBfLWgwUnVwX0E?oc=5",
+      "title": "KFC tuyển dụng dễ không, lương nhân viên KFC bao nhiêu 1 giờ? - Việc Làm 24h",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBKN3R3aEJibVdNb3JacmZldk9PSEh3VGFjYzgxSmVPOG9sS2I2bEtJM1pjdTFVM3ExT3B2VHhhZFJyY0E2Q0xGZUJTaHU5REdCNXVWRXUycVhTR2RuOWhESmFVX19FQzFNLU5zbEcxSmxzV2c?oc=5",
       "source": "Việc Làm 24h",
       "published": "2026-05-01T07:00:00Z",
       "topic": "Chăm sóc khách hàng / Sales",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Nhu cầu tuyển dụng cao hơn gần 1,6 lần nhu cầu tìm việc ở TPHCM - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSElHX3BlUDZMbGRnMFNNRlpQZVFSTUVxQ0NHaENaMTktWHM5akdqeC1UZUJVcXVreWZpS0Z5Z0RXQ1ZtNV9RUFR4aUM0am5DRzNZaHgwSERocWVoNW44SlJDbGhlSXdwMlUxNjBQOXlwVjhVMUZ5OVYxenVleEx3dGJxR1JtUnFseWtmd2tHUGNtT2Fod2lockR6eUl3QkhWUzZqSUhB?oc=5",
+      "source": "Laodong.vn",
+      "published": "2026-03-30T07:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
@@ -280,6 +289,15 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQUZxR2I3VzBFNlN0dXlNNUp3OW1rMU9pbF9OV3ZiVTltbVpCV1RkU3QwVUlHRUhHc2xkSDUxMEx2WWptcUVQQW91SDF2SFk1VFBqWmxRR3FBUDFaaUJVTlU3Z2hSWl84Z1ltSm9HcGt3ZE1DUDYtQm02Ynl3ZEMteW5ISVFHTXpaem5tTWZ1ZFFkN3dNazBlVkJtRlpJSEpPYnRDRncwWUtFeWtrb21OUDZOcGlWTzFBLVhfODF3?oc=5",
       "source": "Brands Vietnam",
       "published": "2024-05-01T07:00:00Z",
+      "topic": "Chăm sóc khách hàng / Sales",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Hệ thống CRM – “Chìa khóa” thúc đẩy kinh doanh thời đại số - Brands Vietnam",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbXdtX2MxMnJEQzBIUjI2Q1M3RVlKV2s0cFVrb19UM0liZUxUR1I5eDI3YTl6VWoxb3RJNUFTdnVtODlRU1B3WFVaaXNBOW54Mmc3UElJWDZYQVQza3JGTXMxLWx4cHV5aTdOMFRQdEFGaG1TNElXRnRDcFZMNmZUWlVlZEpTb0dUdXdDNFl3ekpaTjI0QU1VRFVhcXVWaFBDcEFYcVJKU204QQ?oc=5",
+      "source": "Brands Vietnam",
+      "published": "2024-03-04T08:00:00Z",
       "topic": "Chăm sóc khách hàng / Sales",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
