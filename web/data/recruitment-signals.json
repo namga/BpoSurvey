@@ -1,51 +1,15 @@
 {
   "schemaVersion": 2,
   "feed": "recruitment",
-  "updatedAt": "2026-11-03T07:45:23Z",
+  "updatedAt": "2026-11-04T07:24:01Z",
   "provider": "Google News RSS",
-  "itemCount": 37,
+  "itemCount": 23,
   "items": [
     {
-      "title": "Sôi động thị trường việc làm | Việt Nam hôm nay - VTVgo",
-      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5JYVRBd3VxUlNYaXp3RmI4dHpSOHFPWklhdjU3Smg4SUg3US0yWjJkbFE1U1E2dEhYc0VkbUU3SkI?oc=5",
-      "source": "VTVgo",
-      "published": "2026-11-02T00:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Đồng Tháp: Tăng cường kết nối việc làm, đáp ứng nhu cầu tuyển dụng cuối năm - Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZHpYYzZlR2pHQnZzZHJrZGpMOVlWZ2JSWnh1cFgzWTBSaFlrUWV1ZUgyUkJuV3Y2NWVsRENDLWtCNFllVE0wMHRJVmU1eDBwQk9zWkVpWV80SlhNNlF1S0VJbDA0Y24tVFM2WGc5OVVDS0NyR1MwdzV2NG02RXR0Y1ZmOTVzY2VBdTBnTm9yNjhUZzR0UGtIRjNBTW0?oc=5",
-      "source": "Vietnam.vn",
-      "published": "2026-10-30T09:06:14Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Vinfast Hà Tĩnh tuyển 3.000 lao động, sàn giao dịch nóng lên trước giờ G - Cổng thông tin điện tử tỉnh Hà Tĩnh",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYnZ5aTJ1bFFidXpmRkJHUWd4UGJRZ2pJVWFkQXNZeWsyVURqelFsOFVxazBPdDJHOC1yZHZNT21xU1F3Qm50ZnM5TGJxcENiTnJfanBqekh4X0V2U3k3b19nbDdEU183alZUWnJaTXROLXdXS0IzNlI5QS1ONjRrU19xQ3FKMzU2aHZaeDFZUDd1N25RLThJRmNNN0Qtb25qbUtqdHJBcw?oc=5",
-      "source": "Cổng thông tin điện tử tỉnh Hà Tĩnh",
-      "published": "2026-10-24T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Doanh nghiệp Nghệ An cần tuyển gần 9.000 lao động - Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAyTE12Z2NIbUVFVUl4dF80UGYwMEx1VzVrdGM1TmpxOGx3aExtM2lnRmFVa1NiMzI2eVhlWklRcGxZNDM4cUkzSm8xN0pJRGRGc3IyamdmR2Z0VWQzMG1FVmx0d1JIWkNBel9VMTlEc0VmUlVuenBLenpkc1k?oc=5",
-      "source": "Vietnam.vn",
-      "published": "2026-10-24T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Tỷ phú Phạm Nhật Vượng đồng loạt tuyển hơn 6.200 lao động tại quê nhà: Chỉ cần tốt nghiệp cấp 2 đã có cơ hội, có vị trí thu nhập đến 41 triệu đồng/tháng - CafeF",
-      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPSTN1ZEk0LTBnSGVaU01oTmd2eTFWTXg5bjVWcDdRZzFpTTVsdnBiZkRlTU1PZWVwcjRBdUhZZ2Y2WGFyTm9JeEMzd3AwOWF3WXp4MHJWRWlza2k3Q1prb2dwd0NWM1NKaUlxODUzNjJGcm84ZlpzLVRYUnMxVXVqeXRtcFMtX3RMQ3ZXMmpqTnZ0N2EySnhCTHNTUDZ3d3ZCQ2NGMDM0MFZRSUUwMS02V1VfbjRsV09TdExvZDhtSWUtMWx3ZTZ6N2tpZXozSC1BbTFzZndNQnFHVjdhLVJkQ09TYkw0eHpVVDMtQ0FzMGowMkU3dE4zcXZ5eGFZSXVOeXV1RnJCNWF0VGctdnY1b1pURjFjX3Ra?oc=5",
+      "title": "Tỷ phú Phạm Nhật Vượng đang tuyển 30.000 người cùng xây hai siêu đô thị, thu nhập lên tới 50 triệu đồng, ăn ở miễn phí, chưa có tay nghề được đào tạo - CafeF",
+      "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPdi11emZMWW55eUMtRjJFRkV1cjdEVlpPRFVHVGI0OEN4RVRmLTR1aXNDYmxldEQ3bWgzT0R3MFZETkVsQnY5bTI0Q2JqanhOVGo3dFF2VDZ3UjNxdUtvLU1qUmlSYWJRY01sQ0FaTUlWcXFHRTVRN0VGcG95REdFRmFKUUdGSlhxaE1wM3hVYnBmS3dKV3RROENBRVhMNWtkMjQxdmQ0RnVrVXI1X1JpdEgyMkY5RW1tY0JZNWI5R3d0b2x1eklmdWlPTFUxTm5TNUdHYWQ4cUhoN3hicm5FcUExazJqY2dRTk0wWFNXcThnZXNxbllvTVU2OHRZX1d2d09JNmFlRllpQ21pWnd5Q2xfdV8tOGg3aFBKajJzQ1BSd3B0REU5Q1ZJNk5TSmt5MjVRRQ?oc=5",
       "source": "CafeF",
-      "published": "2026-10-02T07:00:00Z",
+      "published": "2026-11-03T04:45:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
@@ -60,60 +24,6 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Doanh nghiệp tăng tuyển dụng cuối năm, dự báo “khát” nhân sự logistics - Tổng Liên Đoàn Lao Động Việt Nam",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZFpHVGR6VG03QWZZYnQ0WXV5ZWxYaUM1LXlQejlMRldWb0RuNUJOTmdkV0dJaS1LVUVFYmYyM0tJV0lnWW1yWm13a2ptakYxRzZWYVF1VXFPVmhGd2pxYTNuaDlxc05RUk85RWluTkplc0x3MU81eGViTngxTnhtVm5vU3dtbGdtX1lZalNvVldwUE9PaU93aTF3YVFDRUFERTl1bEo0SC1Da2JOM3hVNzFTaWlfWWlYWmlxWjh3?oc=5",
-      "source": "Tổng Liên Đoàn Lao Động Việt Nam",
-      "published": "2026-09-19T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Cuộc đua tìm kiếm nguồn nhân lực của các doanh nghiệp tại Bắc Ninh - Thuonghieucongluan.com.vn",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQWE4QWVYS25QRFNDQS1HVVpvLVJqUnFVMTBDRVd0SHRMdDV6eThRbnVXeDVrcFp6RU5mS2V4MTFpMUN2NUxHUVpuRnVyQXE0bE45ZzZHU2lYemRNQ0tuSWlhczNvcFNZWlFZN3U1YlV0OWhncXdZUzFtRjVOSDExNEh5bW1SbGlEQ0RhdVUwYVlzakg4RnJTRUx5cFlnWk40N0lLQ0JFbzVHajdadjE3T1ZJWQ?oc=5",
-      "source": "Thuonghieucongluan.com.vn",
-      "published": "2026-09-13T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "CEO VinCons tiết lộ 100.000 công nhân tuyển mới từ vùng nông thôn, miền núi, không lấy của doanh nghiệp khác - CafeF",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQzJwU0xpOVJUaXFncnQ2c1RWYlZyWjRyX0tQSkRjWl9qeFVuTlJUMktGckVTdnpPOTJDekNjQ3M2SlJNSnYzeERtdXVLSDkwaFdfSW1ZVVI4UDlKQzVxb1pWWk44dFE3cmFacjVXZjgtbkNGd0lrcGhvRkstenJab1hBcFRuWlBWZUYtLWgyTFhhaFhVaEhFbGFYbkY2VG9OaVFxUXhaRjlkLWZwYjMxcDhPZEc5dVdiR0RxSUlZWm9KSG1rRWJ1ZENtTGdQblFfNGYxaW12ckdjUzk5Q3c?oc=5",
-      "source": "CafeF",
-      "published": "2026-09-05T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "TPHCM cần tuyển 12.000 lao động, lương đến 50 triệu đồng/tháng - Báo Dân trí",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOem9EQ2JqMm9LcktNa05aUGRCcXNiV0dKem5TMHBfTHpSWjNWRl9wdVh5LWgxZjdqWEVkSjZPYzRSbk05eFZaRVdnajZjMEZQUjhmWEs1T2lyXzByeUFDZ0YwS3VZR1luVjNyWHoyelJFR1VPelNwZG9yajBzemhaeVVLXzAzNWNlcWVDSUxqZVFUbjlGdlA2WGNVTW9OOGNBbFoxNFpJZk1OY2plMURIVjNrdHFOOEV1UWlUeE1n?oc=5",
-      "source": "Báo Dân trí",
-      "published": "2026-08-10T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "TP. Hồ Chí Minh tổ chức ngày hội việc làm đưa 12.000 vị trí tuyển dụng đến người lao động - Tạp chí Kinh tế - Tài chính Online",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUTJnRmF1RFI1VEZjckVDdHhvXy02Zk5FMmRRV015dUYxLUY2ZmdKQjg3enEwVmUwNEs2SS1vM055SzZCSGk3RG9yVnJPelNRaTBRM2c4cW9oMjZaZE81ZFl1U3Ziejk2cEM0dk5TcjBfZU9tWTdvVFZsQTB1b29KTFcwaW5IRlFYSG9iS3I0b25qMXd2RHR2NmdBVXFNcHRVci1MM3dPRXYxNC1Ra05rMnhJZmVyaHFQem5DMXdqV2FLMGpKenBLTjFsZG9WSVpkbDRZSTdB?oc=5",
-      "source": "Tạp chí Kinh tế - Tài chính Online",
-      "published": "2026-08-09T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Gần 14.000 việc làm đang chờ người lao động ứng tuyển - Báo Dân trí",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdk9UUUZXRFpGWXlUMmZpdXdPTWpnNHktU2x5WUNqbUJYSU1rbEpHdDFfWjF0czRod0VvSDhad0xaQl9GNXNjcnNwa0xPdGxFT2FxekFSZzRYbGFRM0FCV2QtS2VCUVRaMW84R0M0dEk2eWVKV0tuUnl0b094czFpc3JUZkE0bFFTay1Sb3BKV3RXY3hjTWpCcXI0MnN2ZU44UHE0MXU2enFhZVJOYXNtMkRsbjk?oc=5",
-      "source": "Báo Dân trí",
-      "published": "2026-07-11T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
       "title": "Doanh nghiệp Thành phố Hồ Chí Minh \"đỏ mắt\" tìm ... công nhân - Vietnam+ (VietnamPlus)",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcXF4S09SY1NLRmJFQmFiY3JmYklYVmlSLUhYYmZFdS1rU3FRaFFOZ2x0RG1sNGhGcWRNN051ek5hTkZ2TW9Oenh3aUpPa0w4NmZlSDV4VWdrSUpmTWRUdnpNd0FhZjdCTml0Z2ZHUjQ5NU5BbFAzTmp4T2RBZXB2NF8xd3ZTN3ZRekVGZjBIMzJwcFZIdUtzc2VoUlotRUU?oc=5",
       "source": "Vietnam+ (VietnamPlus)",
@@ -123,20 +33,11 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Tỷ phú Phạm Nhật Vượng tuyển công nhân xây dựng tại tỉnh miền núi cho dự án gần 1 tỷ USD, thu nhập tới 33 triệu đồng/tháng - CafeF",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTGI4WW92Mk53RE92c2dnaG83WlpGNzBpOVJoTk1wTE1jSTB3VVJ3RXNDQkxNUzJFdThWT3FkMjNwOE5zaFdFNUxDX3JQRndiX3ZKeFk4X19MVDgydUtrTWs3eDdiNmE5elZ1TWJEY3FHc2FMSUxwODktNlVNYmVqYU95MDlWVjY3ZC1vSDlsczQ2MTdOb0p2dVpXX3NVeWZCdEROZ002ODFGY1ZHeWJua1R0aS0wTkUxUm1RbUgxaXc3QkxSb0I1ODY0UERNU3J0OTBsUmgxaVJGdEh4b19iNVlaVVNPUy1CMFFRTlJYRjJJV1U?oc=5",
-      "source": "CafeF",
-      "published": "2026-06-11T07:00:00Z",
+      "title": "Đề xuất tạm dừng tuyển dụng 407 công chức ở Khánh Hòa - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTVJ2dTVySjNLRThmU3NZMEIwRy1Fdjl5d1FaSGQxRUpzWlZIbmc3ZS0zYzlyUHNOSEhzOUNYQk40dWNDdWlmUEdFVUg2djBJNDFUWTQwNXpfckRuU3Rld1JLRjBxMF9rNy1EYmxmVGRHcVJRanRpVVlvNHV4aXc3TjdFZFpPZE9CejVyVUxzMnlUZnBGRUE?oc=5",
+      "source": "Laodong.vn",
+      "published": "2026-06-10T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "BTASKEE tuyển dụng vị trí nào? Mức lương theo từng vị trí tại BTASKEE - Việc Làm 24h",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE92ZGJ1VS1maVpBOFc2Q29HdW9kRG9fOXZsSmtQS0NMWmY5a25hNnNPWVhoQnJ5d00wLU1ZRTRSbUJsNHIxY2Z5T01OempMMmFJUWU2cGlIcDcyeEdJNXZDYnFvTUFibHF1RE9ILVJRN2JrQmtxNFRmcg?oc=5",
-      "source": "Việc Làm 24h",
-      "published": "2026-06-09T09:47:18Z",
-      "topic": "Chăm sóc khách hàng / Sales",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
@@ -150,82 +51,10 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Hỗ trợ doanh nghiệp tháo gỡ khó khăn trong tuyển dụng lao động - Báo Phú Thọ",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMTR4OUEzZC1RNVEtb2taQ0FybkZXTkp4UE5Ga29paTVzbFNteHZpTG5pbkNYRkkzMWtvQ2h6ZjdEa2MtV0J0el9NNjN0VGpqZElVLUVJV0NqdFhEbjhRZUhhUlNScktvU2dvUTA3VmNKbXV3SnloMEhkZFZuZ3N5YUg5bTdGTXd4eTJuanJRN25FVGUtNmJoS3dR?oc=5",
-      "source": "Báo Phú Thọ",
-      "published": "2026-05-19T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "VietJet tuyển dụng: Mức lương hấp dẫn, môi trường làm việc chuẩn quốc tế - Việc Làm 24h",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qQjZLdXZkRUxaWmNrbVNlSWFTRzRNeGxnZU9kQ3RYd2lDa295bkFiVWJXWlYxdGRrZ0dBQndvODhWUFAwQkYyWF9KaHlCQk1ueXJUNmxGQTRFVGdZUDh0dWllbGF1M1hmeF9WbnpubHpwa2FMNWR1VQ?oc=5",
-      "source": "Việc Làm 24h",
-      "published": "2026-05-01T07:00:00Z",
-      "topic": "Chăm sóc khách hàng / Sales",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "TikTok tuyển dụng các vị trí gì? Lương tại TikTok có cao không? - Việc Làm 24h",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE45V2MxQ2dWOWdSem5MNVVBeEdvTWFPMnFNdTRaTUhwcll0VWpPczRqa3dCVExkbWw3TVM4WnlRQTF5NktVQ0JBUGZUUVhnUEVWRXhSd0JVelZxUEt5Z2M5ck5ubzItQUk3RDIxWmlvNHBzM1Y2NEtz?oc=5",
-      "source": "Việc Làm 24h",
-      "published": "2026-05-01T07:00:00Z",
-      "topic": "Chăm sóc khách hàng / Sales",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Emart tuyển dụng: Môi trường làm việc minh bạch, đãi ngộ hấp dẫn - Việc Làm 24h",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAxR2hGSnpMRHJ0M2hPekZZMHE4TktUaVpGWlp4aE54LVlSNjhrOWxmYWZ0N3R6WlZyOTFPbktCMDZDNk5iZlU4eEZ4WXJ3aVhvOFROY2Q3TDlCTGcwMVFHMGxRQlAxWjBiZl9ldDBfLWgwUnVwX0E?oc=5",
-      "source": "Việc Làm 24h",
-      "published": "2026-05-01T07:00:00Z",
-      "topic": "Chăm sóc khách hàng / Sales",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Các vị trí Bosch tuyển dụng: Mức lương và mẹo ứng tuyển vào công ty tại Việt Nam - Việc Làm 24h",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16aUdFcFV4dmZxakxyQ0pQTXB1cTB0b20zWV9sNlBZd2ppTGx3dDB2YVZ6eTZmRmM4c2E0SlYwbWtzTlktTmdROE9JTHBTbHVfWEUwQm83WXRhSDZoR0JqWFNicGcwaXVqWmxHZ3lvNWJRUkppQnc?oc=5",
-      "source": "Việc Làm 24h",
-      "published": "2026-05-01T07:00:00Z",
-      "topic": "Chăm sóc khách hàng / Sales",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Google Analytics là gì? Những điều cơ bản cần biết nhất về Google Analytics - Việc Làm 24h",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5obDRsUG5nNE8zRTV1WFVKMVJzS3ktZUhKcUM5Mm9QU1dDY3ZZdGpZQnAtQTJ6d19sLUJibUtrcFZMTjFWTDdnVVJSN1UyMVQ0a3RHSTJtM3BVMVNwTHNNUnctckExNVQ1UThUUHBYN25QeVJZR2c?oc=5",
-      "source": "Việc Làm 24h",
-      "published": "2026-05-01T07:00:00Z",
-      "topic": "Chăm sóc khách hàng / Sales",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "KFC tuyển dụng dễ không, lương nhân viên KFC bao nhiêu 1 giờ? - Việc Làm 24h",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBKN3R3aEJibVdNb3JacmZldk9PSEh3VGFjYzgxSmVPOG9sS2I2bEtJM1pjdTFVM3ExT3B2VHhhZFJyY0E2Q0xGZUJTaHU5REdCNXVWRXUycVhTR2RuOWhESmFVX19FQzFNLU5zbEcxSmxzV2c?oc=5",
-      "source": "Việc Làm 24h",
-      "published": "2026-05-01T07:00:00Z",
-      "topic": "Chăm sóc khách hàng / Sales",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
       "title": "Nhu cầu tuyển dụng cao hơn gần 1,6 lần nhu cầu tìm việc ở TPHCM - Laodong.vn",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSElHX3BlUDZMbGRnMFNNRlpQZVFSTUVxQ0NHaENaMTktWHM5akdqeC1UZUJVcXVreWZpS0Z5Z0RXQ1ZtNV9RUFR4aUM0am5DRzNZaHgwSERocWVoNW44SlJDbGhlSXdwMlUxNjBQOXlwVjhVMUZ5OVYxenVleEx3dGJxR1JtUnFseWtmd2tHUGNtT2Fod2lockR6eUl3QkhWUzZqSUhB?oc=5",
       "source": "Laodong.vn",
       "published": "2026-03-30T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Doanh nghiệp Thanh Hóa cần tuyển dụng 21.000 lao động - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcnZ6WklDQTNhWkd5ZURNQ2FhcHFKclYtOURHYnE1dEF4TnpYSzYwMVFEaEkxR0xhYzkwQ18xSkNPMS0zQldBVnBHY1h3YnRFbVo0dGlrQkZvVEt5R0VobWlVZF8tbDRnSy1LdURzRUhNeU5ESlgzS0ROMlhDbVhyMlJfdW8xdE11SGwwTXlwYkdjbDNyeW56RQ?oc=5",
-      "source": "Laodong.vn",
-      "published": "2026-03-18T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
@@ -249,10 +78,28 @@
       "verificationStatus": "Cần xác minh"
     },
     {
+      "title": "Hải Phòng thiếu hàng vạn lao động trong các khu công nghiệp - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOGdVdUp0VEVwNWptSVNQU3FuNXRITE5ZWXBvdHoyWkVDZ21vRFpFQTZKRzVBTUJOYU1Pa0hqdUxwVW90cUdqM2FSaFBJSTBMR1BVUFkzcU82UmE5eFE4N3JNX0hueVRoT2oya3ZPWUxIek01OWpDQ24wUzgxbnJfWll0QThpcGpvX0NWc25YV05hRDYxdlI4NzN0NnVzRmN3cEE?oc=5",
+      "source": "Laodong.vn",
+      "published": "2026-03-02T08:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
       "title": "Tuyển dụng lao động ở TPHCM, doanh nghiệp kê bàn ra cổng đón công nhân - Laodong.vn",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRFBGLXZpandfRFB5YnZqR0dSTzFxNDVkVlJ3aTF3Z1pUMjdtNDRfWU1RblREVk13ekRCd2FVN0RUcjM5OFQxOFJZXzVNdzVTWDQ5TEg1dF9TVmJvVDFHeWIya09kMDFVNkdWYXBfby1TalVoU0pGa0FqNWtlb2E1R1lORk1rVXdJb0pTcXBWVm9pWmNud3hFc0ZHQWNnazRUS2N3NzVob3BtMnpNUGdr?oc=5",
       "source": "Laodong.vn",
       "published": "2026-02-28T08:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Quảng Ngãi cần tuyển hàng chục nghìn lao động, lương 6-22 triệu đồng/tháng - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMC1mX3dMdWw2VUh2TFJuT2FKQzdHdzcwc29nMTFzTUJfWUxCODNTcC1yR0ZWZk5hMkFtbE96aWtPVzM2RDVIRzBYUmdCX3Y1Wld1OFpseVR4ZWhDdW9wV21KZl9iamtxaWZhZTZTVDBrWXcwWTFLTjJ0Tm5wa1hZRWVtbGxBN2JSVU9JblAycEJHM3U4TDhXVWpneDBKa2pHOGxTRXRrc2NlLTRGOWpqSTgzYw?oc=5",
+      "source": "Laodong.vn",
+      "published": "2026-02-23T08:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
@@ -267,56 +114,92 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Tech Talk #6: Viết lại kịch bản CRM khi AI vào cuộc - Brands Vietnam",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTGMyU0p4VkJObUtqQkFZdzhvUGhBb3l1X25zODF3VVdwaHNlZFowdFN3aEFGZVFVejFLUDgtOU04aVN5d3o4QlR1SHFJcjdyNUlMdFdzenIxNVIzT2RpY08tTnpfekNxMVBZeEdsLS00aWZiemdvZUdhbzNMUG1mMkVYMG9ZZURWbXRKSExubUQzZFBNU3ZfU0p3?oc=5",
-      "source": "Brands Vietnam",
-      "published": "2025-07-14T07:00:00Z",
-      "topic": "Chăm sóc khách hàng / Sales",
+      "title": "Hải Phòng kết nối, giới thiệu 16.000 việc làm tại Ngày hội Việc làm lần thứ I - baodautu",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdnlKd2xQVlgxZGREa2ZZUlVGVWpmYUdtTWV2VGRIVVJLTEx0UnlEWEl0Q0R3bVJ4QkpmdUVURXdpVmlpWkZPckNlSWtKYmozZ1g0SXppeXJLTFZaX2JCaElJdXZQUndRVjBBN05QbjI5cEtHaGJZQXEtWFk5azZlTXYzOVFWa0ZTWlJLZWZmY2dyWlZIUUF0bU1FajlBTm9oY3lfMWVuR1lvMnJ5?oc=5",
+      "source": "baodautu",
+      "published": "2025-12-06T08:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "TOP 10+ công ty marketing uy tín nhất tại Việt Nam - Việc Làm 24h",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE03d1d1Y2ticVR6dFB2eFR0bXM3VDN4Q2VyUnZrU2M3dldNcHV2T1huSEdKZ2VPbmRtSm5KZzdNUFBsb3FhUWk5dXliaHVlem9tUFY5VzBtSW5XdVB3ZngxM3BlWHZaaElIc0xRRFlqZy1YMVZmU0Fv?oc=5",
-      "source": "Việc Làm 24h",
-      "published": "2025-05-01T07:00:00Z",
-      "topic": "Chăm sóc khách hàng / Sales",
+      "title": "Doanh nghiệp tại Ninh Bình ồ ạt tuyển dụng lao động dịp cuối năm - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeUFrREJRYzQ2R0dJVF91M0VadDAzYUFoV2xlYjJUSC13V043WkRzZ1lNa0VqU09NMHV5bmdmMEZtVTQwVlgxQXdyaFNmemJtWTE3eFZSZ0g1SHl3V29KQ0pvQnhuRGM5bi1Kak9OZnd1NlV5NVZlRTVsM2hDaXFLZ3Bidkc4dHhQeERYdm56bmxGVlBYYlpPcjZiRFJ6NkcxMVQ5SDRwYWk?oc=5",
+      "source": "Laodong.vn",
+      "published": "2025-12-05T08:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Giải mã Lead Generation: Từ tiềm năng đến lợi nhuận trong kỷ nguyên số - Brands Vietnam",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQUZxR2I3VzBFNlN0dXlNNUp3OW1rMU9pbF9OV3ZiVTltbVpCV1RkU3QwVUlHRUhHc2xkSDUxMEx2WWptcUVQQW91SDF2SFk1VFBqWmxRR3FBUDFaaUJVTlU3Z2hSWl84Z1ltSm9HcGt3ZE1DUDYtQm02Ynl3ZEMteW5ISVFHTXpaem5tTWZ1ZFFkN3dNazBlVkJtRlpJSEpPYnRDRncwWUtFeWtrb21OUDZOcGlWTzFBLVhfODF3?oc=5",
-      "source": "Brands Vietnam",
-      "published": "2024-05-01T07:00:00Z",
-      "topic": "Chăm sóc khách hàng / Sales",
+      "title": "Công ty ở Đồng Nai tuyển dụng 2.000 lao động và nhiều nhân viên văn phòng dịp cuối năm - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSjhuOFdiWmU3N2NpQU1FWlNob0sxcEJDcFZaSW9lRk9SS2tvRk9FRDBjRlRkTTRxOWlGY2lpVlE5T3dWVXZlY21BZEpZVzdwSFNzZ3I5Y2Y3aV9UV1JsNW1LSnNBUFpORUJMU29hMWw4ZGphblRYZFlJVmdPelliZVNiQXFQMmlVaVpwbVVEdkx6ek13blVTWGhJbHJpQmNQamxrSHBqNjVzdzFjcjdzeEhicmdLYmFJeDlsalNNN2FXWVgz?oc=5",
+      "source": "Laodong.vn",
+      "published": "2025-12-01T08:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Hệ thống CRM – “Chìa khóa” thúc đẩy kinh doanh thời đại số - Brands Vietnam",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbXdtX2MxMnJEQzBIUjI2Q1M3RVlKV2s0cFVrb19UM0liZUxUR1I5eDI3YTl6VWoxb3RJNUFTdnVtODlRU1B3WFVaaXNBOW54Mmc3UElJWDZYQVQza3JGTXMxLWx4cHV5aTdOMFRQdEFGaG1TNElXRnRDcFZMNmZUWlVlZEpTb0dUdXdDNFl3ekpaTjI0QU1VRFVhcXVWaFBDcEFYcVJKU204QQ?oc=5",
-      "source": "Brands Vietnam",
-      "published": "2024-03-04T08:00:00Z",
-      "topic": "Chăm sóc khách hàng / Sales",
+      "title": "Doanh nghiệp sản xuất nội thất tuyển dụng hơn 600 công nhân - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQm9heFhjZUdrN0x1SExnLTY4MVR4MGZjX1Y1QlRXQ2xDUGdQajQwaV9DcFJHSVNpM2FoZVpQQ3NoamlUa19uLUVKLU85WVhXLWVYR2lQXzQwSWQxMUxRaE1KMXM4Yi14czVxaWUzUlZzTXBIQk1fYTRwMWRqLTMtSF9IWlV1Z0dYTzBGd0tZN2h3TW40RzZlLXE4c0Z0clpPbEE?oc=5",
+      "source": "Laodong.vn",
+      "published": "2025-09-10T07:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "UNIQLO tuyển dụng các vị trí nào, quyền lợi nhân viên hấp dẫn ra sao? - Việc Làm 24h",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5iV1hhNGE3dFBUNnkzWHVKa181bzlDY3U2U2lyODk4T01WSTEwSlU4YUFNSmhHa1dLVlFpV2w2bm94Rm56NUJvN0FaMGFpSzlycEVsX0xDZ3YzZ3p0WE10Q1lhNXpxcnlNdHBpQ3NCWm1vS09fUUh3?oc=5",
-      "source": "Việc Làm 24h",
-      "published": "2023-05-01T07:00:00Z",
-      "topic": "Chăm sóc khách hàng / Sales",
+      "title": "38 doanh nghiệp ở Hải Phòng cần tuyển 3.552 lao động - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUVFYeDRpYmc4MzlXUm1SRlJrTFFocDZ5TVIxM2lEc3B5RUVFUVpialdoTklqdXREZnEwVERzbU1VWjRmZmUwNXNRcEVZZFhjcllWTXBWcEhLZGZINEdVSGVsZVg0bFYzU2VqNVlxU2U3MjVLRG9aa3Rad3NZTmtINENiajQ4eWxMRmtsNmxGZERzR2RoOGZB?oc=5",
+      "source": "Laodong.vn",
+      "published": "2025-02-26T08:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Mega Sale Campaign #5: Những lưu ý về quá trình lên kế hoạch chuẩn bị trước giờ “G” - Brands Vietnam",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNlpMVHF1YWVKQVROSUh3bVBJWFVDUTdRckgyc1dGUTVVZWt6aUNxWW0xcmxLeFhmcTRKQzd3RUpGNmVrNGR6ZlZqeUpiUzZSa0RUcmVxS2gtcGltLXNuRnhuMkxxRUxOZk1tcFZvR0x5Ti1MZkRmZ3RBYU9abENyQkpZT2VIWEJxNWJLNURib2J1eklCakdRZHJkal9PNmFzdzJWUkNFenNEMU9tbG5TNmxrdnhQendNNXZYdkNWUF9lQk1BemdobFdlVQ?oc=5",
-      "source": "Brands Vietnam",
-      "published": "2022-05-30T07:00:00Z",
-      "topic": "Chăm sóc khách hàng / Sales",
+      "title": "Nhu cầu tuyển dụng tăng, Bình Dương cần thêm 38.000 lao động - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLU01THZpTmM1UmwtM3FkRGMtWjdaTVFfbnBNT2xoVV95cVlUQ3BTWkc3THB5SVNLcVpKbkwyaHR5NG5fNzBDWmxIQzAyT1JqTl85VFhqWWV1VTAxSS00MFRvREJwcWdwcUNWOHo2RVhMbGlDM1dPVTI0NHFRNUMxRWpKYnpIZWQyd2htSUd5M1RzSTZXUHNNRTBIXzRvMFh3?oc=5",
+      "source": "Laodong.vn",
+      "published": "2025-02-20T08:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Một công ty ở Bình Dương cần tuyển dụng 4.000 lao động - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMlQ0Z25CVVFaMlRPUHJ6elpGUnBCVnhvVGR3dF9QTjd6Ym5Bb2JNRTJrWThuTktXeWtta3g2MC1mTklXZk5qN044c184WTQzWVBwSDBENmJsOHNxeFYtd3M1SEVVQmNnNVpTUHFETUZuNWl1aG9sbjU3emZyYzdqc3EwSUNKVjE2ck91QzJEUmp5QkFqbWtvb093?oc=5",
+      "source": "Laodong.vn",
+      "published": "2025-02-19T08:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Công ty ở Bình phước tuyển số lượng lớn lao động dịp đầu năm - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOR25LbURnZTNWUWRnaER0YnVjMGE1TnpidW13dlRMbDQ0RjZwbWZBaDJWZWhwMzFWV3NLSm1mUHdlbzdDLXBkWFZMSmlvandHNm9MQ1hVdGsydXpibTVLOGFxVHFINXMtY09iV1J1am5peFZtLWVxek5UaHRYeUN5MmpUVGFBcFllSHY0Y2pzOG5aYmVIUERVMXJxLWdOaUJNZVpN?oc=5",
+      "source": "Laodong.vn",
+      "published": "2025-02-05T08:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Bình Dương cần tuyển 30.000 lao động, nhiều công ty tuyển dụng số lượng lớn - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcW1fZEU2bHBHT2Y5alpab2cybnBKNXliT2Z2OUhtSTNpdE9GMWdmYnRZZkNFZGJObHJINEViVEE1RWYzMTFiMnVFRVJLRmlPZUk0cHFCd0xlMlhsQkJxUEY1Y1hYeHpoMXVMUmo5MUZGYVgxYmpJT0hsZUpxTlBqaklmX1ZGLXlrNUVXNmVfOGpaT3NOQ1cyb0lMaFBuNUtiTXRsMXpnbVM4RFFvMFpyeg?oc=5",
+      "source": "Laodong.vn",
+      "published": "2024-06-03T07:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Ngành dệt may, da giầy tuyển dụng số lượng lớn từ đầu năm - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPN19feWxFQjVMRV9WM1QwODgyWHhNZHJHcUh6UEw0YktiRUZoeVZHWHU4YmhBVHdvMkwtcU81ZUNFRFdJLXlwRDRvVlZqRFYybHBHREhiUVMxV3lnQWhlMmFwRzJkeU1DV3h1RTZmd1p5LXo4RC1mNWNWeDdIYWJGSTVOWHU4b0RBVUVaVDh5VlFnUElkUmdILXVrMVNKQQ?oc=5",
+      "source": "Laodong.vn",
+      "published": "2024-02-20T08:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
@@ -325,15 +208,6 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeWpYVDRYTlotQUpTRXNOUU1KeWUwclh3SVpheDFId1o3bV81WnUzTE1RVHFaV3VLNUVnVVJLVnhIR2JNckZCTm5QdkxvQ3hzUWdSYjg5YUttblJoX3pHdGJjOXVXd1AtbnUteHlOdXZaRGlseGFWNm5KNm1IM0NiNTZGMkQ4TkJnRGF1OG1XSVhYbUNJOTItLV9xbzJhUmNhTG5hWnNncjhVMFhjclE?oc=5",
       "source": "Brands Vietnam",
       "published": "2021-09-07T07:00:00Z",
-      "topic": "Chăm sóc khách hàng / Sales",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Grab officially kicks off Grab Ventures Ignite programme to propel Vietnam’s startup ecosystem forward| Grab VN - Grab",
-      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPZ1JEanlnYVJ1a24tdDNrcnNMOW5Wa1hUQnA3Uktnenc2TVZBTlhYX3JVbVdBLUZvV2xOZ2FUNkIxcjhlN196UWlUN1pfYWg5MFhDdGc3LUdiVlNtNi1EWnVZSjlZRjN3VTFDbFhyd2wwT1R5UFF2c0czaHJQdFc0RExIOWNwb242bUJ5WlNsenRWaTZwblVoQU1KTnpEVG5SbVdGaUpkdmo4a0wxVUtDZGI5T05tRjhWcnE1eUs0TlE2ZkdiaDVYczBpTVlDbWE4c1lORjRHN3QzS2VKaC1tR1RkUERCalZ2UDYwNGJscWFVNG5XaGIwZllZYUZpb3hlSTJ3RkFGTnhMNUdlckZMZHVJcnBGU0Jva2pid3F5RVkxYUpYTWlzQlN3R3VrVzRNVlg5bmdzZ1Ffb2pYaHRXZTFic1BMSGYyUnNRU1BjVmRZU3M?oc=5",
-      "source": "Grab",
-      "published": "2020-07-24T07:00:00Z",
       "topic": "Chăm sóc khách hàng / Sales",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
