@@ -1,24 +1,24 @@
 {
   "schemaVersion": 2,
   "feed": "recruitment",
-  "updatedAt": "2026-11-04T07:24:01Z",
+  "updatedAt": "2026-11-05T07:49:53Z",
   "provider": "Google News RSS",
-  "itemCount": 23,
+  "itemCount": 26,
   "items": [
     {
-      "title": "Tỷ phú Phạm Nhật Vượng đang tuyển 30.000 người cùng xây hai siêu đô thị, thu nhập lên tới 50 triệu đồng, ăn ở miễn phí, chưa có tay nghề được đào tạo - CafeF",
-      "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPdi11emZMWW55eUMtRjJFRkV1cjdEVlpPRFVHVGI0OEN4RVRmLTR1aXNDYmxldEQ3bWgzT0R3MFZETkVsQnY5bTI0Q2JqanhOVGo3dFF2VDZ3UjNxdUtvLU1qUmlSYWJRY01sQ0FaTUlWcXFHRTVRN0VGcG95REdFRmFKUUdGSlhxaE1wM3hVYnBmS3dKV3RROENBRVhMNWtkMjQxdmQ0RnVrVXI1X1JpdEgyMkY5RW1tY0JZNWI5R3d0b2x1eklmdWlPTFUxTm5TNUdHYWQ4cUhoN3hicm5FcUExazJqY2dRTk0wWFNXcThnZXNxbllvTVU2OHRZX1d2d09JNmFlRllpQ21pWnd5Q2xfdV8tOGg3aFBKajJzQ1BSd3B0REU5Q1ZJNk5TSmt5MjVRRQ?oc=5",
-      "source": "CafeF",
-      "published": "2026-11-03T04:45:00Z",
+      "title": "Cần tuyển 200.000 công nhân xây dựng, Vincons treo thưởng tới 30 triệu đồng cho người giới thiệu - CafeBiz",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTjdzS2Z2X3BOcGlCSGM1ZkxVcjZaQmFUMlA1VkUwZXlZQnhrVXJuRUxlbFU4WUlLWkRlb0cxSks1YlhKSzFCdXFtTkMtbW9rTk9WSmRzNFpRTzNia00wRTAtLWMxaDJmMlRJZnFIX0JGZmxXemFDT09wTldEN0xEVFRhdXdFSXMxOXpLckNJQjJVdTVQekFIbEJMOGZTVFhMUmd6SnJ6ZkJubjZ1aHdZOWpfOWV0a3ZZRWRHVjBKb3hPQkY0dnZON2F3TDV1N0E0bkE?oc=5",
+      "source": "CafeBiz",
+      "published": "2026-11-05T02:30:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Sở hữu hơn 120.000 lao động cơ hữu, VinCons vẫn đang tuyển thêm số lượng lớn - Znews",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOXlwa3YyX0R1WWwzbnBsdGFPT2hFQzBWWmRDVzJKRXZjMmgzMS1PbHFuQVN4ZTVMc0p3ZnZ6amM3XzFTenJfcUZSbGRRcExya29TZEU5NnM0OF9Oc0hfaFJITVV5MENjUS1GZFZEeEg3aV9LdEhWS3Z1TzBIU0NZTWRwT3diUG1lazZ6cWpsUV8zSnRwQjhtaU91S2MwUEJnelMxcXE3Z3ByWWlP?oc=5",
-      "source": "Znews",
-      "published": "2026-10-02T07:00:00Z",
+      "title": "Tỷ phú Phạm Nhật Vượng tuyển 30.000 lao động làm việc tại Hạ Long, trả ngay 50 triệu đồng/tháng - Doanh Nhân Trẻ",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYmMxdHpNSWVCRjlyWXZUNUdQZmZHR2hvTHpBMnB5TVlBU0V4RnZveXlpX2d5SHNxWWFtZlNDRlpleG5Ibm1mSjNDaXlOemxDa25DT2EzWFRCMzFnMEFEbXBOaE5MT0ctVzRsQklRTkI1c2dHQndPVGtzblZWYnZaU1dvOGc3Q2JCQWtXTlpaZkltOHhYR3JjUy1sUGwxSlB2RGozUTFNVkM4Q2RTRkJtVlNGaHJ0MDViYVR1dGRuVVFEbHhOWFFsTC1oZFBKRlVlWGc?oc=5",
+      "source": "Doanh Nhân Trẻ",
+      "published": "2026-11-03T07:48:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
@@ -33,20 +33,29 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Đề xuất tạm dừng tuyển dụng 407 công chức ở Khánh Hòa - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTVJ2dTVySjNLRThmU3NZMEIwRy1Fdjl5d1FaSGQxRUpzWlZIbmc3ZS0zYzlyUHNOSEhzOUNYQk40dWNDdWlmUEdFVUg2djBJNDFUWTQwNXpfckRuU3Rld1JLRjBxMF9rNy1EYmxmVGRHcVJRanRpVVlvNHV4aXc3TjdFZFpPZE9CejVyVUxzMnlUZnBGRUE?oc=5",
-      "source": "Laodong.vn",
-      "published": "2026-06-10T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
       "title": "TTI tuyển dụng vị trí nào? Mức lương theo từng vị trí tại Techtronic Industries - Việc Làm 24h",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBkRFRZRnB2akFHbmNuZG01RnhXeUMtUWdvdjB2WXM2TGxtSV9McDlYUW1HTjVreGtlRlhRTTkyTGktTmZXNXdsY05ubFladV9SNW1TZDRjcWFwbDlZbVU2YXo1c0VqS0w4a1d1ZXQ1NGZ3WTg?oc=5",
       "source": "Việc Làm 24h",
       "published": "2026-06-03T13:42:58Z",
       "topic": "Kho vận / Logistics",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "TikTok tuyển dụng các vị trí gì? Lương tại TikTok có cao không? - Việc Làm 24h",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE45V2MxQ2dWOWdSem5MNVVBeEdvTWFPMnFNdTRaTUhwcll0VWpPczRqa3dCVExkbWw3TVM4WnlRQTF5NktVQ0JBUGZUUVhnUEVWRXhSd0JVelZxUEt5Z2M5ck5ubzItQUk3RDIxWmlvNHBzM1Y2NEtz?oc=5",
+      "source": "Việc Làm 24h",
+      "published": "2026-05-01T07:00:00Z",
+      "topic": "Chăm sóc khách hàng / Sales",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Top 6 cách kiếm tiền tại nhà cho sinh viên IT, vừa đi học vừa có thêm thu nhập - Việc Làm 24h",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVzRGdFlVeHd2VlRSdjdKXzUyb19paWpGODl3M2V2TFJqdEt4R0VVMnYzZE1iZGh6djI3TzkxcWFEdm52SS1RYUhOeVhQOWFlQjZXSGx0SU8wajY5ZF9wejN1LV9MRTM4dEg2UTg3dlJ6ak4xUHhBNTNSYjhRWVZ0ZE11cVpBcnc0SDRtMDlQUlRWRTlkeWVQZA?oc=5",
+      "source": "Việc Làm 24h",
+      "published": "2026-05-01T07:00:00Z",
+      "topic": "Chăm sóc khách hàng / Sales",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
@@ -150,6 +159,15 @@
       "verificationStatus": "Cần xác minh"
     },
     {
+      "title": "Doanh nghiệp ở Khu công nghiệp Phú Mỹ 3 tuyển dụng 300 nữ công nhân - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWkhOeTNEdjZyM2xPV0xoaWlEOG5vR2FfLVc2SmpIblFUSHF4TE9PMTQ3QzMzNkotY0RucXhxTTJIMW9RQ3E0YXFyRUZpRm1KdmZCLVlYbl9STHphRXhUUFBoSF9yMFBkVFB0ZnptSnNiR2t2YS1JMlQ5Q2U2dXJVdUlMOVFzcklNWHY3XzFmOU40b2x5dFRzamJERlFFdFFWZGNLcmc3X1Z4alhP?oc=5",
+      "source": "Laodong.vn",
+      "published": "2025-08-20T07:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
       "title": "38 doanh nghiệp ở Hải Phòng cần tuyển 3.552 lao động - Laodong.vn",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUVFYeDRpYmc4MzlXUm1SRlJrTFFocDZ5TVIxM2lEc3B5RUVFUVpialdoTklqdXREZnEwVERzbU1VWjRmZmUwNXNRcEVZZFhjcllWTXBWcEhLZGZINEdVSGVsZVg0bFYzU2VqNVlxU2U3MjVLRG9aa3Rad3NZTmtINENiajQ4eWxMRmtsNmxGZERzR2RoOGZB?oc=5",
       "source": "Laodong.vn",
@@ -200,6 +218,15 @@
       "source": "Laodong.vn",
       "published": "2024-02-20T08:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Kinh nghiệm phỏng vấn Shinhan Bank giúp bạn gây ấn tượng ngay từ đầu - Việc Làm 24h",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORVc4SFdDbUZPeFFpMzdvWEdrdUZldnRDV2hkVGo5a2w1NjBBaVo3U1hnZlk2NUtlb203QWEyWU9HelBtN29mSk56TXVORjRKYXdtRWVxcnNnNktuQTJ0U3ZhOWhnMXU2d1lEWjl6MTBKQUtDb2twRnFWNERpUmhPakdNZ1puRXNrQXRGSnlLOG5GWTVBZmlhcWdwY0NSZS1sUHV4bW5RdUNPTmh4MUs4ZDQybkw0RjRZTWhVYw?oc=5",
+      "source": "Việc Làm 24h",
+      "published": "2022-05-01T07:00:00Z",
+      "topic": "Chăm sóc khách hàng / Sales",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
