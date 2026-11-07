@@ -1,10 +1,19 @@
 {
   "schemaVersion": 2,
   "feed": "recruitment",
-  "updatedAt": "2026-11-06T07:49:26Z",
+  "updatedAt": "2026-11-07T06:57:29Z",
   "provider": "Google News RSS",
   "itemCount": 24,
   "items": [
+    {
+      "title": "Sở hữu hơn 120.000 lao động cơ hữu, VinCons vẫn đang tuyển thêm số lượng lớn - Znews",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOXlwa3YyX0R1WWwzbnBsdGFPT2hFQzBWWmRDVzJKRXZjMmgzMS1PbHFuQVN4ZTVMc0p3ZnZ6amM3XzFTenJfcUZSbGRRcExya29TZEU5NnM0OF9Oc0hfaFJITVV5MENjUS1GZFZEeEg3aV9LdEhWS3Z1TzBIU0NZTWRwT3diUG1lazZ6cWpsUV8zSnRwQjhtaU91S2MwUEJnelMxcXE3Z3ByWWlP?oc=5",
+      "source": "Znews",
+      "published": "2026-10-02T07:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
     {
       "title": "Doanh nghiệp Thành phố Hồ Chí Minh \"đỏ mắt\" tìm ... công nhân - Vietnam+ (VietnamPlus)",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcXF4S09SY1NLRmJFQmFiY3JmYklYVmlSLUhYYmZFdS1rU3FRaFFOZ2x0RG1sNGhGcWRNN051ek5hTkZ2TW9Oenh3aUpPa0w4NmZlSDV4VWdrSUpmTWRUdnpNd0FhZjdCTml0Z2ZHUjQ5NU5BbFAzTmp4T2RBZXB2NF8xd3ZTN3ZRekVGZjBIMzJwcFZIdUtzc2VoUlotRUU?oc=5",
@@ -136,15 +145,6 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWkhOeTNEdjZyM2xPV0xoaWlEOG5vR2FfLVc2SmpIblFUSHF4TE9PMTQ3QzMzNkotY0RucXhxTTJIMW9RQ3E0YXFyRUZpRm1KdmZCLVlYbl9STHphRXhUUFBoSF9yMFBkVFB0ZnptSnNiR2t2YS1JMlQ5Q2U2dXJVdUlMOVFzcklNWHY3XzFmOU40b2x5dFRzamJERlFFdFFWZGNLcmc3X1Z4alhP?oc=5",
       "source": "Laodong.vn",
       "published": "2025-08-20T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Phân bổ nguồn nhân lực mất cân bằng, doanh nghiệp Bình Dương khó tuyển lao động kỹ thuật - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNa1dhMGFiZktOa2xYMGdhWk5QTEI1aTBDSVRYRHhTa05fNFlFWjN6WUp6VHRSdUR3WE8wMnRyT2FWQmFYdHA0VzZxRHJGQ3NXb1d2dnpRNUduaTgydnk4cGV5NlpidUhpQ2ZSYUFMM0QzYUJHZlJCZUFtdWZwRzMyb282REljTDJmaDVhYnJnYlJ0a1NLZEJveXNvRnVZRWIxOERpVlQ3UjZPcXZkRDI4WUJHLS1wUE0wLWVkeEMzYmdJQlYtWVA4?oc=5",
-      "source": "Laodong.vn",
-      "published": "2025-05-16T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
