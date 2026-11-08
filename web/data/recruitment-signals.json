@@ -1,15 +1,24 @@
 {
   "schemaVersion": 2,
   "feed": "recruitment",
-  "updatedAt": "2026-11-07T06:57:29Z",
+  "updatedAt": "2026-11-08T07:04:50Z",
   "provider": "Google News RSS",
-  "itemCount": 24,
+  "itemCount": 23,
   "items": [
     {
       "title": "Sở hữu hơn 120.000 lao động cơ hữu, VinCons vẫn đang tuyển thêm số lượng lớn - Znews",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOXlwa3YyX0R1WWwzbnBsdGFPT2hFQzBWWmRDVzJKRXZjMmgzMS1PbHFuQVN4ZTVMc0p3ZnZ6amM3XzFTenJfcUZSbGRRcExya29TZEU5NnM0OF9Oc0hfaFJITVV5MENjUS1GZFZEeEg3aV9LdEhWS3Z1TzBIU0NZTWRwT3diUG1lazZ6cWpsUV8zSnRwQjhtaU91S2MwUEJnelMxcXE3Z3ByWWlP?oc=5",
       "source": "Znews",
       "published": "2026-10-02T07:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Lương kỹ sư xây dựng lên đến 65 triệu đồng, doanh nghiệp vẫn khó tuyển người - Báo Thanh Niên",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaGN6WGRxS0tmRDBvNWV1VlFsNDhyUVI4RTBFcWxUeEZuRTlzNk1MaF9RWW10ajRCN2NHbnhFM2RxLXJLejIzdHAzTTBTZkpZbXdoZHBEZWxoYUdHZDBKZFZBLWcxRXZKRGkzdUlFa2NxWFFrSVo2clhERWZZMEFUOUxxV01WQzFzOHZ3V1ZHZTJBUkxlSmhEVmxGeE00R1VkbXNuSDl3SlhKVERhR1VYM252TWtDekRJdWc?oc=5",
+      "source": "Báo Thanh Niên",
+      "published": "2026-09-05T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
@@ -46,15 +55,6 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT0ZMajYtMmdwQ1p2czZOWXlVOWlkd1dCQVBIZ183MDdDeUk5TllrRHVWbm5yUEkwNHNDRjFEdVpvUXk1a3hOOGdrczE5Q20zT2tyajRNX0RIaExQSWxGR3hfeGRrQWpNWWkxNTJOYU45emVBN3psaW10Q0s2dEhnd2VoSXRieGNWUF9rZHRYQ3U3cWlRS00xb3dBcWc?oc=5",
       "source": "Laodong.vn",
       "published": "2026-03-14T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Doanh nghiệp tổ chức tuyển dụng lưu động để tìm công nhân - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWkVYS0IwVUI5bzZyTm1IY2gxdlZRWmNEcUJOOWZNZGxCTVFjS295bWhDQnNRVlVnMVpkT0Y5cDJqUVM4Z0sxSEpVN1k5YnNpdUJhWm8yUjkyeFlJZm1IZS1GbnRseGU1LTZLZ0dfVEJIZEVaZ0FWZ3U3VWVlR0ZWanh4ajBpcXJTZDBtOUEtSDFfenRPcEtsMTA2bjBJQQ?oc=5",
-      "source": "Laodong.vn",
-      "published": "2026-03-13T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
@@ -132,19 +132,19 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Doanh nghiệp sản xuất nội thất tuyển dụng hơn 600 công nhân - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQm9heFhjZUdrN0x1SExnLTY4MVR4MGZjX1Y1QlRXQ2xDUGdQajQwaV9DcFJHSVNpM2FoZVpQQ3NoamlUa19uLUVKLU85WVhXLWVYR2lQXzQwSWQxMUxRaE1KMXM4Yi14czVxaWUzUlZzTXBIQk1fYTRwMWRqLTMtSF9IWlV1Z0dYTzBGd0tZN2h3TW40RzZlLXE4c0Z0clpPbEE?oc=5",
+      "title": "Các công ty ở Đồng Nai cần tuyển hơn 3.500 lao động tại sàn giao dịch việc làm - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVmRob2pHeVVScW1oWUdrcXdhUDFpZzdBZnR6TEZMTGtuXzVCcXhjbjN0VWJhbnVRTGxST0NtMDRqR21mM2tRQjcxU2k5WlJoUkVDS0VqbUJTZjI5UFYyblJHTzhMWmZXanRwZHNNQnBUNEd3ZkozMlNBZGsyX1ZuQnVocURZR0hnM2xWdW03SVRVODBZUjNOd0NnUVQ0eDRCOGNBXzdlN2t0cW9wWmdZVzZ1S3h4a3dxZGc?oc=5",
       "source": "Laodong.vn",
-      "published": "2025-09-10T07:00:00Z",
+      "published": "2025-10-11T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Doanh nghiệp ở Khu công nghiệp Phú Mỹ 3 tuyển dụng 300 nữ công nhân - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWkhOeTNEdjZyM2xPV0xoaWlEOG5vR2FfLVc2SmpIblFUSHF4TE9PMTQ3QzMzNkotY0RucXhxTTJIMW9RQ3E0YXFyRUZpRm1KdmZCLVlYbl9STHphRXhUUFBoSF9yMFBkVFB0ZnptSnNiR2t2YS1JMlQ5Q2U2dXJVdUlMOVFzcklNWHY3XzFmOU40b2x5dFRzamJERlFFdFFWZGNLcmc3X1Z4alhP?oc=5",
+      "title": "Doanh nghiệp sản xuất nội thất tuyển dụng hơn 600 công nhân - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQm9heFhjZUdrN0x1SExnLTY4MVR4MGZjX1Y1QlRXQ2xDUGdQajQwaV9DcFJHSVNpM2FoZVpQQ3NoamlUa19uLUVKLU85WVhXLWVYR2lQXzQwSWQxMUxRaE1KMXM4Yi14czVxaWUzUlZzTXBIQk1fYTRwMWRqLTMtSF9IWlV1Z0dYTzBGd0tZN2h3TW40RzZlLXE4c0Z0clpPbEE?oc=5",
       "source": "Laodong.vn",
-      "published": "2025-08-20T07:00:00Z",
+      "published": "2025-09-10T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
@@ -200,15 +200,6 @@
       "source": "Laodong.vn",
       "published": "2024-02-20T08:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Kinh nghiệm phỏng vấn Shinhan Bank giúp bạn gây ấn tượng ngay từ đầu - Việc Làm 24h",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORVc4SFdDbUZPeFFpMzdvWEdrdUZldnRDV2hkVGo5a2w1NjBBaVo3U1hnZlk2NUtlb203QWEyWU9HelBtN29mSk56TXVORjRKYXdtRWVxcnNnNktuQTJ0U3ZhOWhnMXU2d1lEWjl6MTBKQUtDb2twRnFWNERpUmhPakdNZ1puRXNrQXRGSnlLOG5GWTVBZmlhcWdwY0NSZS1sUHV4bW5RdUNPTmh4MUs4ZDQybkw0RjRZTWhVYw?oc=5",
-      "source": "Việc Làm 24h",
-      "published": "2022-05-01T07:00:00Z",
-      "topic": "Chăm sóc khách hàng / Sales",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
