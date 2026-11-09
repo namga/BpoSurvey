@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "feed": "recruitment",
-  "updatedAt": "2026-11-08T07:04:50Z",
+  "updatedAt": "2026-11-09T07:49:08Z",
   "provider": "Google News RSS",
   "itemCount": 23,
   "items": [
@@ -87,15 +87,6 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Quảng Ngãi cần tuyển hàng chục nghìn lao động, lương 6-22 triệu đồng/tháng - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMC1mX3dMdWw2VUh2TFJuT2FKQzdHdzcwc29nMTFzTUJfWUxCODNTcC1yR0ZWZk5hMkFtbE96aWtPVzM2RDVIRzBYUmdCX3Y1Wld1OFpseVR4ZWhDdW9wV21KZl9iamtxaWZhZTZTVDBrWXcwWTFLTjJ0Tm5wa1hZRWVtbGxBN2JSVU9JblAycEJHM3U4TDhXVWpneDBKa2pHOGxTRXRrc2NlLTRGOWpqSTgzYw?oc=5",
-      "source": "Laodong.vn",
-      "published": "2026-02-23T08:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
       "title": "Top 9 Phần mềm CRM tại Việt Nam bạn nên thử (2026) | bởi SlimCRMvn - Nền tảng quản trị doanh nghiệp nhỏ - Brands Vietnam",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUjcxcDU3RGQ2dmd6aWR6U08tYTBjbVNBeEwyUzNMRk52eDJIS3Q2NDNxSUs5YkROR29aZFFMNVpQZTIzVEhwS0lPWjlfTHdaZnkxNDBxTFlPejUtRFh4SkJRUVV4cmV5YVI5b1BVQTZZQkVVOC1iN0VwMlUxdjZKOFkzRHQ1bVd2ajR1d0RfRHMyYXpMdUhqdA?oc=5",
       "source": "Brands Vietnam",
@@ -132,19 +123,28 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Các công ty ở Đồng Nai cần tuyển hơn 3.500 lao động tại sàn giao dịch việc làm - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVmRob2pHeVVScW1oWUdrcXdhUDFpZzdBZnR6TEZMTGtuXzVCcXhjbjN0VWJhbnVRTGxST0NtMDRqR21mM2tRQjcxU2k5WlJoUkVDS0VqbUJTZjI5UFYyblJHTzhMWmZXanRwZHNNQnBUNEd3ZkozMlNBZGsyX1ZuQnVocURZR0hnM2xWdW03SVRVODBZUjNOd0NnUVQ0eDRCOGNBXzdlN2t0cW9wWmdZVzZ1S3h4a3dxZGc?oc=5",
+      "title": "Doanh nghiệp sản xuất nội thất tuyển dụng hơn 600 công nhân - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQm9heFhjZUdrN0x1SExnLTY4MVR4MGZjX1Y1QlRXQ2xDUGdQajQwaV9DcFJHSVNpM2FoZVpQQ3NoamlUa19uLUVKLU85WVhXLWVYR2lQXzQwSWQxMUxRaE1KMXM4Yi14czVxaWUzUlZzTXBIQk1fYTRwMWRqLTMtSF9IWlV1Z0dYTzBGd0tZN2h3TW40RzZlLXE4c0Z0clpPbEE?oc=5",
       "source": "Laodong.vn",
-      "published": "2025-10-11T07:00:00Z",
+      "published": "2025-09-10T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Doanh nghiệp sản xuất nội thất tuyển dụng hơn 600 công nhân - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQm9heFhjZUdrN0x1SExnLTY4MVR4MGZjX1Y1QlRXQ2xDUGdQajQwaV9DcFJHSVNpM2FoZVpQQ3NoamlUa19uLUVKLU85WVhXLWVYR2lQXzQwSWQxMUxRaE1KMXM4Yi14czVxaWUzUlZzTXBIQk1fYTRwMWRqLTMtSF9IWlV1Z0dYTzBGd0tZN2h3TW40RzZlLXE4c0Z0clpPbEE?oc=5",
+      "title": "Doanh nghiệp ở Khu công nghiệp Phú Mỹ 3 tuyển dụng 300 nữ công nhân - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWkhOeTNEdjZyM2xPV0xoaWlEOG5vR2FfLVc2SmpIblFUSHF4TE9PMTQ3QzMzNkotY0RucXhxTTJIMW9RQ3E0YXFyRUZpRm1KdmZCLVlYbl9STHphRXhUUFBoSF9yMFBkVFB0ZnptSnNiR2t2YS1JMlQ5Q2U2dXJVdUlMOVFzcklNWHY3XzFmOU40b2x5dFRzamJERlFFdFFWZGNLcmc3X1Z4alhP?oc=5",
       "source": "Laodong.vn",
-      "published": "2025-09-10T07:00:00Z",
+      "published": "2025-08-20T07:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Nhiều doanh nghiệp ở Bình Thuận tung ưu đãi cạnh tranh tuyển công nhân số lượng lớn - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNanR2eW5WNFdXVkZnQkk3VVF4ZW9SRmVWbFR4UFNaQy1Vc1VqRTROQ2lfMEFoY092c0gwYnNFQ1A5Q3hNQndrZlJrMWdoQVhJSEprM2pNeldjRmEwUldZRS03UmtjQzJoSlkzcktnNjZXd0ExTVZ4M2VNS2pULWMybkl1YW1LNXJpeEY1R0VQc1JDMHhrZzNwU3F6bURNYWQxMGV0cUhaZjR3NWwtTTlKRlM5dU5kQUo0YjB4bi1qVk5rdw?oc=5",
+      "source": "Laodong.vn",
+      "published": "2025-05-23T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
