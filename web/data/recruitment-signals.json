@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
   "feed": "recruitment",
-  "updatedAt": "2026-11-09T07:49:08Z",
+  "updatedAt": "2026-11-10T08:09:35Z",
   "provider": "Google News RSS",
-  "itemCount": 23,
+  "itemCount": 25,
   "items": [
     {
       "title": "Sở hữu hơn 120.000 lao động cơ hữu, VinCons vẫn đang tuyển thêm số lượng lớn - Znews",
@@ -38,6 +38,15 @@
       "source": "Việc Làm 24h",
       "published": "2026-06-03T13:42:58Z",
       "topic": "Kho vận / Logistics",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "VIB tuyển dụng: Môi trường làm việc sáng tạo, mức lương hấp dẫn - Việc Làm 24h",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBhSVpBaldLbHBiMUFxeEhQRk5UN2tkLUVvTkVMMW5NQjEzZV9WelpoM3pjSE9jVnhIMEN1QlVrTExmWnkyZ0x2d3dQWmp5OUZGLXhSMFdyb3JvS3V5eVFtNHlnZ3RDWmZhOWtRUXFhSEpXV2s?oc=5",
+      "source": "Việc Làm 24h",
+      "published": "2026-05-01T07:00:00Z",
+      "topic": "Chăm sóc khách hàng / Sales",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
@@ -123,6 +132,15 @@
       "verificationStatus": "Cần xác minh"
     },
     {
+      "title": "Các công ty ở Đồng Nai cần tuyển hơn 3.500 lao động tại sàn giao dịch việc làm - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVmRob2pHeVVScW1oWUdrcXdhUDFpZzdBZnR6TEZMTGtuXzVCcXhjbjN0VWJhbnVRTGxST0NtMDRqR21mM2tRQjcxU2k5WlJoUkVDS0VqbUJTZjI5UFYyblJHTzhMWmZXanRwZHNNQnBUNEd3ZkozMlNBZGsyX1ZuQnVocURZR0hnM2xWdW03SVRVODBZUjNOd0NnUVQ0eDRCOGNBXzdlN2t0cW9wWmdZVzZ1S3h4a3dxZGc?oc=5",
+      "source": "Laodong.vn",
+      "published": "2025-10-11T07:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
       "title": "Doanh nghiệp sản xuất nội thất tuyển dụng hơn 600 công nhân - Laodong.vn",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQm9heFhjZUdrN0x1SExnLTY4MVR4MGZjX1Y1QlRXQ2xDUGdQajQwaV9DcFJHSVNpM2FoZVpQQ3NoamlUa19uLUVKLU85WVhXLWVYR2lQXzQwSWQxMUxRaE1KMXM4Yi14czVxaWUzUlZzTXBIQk1fYTRwMWRqLTMtSF9IWlV1Z0dYTzBGd0tZN2h3TW40RzZlLXE4c0Z0clpPbEE?oc=5",
       "source": "Laodong.vn",
@@ -136,15 +154,6 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWkhOeTNEdjZyM2xPV0xoaWlEOG5vR2FfLVc2SmpIblFUSHF4TE9PMTQ3QzMzNkotY0RucXhxTTJIMW9RQ3E0YXFyRUZpRm1KdmZCLVlYbl9STHphRXhUUFBoSF9yMFBkVFB0ZnptSnNiR2t2YS1JMlQ5Q2U2dXJVdUlMOVFzcklNWHY3XzFmOU40b2x5dFRzamJERlFFdFFWZGNLcmc3X1Z4alhP?oc=5",
       "source": "Laodong.vn",
       "published": "2025-08-20T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Nhiều doanh nghiệp ở Bình Thuận tung ưu đãi cạnh tranh tuyển công nhân số lượng lớn - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNanR2eW5WNFdXVkZnQkk3VVF4ZW9SRmVWbFR4UFNaQy1Vc1VqRTROQ2lfMEFoY092c0gwYnNFQ1A5Q3hNQndrZlJrMWdoQVhJSEprM2pNeldjRmEwUldZRS03UmtjQzJoSlkzcktnNjZXd0ExTVZ4M2VNS2pULWMybkl1YW1LNXJpeEY1R0VQc1JDMHhrZzNwU3F6bURNYWQxMGV0cUhaZjR3NWwtTTlKRlM5dU5kQUo0YjB4bi1qVk5rdw?oc=5",
-      "source": "Laodong.vn",
-      "published": "2025-05-23T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
@@ -200,6 +209,15 @@
       "source": "Laodong.vn",
       "published": "2024-02-20T08:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "VietJet tuyển dụng: Mức lương hấp dẫn, môi trường làm việc chuẩn quốc tế - Việc Làm 24h",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qQjZLdXZkRUxaWmNrbVNlSWFTRzRNeGxnZU9kQ3RYd2lDa295bkFiVWJXWlYxdGRrZ0dBQndvODhWUFAwQkYyWF9KaHlCQk1ueXJUNmxGQTRFVGdZUDh0dWllbGF1M1hmeF9WbnpubHpwa2FMNWR1VQ?oc=5",
+      "source": "Việc Làm 24h",
+      "published": "2023-05-01T07:00:00Z",
+      "topic": "Chăm sóc khách hàng / Sales",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
