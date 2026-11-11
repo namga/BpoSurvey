@@ -1,19 +1,10 @@
 {
   "schemaVersion": 2,
   "feed": "recruitment",
-  "updatedAt": "2026-11-10T08:09:35Z",
+  "updatedAt": "2026-11-11T07:38:31Z",
   "provider": "Google News RSS",
-  "itemCount": 25,
+  "itemCount": 24,
   "items": [
-    {
-      "title": "Sở hữu hơn 120.000 lao động cơ hữu, VinCons vẫn đang tuyển thêm số lượng lớn - Znews",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOXlwa3YyX0R1WWwzbnBsdGFPT2hFQzBWWmRDVzJKRXZjMmgzMS1PbHFuQVN4ZTVMc0p3ZnZ6amM3XzFTenJfcUZSbGRRcExya29TZEU5NnM0OF9Oc0hfaFJITVV5MENjUS1GZFZEeEg3aV9LdEhWS3Z1TzBIU0NZTWRwT3diUG1lazZ6cWpsUV8zSnRwQjhtaU91S2MwUEJnelMxcXE3Z3ByWWlP?oc=5",
-      "source": "Znews",
-      "published": "2026-10-02T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
     {
       "title": "Lương kỹ sư xây dựng lên đến 65 triệu đồng, doanh nghiệp vẫn khó tuyển người - Báo Thanh Niên",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaGN6WGRxS0tmRDBvNWV1VlFsNDhyUVI4RTBFcWxUeEZuRTlzNk1MaF9RWW10ajRCN2NHbnhFM2RxLXJLejIzdHAzTTBTZkpZbXdoZHBEZWxoYUdHZDBKZFZBLWcxRXZKRGkzdUlFa2NxWFFrSVo2clhERWZZMEFUOUxxV01WQzFzOHZ3V1ZHZTJBUkxlSmhEVmxGeE00R1VkbXNuSDl3SlhKVERhR1VYM252TWtDekRJdWc?oc=5",
@@ -38,15 +29,6 @@
       "source": "Việc Làm 24h",
       "published": "2026-06-03T13:42:58Z",
       "topic": "Kho vận / Logistics",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "VIB tuyển dụng: Môi trường làm việc sáng tạo, mức lương hấp dẫn - Việc Làm 24h",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBhSVpBaldLbHBiMUFxeEhQRk5UN2tkLUVvTkVMMW5NQjEzZV9WelpoM3pjSE9jVnhIMEN1QlVrTExmWnkyZ0x2d3dQWmp5OUZGLXhSMFdyb3JvS3V5eVFtNHlnZ3RDWmZhOWtRUXFhSEpXV2s?oc=5",
-      "source": "Việc Làm 24h",
-      "published": "2026-05-01T07:00:00Z",
-      "topic": "Chăm sóc khách hàng / Sales",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
@@ -190,6 +172,15 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOR25LbURnZTNWUWRnaER0YnVjMGE1TnpidW13dlRMbDQ0RjZwbWZBaDJWZWhwMzFWV3NLSm1mUHdlbzdDLXBkWFZMSmlvandHNm9MQ1hVdGsydXpibTVLOGFxVHFINXMtY09iV1J1am5peFZtLWVxek5UaHRYeUN5MmpUVGFBcFllSHY0Y2pzOG5aYmVIUERVMXJxLWdOaUJNZVpN?oc=5",
       "source": "Laodong.vn",
       "published": "2025-02-05T08:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "6 tỉnh phía Bắc có nhu cầu tuyển dụng hơn 41.200 lao động - baochinhphu.vn",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQU1F4eW05a0tCTmZJV21XY1NMN2U2bHE3ajM2RGplNnpCaDdzR2hfUEtxQjUyWHRWVlVzVjd6bDlFU1ZiQVM3WHVCY2xKY2ZzZ0JzalAzcnhZc1BTT21nUzYxc0FxRlVtaFh0N195NmVXMmNCQWhXcnlnemxZeVA3bXhYUV81RG10ajBYajJyWVdxTGM3SzBXNHhhUGFyYTRQeVJuTQ?oc=5",
+      "source": "baochinhphu.vn",
+      "published": "2024-07-26T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
