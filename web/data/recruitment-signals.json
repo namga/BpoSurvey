@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "feed": "recruitment",
-  "updatedAt": "2026-11-11T07:38:31Z",
+  "updatedAt": "2026-11-12T08:07:30Z",
   "provider": "Google News RSS",
   "itemCount": 24,
   "items": [
@@ -46,6 +46,15 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT0ZMajYtMmdwQ1p2czZOWXlVOWlkd1dCQVBIZ183MDdDeUk5TllrRHVWbm5yUEkwNHNDRjFEdVpvUXk1a3hOOGdrczE5Q20zT2tyajRNX0RIaExQSWxGR3hfeGRrQWpNWWkxNTJOYU45emVBN3psaW10Q0s2dEhnd2VoSXRieGNWUF9rZHRYQ3U3cWlRS00xb3dBcWc?oc=5",
       "source": "Laodong.vn",
       "published": "2026-03-14T07:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Doanh nghiệp Phú Thọ tăng tốc tuyển dụng, mở rộng cơ hội việc làm - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMHNuaU4tNmtfX19GOW1tYk9YLUtOTHJTc25TQnV5eDlnYmt1dDNJRFgzNms5bmNqQlkwMFRWT0FJbFpYSzBmVjRyTXp5YTlseGFmTGdnV0pyWklSRXFCeXpEN3ppUjV2VE5SQlVXWlJtVUthZWNwZW81Y2RtY2ZlZjRxWnJBOEhETHpoSTFBdlo5Y00yVEw0QjYzRXltX2NIUExPVTdwZXI?oc=5",
+      "source": "Laodong.vn",
+      "published": "2026-03-10T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
@@ -172,15 +181,6 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOR25LbURnZTNWUWRnaER0YnVjMGE1TnpidW13dlRMbDQ0RjZwbWZBaDJWZWhwMzFWV3NLSm1mUHdlbzdDLXBkWFZMSmlvandHNm9MQ1hVdGsydXpibTVLOGFxVHFINXMtY09iV1J1am5peFZtLWVxek5UaHRYeUN5MmpUVGFBcFllSHY0Y2pzOG5aYmVIUERVMXJxLWdOaUJNZVpN?oc=5",
       "source": "Laodong.vn",
       "published": "2025-02-05T08:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "6 tỉnh phía Bắc có nhu cầu tuyển dụng hơn 41.200 lao động - baochinhphu.vn",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQU1F4eW05a0tCTmZJV21XY1NMN2U2bHE3ajM2RGplNnpCaDdzR2hfUEtxQjUyWHRWVlVzVjd6bDlFU1ZiQVM3WHVCY2xKY2ZzZ0JzalAzcnhZc1BTT21nUzYxc0FxRlVtaFh0N195NmVXMmNCQWhXcnlnemxZeVA3bXhYUV81RG10ajBYajJyWVdxTGM3SzBXNHhhUGFyYTRQeVJuTQ?oc=5",
-      "source": "baochinhphu.vn",
-      "published": "2024-07-26T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
