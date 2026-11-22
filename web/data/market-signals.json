@@ -1,10 +1,19 @@
 {
   "schemaVersion": 2,
   "feed": "market",
-  "updatedAt": "2026-11-21T08:08:41Z",
+  "updatedAt": "2026-11-22T07:53:51Z",
   "provider": "Google News RSS",
   "itemCount": 54,
   "items": [
+    {
+      "title": "Việt Nam chính thức có 13 ngày nghỉ lễ hưởng nguyên lương - 24HMoney",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObTA0OHkxSko4eHdOZUlSaXRuSkxFQ2FnWUdqdFNueDA2M3F2bHZVNHFxWmctUUpMaWVDNi1IbDR0c1RHWkNFcFhMYXJEVlFTanpMT185T2wzWmJSQ2p2N2tiSF9wOE4zZjFPTWx2TWowd3V6cEdBN0RwQVVBbFkxTTN0azgzd3BaaS1ETExfNUdOZWhIaFR6ZmhZYks4aUxJ?oc=5",
+      "source": "24HMoney",
+      "published": "2026-11-21T11:39:07Z",
+      "topic": "Nhân sự / tiền lương",
+      "category": "market",
+      "verificationStatus": "Cần xác minh"
+    },
     {
       "title": "Gỡ khó bài toán thiếu hụt lao động cho sản xuất - Báo Thanh Hóa",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ0ZCdHVpZUV0RzBJRUpEZVV6TDlJSF9XVE56Y0lQRnNtN2pqc0g1VW42VUFtX1JrNlhvTHBhWHJlN2xVUm44YmRwUkpGSlliRmQwNEVvLUpFVkRla3cwakRoYzBBbl9GZElRQUVHSE9CYk5PenRTb2V4WDJOZVc0YndfTUFkRmZH?oc=5",
@@ -51,15 +60,6 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Thị trường lao động cuối năm: Đầu việc tăng vẫn khó tuyển người - Báo Thanh tra",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPXzdXM0s4cU53Z2ZYZEJQdEVFTXRZYjBtZ1hqZVhVb01kVTNVMG50UElpTDY4OUVLT2hVQzVfbHRNVzBYeG9zNGJ6YVo0WUhsT2t2U1RLVmVCbEQtMUY2X01qUFBYX0docEdybDNtd18yX1FyS00xcGpaTllGUlVnVGYyYkVmMEJfaTFQUEVla2F2NGZMMGtUZ1ZZNTZtTEFDQjN2NWN3czJ3YUJBdjdJV1FMU1dwTGNRaXhz?oc=5",
-      "source": "Báo Thanh tra",
-      "published": "2026-10-22T07:00:00Z",
-      "topic": "Tuyển dụng / lao động",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
       "title": "Doanh nghiệp thủy sản Cần Thơ khó tuyển thợ lành nghề - Laodong.vn",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdVlQakRvTWhJbFprVGRyeDRpOXVkSE9YQ0kwU2xrYnUwd3hFeHlnUjQyNjBIQzQxdGVTa0d3aUtpTUpPb2liNFNqYm5aSUVWM00xRlBVTzVlZE5lb0dmTG01S1lmb0VfMGhyN1RXYm5VbGh1Vks2TDVMV3ZIbGxwRkQtUzF0Vnk2Mi1VWXZSbUN6emNFRWZ2UnZn?oc=5",
       "source": "Laodong.vn",
@@ -72,15 +72,6 @@
       "title": "Thông cáo báo chí về tình hình lao động, việc làm quý III và 9 tháng năm 2026 – General Statistics Office of Vietnam - General Statistics Office of Vietnam",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUldFaHNFX0gyUVV5NVp4M0pQLUNkTkJnX0ViX3NGZG84ZVNINDI4X2hnWGxudHY4X0hiODNyeHRYOXR0ZGROamY1VjNkRW11d05zZFFMcW1mNExDem5xYi1tUW9obzF4amNRSjhPbHZyc2xIZUZnMVZMWmpJYWwydkxTRVZyNU5XU09SX3pGOVk0TW1PVnpENXpoM1FmUHNXQkU4TUVLZ290UGRMNkpKZlFhSkl6ci14SWU4Y2lncEdaZkE?oc=5",
       "source": "General Statistics Office of Vietnam",
-      "published": "2026-10-03T07:00:00Z",
-      "topic": "Nhân sự / tiền lương",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Thị trường lao động 9 tháng năm 2026: Việc làm tăng, thu nhập người lao động cải thiện - Tạp chí Kinh tế - Tài chính Online",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUkozemtDWjNibFNJd2pKWUkzaHpvcmtJT21lZ2ZPTEVlemd0RjZ3aTFxYV9lRnRLYUp6SWJoZEtJYVRVcENNSTZaaVVyZU0tSlp5MDhYVUtHaWJjY01BOVJ4RTR0N1NzWHNna3V6U2Z0ei0tMkhVc1RiQ2RnenN0UTZqV0U1dHp1TGkxZ0djUGhaZXExNGJCNC1EM3hFU3IwSks3NXgzend0SkJnUmRwVDJuTGJuTXdyNGlyR2F0SVB6R1ZtYVBweDdFb3U1aVdP?oc=5",
-      "source": "Tạp chí Kinh tế - Tài chính Online",
       "published": "2026-10-03T07:00:00Z",
       "topic": "Nhân sự / tiền lương",
       "category": "market",
@@ -195,15 +186,6 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Doanh nghiệp tăng cường tuyển dụng vẫn khó tuyển, thiếu lao động - Báo Thanh tra",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVmE1ZkpEQ2dLU05WcU9PMV9lWXd1bW5vZUVhMDdkWS1sYkVaZWJwNFM5ekVhMl8zMFAtMlFLVVpOX184Skp2ZzRhdUFkSzRHOFJYVm5heU5uVk03UkNsWERHYl9UZ1hzeGNYODFONkVmZEFhczF4ZjVOU3ZWOGZUc0FRSlAtaW5HS2tFbWVHZ2twNVp4NFFqemJHam84eHpmRlVYSDIwZUg3YTJHUkU0TmtZbDlpX1Z2WmZvbQ?oc=5",
-      "source": "Báo Thanh tra",
-      "published": "2026-03-26T07:00:00Z",
-      "topic": "Tuyển dụng / lao động",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
       "title": "Doanh nghiệp ở Đồng Nai tăng phúc lợi vẫn khó tuyển lao động - Laodong.vn",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTkJOVmdxX05SdjJMeFMtdjlPWjRmQVp5cmxJR3huSHhfRXgtVGhzQ2paTXFFYjIwRzA3VndHT2VTNUR5OU1rbm1uMHc1d21kTmNLcDBSRTZBMEQ4NHB3NGRvZ3hWeHBxS0dmTVZRbU1ZaXRFR3VMZVhjS1pMdlRHWS12RW9NOEdpNlk5bnpRQktWQVVvY0pnSk11Mkdta3hwT29N?oc=5",
       "source": "Laodong.vn",
@@ -227,15 +209,6 @@
       "source": "Tạp chí Kinh tế - Tài chính Online",
       "published": "2026-03-20T07:00:00Z",
       "topic": "Nhân sự / tiền lương",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Nghịch lý tuyển dụng tại Hà Nội khi doanh nghiệp khó tìm lao động - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONUFDUkJfOVl6bG1xY2VzNzlKa1QzUUJsUlpJNkxVWVI1RUpPYTVtWEVWVkQySUM4ZW5qZ2JCNEt3clRYMkZZczAyQ3VDamtMakZ5VW5WZ2pWUDBBMDJCYzRNRlpzdFZwal8tOU50dXg2MDlTcGJjbjVUcGxFUWNhR1UzMUtvRC1HblZNMi02WUQzU3d2NDFXS2ZzSnZnSHlzOE9tOS15NjlQVFR0ckE?oc=5",
-      "source": "Laodong.vn",
-      "published": "2026-03-18T07:00:00Z",
-      "topic": "Tuyển dụng / lao động",
       "category": "market",
       "verificationStatus": "Cần xác minh"
     },
@@ -339,6 +312,15 @@
       "verificationStatus": "Cần xác minh"
     },
     {
+      "title": "Công ty giày ở Đồng Nai tuyển gấp hơn 3.000 lao động với nhiều chế độ đãi ngộ tốt - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcDRFSE5JZVNBbkZkNVBpN19nc09nY1Eyak9IdzlDd3l6MkxlZnJJWDByckNpTUE1VkNMLVdJNW53RFduMzhPNGxyUnpZdU5yd2x1alNpOGhMcjg2cl9oN2Q1eEIydE1ONkQtVnQ4dENxeVRQOHc3eUI5MFRpeTZDc1FzNUVxdm1WMzc2MlZmRnZJNy16QzFhZ3loMzRTY0l4ZmJrRlVGZkhiNjFWeERwRkJ5cnVTbGNnb0ktMUln?oc=5",
+      "source": "Laodong.vn",
+      "published": "2025-07-14T07:00:00Z",
+      "topic": "Tuyển dụng / lao động",
+      "category": "market",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
       "title": "Lập Call Center, Vietnam Post quyết nâng chất lượng - Vietnam Post",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYjh6Y0FfZ2N2S0M4ejRmOTFtQXdzb0dhRzZPVUljY3QyeVhvWmQ5T256UnZUU1M4TmVvMFpBRHZ6UzN4QzJDWnprWWdELWt1Um4zVW1ZSHRhSm45SnpDQWpNNEx2dV9aUnlHbU11Y0c1c0NEb21FX2oyeHRkV0FNekZ3NC14RW44Z0ZqSGQ0d25iaGdMUjFR?oc=5",
       "source": "Vietnam Post",
@@ -375,19 +357,28 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Nhu cầu tuyển dụng tăng, Bình Dương cần thêm 38.000 lao động - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLU01THZpTmM1UmwtM3FkRGMtWjdaTVFfbnBNT2xoVV95cVlUQ3BTWkc3THB5SVNLcVpKbkwyaHR5NG5fNzBDWmxIQzAyT1JqTl85VFhqWWV1VTAxSS00MFRvREJwcWdwcUNWOHo2RVhMbGlDM1dPVTI0NHFRNUMxRWpKYnpIZWQyd2htSUd5M1RzSTZXUHNNRTBIXzRvMFh3?oc=5",
+      "title": "Sản xuất mở rộng, doanh nghiệp tăng tuyển lao động - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS19GTnhHdnljamFFalhsQ3RUZWdUdUFRWk5ydEc0QVJ0bUlaRWVKQnVhNFpxZ2RDWWNKY0VsUGlYMF9KT0dBNmhTOGVXUGtxb1A3UmJRTFpuQ3B1a2JlVWhoUGJlSkQxcmF2WlNJMkVfTXVHTXEyZHZJaDRaVENSMmo3NWlSaG1PTWlIbU9haXRXSVNJ?oc=5",
       "source": "Laodong.vn",
-      "published": "2025-02-20T08:00:00Z",
+      "published": "2025-04-01T07:00:00Z",
       "topic": "Tuyển dụng / lao động",
       "category": "market",
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Ngành dệt may trước áp lực thiếu hụt lao động - Báo Nhân Dân điện tử",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcFlxUEduMXhiOEpaU3dHOVNSVS0tQ1V4OWdUb1hablBCZ0JWc19OUXZ1LWxRMV9HLTZqaUNlRF8zb0wtODlJU0x1Z1dqQnlLa21wSjBQazV3X0hXQ0ZnQ2lIREFxQk1XYlE4aTRVOVlZRDNmakQzRG1fYjZORzljNGo2VjFKa1E?oc=5",
-      "source": "Báo Nhân Dân điện tử",
-      "published": "2025-01-15T08:00:00Z",
+      "title": "38 doanh nghiệp ở Hải Phòng cần tuyển 3.552 lao động - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUVFYeDRpYmc4MzlXUm1SRlJrTFFocDZ5TVIxM2lEc3B5RUVFUVpialdoTklqdXREZnEwVERzbU1VWjRmZmUwNXNRcEVZZFhjcllWTXBWcEhLZGZINEdVSGVsZVg0bFYzU2VqNVlxU2U3MjVLRG9aa3Rad3NZTmtINENiajQ4eWxMRmtsNmxGZERzR2RoOGZB?oc=5",
+      "source": "Laodong.vn",
+      "published": "2025-02-26T08:00:00Z",
+      "topic": "Tuyển dụng / lao động",
+      "category": "market",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Nhu cầu tuyển dụng tăng, Bình Dương cần thêm 38.000 lao động - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLU01THZpTmM1UmwtM3FkRGMtWjdaTVFfbnBNT2xoVV95cVlUQ3BTWkc3THB5SVNLcVpKbkwyaHR5NG5fNzBDWmxIQzAyT1JqTl85VFhqWWV1VTAxSS00MFRvREJwcWdwcUNWOHo2RVhMbGlDM1dPVTI0NHFRNUMxRWpKYnpIZWQyd2htSUd5M1RzSTZXUHNNRTBIXzRvMFh3?oc=5",
+      "source": "Laodong.vn",
+      "published": "2025-02-20T08:00:00Z",
       "topic": "Tuyển dụng / lao động",
       "category": "market",
       "verificationStatus": "Cần xác minh"
@@ -398,6 +389,15 @@
       "source": "baodautu",
       "published": "2024-09-29T07:00:00Z",
       "topic": "BPO / outsourcing",
+      "category": "market",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Mở rộng sản xuất nhưng khó tuyển công nhân - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWklXTXI1UjlEUHZrLXQ3MU14aGRoTTJTLWtTX3ZqbkZTOXBBUDROaXFOMVMwX1RRSkV6V0VBdXlXQWJrdGtqMzM4a0EzWkNjM3NBeVRSeXltbkdvUl9WcUJqbDk3MDZZTE0xZC1HWUtNTU1nRW1hRGJObXp0X3hCSFpGbTZ6MEtPMTRj?oc=5",
+      "source": "Laodong.vn",
+      "published": "2024-09-11T07:00:00Z",
+      "topic": "Tuyển dụng / lao động",
       "category": "market",
       "verificationStatus": "Cần xác minh"
     },
