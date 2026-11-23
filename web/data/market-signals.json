@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
   "feed": "market",
-  "updatedAt": "2026-11-22T07:53:51Z",
+  "updatedAt": "2026-11-23T08:48:40Z",
   "provider": "Google News RSS",
-  "itemCount": 54,
+  "itemCount": 53,
   "items": [
     {
-      "title": "Việt Nam chính thức có 13 ngày nghỉ lễ hưởng nguyên lương - 24HMoney",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObTA0OHkxSko4eHdOZUlSaXRuSkxFQ2FnWUdqdFNueDA2M3F2bHZVNHFxWmctUUpMaWVDNi1IbDR0c1RHWkNFcFhMYXJEVlFTanpMT185T2wzWmJSQ2p2N2tiSF9wOE4zZjFPTWx2TWowd3V6cEdBN0RwQVVBbFkxTTN0azgzd3BaaS1ETExfNUdOZWhIaFR6ZmhZYks4aUxJ?oc=5",
-      "source": "24HMoney",
-      "published": "2026-11-21T11:39:07Z",
+      "title": "Xây dựng chính sách phúc lợi toàn diện nhằm giảm tỷ lệ luân chuyển nhân sự trong bối cảnh thị trường lao động Việt Nam - Nghiên cứu Kinh tế-Tài chính",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPMnVIOG5FWHNqTnphdnFiNWRUZDNDbVBvNjVVSXVpWmtVMVlzWElSWEQ1SS1DbkVMRGFuSW9jbUVneDhrNDd4T2t1TVE1NGN6bDI5N1FPczUxNVI0ZmdBRU5HX29QMnFPS1F5MzVqUXZBQ0Z5bF9nSmM0cmZtVF9lalQycGdBazNkOUY0UzZHa1l6bThPYzRzbGNCWjNFMnhtakR6SXlOd2M3TlhiWW5CQmhkN3hOZWQwZjlBNjlzeHFhLU9iUEV2cUk4a3g1bzY3VWNIc3JQUGNjeHVodFBmcnhFOURlV0V6bnBudDJkYWVHM3lYNmcwSmxmQjFXYnNfRlE?oc=5",
+      "source": "Nghiên cứu Kinh tế-Tài chính",
+      "published": "2026-11-21T03:00:06Z",
       "topic": "Nhân sự / tiền lương",
       "category": "market",
       "verificationStatus": "Cần xác minh"
@@ -60,6 +60,15 @@
       "verificationStatus": "Cần xác minh"
     },
     {
+      "title": "Thị trường lao động cuối năm: Đầu việc tăng vẫn khó tuyển người - Báo Thanh tra",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPXzdXM0s4cU53Z2ZYZEJQdEVFTXRZYjBtZ1hqZVhVb01kVTNVMG50UElpTDY4OUVLT2hVQzVfbHRNVzBYeG9zNGJ6YVo0WUhsT2t2U1RLVmVCbEQtMUY2X01qUFBYX0docEdybDNtd18yX1FyS00xcGpaTllGUlVnVGYyYkVmMEJfaTFQUEVla2F2NGZMMGtUZ1ZZNTZtTEFDQjN2NWN3czJ3YUJBdjdJV1FMU1dwTGNRaXhz?oc=5",
+      "source": "Báo Thanh tra",
+      "published": "2026-10-22T07:00:00Z",
+      "topic": "Tuyển dụng / lao động",
+      "category": "market",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
       "title": "Doanh nghiệp thủy sản Cần Thơ khó tuyển thợ lành nghề - Laodong.vn",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdVlQakRvTWhJbFprVGRyeDRpOXVkSE9YQ0kwU2xrYnUwd3hFeHlnUjQyNjBIQzQxdGVTa0d3aUtpTUpPb2liNFNqYm5aSUVWM00xRlBVTzVlZE5lb0dmTG01S1lmb0VfMGhyN1RXYm5VbGh1Vks2TDVMV3ZIbGxwRkQtUzF0Vnk2Mi1VWXZSbUN6emNFRWZ2UnZn?oc=5",
       "source": "Laodong.vn",
@@ -87,11 +96,11 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Thị trường lao động: Khơi thông nguồn lực cho tăng trưởng 2 con số - Tạp chí Kinh tế - Tài chính Online",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUjdrWXJURGU2SF9KcXRjZTQzMW5JVVM5bjFRcDcwLWQtT1lVdmY3bVRMSHl1NDluYmYzeXBiN0tIano4ejJOa2NaZ0I1ZnZqeUpKd2QtdDF6R1ZfWVFiQkc5aEZ4ZW5qYTR4YlBFX2hZUjRkVTg1bGdKb3hqUFB4dDNnS3JLVGpKNVJKQUhNZDZ5OXEyemFEbG1wYXRORXVxbnpFT0lDd0xzYmR1RG40UDNDVl9Sb28?oc=5",
-      "source": "Tạp chí Kinh tế - Tài chính Online",
-      "published": "2026-09-05T01:11:47Z",
-      "topic": "Nhân sự / tiền lương",
+      "title": "Doanh nghiệp Khánh Hòa thiếu lao động để mở rộng sản xuất - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOFBPcG9QTlBCQlFZeUFZUk5UdHZ5TVIyRFZJQXliODZMYlZsQndnY2cwZzhhTjY0TTRIM19xekcyU05nMDVoUFp3ejlxa1lYeWVYSktVVHFHM0hmZ1ZFMDlwZ3RUQlg5QjlCRVpIRW9nNURKZHV6TFVIeEp2NVJjeTZ5T2tLeXZWVndOR2VUSU5ldEJ4bVkwS1Y5QmFVdzg?oc=5",
+      "source": "Laodong.vn",
+      "published": "2026-09-01T07:00:00Z",
+      "topic": "Tuyển dụng / lao động",
       "category": "market",
       "verificationStatus": "Cần xác minh"
     },
@@ -240,6 +249,15 @@
       "verificationStatus": "Cần xác minh"
     },
     {
+      "title": "Thị trường lao động năm 2026: Doanh nghiệp trả lương “khủng” nhằm thu hút nhân lực - Báo Đại Đoàn Kết",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQjNsSGpsN0tRSVZrTHY0U1BUUllPYllQLXRQc3I3UGFlMVBaN2NYZlIwTGxmNVZtZ0xRZUthOEpqT0hCQmtjWW94Y2NEZXpwTG5EcFl5Vl85bVR5OWhHQkNnT0lJV0lQd2dqOVVMZHNpajdsc1hydjJIVzFLY1B2VFRoM1lzZHJkRGhuZnFSczg4cGZYVTd2R3dTamtnVHVKM1RINktzOHJCZw?oc=5",
+      "source": "Báo Đại Đoàn Kết",
+      "published": "2026-02-05T08:00:00Z",
+      "topic": "Nhân sự / tiền lương",
+      "category": "market",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
       "title": "Lao động biết tiếng Trung được săn đón, thu nhập cao hơn đến 40% - Báo Tuổi Trẻ",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMkp6dnJNVUFYNTR2Snd4aTJQanVrVjg4Sk0tY2VhSzRqTHlLVkRranhxZkJYdnpwemJKNmtVWmY3SUdibTM4Y2hyMEVVRFdBaGp5WEd6Y3NMbGI2QTE2RWx4T1lYcFZhZ1ZvMUE2MnJvOHVOMUpfUDdMV1ZFUUYxd2xQZ2dhUG1jSEYyakRMWThmVVM4LXdzRWYxLWNRWnJyZzdiZ0dQdjVQV2I3?oc=5",
       "source": "Báo Tuổi Trẻ",
@@ -272,15 +290,6 @@
       "source": "General Statistics Office of Vietnam",
       "published": "2026-01-13T08:00:00Z",
       "topic": "Nhân sự / tiền lương",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Thị trường lao động Hà Nội cuối năm phân hóa rõ nét - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObVk5UEpWTUFsTFlxbU42VWFraHhQX2VSOWxPTGZZbi1sVE81WVh0eTg4M0xZczFVYVh0REVlcUlvZVc2YnlPM1hZVXRPQlVFWmlSaGFDSk5NZHZaZjJodGVVeXl6VHFjTzVkTF9HWUlKYXRXR1lKWEhUZTF0N3doTnRRR2NQY3VVT2dpQ2lnVndKVHM2WlBF?oc=5",
-      "source": "Laodong.vn",
-      "published": "2025-12-20T08:00:00Z",
-      "topic": "Tuyển dụng / lao động",
       "category": "market",
       "verificationStatus": "Cần xác minh"
     },
@@ -393,15 +402,6 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Mở rộng sản xuất nhưng khó tuyển công nhân - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWklXTXI1UjlEUHZrLXQ3MU14aGRoTTJTLWtTX3ZqbkZTOXBBUDROaXFOMVMwX1RRSkV6V0VBdXlXQWJrdGtqMzM4a0EzWkNjM3NBeVRSeXltbkdvUl9WcUJqbDk3MDZZTE0xZC1HWUtNTU1nRW1hRGJObXp0X3hCSFpGbTZ6MEtPMTRj?oc=5",
-      "source": "Laodong.vn",
-      "published": "2024-09-11T07:00:00Z",
-      "topic": "Tuyển dụng / lao động",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
       "title": "VietinBank lần thứ 2 liên tiếp đạt Giải thưởng “Trung tâm dịch vụ khách hàng đổi mới sáng tạo” - VietinBank",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObzgtb29SUHlycmhJWTE2dW9zeEd1MVpYN0hNTFAzQzR6WVJUdDE4TDItdFphMVlwLUZuSHpXT2tic1dIX2lYYTlRODctQWZEVzFWTHEyS01SM3NobzdMN1hrRnYzVTVWUGl1REptRHNmLUoyclAxdG5JODJZalB2LWJLWDNUT3JUWE5MYWZMMlA1eGJmOUNsVU5GS0tJOXZzdUxvOFlUam90V2pFcTVVNUVnS3o0dW1QN3ByV0JONUxCb2hhZk1DNTg4R0FSTlcxbHBhdmFYcw?oc=5",
       "source": "VietinBank",
@@ -420,18 +420,9 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "VietinBank tuyển dụng nhân viên chăm sóc khách hàng tại Đà Nẵng - VOV.VN",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3VTVnQ3UXlXYmJvakFZNWRsd1huVGZhT0R6aURWUzRlYWVRUl9fcmpYcnp5aHpnOWxjSUIzV2l2ejJKaDJpWkVyVDVwekZlUExpWE5OQ3NkS01ISlhvZ1ZXZElGUE9TUlFudGhCRDZjNXU0TkQ0eV9kUkRZRF8xRmxiSVlfUkFRZW5IZkVpeGNTcnRIOFZmX0tYMy1nNmFzMjVlRmU2Sm5xSVd1LXl1SWpBUkF5NzNmYTdYUzBUQmcwUQ?oc=5",
-      "source": "VOV.VN",
-      "published": "2023-11-24T08:00:00Z",
-      "topic": "Contact center / CSKH",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Doanh nghiệp Việt chi 2 tỉ USD cho ‘outsource’: Cơ hội nào cho lao động trẻ? - Báo Thanh Niên",
+      "title": "Doanh nghiệp Việt chi 2 tỉ USD cho ‘outsource’: Cơ hội nào cho lao động trẻ? - Thanh Niên",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQanpNLVNJMUU4blc5eXFFQmhzVUZsMDFGQzFQejZnNHVNeVdVaXpPSnFOQmZuUXZndGZnc0VhQ1k4OV8tNDl2OUJXX1o2ZTJqT294LW5PUHIwNXdTRWxXLVE3Sy1UOHN3X3J1dXh5ZFFvRFZub25jZGotZFNxdTNqTW44TjB0b0kyalRnZHFCdkVtNEx2NkZybjhva2d2N2VsSXZua3U2UWNYRHd0?oc=5",
-      "source": "Báo Thanh Niên",
+      "source": "Thanh Niên",
       "published": "2022-08-26T07:00:00Z",
       "topic": "BPO / outsourcing",
       "category": "market",

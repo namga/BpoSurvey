@@ -1,24 +1,24 @@
 {
   "schemaVersion": 2,
   "feed": "recruitment",
-  "updatedAt": "2026-11-22T07:53:51Z",
+  "updatedAt": "2026-11-23T08:48:40Z",
   "provider": "Google News RSS",
   "itemCount": 23,
   "items": [
     {
-      "title": "Doanh nghiệp Thành phố Hồ Chí Minh \"đỏ mắt\" tìm ... công nhân - Vietnam+ (VietnamPlus)",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcXF4S09SY1NLRmJFQmFiY3JmYklYVmlSLUhYYmZFdS1rU3FRaFFOZ2x0RG1sNGhGcWRNN051ek5hTkZ2TW9Oenh3aUpPa0w4NmZlSDV4VWdrSUpmTWRUdnpNd0FhZjdCTml0Z2ZHUjQ5NU5BbFAzTmp4T2RBZXB2NF8xd3ZTN3ZRekVGZjBIMzJwcFZIdUtzc2VoUlotRUU?oc=5",
-      "source": "Vietnam+ (VietnamPlus)",
-      "published": "2026-07-06T07:00:00Z",
+      "title": "Sở hữu hơn 120.000 lao động cơ hữu, VinCons vẫn đang tuyển thêm số lượng lớn - Znews",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOXlwa3YyX0R1WWwzbnBsdGFPT2hFQzBWWmRDVzJKRXZjMmgzMS1PbHFuQVN4ZTVMc0p3ZnZ6amM3XzFTenJfcUZSbGRRcExya29TZEU5NnM0OF9Oc0hfaFJITVV5MENjUS1GZFZEeEg3aV9LdEhWS3Z1TzBIU0NZTWRwT3diUG1lazZ6cWpsUV8zSnRwQjhtaU91S2MwUEJnelMxcXE3Z3ByWWlP?oc=5",
+      "source": "Znews",
+      "published": "2026-10-02T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Đề xuất tạm dừng tuyển dụng 407 công chức ở Khánh Hòa - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTVJ2dTVySjNLRThmU3NZMEIwRy1Fdjl5d1FaSGQxRUpzWlZIbmc3ZS0zYzlyUHNOSEhzOUNYQk40dWNDdWlmUEdFVUg2djBJNDFUWTQwNXpfckRuU3Rld1JLRjBxMF9rNy1EYmxmVGRHcVJRanRpVVlvNHV4aXc3TjdFZFpPZE9CejVyVUxzMnlUZnBGRUE?oc=5",
-      "source": "Laodong.vn",
-      "published": "2026-06-10T07:00:00Z",
+      "title": "Doanh nghiệp Thành phố Hồ Chí Minh \"đỏ mắt\" tìm ... công nhân - Vietnam+ (VietnamPlus)",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcXF4S09SY1NLRmJFQmFiY3JmYklYVmlSLUhYYmZFdS1rU3FRaFFOZ2x0RG1sNGhGcWRNN051ek5hTkZ2TW9Oenh3aUpPa0w4NmZlSDV4VWdrSUpmTWRUdnpNd0FhZjdCTml0Z2ZHUjQ5NU5BbFAzTmp4T2RBZXB2NF8xd3ZTN3ZRekVGZjBIMzJwcFZIdUtzc2VoUlotRUU?oc=5",
+      "source": "Vietnam+ (VietnamPlus)",
+      "published": "2026-07-06T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
@@ -69,6 +69,15 @@
       "verificationStatus": "Cần xác minh"
     },
     {
+      "title": "Doanh nghiệp ở Đồng Nai tuyển dụng 2.000 thợ may - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTVBWakpwR0E2MlVGQkl4UlA5WWtaT0lIZHB5WkcwYUhLWTBBZFlsQ1RSY29Sd18ybzgzSUJfblVJTnZhTi1MV2U2SW41VFg5ZlQtVHRQN0VoRXZhd0NudnZPM1V6d0xmaWNTb1YxeE9ObFpob2FZYkEtSFk2U1ppbkRRcTY0Rms2TndEcVdXcEd5QQ?oc=5",
+      "source": "Laodong.vn",
+      "published": "2026-03-01T08:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
       "title": "Tuyển dụng lao động ở TPHCM, doanh nghiệp kê bàn ra cổng đón công nhân - Laodong.vn",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRFBGLXZpandfRFB5YnZqR0dSTzFxNDVkVlJ3aTF3Z1pUMjdtNDRfWU1RblREVk13ekRCd2FVN0RUcjM5OFQxOFJZXzVNdzVTWDQ5TEg1dF9TVmJvVDFHeWIya09kMDFVNkdWYXBfby1TalVoU0pGa0FqNWtlb2E1R1lORk1rVXdJb0pTcXBWVm9pWmNud3hFc0ZHQWNnazRUS2N3NzVob3BtMnpNUGdr?oc=5",
       "source": "Laodong.vn",
@@ -105,19 +114,19 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Hải Phòng kết nối, giới thiệu 16.000 việc làm tại Ngày hội Việc làm lần thứ I - baodautu",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdnlKd2xQVlgxZGREa2ZZUlVGVWpmYUdtTWV2VGRIVVJLTEx0UnlEWEl0Q0R3bVJ4QkpmdUVURXdpVmlpWkZPckNlSWtKYmozZ1g0SXppeXJLTFZaX2JCaElJdXZQUndRVjBBN05QbjI5cEtHaGJZQXEtWFk5azZlTXYzOVFWa0ZTWlJLZWZmY2dyWlZIUUF0bU1FajlBTm9oY3lfMWVuR1lvMnJ5?oc=5",
-      "source": "baodautu",
-      "published": "2025-12-06T08:00:00Z",
+      "title": "90 gian tuyển dụng, 16.000 vị trí lao động - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdVBrQ1lYNzJzZG5uTWs3bUk3aE1Rd3lPRjJHSUh5V2lXRGRSSHVjTHBfY0NuOW8tQkxlczVOaGQ1RVFTaDdQWndMbHh1RjJvcVBWQll3TFdWZU5ob01hR255dHZCQk4xb3dyWkRQWTN5a25MdC1TQ0dmamtyTEI3R1lMc3FRRXB3?oc=5",
+      "source": "Laodong.vn",
+      "published": "2025-12-08T08:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Doanh nghiệp tại Ninh Bình ồ ạt tuyển dụng lao động dịp cuối năm - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeUFrREJRYzQ2R0dJVF91M0VadDAzYUFoV2xlYjJUSC13V043WkRzZ1lNa0VqU09NMHV5bmdmMEZtVTQwVlgxQXdyaFNmemJtWTE3eFZSZ0g1SHl3V29KQ0pvQnhuRGM5bi1Kak9OZnd1NlV5NVZlRTVsM2hDaXFLZ3Bidkc4dHhQeERYdm56bmxGVlBYYlpPcjZiRFJ6NkcxMVQ5SDRwYWk?oc=5",
-      "source": "Laodong.vn",
-      "published": "2025-12-05T08:00:00Z",
+      "title": "Hải Phòng kết nối, giới thiệu 16.000 việc làm tại Ngày hội Việc làm lần thứ I - baodautu",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdnlKd2xQVlgxZGREa2ZZUlVGVWpmYUdtTWV2VGRIVVJLTEx0UnlEWEl0Q0R3bVJ4QkpmdUVURXdpVmlpWkZPckNlSWtKYmozZ1g0SXppeXJLTFZaX2JCaElJdXZQUndRVjBBN05QbjI5cEtHaGJZQXEtWFk5azZlTXYzOVFWa0ZTWlJLZWZmY2dyWlZIUUF0bU1FajlBTm9oY3lfMWVuR1lvMnJ5?oc=5",
+      "source": "baodautu",
+      "published": "2025-12-06T08:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
@@ -132,10 +141,10 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Doanh nghiệp rầm rộ tuyển lao động - Báo Đà Nẵng",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4yRFhRUWdjSG4yZ1Z1a0NaSy1PdEUybV9xV1IyRE1BODlDZ0k0OGhNeXQwejJER2FQZkVIT3FBS1NhNkJSWkt2OXpKQ0VEWVRJMFJVNExsYkdJTzVDWlNlNmlLckFrZ0VnQ0ZpOUpCQ0FmUXZRVGNJ?oc=5",
-      "source": "Báo Đà Nẵng",
-      "published": "2025-09-27T07:00:00Z",
+      "title": "Các công ty ở Đồng Nai cần tuyển hơn 3.500 lao động tại sàn giao dịch việc làm - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVmRob2pHeVVScW1oWUdrcXdhUDFpZzdBZnR6TEZMTGtuXzVCcXhjbjN0VWJhbnVRTGxST0NtMDRqR21mM2tRQjcxU2k5WlJoUkVDS0VqbUJTZjI5UFYyblJHTzhMWmZXanRwZHNNQnBUNEd3ZkozMlNBZGsyX1ZuQnVocURZR0hnM2xWdW03SVRVODBZUjNOd0NnUVQ0eDRCOGNBXzdlN2t0cW9wWmdZVzZ1S3h4a3dxZGc?oc=5",
+      "source": "Laodong.vn",
+      "published": "2025-10-11T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
@@ -181,15 +190,6 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOR25LbURnZTNWUWRnaER0YnVjMGE1TnpidW13dlRMbDQ0RjZwbWZBaDJWZWhwMzFWV3NLSm1mUHdlbzdDLXBkWFZMSmlvandHNm9MQ1hVdGsydXpibTVLOGFxVHFINXMtY09iV1J1am5peFZtLWVxek5UaHRYeUN5MmpUVGFBcFllSHY0Y2pzOG5aYmVIUERVMXJxLWdOaUJNZVpN?oc=5",
       "source": "Laodong.vn",
       "published": "2025-02-05T08:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Bình Dương cần tuyển 30.000 lao động, nhiều công ty tuyển dụng số lượng lớn - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcW1fZEU2bHBHT2Y5alpab2cybnBKNXliT2Z2OUhtSTNpdE9GMWdmYnRZZkNFZGJObHJINEViVEE1RWYzMTFiMnVFRVJLRmlPZUk0cHFCd0xlMlhsQkJxUEY1Y1hYeHpoMXVMUmo5MUZGYVgxYmpJT0hsZUpxTlBqaklmX1ZGLXlrNUVXNmVfOGpaT3NOQ1cyb0lMaFBuNUtiTXRsMXpnbVM4RFFvMFpyeg?oc=5",
-      "source": "Laodong.vn",
-      "published": "2024-06-03T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
