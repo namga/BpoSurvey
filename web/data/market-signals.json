@@ -1,15 +1,33 @@
 {
   "schemaVersion": 2,
   "feed": "market",
-  "updatedAt": "2026-11-23T08:48:40Z",
+  "updatedAt": "2026-11-24T10:47:12Z",
   "provider": "Google News RSS",
-  "itemCount": 53,
+  "itemCount": 52,
   "items": [
     {
-      "title": "Xây dựng chính sách phúc lợi toàn diện nhằm giảm tỷ lệ luân chuyển nhân sự trong bối cảnh thị trường lao động Việt Nam - Nghiên cứu Kinh tế-Tài chính",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPMnVIOG5FWHNqTnphdnFiNWRUZDNDbVBvNjVVSXVpWmtVMVlzWElSWEQ1SS1DbkVMRGFuSW9jbUVneDhrNDd4T2t1TVE1NGN6bDI5N1FPczUxNVI0ZmdBRU5HX29QMnFPS1F5MzVqUXZBQ0Z5bF9nSmM0cmZtVF9lalQycGdBazNkOUY0UzZHa1l6bThPYzRzbGNCWjNFMnhtakR6SXlOd2M3TlhiWW5CQmhkN3hOZWQwZjlBNjlzeHFhLU9iUEV2cUk4a3g1bzY3VWNIc3JQUGNjeHVodFBmcnhFOURlV0V6bnBudDJkYWVHM3lYNmcwSmxmQjFXYnNfRlE?oc=5",
-      "source": "Nghiên cứu Kinh tế-Tài chính",
-      "published": "2026-11-21T03:00:06Z",
+      "title": "Thị trường lao động cuối năm: Đầu việc tăng vẫn khó tuyển người - Báo Tin tức và Dân tộc - TTXVN",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWXE4RkZOc2dkeFFabWY1aG1NYXp4cWJIeUs1OURUY1ppWE5BRG1HOXd2SlozeFAtUWt6b0FzWUlGc2ZSUTZON3lGTDZBZEczWGZVOUxxTFdWSENjdk1JeGV6bVA4bzJLVVdWUmFYTHVYOXNaSHRYa1ZoQlJQa1JSM3VIQ3hZMFVKYjVIV21CWnF0M0Q2WkprOHN6dklrOGZNY0E?oc=5",
+      "source": "Báo Tin tức và Dân tộc - TTXVN",
+      "published": "2026-11-24T02:19:29Z",
+      "topic": "Tuyển dụng / lao động",
+      "category": "market",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Hàn Quốc tiếp tục dẫn đầu OECD về chênh lệch tiền lương giữa nam và nữ - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVWpCR3dmSG0zT3lhYUwwb18wc2x6WldIQl9YRFc5M2dtdDZZWjZMOUota3Fla1h5eU96Mzl1WTJ0MWlMSGQxdHVRN09UVG5PV3Y5YzNzUE5BZDcwTlZHUkFYXzc5bnlDUmJ3Ujk2RDMtdENhOGQzbjZwXzlfa3k1MWNmRnZBV05GZ25ta0VMelNBT3poNG1pOQ?oc=5",
+      "source": "Vietnam.vn",
+      "published": "2026-11-23T16:43:08Z",
+      "topic": "Nhân sự / tiền lương",
+      "category": "market",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Không phải tiền lương, đây chính là lợi thế cạnh tranh mới trong cuộc đua nhân tài của doanh nghiệp - CafeF",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMHdXSndRLWRJemlhUGNnQ2tUd24zdzdLYzlka3poZU9KTjBmX3MzSVlwbndwTFNYcFFjVzhDckx6U2RWejFyeDVHMm5PbWdqVTRLcDR0Vkgtb2tuZ1RGcmJVVGc0VkVaZ0hURE1zcW1ZT1pzcUdMdUhCUk00ZFVLZXVtakFfa25kMjhnd01BNnhlbUcxVDVwXzBpbjc4VmtVeEg0a2VtMEwzR2tFeXFHTmQ3V09QY204U0tQYVVsZGhyRnl2Y0lRYXZfSmxWeW5aMkt5ZA?oc=5",
+      "source": "CafeF",
+      "published": "2026-11-13T08:00:00Z",
       "topic": "Nhân sự / tiền lương",
       "category": "market",
       "verificationStatus": "Cần xác minh"
@@ -24,20 +42,65 @@
       "verificationStatus": "Cần xác minh"
     },
     {
+      "title": "Chưa đầy 2 tháng nữa, toàn bộ người lao động Việt Nam đón tin vui - nguoiquansat.vn",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNa2FJVWlabk9iWG5aSTExd1hsTU1Tb0VuRG1YSl9vdmNWM2VnNXVoUWRpQzBrOEt0WUcxcDZRYTY4Y1dEQko5dXhobWxURmxIR3BmVjF5bkItNEFJOGpkRWt5aDl1T2VpX29aYjljOFQ2S093ek1icC1WTFIwdWVuaVo2cXhLal9JZkVYSkZXQnBWMFhPUndWejlNNi1ZU3c5dEE?oc=5",
+      "source": "nguoiquansat.vn",
+      "published": "2026-11-11T08:00:00Z",
+      "topic": "Nhân sự / tiền lương",
+      "category": "market",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Lao động qua đào tạo nghề có cơ hội tăng lương 2,5-3 lần - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWGhZcG9mTkx0d00yVVBJY1ZDWHVFSjFHSmFJLUhKZnpxZUZIc3lMTE02SUtrZXg2Q2F4cS1iWk1zbHIzUTUtaW5mdk03Yl9aUTZ4RzJRcjdqZ09HOEtZNUNfVlNXNUludWtGcmxuTEV0c1BlMk0zVmxEQVJHRmRuazFzc3V5dXd1NlJkdHBuRXp6R1VVOFU3dnpPYUI?oc=5",
+      "source": "Laodong.vn",
+      "published": "2026-11-10T08:00:00Z",
+      "topic": "Nhân sự / tiền lương",
+      "category": "market",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Bảo hiểm thất nghiệp: Trụ đỡ an sinh, động lực ổn định thị trường lao động - Báo Đại biểu Nhân dân",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaXhSYkJKZmdpLW1GMkJhZTNiSVpIN3J4UERPNVJyLWYyUDR1dmxIb2pWOURJU181RDZ4Q1F5aEJyUlZDNkhxYldTeHZoNThwTHptTlNSMnJxWmVFLTA5dVFHMzVPbjFBZGcyeVhzZ1NLNTFpaTgyYThQWlBub0cwYWdKMUxaTWw5Sk1STnlNUE5EUlIwWTZGNG93b1E2aHNiQnhuWnVnZzdDZXpRb3Y3LVdn?oc=5",
+      "source": "Báo Đại biểu Nhân dân",
+      "published": "2026-11-09T08:00:00Z",
+      "topic": "Nhân sự / tiền lương",
+      "category": "market",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Bảo hiểm thất nghiệp – điểm tựa an sinh khi người lao động mất việc - chinhsachcuocsong.vnanet.vn",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPalFDakM4YTE5cWVrd1NVQUQyZFMybU1MdU52eGFzMFpLRjlvNUI3ajhELVJHNDc3aUVfTmJJZjE0UDBCZ1JkSkF3ZUdpMEx5eXZFU0ZDNWVMeFhOWGlOd2h6dDZFWVBkS3h5RFAyZU15V3dKT1dpbEVXTjFJOTNIaXc2NFFnZXBGM1h1cW9NWGtyN3FHdmo2ZS1DWWRvc2JwYmtiTmJPNWF4d1dTVnRiUV94MA?oc=5",
+      "source": "chinhsachcuocsong.vnanet.vn",
+      "published": "2026-11-08T08:00:00Z",
+      "topic": "Nhân sự / tiền lương",
+      "category": "market",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Bộ Nội vụ tập trung hoàn thiện đề án cải cách tiền lương - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTmRxY1RPTXpTcHZ1V053N2lVNHRtbWhtaHNkM19GZy15STBRdFNKa01JRmEyWHlRVFB2cVc4d19IZ0lRNjhpdGZvQTczeXdtbHRuZkxiOGlEMVFSakZickUxX3ptM3JSLWtES3p0SklvY09ackc3RDh4Ym41SjRYblJIYWFwZlVJY2J2QjdtUmdoVG0wMy1kVUd0cw?oc=5",
+      "source": "Laodong.vn",
+      "published": "2026-11-08T08:00:00Z",
+      "topic": "Nhân sự / tiền lương",
+      "category": "market",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Trí tuệ nhân tạo (AI):Những thay đổi đối với thị trường lao động ở Việt Nam - Báo cáo viên",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNWs2bEw5dmtjdFQ0a25yLVFNb2l2OElvWXBuMHlfd0k5dFBDMTZZVmVuMUJqUWY0VERLNWtVQktxSHI1dzNsMG0zbkRVWlhrLTFuWk9LRzJoUTFkbzVrdEZyZU5rRGJITVRZR0pkRGZWby1DcXNOeS1YYnl4c0FYbzFKbDg2SVdEWDlpaTY1NTZ5RnBFNGJzd0g2V2dkVUViNkdWOXBYUnk3QQ?oc=5",
+      "source": "Báo cáo viên",
+      "published": "2026-11-05T08:00:00Z",
+      "topic": "Nhân sự / tiền lương",
+      "category": "market",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
       "title": "Doanh nghiệp gặp khó trong tuyển dụng tại Hải Phòng - Laodong.vn",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLWlmTEdGRkYyNkNLVThENW11bllNcXNWVmZLYTVJLVF1Y2JQM3hhaHVqQm13UWpLbzBpQ3FhSmQzNjhmM0F3S2lYb0ZXcmFYNllEUUkxMEJXQXpncnNHSTVRQkFNZ1NTeElnR19KeWVkVWFKUWc2VUpRc0VqNTBPYWQyN2NkSl9CU3FZTDhJUTh0NG9nWGk4?oc=5",
       "source": "Laodong.vn",
       "published": "2026-11-03T08:00:00Z",
       "topic": "Tuyển dụng / lao động",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Nhìn lại mức lương tối thiểu vùng qua các năm [Tổng hợp] - LuatVietnam",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcllTUmRTZ2NOY3dkSVZGS0VpTlRNODZuX2M0a2NKLS1DSzdwT0Q1MUlsT1hsXzlUTWJOYTNaX01zbHpVRVZTdUhlUDVZUVhOSjFpVTJtVnRMVWR5X1o4YVhvUGhXV2NETERpbEFOcUdteGpJMXFjQjU5cHBOVkc4RFVoTmFzUnBXTXVIUllmVmJ5dHlYbGhIVzNicmN3cm1BU0tpYzJkNG0?oc=5",
-      "source": "LuatVietnam",
-      "published": "2026-11-03T08:00:00Z",
-      "topic": "Nhân sự / tiền lương",
       "category": "market",
       "verificationStatus": "Cần xác minh"
     },
@@ -64,7 +127,7 @@
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPXzdXM0s4cU53Z2ZYZEJQdEVFTXRZYjBtZ1hqZVhVb01kVTNVMG50UElpTDY4OUVLT2hVQzVfbHRNVzBYeG9zNGJ6YVo0WUhsT2t2U1RLVmVCbEQtMUY2X01qUFBYX0docEdybDNtd18yX1FyS00xcGpaTllGUlVnVGYyYkVmMEJfaTFQUEVla2F2NGZMMGtUZ1ZZNTZtTEFDQjN2NWN3czJ3YUJBdjdJV1FMU1dwTGNRaXhz?oc=5",
       "source": "Báo Thanh tra",
       "published": "2026-10-22T07:00:00Z",
-      "topic": "Tuyển dụng / lao động",
+      "topic": "Nhân sự / tiền lương",
       "category": "market",
       "verificationStatus": "Cần xác minh"
     },
@@ -78,6 +141,42 @@
       "verificationStatus": "Cần xác minh"
     },
     {
+      "title": "Thị trường lao động cuối năm: Nhu cầu tuyển dụng cao, nhưng thiếu người phù hợp - BÁO SÀI GÒN GIẢI PHÓNG",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeTREcjJ6N2lndzhFR0ZLZ3BwZlVOZUxfNzg0MkRqalYxdmcyRU1PenZPbzNLX0ZjWW1NdDJKeFQyS2xmcThLU2VuSHNSMHJianN4aVdCNDlFMUVNZVk5NlYzUVpFWERRNWpTQ1NFekRWUEVaX1kwZF9ialZhNUZMdHFMVC1PV29xbEN5VHhwUEFhblh3S3VIZE5iMzFGOEFwWGdBZl9DTC1qakt0MUpUOHBkZzh2b2Jn?oc=5",
+      "source": "BÁO SÀI GÒN GIẢI PHÓNG",
+      "published": "2026-10-10T07:00:00Z",
+      "topic": "Nhân sự / tiền lương",
+      "category": "market",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Thị trường lao động 9 tháng năm 2026 khởi sắc, chất lượng việc làm tiếp tục cải thiện - Tạp chí Kinh tế - Tài chính Online",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQWFOQTN5NWpWMnhGeE14Z2FxcnV4cTJQd0pLZkZPZUQtdlFLYnhKbnlnVVV3YUFYZXFNSXZjUjhYRmZ1Z2x2UDVSTnI1YnNQNnQybWVpeFRjR0VFT05zSTEwdnB6c2VFQXZieWxDMUpVM0d3RmJ6U2pEXzljQThJcVVSanVBX25tb01IS0hPTy0zdU5DVTFvdmhsUExQSjlTb2kxcF9mci1mZjVtNkRJUWt1eWVRLXpfYWpkZUM2a1FDakxPa1BR?oc=5",
+      "source": "Tạp chí Kinh tế - Tài chính Online",
+      "published": "2026-10-08T07:00:00Z",
+      "topic": "Nhân sự / tiền lương",
+      "category": "market",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "1,6 triệu thanh niên không việc làm, không học tập hoặc đào tạo trong quý III/2026 - baodautu",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaXdHMnNYQWtDMFZod0EwWTNiRWhlbUg5cWQySUJLa2llQWJqeGl5b3p1UHN2NnloaWYtMnJmVkxWa0M4Um91S1VxVFcxaTlmUVpCcHNyXzFrdDkwYlV3ckdNMmg0aVNETUQ1a3ZnN2RzQlNqeHo0YjAxUmVnZmxsMnhzaWRHWlVIV3cwNDA3X0pfd3NDTkFocm5TQlFrM2c2N09DdlNZRjFKSnlUbmExSm5n?oc=5",
+      "source": "baodautu",
+      "published": "2026-10-07T07:00:00Z",
+      "topic": "Nhân sự / tiền lương",
+      "category": "market",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Trí tuệ nhân tạo tạo sinh và triển vọng chuyển đổi thị trường lao động Việt Nam - Chuyên trang Nghiên cứu Kinh tế-Tài chính",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRFNVTTFlNFZFZkNQY0l5d2hRU1FMT1VrXzNUTURKNko1SUZtN0hibEhnaWtDU1RITFVwdUxQdlBfZUItMzFaY1F5OVZQN1I3QjRNbmtUeUR6VUNtalZTUWZZd0xWekYzTDJKUFJNZFJJTUdZanJxUXU3VE5JQVBfWXV0UzRVNDg5NjZVbGJhdURQUWpNdzdWUzRpLWJza2VmWFdHOHdPT3NQQ3doYTNvbGtvMGExS1FILXlNblNEY1JFcFlxOG5wUWdLeHNmZw?oc=5",
+      "source": "Chuyên trang Nghiên cứu Kinh tế-Tài chính",
+      "published": "2026-10-05T07:00:00Z",
+      "topic": "Nhân sự / tiền lương",
+      "category": "market",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
       "title": "Thông cáo báo chí về tình hình lao động, việc làm quý III và 9 tháng năm 2026 – General Statistics Office of Vietnam - General Statistics Office of Vietnam",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUldFaHNFX0gyUVV5NVp4M0pQLUNkTkJnX0ViX3NGZG84ZVNINDI4X2hnWGxudHY4X0hiODNyeHRYOXR0ZGROamY1VjNkRW11d05zZFFMcW1mNExDem5xYi1tUW9obzF4amNRSjhPbHZyc2xIZUZnMVZMWmpJYWwydkxTRVZyNU5XU09SX3pGOVk0TW1PVnpENXpoM1FmUHNXQkU4TUVLZ290UGRMNkpKZlFhSkl6ci14SWU4Y2lncEdaZkE?oc=5",
       "source": "General Statistics Office of Vietnam",
@@ -87,9 +186,18 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Thị trường lao động Việt Nam giai đoạn 2020-2025 dưới tác động của chuyển đổi số và bước ngoặt cải cách thể chế trong kỷ nguyên mới - https://tcnnld.vn/",
+      "title": "Cải cách tiền lương gắn với vị trí việc làm và biến động thị trường lao động - https://phapluatphattrien.vn/",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPempyRV9raTNLWDRMWXlyVTJFMVAzd1FQRzRXbU5HMXUxV1pNdkhFTnJEZ1Fma29iVDgzT0lkX3U5am9ReTJJOHhibzRoRnZRVDdrZ0k4Nk03am9LX3l1bE5MYU1CaWY4cTY2UExCMDNRMFJtLUhqQmtORkdJc2t1UFJzS1dPcVllWF9iV3F4cEJMVWZVUjJDZkt5V0NLWGJDc2hlSExGYXFqRllURDJ0eGtnNEhaSk0?oc=5",
+      "source": "https://phapluatphattrien.vn/",
+      "published": "2026-09-23T07:00:00Z",
+      "topic": "Nhân sự / tiền lương",
+      "category": "market",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Thị trường lao động Việt Nam giai đoạn 2020-2025 dưới tác động của chuyển đổi số và bước ngoặt cải cách thể chế trong kỷ nguyên mới - tcnnld.vn",
       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQMG1tWWRPRUNBTk1hT1hyUEJJOXJYbUFPWl9pQmN4Sjd6SDRDZ2lCMVRYU3VMVkR3eFlfbHZIZXhyMFc4dXJSVlVGbVROXzh4R0RiUU9LUzlFMHJhWnNvd3ZQZXA2ZXBGVkRWb0N1X0tCdHFzMkRSb1U3M2x1N2kxUkhOMHA3WWNLdUtrNi14eDFEQ0lCMFpLTmdmdk9CVTdEU1hwYUk5MmFMR2RGLVFTZXh1SE9TVlNmaWVSR3dTeENDdEJHZGl3b1lETndZWk1heXZyc1BYVUc1ZEdjamdfcnRWNmwtQzhZTk5mNGRMcWd1Y2JwOGprY2pfN3QwaGZoUnc?oc=5",
-      "source": "https://tcnnld.vn/",
+      "source": "tcnnld.vn",
       "published": "2026-09-12T07:00:00Z",
       "topic": "Nhân sự / tiền lương",
       "category": "market",
@@ -105,20 +213,20 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Bộ Nội vụ rà soát, hoàn thiện các quy định về tiền lương, thu nhập - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOVFyb3NZdlV6enk4U1dxbVg4NEJ6UEZzLVVjcWxJRzVUTENnTFA1TjQ4VERtTDJrYmhNZnEyVklKWUpzWmhDUXhod3pWSHVmNDNWTmhIVUd0bjh2SmYteVZtYjJsNEtJMzAwdXpPYW9TMFYtVzVVWGprSThnY3dPeTZfVFp6M2NwU0J0Z3EzQkd1WVo4NEFpLWpnSklLa1hMNFlxTFFB?oc=5",
-      "source": "Laodong.vn",
-      "published": "2026-08-31T07:00:00Z",
-      "topic": "Nhân sự / tiền lương",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
       "title": "Sản xuất Việt Nam tăng tốc, doanh nghiệp bắt đầu tuyển thêm lao động - thuonghieucongluan.com.vn",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSV91T0tNajE3OUE4SVlfUEdlZ3dKeFZHMm1UNEM4d09MOGQ0a2pWUWotRlhra3U4Z2JlZDlhZTFfcTkyMGdVNTVHczIxTjBwbUh2a0pMZ3dJdzJteDUyTmduWEFKeGRVY1ZaQWlreUtoVHBMM1FYWS1hRTVlMXgxeVExVUN1eGd6R043ZUdSLUIyRTZDUjBzcHJLQ0E4OTMtcDc2RlhSb3NPV2xKczQ0MjZsY2M?oc=5",
       "source": "thuonghieucongluan.com.vn",
       "published": "2026-08-04T07:00:00Z",
       "topic": "Tuyển dụng / lao động",
+      "category": "market",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Lao động 35-45 tuổi đối mặt với nguy cơ thiếu việc làm - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTEY1Q1RyN0gxWUN2ZjlNOV9BUDRtd2ZPN0xfQ1NBZms3bnFLVlJQVG5JVWdWck9XWHk1S3RyOGQxaXJid1p3M0ZrYzNFQ1RsSHhrdlVvWktvVFZ0djRBUUU4cU5YMjdpOWZ4UC1OU1lYS1RaV25qWGJ2N3U2N0p2bm5iTUJUQXZqemZiUy1KdGt3MFk5VmZv?oc=5",
+      "source": "Laodong.vn",
+      "published": "2026-08-04T07:00:00Z",
+      "topic": "Nhân sự / tiền lương",
       "category": "market",
       "verificationStatus": "Cần xác minh"
     },
@@ -132,24 +240,6 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Ra mắt bản tin thị trường lao động Hà Nội dành cho học sinh và phụ huynh - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNX1hoaDI5aHQ1ZEhDbVhfNHN3T0tPTVpVdDFfV3ZOMXZRM1o3VmhQaE5iX0ZKNGxQYkRWUHN6cHpUTGxTY283M19tZGdqX0JaQ0NGN0tvcy1ESGVSNFBpc3hOWm9DaXlHMHV6WG1XMXp5Z0c0dEt2MjNJTzFnTkFwblh1c1pYLUdzZE5veFJodlNkM3Q5c1o0X2Vxeng5dXd6anE1dVJvMi1ySFM1bEN5NWFjdw?oc=5",
-      "source": "Laodong.vn",
-      "published": "2026-07-18T07:00:00Z",
-      "topic": "Nhân sự / tiền lương",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Gỡ nút thắt cho thị trường lao động trong bối cảnh mới - Bài 2: Khi người lao động chọn nhiều hơn một mức lương - Báo Tin tức và Dân tộc - TTXVN",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYTlsTTM1YXlGZTJPbUwyVjZHbjZqcnM4d0RTX1pPX0lLQXVnRTcwQTRhV21FZUs1NEd6MkZSRXM4NjdpbVVIekhjdmlCOC11UUR3SE5MTDcta0ZnTjNIQldJZE8tRF9rTlRuZFo5b2JiNXhSaGY2Y0dRYXFuTUF0bTVGdFVNWHVxdG1VNk5ZUldQZHRoTXR3WDZSdGhjNk9HNU1QZUpkU1pjUWJSNDFSSFV5cUpNV01DWnY2MDA3dVl5MnZkVlpXWWxqNmgzcm1Jbm1zQllYU3Y4R0t1dkE?oc=5",
-      "source": "Báo Tin tức và Dân tộc - TTXVN",
-      "published": "2026-07-06T07:00:00Z",
-      "topic": "Nhân sự / tiền lương",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
       "title": "Thông cáo báo chí về tình hình lao động, việc làm quý II và 6 tháng đầu năm 2026 – General Statistics Office of Vietnam - General Statistics Office of Vietnam",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMWItUW9RQl9pQkRIMjk5WnExQ1NsM0luVVo4ODE5RGNSbmtiVUYyd2RXaG5mLVdKNjlOSGZBR0loSGxCNE84OU11d01DdmFpbzJYQkNESzhMNjI5YnByODVsaUY3eTN5Rm02XzZJYzUtd3NMaXVlQlJKZlRDRTZ6RDA3VTJNb1BUZG9vSTdMSTdVc1padEFyc0g4cG9ZUFVKajlhaTVfWE4xcDZ0M3h0QU9vUFlfMzJRaXBUUGIxMk9ucExEX29Z?oc=5",
       "source": "General Statistics Office of Vietnam",
@@ -159,37 +249,10 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Thị trường lao động giữ đà phục hồi, tạo nền tảng cho tăng trưởng kinh tế - Tạp chí Kinh tế - Tài chính Online",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNFV3clBQZ0JlaW1xeTktRUtWcEotWmZkS192SEsteEpiNENucDRBMFBZLXRJemtpRzZrVGd0U25OY3d1elBrUEFnNG4tMElLaEw2eWtMcTRka3lVQmltVXJ2eGViZzZPMENBOVQ0dk9KZjVVOU1aWnJORV9sekI2Mi1NYV8tNmctZlNjblRFdHlpX0JJdkowdzIxcDNOc1RZREZKazhtd1FZbHoyRnVQMWVaRXdac05Ca0dKc01qY1k?oc=5",
+      "title": "Tiền lương và an sinh trong kỷ nguyên số: Không để người lao động bị bỏ lại phía sau - Tạp chí Kinh tế - Tài chính Online",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYnpxNjdRNEZYbnA0WW45bC1qNzBtQ0psLVFhX0l4ck11WE9vLXhtSi1DZDhhNjZ1a3ZERExhaXBLcVlFXzFfejlmSEozNUlCVGRoRUp1ckZReWQwX3cxTVE3MUZkMmdzbHdtYlFNcG5uVlZuQ2F4ZG1kYlpZdUdJQzZ6NFVCNGt0VTJyUEFVWkhUSFJKdGNqU0Q5M2VYYjRTVHoxQUZtUkZoZmZPS2VMa29CV2t6YmMtZlVfTVU1VDZ6VnhkU1g3ZEVUXzMySVU?oc=5",
       "source": "Tạp chí Kinh tế - Tài chính Online",
-      "published": "2026-07-03T07:00:00Z",
-      "topic": "Nhân sự / tiền lương",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Trợ cấp thất nghiệp giữ mức hưởng 60%, người lao động sớm quay lại thị trường lao động - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUWMtbFVqNTF2U0wxLS1Jd1dyRUV4cklIOUhTaGd6MmVvbXIzX2FaeXJLS2xEcjU2NFIwUGxQS2tGb1FRcWFMNjNaT2VhVHVwRl9FcjRGV1Y2YlEtRkM1MkY0blN1TUxRZlo5X0c4YzlMUHRDcks4UG53ZHJSa04xMUdSS2x4YTdtQ2l5OUM2YXpkemtCSHhWY2p1Rm5DSTVRUjlWWFBWZTh1elFjc0xMUHdGd1ZrNU1wdHlfNGlza3lXaUU?oc=5",
-      "source": "Laodong.vn",
-      "published": "2026-05-16T07:00:00Z",
-      "topic": "Nhân sự / tiền lương",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Thị trường lao động hướng tới bước ngoặt nhân lực số - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZzFFYzZKT2RNTFpkSkZJSzFWV3l3cG9UazZFY0E0YlVXcHRXZk1qTEtKYXVlbXk0bEZyQjVqdmVabHZwSm9FZ01kR193clFHa2twR0dWVm5BWHJzYU9HMVFEcGo1NG5vQ3lQZ09XSlZCWUxfbUZxSWFHdFE5dGFsZG14TWxsdVpTb004SGFvZTZSNUM2M2hoYQ?oc=5",
-      "source": "Laodong.vn",
-      "published": "2026-05-03T07:00:00Z",
-      "topic": "Nhân sự / tiền lương",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Quý I/2026: Thị trường lao động tiếp tục duy trì ổn định - Báo Nhân Dân điện tử",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRWF0UzJzSmhxdVo5cGl4SDFmZktLcjN5NVdEUFlKMUJ0N3RmeklKaXIyWFhUd1pmRWhxMzVCLUR3Mm0wcXJ5TUpKbHp2S2RQVE1IWUZLR29SSXBpWVMyM1BtenBZS2hoWjFEY1VxTFhRUTQ3dndPcGk3dUxjM1ZMRzRDdDFmUmQzQVVUUnVJV1ZvOXM?oc=5",
-      "source": "Báo Nhân Dân điện tử",
-      "published": "2026-04-05T07:00:00Z",
+      "published": "2026-06-22T07:00:00Z",
       "topic": "Nhân sự / tiền lương",
       "category": "market",
       "verificationStatus": "Cần xác minh"
@@ -213,51 +276,6 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Thị trường lao động quý II/2026 - cơ hội rộng mở cho người lao động - Tạp chí Kinh tế - Tài chính Online",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYmRIY1R1WmQyYUZBQzZCZUlQY1prUWNibGdpcWFKai1uQ0thY1p2Tzd6TXJuM2xEM2JTbzNoeU9IVXVkRlVvamlFQmlDX1U4d0xwTTJvWmJQQWV6dVYyRUhLcHlZdmlqVTRnMTJBNjdwV19tSUNDR2tHbXRFY0tqNTJxLVNFZzd5a0g4SVFvNXpPYzRyVzZOaUFtbDRvekg3TFZEdHF3LWpadHRVY0JQY3h3Y2pIdw?oc=5",
-      "source": "Tạp chí Kinh tế - Tài chính Online",
-      "published": "2026-03-20T07:00:00Z",
-      "topic": "Nhân sự / tiền lương",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Thị trường lao động 2026 khởi động tích cực từ những ngày đầu Xuân - Tạp chí Kinh tế - Tài chính Online",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSGNxenppVHBaN3psOTBHV3BjMmRRN092Ql9DSUlmN1E0OVFrSF9PNWxJVnVtZGJ2dHBDQ0xVNEg4WjM2LUk4S1BDWjJiVm9yM3lvMUVHRW9qR1dZd2dBTFdlS29EblM5Y090N2F1ZGtGa1lEdGNnMVR1Z1JFY1ltcnlqbC1VT1hYRGRkQndrWHpyOW5lWlNwaDZqMzNvcnpaUW1TVmVnV1NRX1c1TGtMdWJCT1RTZWZk?oc=5",
-      "source": "Tạp chí Kinh tế - Tài chính Online",
-      "published": "2026-03-04T08:00:00Z",
-      "topic": "Nhân sự / tiền lương",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Thị trường lao động 2026: Ưu tiên lao động chất lượng cao - Báo Đại biểu Nhân dân",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOd3R0eWZSMjVJVlBnX0lFNHA1REVVSlE3Um1nTWs3a2lkb19BdlpTMUUxLUs5UHhST0NFcjFEUVRYeF94OUNsMjJmUV9FT3BYeWFobTdJVmZOS1dib3V4SXNhVXFfRWJ5cXZ5VE9RblpqT0pMS0VCUFhnSWZabEVqamNneHhBRm81SERlMmFpV1Y4TWRRaHdmTWU2RFU?oc=5",
-      "source": "Báo Đại biểu Nhân dân",
-      "published": "2026-02-12T08:00:00Z",
-      "topic": "Nhân sự / tiền lương",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Trạng thái mới của thị trường lao động - Báo Nhân Dân điện tử",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBCZ2c3Z2x4Y21ST2hxLVNJMWY0RGFQWVNEVHViUThNcS1uLVIzYU5sYkdadWlWTnk2WTRQRHFXX1dlVDVlVDlscmc2b0tJeVF1TjJxS3BLT082VWMtOE5JUVpDMkI2Y3FFd0NjTE9FaHFXcENiX1pvemdqLWpFdw?oc=5",
-      "source": "Báo Nhân Dân điện tử",
-      "published": "2026-02-07T08:00:00Z",
-      "topic": "Nhân sự / tiền lương",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Thị trường lao động năm 2026: Doanh nghiệp trả lương “khủng” nhằm thu hút nhân lực - Báo Đại Đoàn Kết",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQjNsSGpsN0tRSVZrTHY0U1BUUllPYllQLXRQc3I3UGFlMVBaN2NYZlIwTGxmNVZtZ0xRZUthOEpqT0hCQmtjWW94Y2NEZXpwTG5EcFl5Vl85bVR5OWhHQkNnT0lJV0lQd2dqOVVMZHNpajdsc1hydjJIVzFLY1B2VFRoM1lzZHJkRGhuZnFSczg4cGZYVTd2R3dTamtnVHVKM1RINktzOHJCZw?oc=5",
-      "source": "Báo Đại Đoàn Kết",
-      "published": "2026-02-05T08:00:00Z",
-      "topic": "Nhân sự / tiền lương",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
       "title": "Lao động biết tiếng Trung được săn đón, thu nhập cao hơn đến 40% - Báo Tuổi Trẻ",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMkp6dnJNVUFYNTR2Snd4aTJQanVrVjg4Sk0tY2VhSzRqTHlLVkRranhxZkJYdnpwemJKNmtVWmY3SUdibTM4Y2hyMEVVRFdBaGp5WEd6Y3NMbGI2QTE2RWx4T1lYcFZhZ1ZvMUE2MnJvOHVOMUpfUDdMV1ZFUUYxd2xQZ2dhUG1jSEYyakRMWThmVVM4LXdzRWYxLWNRWnJyZzdiZ0dQdjVQV2I3?oc=5",
       "source": "Báo Tuổi Trẻ",
@@ -267,29 +285,11 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Thị trường lao động năm 2026: Gần 80% nhân sự chấp nhận giảm lương để đổi lấy môi trường làm việc lành mạnh - VTV.vn",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbG51a1A5TmQ3dFQ0aXJqZWx2cThmWHdNZW9uVGNmUXFOeFBzNFN2cTgwQUg1Wl9VUnZvU1Z4dVoxNE9fWlJuUzVZa0FESUZyUU5DTUZ4S1RqX1NBem1lU3gzS2lzZ1hRdnVaUEpBdTZlbFZCS2xXRGs4TUNtZFQwYjh5ZlRpeDNZOG45Y3czc3M2RjVmNzFvQTRoVi1UbHNqeTNxZnZBQVNqSUpuWjlNRGNoWjdrZUJpYUhERHhncXVLSERoMlpQSVlVMS1MSm9UNjZYaE1uS3YyclU?oc=5",
-      "source": "VTV.vn",
-      "published": "2026-01-28T08:00:00Z",
-      "topic": "Nhân sự / tiền lương",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Thị trường lao động năm 2026: Người lao động chịu áp lực trước AI - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVW0xeUk4STR4Rlo4UE1UazRCNmZaVE9nQjZ5Y25lZXFEeXVkT0h6ZWVlTkVZek1lcGpUU3JmOC1iS3BEWWlNZ3p5ZlQ5eUwtcWM4S1V5RndkWUVIMENZRTFWbDhQQkIzdzVOMGdJdllDNDZvU2RxZ2VTNktndkotMUhMRWZYNEIzbV9KT1Q0WEdwYk9CN1pGTjhjRnZCZ0VsVmluaVE4eTE?oc=5",
+      "title": "Thị trường lao động Hà Nội cuối năm phân hóa rõ nét - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObVk5UEpWTUFsTFlxbU42VWFraHhQX2VSOWxPTGZZbi1sVE81WVh0eTg4M0xZczFVYVh0REVlcUlvZVc2YnlPM1hZVXRPQlVFWmlSaGFDSk5NZHZaZjJodGVVeXl6VHFjTzVkTF9HWUlKYXRXR1lKWEhUZTF0N3doTnRRR2NQY3VVT2dpQ2lnVndKVHM2WlBF?oc=5",
       "source": "Laodong.vn",
-      "published": "2026-01-21T08:00:00Z",
-      "topic": "Nhân sự / tiền lương",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Thị trường lao động, việc làm của Việt Nam năm 2025: những điểm sáng và hạn chế - General Statistics Office of Vietnam",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdzRRRUI5Mzd6YmZnUk1TMDg5a0hNUUFQY0FmcHBLanhFWlJGWVlld1FJR180cklkeUVER3pHbTNreVJ6WDQ0RVM2ZzNYNlJMT18zaFRmcS12dlNSVjZ4cEVmakFMTVVsQS1MWDY3NnJhVmdkMEZ5dHNDTGFkLXM2MS1xbFh2azBBLU5yNkFpa1JjajhHOWZOZ284cF81WnRMYnJxUllNY25ZUE43Rm4tSVRSVmNVNGhqY2lpNDk4Vy1tRlRhX2FULWoyZjZreGxZRVFn?oc=5",
-      "source": "General Statistics Office of Vietnam",
-      "published": "2026-01-13T08:00:00Z",
-      "topic": "Nhân sự / tiền lương",
+      "published": "2025-12-20T08:00:00Z",
+      "topic": "Tuyển dụng / lao động",
       "category": "market",
       "verificationStatus": "Cần xác minh"
     },
@@ -312,19 +312,10 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Khó tuyển dụng, doanh nghiệp phía Tây Hải Phòng đề xuất nhiều giải pháp - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONDdlRGhieWlOYW05MVlvYko2Y0JzWUhBLUNaV0tRWGNMODRaSUcxR2w5OG5YejNWaHd3QkVYQ2dVV0dtUEUwT0dQNXlOS0hNbjdMdEpXLWt5UF9zSHdWaVF6WlE3ZlJld1ZTejU2R2hqU245aWwwakM3WTY0V0FzU1JGZndkdGl2Z3FVbkhmd1RJYllmbldheVNZRE5HNGtOTGliQTc5cTgwdmpia1Y0Sw?oc=5",
-      "source": "Laodong.vn",
-      "published": "2025-09-11T07:00:00Z",
-      "topic": "Tuyển dụng / lao động",
-      "category": "market",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Công ty giày ở Đồng Nai tuyển gấp hơn 3.000 lao động với nhiều chế độ đãi ngộ tốt - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcDRFSE5JZVNBbkZkNVBpN19nc09nY1Eyak9IdzlDd3l6MkxlZnJJWDByckNpTUE1VkNMLVdJNW53RFduMzhPNGxyUnpZdU5yd2x1alNpOGhMcjg2cl9oN2Q1eEIydE1ONkQtVnQ4dENxeVRQOHc3eUI5MFRpeTZDc1FzNUVxdm1WMzc2MlZmRnZJNy16QzFhZ3loMzRTY0l4ZmJrRlVGZkhiNjFWeERwRkJ5cnVTbGNnb0ktMUln?oc=5",
-      "source": "Laodong.vn",
-      "published": "2025-07-14T07:00:00Z",
+      "title": "Không được nghỉ cuối tuần, doanh nghiệp thuỷ sản chật vật tuyển lao động - CafeF",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSnpSdWNuNEVSR0V2WlNSUUh6WktWVVptTXpRZVhvc292Y2FwR1VkZDdpQ0hZeURjOU81WHA1SE1McXhIZC1uUWVqLVFTMTA0ZERwaTRoVnBQZ3kxMGlPcGYxSFJsejRjamRUMG1zVXUwb0kzR1R4dms5SlEzQVZKNnRzSXlYdkUzemdHM1pCekhvVWd5YUhsVnMxQmZOaVNOUzF2T0pZSEVJZnpiY19iUQ?oc=5",
+      "source": "CafeF",
+      "published": "2025-11-15T08:00:00Z",
       "topic": "Tuyển dụng / lao động",
       "category": "market",
       "verificationStatus": "Cần xác minh"
@@ -375,10 +366,10 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "38 doanh nghiệp ở Hải Phòng cần tuyển 3.552 lao động - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUVFYeDRpYmc4MzlXUm1SRlJrTFFocDZ5TVIxM2lEc3B5RUVFUVpialdoTklqdXREZnEwVERzbU1VWjRmZmUwNXNRcEVZZFhjcllWTXBWcEhLZGZINEdVSGVsZVg0bFYzU2VqNVlxU2U3MjVLRG9aa3Rad3NZTmtINENiajQ4eWxMRmtsNmxGZERzR2RoOGZB?oc=5",
+      "title": "Thu hút lao động bằng loạt chính sách tuyển dụng, giữ chân - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTXZodUliM3lMVTV2c0FHUEtHVk5saDRZbTVwVFVVVUg4bEZXcUw2Yk92R1E1cGp4Nk80VERCc016SGRGMWh2WHhRd0N1dHBsRzh4TDI2ejk5aXlwQ0pRcHdWR0piWGJlMllJdUc2c2lOc3M0OFdxckw1UjNTZWVxRnNadm13ZjRyYkJtejdjcDNIeVBPNlpldHljSElqUm8?oc=5",
       "source": "Laodong.vn",
-      "published": "2025-02-26T08:00:00Z",
+      "published": "2025-03-02T08:00:00Z",
       "topic": "Tuyển dụng / lao động",
       "category": "market",
       "verificationStatus": "Cần xác minh"
