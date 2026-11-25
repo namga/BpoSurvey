@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
   "feed": "recruitment",
-  "updatedAt": "2026-11-24T10:47:12Z",
+  "updatedAt": "2026-11-25T09:42:37Z",
   "provider": "Google News RSS",
   "itemCount": 23,
   "items": [
     {
-      "title": "Doanh nghiệp Hà Tĩnh mở rộng kênh tuyển dụng, tăng sức hút với lao động - Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSVI4RnJOZEt2SVg4ZDRRd1ByazNUOERoSmhFZDNPWlp6VjJ5ejZuOVJkTFRMNkxwRWVrT2tRQkZSMU1NU1FKUXQ3NVpCY1BtczRJVWRPekg4OHNvdHhWY1RROGdaMzJmUXhkc3FqWE1SVUYyT0Z1dFlodV9CQWZUUnBfNmp1WDkwR2dDdXQ1bGRlVERfQmpMRw?oc=5",
-      "source": "Vietnam.vn",
-      "published": "2026-11-24T08:02:22Z",
+      "title": "Doanh nghiệp Hà Tĩnh mở rộng kênh tuyển dụng, tăng sức hút với lao động - Cổng thông tin điện tử tỉnh Hà Tĩnh",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSTZKakxoT2IwZDl6TG84SDUxNmE2b0NVd2RBTGN4Qkh0WTFVZ25ndlp3R1FUQmY3ZnNnYkY2M3lMclB5RUYxWUxnYWRNNVVXLUo4NDJHUWItWGE4eU9RYUlWMVRPWlFRQlgzWjBlV0dCR3BQZjlhYlJiaVFtQ19XTHE2OWc1eDlnSkg0dHJpNjliXzA4cUJLRmk0b0lCYkx4TFJrSGlLOA?oc=5",
+      "source": "Cổng thông tin điện tử tỉnh Hà Tĩnh",
+      "published": "2026-11-23T08:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
@@ -87,15 +87,6 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "TPHCM cần tuyển 12.000 lao động, lương đến 50 triệu đồng/tháng - Báo Dân trí",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOem9EQ2JqMm9LcktNa05aUGRCcXNiV0dKem5TMHBfTHpSWjNWRl9wdVh5LWgxZjdqWEVkSjZPYzRSbk05eFZaRVdnajZjMEZQUjhmWEs1T2lyXzByeUFDZ0YwS3VZR1luVjNyWHoyelJFR1VPelNwZG9yajBzemhaeVVLXzAzNWNlcWVDSUxqZVFUbjlGdlA2WGNVTW9OOGNBbFoxNFpJZk1OY2plMURIVjNrdHFOOEV1UWlUeE1n?oc=5",
-      "source": "Báo Dân trí",
-      "published": "2026-08-10T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
       "title": "TP. Hồ Chí Minh tổ chức ngày hội việc làm đưa 12.000 vị trí tuyển dụng đến người lao động - Tạp chí Kinh tế - Tài chính Online",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUTJnRmF1RFI1VEZjckVDdHhvXy02Zk5FMmRRV015dUYxLUY2ZmdKQjg3enEwVmUwNEs2SS1vM055SzZCSGk3RG9yVnJPelNRaTBRM2c4cW9oMjZaZE81ZFl1U3Ziejk2cEM0dk5TcjBfZU9tWTdvVFZsQTB1b29KTFcwaW5IRlFYSG9iS3I0b25qMXd2RHR2NmdBVXFNcHRVci1MM3dPRXYxNC1Ra05rMnhJZmVyaHFQem5DMXdqV2FLMGpKenBLTjFsZG9WSVpkbDRZSTdB?oc=5",
       "source": "Tạp chí Kinh tế - Tài chính Online",
@@ -163,6 +154,15 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSElHX3BlUDZMbGRnMFNNRlpQZVFSTUVxQ0NHaENaMTktWHM5akdqeC1UZUJVcXVreWZpS0Z5Z0RXQ1ZtNV9RUFR4aUM0am5DRzNZaHgwSERocWVoNW44SlJDbGhlSXdwMlUxNjBQOXlwVjhVMUZ5OVYxenVleEx3dGJxR1JtUnFseWtmd2tHUGNtT2Fod2lockR6eUl3QkhWUzZqSUhB?oc=5",
       "source": "Laodong.vn",
       "published": "2026-03-30T07:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Doanh nghiệp Thanh Hóa cần tuyển dụng 21.000 lao động - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcnZ6WklDQTNhWkd5ZURNQ2FhcHFKclYtOURHYnE1dEF4TnpYSzYwMVFEaEkxR0xhYzkwQ18xSkNPMS0zQldBVnBHY1h3YnRFbVo0dGlrQkZvVEt5R0VobWlVZF8tbDRnSy1LdURzRUhNeU5ESlgzS0ROMlhDbVhyMlJfdW8xdE11SGwwTXlwYkdjbDNyeW56RQ?oc=5",
+      "source": "Laodong.vn",
+      "published": "2026-03-18T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
