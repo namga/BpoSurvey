@@ -1,10 +1,19 @@
 {
   "schemaVersion": 2,
   "feed": "recruitment",
-  "updatedAt": "2026-11-25T09:42:37Z",
+  "updatedAt": "2026-11-26T09:18:05Z",
   "provider": "Google News RSS",
-  "itemCount": 23,
+  "itemCount": 32,
   "items": [
+    {
+      "title": "Sôi động thị trường việc làm | Việt Nam hôm nay - VTVgo",
+      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5JYVRBd3VxUlNYaXp3RmI4dHpSOHFPWklhdjU3Smg4SUg3US0yWjJkbFE1U1E2dEhYc0VkbUU3SkI?oc=5",
+      "source": "VTVgo",
+      "published": "2026-11-25T00:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
     {
       "title": "Doanh nghiệp Hà Tĩnh mở rộng kênh tuyển dụng, tăng sức hút với lao động - Cổng thông tin điện tử tỉnh Hà Tĩnh",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSTZKakxoT2IwZDl6TG84SDUxNmE2b0NVd2RBTGN4Qkh0WTFVZ25ndlp3R1FUQmY3ZnNnYkY2M3lMclB5RUYxWUxnYWRNNVVXLUo4NDJHUWItWGE4eU9RYUlWMVRPWlFRQlgzWjBlV0dCR3BQZjlhYlJiaVFtQ19XTHE2OWc1eDlnSkg0dHJpNjliXzA4cUJLRmk0b0lCYkx4TFJrSGlLOA?oc=5",
@@ -15,19 +24,10 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Sôi động thị trường việc làm | Việt Nam hôm nay - VTVgo",
-      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5JYVRBd3VxUlNYaXp3RmI4dHpSOHFPWklhdjU3Smg4SUg3US0yWjJkbFE1U1E2dEhYc0VkbUU3SkI?oc=5",
-      "source": "VTVgo",
-      "published": "2026-11-23T00:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
       "title": "Vietnam Airlines tuyển 1.000 tiếp viên, tốt nghiệp THPT có thể ứng tuyển, thu nhập tới 50 triệu đồng/tháng - CafeF",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbGh5SHd5Q1lBZ0RPd1duelhpODFTVzY1YUdkNDdXNGFNQ3pfS3k4TXpoRVduLWk0X08ySm8xcjNJSWdGVHpzZEZRVG1JM0VfZ2hVcDcwR2Foa19uSXVPdV9udVJiSTl3dzEzWkFfMVlSTFhSVlo3UWVPX0czUkxUWXN3d01VWDlJWF9sa0U4ejV1TWdLX0NvcTAtSkNwaUxGRFBWQklwOXV6MWMzT0FrSHY4RVViQ2tzN0kzdndVWkUxbG9sTXJxbGRFODFDaU9MVW8zZzhQSk5VXzQ?oc=5",
       "source": "CafeF",
-      "published": "2026-11-17T03:20:00Z",
+      "published": "2026-11-17T08:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
@@ -38,6 +38,33 @@
       "source": "Cổng thông tin điện tử tỉnh Hà Tĩnh",
       "published": "2026-11-13T08:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Cần tuyển 200.000 công nhân xây dựng, Vincons treo thưởng tới 30 triệu đồng cho người giới thiệu - CafeF",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdE1hTVFrMGJqMzdSTXNYSFR3Ni10Nml6dEZWaDBYRU1uZ1Rld1A5Vjh6WlRVa0g3WS1yZDNINFd5eE9HX3hsXzQ1SXp5SDNJdlc4NDhOZzlCOTlHQ2VxSEdHazFkeV9aRDFYN0lad3BWZ0syNFktaTZnNFpMUUF1UUsza3ljaG9GdmpKbXlaQ0w4NDZPWWRDS1U3MDdkYTJOb3VoMEE5RmVBUlMxT1MwWFJjYk9QLTQ4MkFoeHA2aXBLSDBaZlpxVlpFLW5BbFU?oc=5",
+      "source": "CafeF",
+      "published": "2026-11-05T08:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Từ ngày 15/11, tổ chức nước ngoài muốn tuyển người Việt Nam phải làm một việc - CafeF",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNalNBZ041X2ZmVnpqUVJtQm1WWU5DdEFwXzJ6VUYyTVNYQzFRcE51WnNWaWpIWHUxVXUxYUVnV1k2WWZiNzU5alN3VUl2N0loZGMtbEFfOUFUOWFqU19EMTM1Vk12MEdHZ0Q1VUpmSm1fOWpaOHNkT0t2X1c2MmJMMWNDaGlneEVGYlFwR3dFS1dISGk0dEIxQmpHMVFWeFNOTDd4SkNMRjNPVmJLTXNjd29vTk5EcGs?oc=5",
+      "source": "CafeF",
+      "published": "2026-11-03T08:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Vụ án Mr Pips: Bị hại cung cấp bằng chứng khẳng định sàn giao dịch là lừa đảo - chinhsachcuocsong.vnanet.vn",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeUdrOGtlb1F3eWNaZ0ROcG55VnplZGptMk1sNHZibkI0a2NPUi1sd1RYeUFIMXFWT09UNHZLLUxsYTlzdUYzZUd0ZE4zTlNsOGkxZWN3cU5ESTlDaFJzMXBMUWJqRG14MHFDSHVxazBFSUFmSUtIZmxhVWppSThpNUczdzJ0TG81TG5mRkVvdzJOV3M5czQwNjJnWEMtQUN4OG1nQ29oc25FbHFzUDMwRkthMDcwM0VxRGo2cWZqSDBpdw?oc=5",
+      "source": "chinhsachcuocsong.vnanet.vn",
+      "published": "2026-10-28T07:00:00Z",
+      "topic": "Chăm sóc khách hàng / Sales",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
@@ -123,6 +150,15 @@
       "verificationStatus": "Cần xác minh"
     },
     {
+      "title": "Số tổng đài MISA và 6 kênh hỗ trợ khách hàng chính thức 2025 - Hóa Đơn Điện Tử MISA MEINVOICE",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wQVd4Y0JTOWNPb29wT19zQllIS2dvbm52cW9vc0c2VkZGZE5NSlc0RzZXQWlwdUdTblQ3MlQ0cDNFWWg5aWxsa3ppS21Hdi15d3J0UHNCb3czbW9CZG5BQWFlaw?oc=5",
+      "source": "Hóa Đơn Điện Tử MISA MEINVOICE",
+      "published": "2026-07-05T07:00:00Z",
+      "topic": "Chăm sóc khách hàng / Sales",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
       "title": "Tỷ phú Phạm Nhật Vượng tuyển công nhân xây dựng tại tỉnh miền núi cho dự án gần 1 tỷ USD, thu nhập tới 33 triệu đồng/tháng - CafeF",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTGI4WW92Mk53RE92c2dnaG83WlpGNzBpOVJoTk1wTE1jSTB3VVJ3RXNDQkxNUzJFdThWT3FkMjNwOE5zaFdFNUxDX3JQRndiX3ZKeFk4X19MVDgydUtrTWs3eDdiNmE5elZ1TWJEY3FHc2FMSUxwODktNlVNYmVqYU95MDlWVjY3ZC1vSDlsczQ2MTdOb0p2dVpXX3NVeWZCdEROZ002ODFGY1ZHeWJua1R0aS0wTkUxUm1RbUgxaXc3QkxSb0I1ODY0UERNU3J0OTBsUmgxaVJGdEh4b19iNVlaVVNPUy1CMFFRTlJYRjJJV1U?oc=5",
       "source": "CafeF",
@@ -145,24 +181,6 @@
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMTR4OUEzZC1RNVEtb2taQ0FybkZXTkp4UE5Ga29paTVzbFNteHZpTG5pbkNYRkkzMWtvQ2h6ZjdEa2MtV0J0el9NNjN0VGpqZElVLUVJV0NqdFhEbjhRZUhhUlNScktvU2dvUTA3VmNKbXV3SnloMEhkZFZuZ3N5YUg5bTdGTXd4eTJuanJRN25FVGUtNmJoS3dR?oc=5",
       "source": "Báo Phú Thọ",
       "published": "2026-05-19T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Nhu cầu tuyển dụng cao hơn gần 1,6 lần nhu cầu tìm việc ở TPHCM - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSElHX3BlUDZMbGRnMFNNRlpQZVFSTUVxQ0NHaENaMTktWHM5akdqeC1UZUJVcXVreWZpS0Z5Z0RXQ1ZtNV9RUFR4aUM0am5DRzNZaHgwSERocWVoNW44SlJDbGhlSXdwMlUxNjBQOXlwVjhVMUZ5OVYxenVleEx3dGJxR1JtUnFseWtmd2tHUGNtT2Fod2lockR6eUl3QkhWUzZqSUhB?oc=5",
-      "source": "Laodong.vn",
-      "published": "2026-03-30T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Doanh nghiệp Thanh Hóa cần tuyển dụng 21.000 lao động - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcnZ6WklDQTNhWkd5ZURNQ2FhcHFKclYtOURHYnE1dEF4TnpYSzYwMVFEaEkxR0xhYzkwQ18xSkNPMS0zQldBVnBHY1h3YnRFbVo0dGlrQkZvVEt5R0VobWlVZF8tbDRnSy1LdURzRUhNeU5ESlgzS0ROMlhDbVhyMlJfdW8xdE11SGwwTXlwYkdjbDNyeW56RQ?oc=5",
-      "source": "Laodong.vn",
-      "published": "2026-03-18T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
@@ -204,10 +222,73 @@
       "verificationStatus": "Cần xác minh"
     },
     {
+      "title": "Tech Talk #6: Viết lại kịch bản CRM khi AI vào cuộc - Brands Vietnam",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTGMyU0p4VkJObUtqQkFZdzhvUGhBb3l1X25zODF3VVdwaHNlZFowdFN3aEFGZVFVejFLUDgtOU04aVN5d3o4QlR1SHFJcjdyNUlMdFdzenIxNVIzT2RpY08tTnpfekNxMVBZeEdsLS00aWZiemdvZUdhbzNMUG1mMkVYMG9ZZURWbXRKSExubUQzZFBNU3ZfU0p3?oc=5",
+      "source": "Brands Vietnam",
+      "published": "2025-07-14T07:00:00Z",
+      "topic": "Chăm sóc khách hàng / Sales",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "TOP 10+ công ty marketing uy tín nhất tại Việt Nam - Việc Làm 24h",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE03d1d1Y2ticVR6dFB2eFR0bXM3VDN4Q2VyUnZrU2M3dldNcHV2T1huSEdKZ2VPbmRtSm5KZzdNUFBsb3FhUWk5dXliaHVlem9tUFY5VzBtSW5XdVB3ZngxM3BlWHZaaElIc0xRRFlqZy1YMVZmU0Fv?oc=5",
+      "source": "Việc Làm 24h",
+      "published": "2025-05-01T07:00:00Z",
+      "topic": "Chăm sóc khách hàng / Sales",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Giải mã Lead Generation: Từ tiềm năng đến lợi nhuận trong kỷ nguyên số - Brands Vietnam",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQUZxR2I3VzBFNlN0dXlNNUp3OW1rMU9pbF9OV3ZiVTltbVpCV1RkU3QwVUlHRUhHc2xkSDUxMEx2WWptcUVQQW91SDF2SFk1VFBqWmxRR3FBUDFaaUJVTlU3Z2hSWl84Z1ltSm9HcGt3ZE1DUDYtQm02Ynl3ZEMteW5ISVFHTXpaem5tTWZ1ZFFkN3dNazBlVkJtRlpJSEpPYnRDRncwWUtFeWtrb21OUDZOcGlWTzFBLVhfODF3?oc=5",
+      "source": "Brands Vietnam",
+      "published": "2024-05-01T07:00:00Z",
+      "topic": "Chăm sóc khách hàng / Sales",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Hệ thống CRM – “Chìa khóa” thúc đẩy kinh doanh thời đại số - Brands Vietnam",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbXdtX2MxMnJEQzBIUjI2Q1M3RVlKV2s0cFVrb19UM0liZUxUR1I5eDI3YTl6VWoxb3RJNUFTdnVtODlRU1B3WFVaaXNBOW54Mmc3UElJWDZYQVQza3JGTXMxLWx4cHV5aTdOMFRQdEFGaG1TNElXRnRDcFZMNmZUWlVlZEpTb0dUdXdDNFl3ekpaTjI0QU1VRFVhcXVWaFBDcEFYcVJKU204QQ?oc=5",
+      "source": "Brands Vietnam",
+      "published": "2024-03-04T08:00:00Z",
+      "topic": "Chăm sóc khách hàng / Sales",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "VietJet tuyển dụng: Mức lương hấp dẫn, môi trường làm việc chuẩn quốc tế - Việc Làm 24h",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qQjZLdXZkRUxaWmNrbVNlSWFTRzRNeGxnZU9kQ3RYd2lDa295bkFiVWJXWlYxdGRrZ0dBQndvODhWUFAwQkYyWF9KaHlCQk1ueXJUNmxGQTRFVGdZUDh0dWllbGF1M1hmeF9WbnpubHpwa2FMNWR1VQ?oc=5",
+      "source": "Việc Làm 24h",
+      "published": "2023-05-01T07:00:00Z",
+      "topic": "Chăm sóc khách hàng / Sales",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Mega Sale Campaign #5: Những lưu ý về quá trình lên kế hoạch chuẩn bị trước giờ “G” - Brands Vietnam",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNlpMVHF1YWVKQVROSUh3bVBJWFVDUTdRckgyc1dGUTVVZWt6aUNxWW0xcmxLeFhmcTRKQzd3RUpGNmVrNGR6ZlZqeUpiUzZSa0RUcmVxS2gtcGltLXNuRnhuMkxxRUxOZk1tcFZvR0x5Ti1MZkRmZ3RBYU9abENyQkpZT2VIWEJxNWJLNURib2J1eklCakdRZHJkal9PNmFzdzJWUkNFenNEMU9tbG5TNmxrdnhQendNNXZYdkNWUF9lQk1BemdobFdlVQ?oc=5",
+      "source": "Brands Vietnam",
+      "published": "2022-05-30T07:00:00Z",
+      "topic": "Chăm sóc khách hàng / Sales",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
       "title": "Tự động hoá và cá nhân hoá trải nghiệm khách hàng tại thị trường Việt Nam - Brands Vietnam",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeWpYVDRYTlotQUpTRXNOUU1KeWUwclh3SVpheDFId1o3bV81WnUzTE1RVHFaV3VLNUVnVVJLVnhIR2JNckZCTm5QdkxvQ3hzUWdSYjg5YUttblJoX3pHdGJjOXVXd1AtbnUteHlOdXZaRGlseGFWNm5KNm1IM0NiNTZGMkQ4TkJnRGF1OG1XSVhYbUNJOTItLV9xbzJhUmNhTG5hWnNncjhVMFhjclE?oc=5",
       "source": "Brands Vietnam",
       "published": "2021-09-07T07:00:00Z",
+      "topic": "Chăm sóc khách hàng / Sales",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
+      "title": "Grab officially kicks off Grab Ventures Ignite programme to propel Vietnam’s startup ecosystem forward| Grab VN - Grab",
+      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPZ1JEanlnYVJ1a24tdDNrcnNMOW5Wa1hUQnA3Uktnenc2TVZBTlhYX3JVbVdBLUZvV2xOZ2FUNkIxcjhlN196UWlUN1pfYWg5MFhDdGc3LUdiVlNtNi1EWnVZSjlZRjN3VTFDbFhyd2wwT1R5UFF2c0czaHJQdFc0RExIOWNwb242bUJ5WlNsenRWaTZwblVoQU1KTnpEVG5SbVdGaUpkdmo4a0wxVUtDZGI5T05tRjhWcnE1eUs0TlE2ZkdiaDVYczBpTVlDbWE4c1lORjRHN3QzS2VKaC1tR1RkUERCalZ2UDYwNGJscWFVNG5XaGIwZllZYUZpb3hlSTJ3RkFGTnhMNUdlckZMZHVJcnBGU0Jva2pid3F5RVkxYUpYTWlzQlN3R3VrVzRNVlg5bmdzZ1Ffb2pYaHRXZTFic1BMSGYyUnNRU1BjVmRZU3M?oc=5",
+      "source": "Grab",
+      "published": "2020-07-24T07:00:00Z",
       "topic": "Chăm sóc khách hàng / Sales",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
