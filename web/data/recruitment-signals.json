@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
   "feed": "recruitment",
-  "updatedAt": "2026-11-26T09:18:05Z",
+  "updatedAt": "2026-11-27T09:33:51Z",
   "provider": "Google News RSS",
-  "itemCount": 32,
+  "itemCount": 30,
   "items": [
     {
       "title": "Sôi động thị trường việc làm | Việt Nam hôm nay - VTVgo",
@@ -24,19 +24,19 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Vietnam Airlines tuyển 1.000 tiếp viên, tốt nghiệp THPT có thể ứng tuyển, thu nhập tới 50 triệu đồng/tháng - CafeF",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbGh5SHd5Q1lBZ0RPd1duelhpODFTVzY1YUdkNDdXNGFNQ3pfS3k4TXpoRVduLWk0X08ySm8xcjNJSWdGVHpzZEZRVG1JM0VfZ2hVcDcwR2Foa19uSXVPdV9udVJiSTl3dzEzWkFfMVlSTFhSVlo3UWVPX0czUkxUWXN3d01VWDlJWF9sa0U4ejV1TWdLX0NvcTAtSkNwaUxGRFBWQklwOXV6MWMzT0FrSHY4RVViQ2tzN0kzdndVWkUxbG9sTXJxbGRFODFDaU9MVW8zZzhQSk5VXzQ?oc=5",
-      "source": "CafeF",
-      "published": "2026-11-17T08:00:00Z",
+      "title": "Vinfast Hà Tĩnh tuyển 3.000 lao động, sàn giao dịch nóng lên trước giờ G - Cổng thông tin điện tử tỉnh Hà Tĩnh",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYnZ5aTJ1bFFidXpmRkJHUWd4UGJRZ2pJVWFkQXNZeWsyVURqelFsOFVxazBPdDJHOC1yZHZNT21xU1F3Qm50ZnM5TGJxcENiTnJfanBqekh4X0V2U3k3b19nbDdEU183alZUWnJaTXROLXdXS0IzNlI5QS1ONjRrU19xQ3FKMzU2aHZaeDFZUDd1N25RLThJRmNNN0Qtb25qbUtqdHJBcw?oc=5",
+      "source": "Cổng thông tin điện tử tỉnh Hà Tĩnh",
+      "published": "2026-11-21T08:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Vinfast Hà Tĩnh tuyển 3.000 lao động, sàn giao dịch nóng lên trước giờ G - Cổng thông tin điện tử tỉnh Hà Tĩnh",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYnZ5aTJ1bFFidXpmRkJHUWd4UGJRZ2pJVWFkQXNZeWsyVURqelFsOFVxazBPdDJHOC1yZHZNT21xU1F3Qm50ZnM5TGJxcENiTnJfanBqekh4X0V2U3k3b19nbDdEU183alZUWnJaTXROLXdXS0IzNlI5QS1ONjRrU19xQ3FKMzU2aHZaeDFZUDd1N25RLThJRmNNN0Qtb25qbUtqdHJBcw?oc=5",
-      "source": "Cổng thông tin điện tử tỉnh Hà Tĩnh",
-      "published": "2026-11-13T08:00:00Z",
+      "title": "Vietnam Airlines tuyển 1.000 tiếp viên, tốt nghiệp THPT có thể ứng tuyển, thu nhập tới 50 triệu đồng/tháng - CafeF",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbGh5SHd5Q1lBZ0RPd1duelhpODFTVzY1YUdkNDdXNGFNQ3pfS3k4TXpoRVduLWk0X08ySm8xcjNJSWdGVHpzZEZRVG1JM0VfZ2hVcDcwR2Foa19uSXVPdV9udVJiSTl3dzEzWkFfMVlSTFhSVlo3UWVPX0czUkxUWXN3d01VWDlJWF9sa0U4ejV1TWdLX0NvcTAtSkNwaUxGRFBWQklwOXV6MWMzT0FrSHY4RVViQ2tzN0kzdndVWkUxbG9sTXJxbGRFODFDaU9MVW8zZzhQSk5VXzQ?oc=5",
+      "source": "CafeF",
+      "published": "2026-11-17T08:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
@@ -51,20 +51,20 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Từ ngày 15/11, tổ chức nước ngoài muốn tuyển người Việt Nam phải làm một việc - CafeF",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNalNBZ041X2ZmVnpqUVJtQm1WWU5DdEFwXzJ6VUYyTVNYQzFRcE51WnNWaWpIWHUxVXUxYUVnV1k2WWZiNzU5alN3VUl2N0loZGMtbEFfOUFUOWFqU19EMTM1Vk12MEdHZ0Q1VUpmSm1fOWpaOHNkT0t2X1c2MmJMMWNDaGlneEVGYlFwR3dFS1dISGk0dEIxQmpHMVFWeFNOTDd4SkNMRjNPVmJLTXNjd29vTk5EcGs?oc=5",
-      "source": "CafeF",
+      "title": "Tỷ phú Phạm Nhật Vượng tuyển 30.000 lao động làm việc tại Hạ Long, trả ngay 50 triệu đồng/tháng - Tạp chí Doanh nhân trẻ",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYmMxdHpNSWVCRjlyWXZUNUdQZmZHR2hvTHpBMnB5TVlBU0V4RnZveXlpX2d5SHNxWWFtZlNDRlpleG5Ibm1mSjNDaXlOemxDa25DT2EzWFRCMzFnMEFEbXBOaE5MT0ctVzRsQklRTkI1c2dHQndPVGtzblZWYnZaU1dvOGc3Q2JCQWtXTlpaZkltOHhYR3JjUy1sUGwxSlB2RGozUTFNVkM4Q2RTRkJtVlNGaHJ0MDViYVR1dGRuVVFEbHhOWFFsTC1oZFBKRlVlWGc?oc=5",
+      "source": "Tạp chí Doanh nhân trẻ",
       "published": "2026-11-03T08:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Vụ án Mr Pips: Bị hại cung cấp bằng chứng khẳng định sàn giao dịch là lừa đảo - chinhsachcuocsong.vnanet.vn",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeUdrOGtlb1F3eWNaZ0ROcG55VnplZGptMk1sNHZibkI0a2NPUi1sd1RYeUFIMXFWT09UNHZLLUxsYTlzdUYzZUd0ZE4zTlNsOGkxZWN3cU5ESTlDaFJzMXBMUWJqRG14MHFDSHVxazBFSUFmSUtIZmxhVWppSThpNUczdzJ0TG81TG5mRkVvdzJOV3M5czQwNjJnWEMtQUN4OG1nQ29oc25FbHFzUDMwRkthMDcwM0VxRGo2cWZqSDBpdw?oc=5",
-      "source": "chinhsachcuocsong.vnanet.vn",
-      "published": "2026-10-28T07:00:00Z",
-      "topic": "Chăm sóc khách hàng / Sales",
+      "title": "Từ ngày 15/11, tổ chức nước ngoài muốn tuyển người Việt Nam phải làm một việc - CafeF",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNalNBZ041X2ZmVnpqUVJtQm1WWU5DdEFwXzJ6VUYyTVNYQzFRcE51WnNWaWpIWHUxVXUxYUVnV1k2WWZiNzU5alN3VUl2N0loZGMtbEFfOUFUOWFqU19EMTM1Vk12MEdHZ0Q1VUpmSm1fOWpaOHNkT0t2X1c2MmJMMWNDaGlneEVGYlFwR3dFS1dISGk0dEIxQmpHMVFWeFNOTDd4SkNMRjNPVmJLTXNjd29vTk5EcGs?oc=5",
+      "source": "CafeF",
+      "published": "2026-11-03T08:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
@@ -105,6 +105,15 @@
       "verificationStatus": "Cần xác minh"
     },
     {
+      "title": "VinCons chọn “lối đi khó” xây dựng lực lượng cơ hữu 200.000 người để đi đường xa - baodautu",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOU44ZkpIU1BNTEFMX0ZsdElhVXZuTkN2SEk5bUlnOW5uYThydDc2cGsxRVoyVFJSekwzUlVaX1BKOWpsSHR3cTVrVWxWdGVTeUxnT0VnZmhod1RwX1ZFYkZuR01XUndTTWhYLTVMemZMNWlKTVJJaFdDNUdmQzV4dXlVZE92ODdqNFZiMGtuWC1NME5mTkg4aHg3QXVmUXJDMmgwclBFZVpyTHZKWG9F?oc=5",
+      "source": "baodautu",
+      "published": "2026-09-07T07:00:00Z",
+      "topic": "Sản xuất / Nhân sự số lượng lớn",
+      "category": "recruitment",
+      "verificationStatus": "Cần xác minh"
+    },
+    {
       "title": "CEO VinCons tiết lộ 100.000 công nhân tuyển mới từ vùng nông thôn, miền núi, không lấy của doanh nghiệp khác - Chi tiết bài viết - Vietcap Trading",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQM3ZUV21hSkRJVEsteURZeEJtSDhadjZudEg1eHFab3lZV19pYmluWjQxTkVCNTFQMF9NSVo1Q1JlZHNFUXFzZ3ZPUzRRSjFONEJVOUZRVUtUall6dUxTV1ExNmdpbjkyZkpZY29KZm9NSVdwckNXbXlSV2xjTTM1M3pMdHJxTHRwclBXcXB5ODNMSzN3V2dXWjZmYWcyVWd3V1JZaWNEODJUZW96RE84cmZKMGRLUjNsbHNBZEpadlBTazc4RTlSOHJQeEg4SW5JajlWN3JxSG5KRnBSZG1YTU1ZQ1JfZm5ULVpZVQ?oc=5",
       "source": "Vietcap Trading",
@@ -132,29 +141,11 @@
       "verificationStatus": "Cần xác minh"
     },
     {
-      "title": "Gần 14.000 việc làm đang chờ người lao động ứng tuyển - Báo Dân trí",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdk9UUUZXRFpGWXlUMmZpdXdPTWpnNHktU2x5WUNqbUJYSU1rbEpHdDFfWjF0czRod0VvSDhad0xaQl9GNXNjcnNwa0xPdGxFT2FxekFSZzRYbGFRM0FCV2QtS2VCUVRaMW84R0M0dEk2eWVKV0tuUnl0b094czFpc3JUZkE0bFFTay1Sb3BKV3RXY3hjTWpCcXI0MnN2ZU44UHE0MXU2enFhZVJOYXNtMkRsbjk?oc=5",
-      "source": "Báo Dân trí",
-      "published": "2026-07-11T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
       "title": "Doanh nghiệp Thành phố Hồ Chí Minh \"đỏ mắt\" tìm ... công nhân - Vietnam+ (VietnamPlus)",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcXF4S09SY1NLRmJFQmFiY3JmYklYVmlSLUhYYmZFdS1rU3FRaFFOZ2x0RG1sNGhGcWRNN051ek5hTkZ2TW9Oenh3aUpPa0w4NmZlSDV4VWdrSUpmTWRUdnpNd0FhZjdCTml0Z2ZHUjQ5NU5BbFAzTmp4T2RBZXB2NF8xd3ZTN3ZRekVGZjBIMzJwcFZIdUtzc2VoUlotRUU?oc=5",
       "source": "Vietnam+ (VietnamPlus)",
       "published": "2026-07-06T07:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Số tổng đài MISA và 6 kênh hỗ trợ khách hàng chính thức 2025 - Hóa Đơn Điện Tử MISA MEINVOICE",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wQVd4Y0JTOWNPb29wT19zQllIS2dvbm52cW9vc0c2VkZGZE5NSlc0RzZXQWlwdUdTblQ3MlQ0cDNFWWg5aWxsa3ppS21Hdi15d3J0UHNCb3czbW9CZG5BQWFlaw?oc=5",
-      "source": "Hóa Đơn Điện Tử MISA MEINVOICE",
-      "published": "2026-07-05T07:00:00Z",
-      "topic": "Chăm sóc khách hàng / Sales",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
     },
@@ -190,15 +181,6 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT0ZMajYtMmdwQ1p2czZOWXlVOWlkd1dCQVBIZ183MDdDeUk5TllrRHVWbm5yUEkwNHNDRjFEdVpvUXk1a3hOOGdrczE5Q20zT2tyajRNX0RIaExQSWxGR3hfeGRrQWpNWWkxNTJOYU45emVBN3psaW10Q0s2dEhnd2VoSXRieGNWUF9rZHRYQ3U3cWlRS00xb3dBcWc?oc=5",
       "source": "Laodong.vn",
       "published": "2026-03-14T07:00:00Z",
-      "topic": "Sản xuất / Nhân sự số lượng lớn",
-      "category": "recruitment",
-      "verificationStatus": "Cần xác minh"
-    },
-    {
-      "title": "Nhiều công ty ở Thanh Hóa tuyển dụng lao động với số lượng hàng nghìn người - Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdlFoQXNGM1B6LVdJaFphMmFxbUhmR3FTMnltaHJwZFNIV00tLTBRTmUteU5DYi1OUk5RRmw2WDQ2aXUyZ3pXNVo3ZDhWQmRwUDFwQW1sd24tYXduNTVuVGU3STRvSmVDSHFyekF5MjEtYWlaeTZtUzctTXhQd3d3NFdkX2FPX2hScGhQbVlvZzNZVV9qMVhXNDdVY2pCZENwTlg3c3pvcVB2T0ZEOU1fWnEyX3BUd1E?oc=5",
-      "source": "Laodong.vn",
-      "published": "2026-03-05T08:00:00Z",
       "topic": "Sản xuất / Nhân sự số lượng lớn",
       "category": "recruitment",
       "verificationStatus": "Cần xác minh"
