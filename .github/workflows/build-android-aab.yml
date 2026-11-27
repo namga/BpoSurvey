@@ -47,7 +47,7 @@ jobs:
           set -euo pipefail
           node --check web/app.js
           bash scripts/validate-source.sh
-          grep -q "versionName '12.4.2'" android/app/build.gradle
+          grep -q "versionName '1.1.0'" android/app/build.gradle
           grep -q 'versionCode 60' android/app/build.gradle
           grep -q 'targetSdk 35' android/app/build.gradle
 

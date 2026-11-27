@@ -1,6 +1,6 @@
-# BPO Intelligence Hub — v12.3.8 (Market & Recruitment Intelligence)
+# BPO Intelligence Hub — v1.1.0 (Market & Recruitment Intelligence)
 
-Ứng dụng tra cứu và quản lý dữ liệu BPO cho một người dùng trên thiết bị cá nhân. Bản này gộp các thay đổi trước đó vào một source thống nhất; số phiên bản sản phẩm hiển thị là **12.3.8**.
+Ứng dụng tra cứu và quản lý dữ liệu BPO cho một người dùng trên thiết bị cá nhân. Phiên bản sản phẩm hiện tại là **1.1.0**; các mục cập nhật cũ bên dưới là lịch sử phát triển.
 
 ## Chức năng đã gộp
 
@@ -19,15 +19,16 @@
 
 ## Phiên bản Android
 
-- Product version (`versionName`): **12.3.8**.
-- Android build number (`versionCode`): **56**. Đây là mã nội bộ để Android cho phép cập nhật; người dùng thấy phiên bản sản phẩm 12.3.8. Target SDK is 35.
+- Product version (`versionName`): **1.1.0**.
+- Android build number (`versionCode`): **2**. Đây là mã nội bộ Android dùng để xác định bản cập nhật.
+- Target SDK: **35**.
 
 ## Build APK bằng GitHub Actions
 
 1. Tạo hoặc mở repository GitHub.
 2. Upload **nội dung thư mục `bpo-hub/`** vào root repository, không upload thêm một lớp thư mục ngoài. Phải thấy `.github/`, `android/`, `web/`, `README.md`.
 3. Mở **Actions → Build Android APK → Run workflow**.
-4. Khi workflow hoàn tất thành công, tải artifact `BPO-Intelligence-Hub-debug-apk`.
+4. Khi workflow hoàn tất thành công, tải artifact có tên theo `versionName` trong `android/app/build.gradle`, ví dụ `BPO-Intelligence-Hub-v1.1.0-APK`.
 5. Cài APK và kiểm tra trên điện thoại.
 
 
@@ -87,97 +88,97 @@ Workflow `.github/workflows/build-ios-app.yml` dùng macOS runner, đóng gói `
 - Source đã được kiểm tra cú pháp JavaScript và cấu trúc ZIP. APK cần được build bằng workflow và kiểm thử trên thiết bị thực tế; việc kiểm tra source không thay thế kiểm thử thiết bị.
 
 
-## Detail views audit (product version 12.0.0)
+## Detail views audit (product version 1.1.0)
 - Customer records: click company name to open detail modal.
 - Project records: click project/customer name to open detail modal.
 - Job/benchmark records: click job position to open detail modal.
 - Potential leads: click company/target name to open detail modal.
 - Detail modal includes an edit action wired to the relevant record form.
 
-## Bản cập nhật UX v12.0.0
+## Bản cập nhật UX v1.1.0
 - Vuốt từ cạnh trái sang phải để quay lại; nút Back và phím Back Android đóng modal/menu trước, quay về màn hình trước hoặc trang Tổng quan. Tại trang Tổng quan, nhấn Back hai lần trong 2 giây để thoát.
 - Menu di động có lớp nền để đóng menu khi chạm ra ngoài; bỏ xử lý click điều hướng bị lặp.
 - Cỡ chữ mặc định tăng lên 15px, tăng cỡ chữ bảng và biểu mẫu.
 - Trường lương/phí hỗ trợ nhập số thập phân bằng dấu phẩy hoặc dấu chấm; thêm đơn vị tính lương theo giờ/tháng, phí theo người/giờ, người/tháng, phần trăm lương hoặc phí cố định/lần, cùng thuế/VAT (%).
-- Phiên bản sản phẩm giữ `12.0.0`; Android `versionCode` tăng lên `18` để cài cập nhật đè lên bản build trước.
+- Phiên bản sản phẩm giữ `1.1.0`; Android `versionCode` tăng lên `18` để cài cập nhật đè lên bản build trước.
 
 
 ## Import dữ liệu từ bảng có sẵn
 - Trang Excel & dữ liệu tự nhận diện các tiêu đề tiếng Việt tương đương: `Khu vực`, `Lĩnh vực của KH`, `Tên Dự án (tên KH)`, `Vị trí nhân sự`, `Phí Dịch vụ – năm gần nhất`.
 - Có thể nhập workbook `.xlsx` hoặc xuất sheet thành `.csv` UTF-8. Dữ liệu tự động tạo/cập nhật hồ sơ dự án, khách hàng tiềm năng và benchmark vị trí/phí.
 - Mức phí được phân tích từ chuỗi như `480,000 VNĐ/nhân sự/ngày (năm 2026)`; đơn vị ngày/giờ/tháng được giữ lại. Bản ghi nhập từ dữ liệu tùy biến được đánh dấu `Cần xác minh`; kiểm tra trước khi sử dụng.
-- Giữ nguyên `versionName 12.0.0`; Android `versionCode 19` để cho phép cập nhật APK mới.
+- Giữ nguyên `versionName 1.1.0`; Android `versionCode 19` để cho phép cập nhật APK mới.
 
 
-## Danh mục khu vực và ngành nghề (v12.0.0)
+## Danh mục khu vực và ngành nghề (v1.1.0)
 - Biểu mẫu dự án, khách hàng, benchmark và cơ hội dùng danh sách chọn có sẵn cho Khu vực và Ngành/lĩnh vực.
 - Chọn “＋ Khác (nhập mới)” để nhập giá trị mới. Giá trị tùy chỉnh được lưu vào bản ghi và tự xuất hiện trong danh sách lựa chọn của các biểu mẫu sau.
 - Các giá trị hiện có trong dữ liệu cũng được thêm vào danh sách, giúp sửa bản ghi cũ không làm mất lựa chọn.
-- Phiên bản sản phẩm vẫn là 12.0.0; versionCode Android tăng lên 20 để cho phép cài cập nhật APK.
+- Phiên bản sản phẩm vẫn là 1.1.0; versionCode Android tăng lên 20 để cho phép cài cập nhật APK.
 
 
-## Giao diện v12 – Visual Refresh
+## Giao diện v1.1.0 – Visual Refresh
 - Làm mới giao diện theo phong cách SaaS hiện đại, tím-indigo thống nhất toàn app.
 - Cải thiện tương phản, khoảng cách, bo góc, trạng thái hover/focus, bảng, form và modal.
 - Tối ưu dashboard cho màn hình điện thoại và chế độ tối.
-- Phiên bản sản phẩm vẫn là 12.0.0; Android versionCode 22 để cài cập nhật.
+- Phiên bản sản phẩm vẫn là 1.1.0; Android versionCode 22 để cài cập nhật.
 
 
-## App icon update — v12.2.0
+## App icon update — v1.1.0
 - Thiết kế icon launcher tối giản: chữ B cách điệu kết hợp biểu đồ tăng trưởng, tông tím–xanh trên nền sáng.
 - Cập nhật icon Android cho mọi mật độ màn hình và adaptive icon; đồng bộ icon PWA với giao diện mới.
-- Product version: `12.2.0`; Android `versionCode`: `43`.
+- Product version: `1.1.0`; Android `versionCode`: `43`.
 - Không thay đổi cấu trúc dữ liệu hoặc chức năng nghiệp vụ trong bản cập nhật icon này.
 
 
-## Update 12.2.0 — linked search and instant filters
+## Update 1.1.0 — linked search and instant filters
 - Three-way search now reads projects, clients, pricing/position benchmarks and leads from the local database, including imported rows. Results are clickable to open the matching detail record.
 - Project and client filters apply immediately when a select changes; the redundant Apply buttons have been removed. Clear-filter buttons remain.
-- Android WebView assets are synced from the web source. Android internal build code: 24; product version remains 12.2.0.
+- Android WebView assets are synced from the web source. Android internal build code: 24; product version remains 1.1.0.
 
-## Sao lưu JSON mã hóa / giải mã (v12.2.0)
+## Sao lưu JSON mã hóa / giải mã (v1.1.0)
 - Trang **Excel & dữ liệu** có nút **Xuất sao lưu mã hóa (.bpoenc)** và **Chọn file JSON / mã hóa để khôi phục**.
 - File `.bpoenc` dùng AES-256-GCM; khóa được tạo từ mật khẩu qua PBKDF2-HMAC-SHA256 với salt ngẫu nhiên và 210.000 vòng lặp. Mỗi file có IV ngẫu nhiên riêng.
 - Trên Android, mã hóa/giải mã dùng API mật mã của Java; trên trình duyệt web, dùng Web Crypto API khi chạy trong ngữ cảnh được hỗ trợ.
 - File JSON sao lưu thường vẫn được hỗ trợ. Khi chọn file mã hóa, app hỏi mật khẩu trước khi giải mã và xác thực cấu trúc dữ liệu trước khi khôi phục.
 - Mật khẩu không được lưu trong app. Nếu quên mật khẩu, không thể khôi phục nội dung file mã hóa. Hãy giữ mật khẩu riêng và lưu an toàn.
-- Product version giữ `12.2.0`; Android `versionCode` tăng lên `25` để cài cập nhật APK.
+- Product version giữ `1.1.0`; Android `versionCode` tăng lên `25` để cài cập nhật APK.
 
 
-## Theme refresh — v12.2.0
+## Theme refresh — v1.1.0
 
 - Cài đặt giao diện được chuyển thành bộ chọn theme dạng thẻ, áp dụng ngay khi chạm.
 - Bổ sung hai theme mới: **Tươi trẻ, năng động** (xanh lá/teal, điểm nhấn vàng) và **Lãng mạn, thơ mộng** (hồng/hoa cà).
 - Giữ các theme **Mặc định / Hiện đại**, **Tối (Dark)** và **Theo hệ thống**. Theme Theo hệ thống tự theo dõi thay đổi chế độ sáng/tối của thiết bị.
 - Đồng bộ palette cho nền, sidebar, thẻ KPI, nút, bộ lọc, bảng và biểu mẫu; tùy chọn màu nhấn riêng vẫn hoạt động. Có thể khôi phục màu nhấn mặc định theo theme.
-- Product version vẫn là `12.2.0`; Android `versionCode` là `26`.
+- Product version vẫn là `1.1.0`; Android `versionCode` là `26`.
 
 
-### v12.2.0 — Three-way search data integrity fix
+### v1.1.0 — Three-way search data integrity fix
 - Fresh installs start with empty business records; no demo projects, clients, leads, or sample benchmarks are inserted automatically.
 - On upgrade, only known built-in sample IDs (`P-DEMO-*`, `C-DEMO-*`, `R-PUBLIC-*`, `L-DEMO-*`) are removed; other locally stored records are preserved.
 - Three-way search suggestion lists are generated only from saved projects, pricing benchmarks, clients, and leads.
 - When no matching records exist, the UI explicitly asks the user to add/import data.
-- Product version remains 12.2.0; Android versionCode 27.
+- Product version remains 1.1.0; Android versionCode 27.
 
 
-### v12.2.0 — startup and navigation hotfix
+### v1.1.0 — startup and navigation hotfix
 - Fixed a startup crash on fresh installs: `load()` was called before `EMPTY_DB` had initialized, causing a temporal-dead-zone `ReferenceError`. Because the app script stopped during initialization, delegated navigation and the mobile menu never received their event handlers.
 - Moved the empty database definition before initialization and replaced `structuredClone` in the fallback path with a plain empty-object copy for older Android WebView compatibility.
 - Removed the unused hard-coded demo seed dataset from the application bundle. Fresh installs begin with empty business data; known sample records are filtered from existing local storage.
-- Synced web JavaScript into Android assets and updated asset cache tokens. Product version remains `12.2.0`; Android `versionCode` is `28`.
+- Synced web JavaScript into Android assets and updated asset cache tokens. Product version remains `1.1.0`; Android `versionCode` is `28`.
 
 
-### v12.2.0 — dashboard compactness and search UX fix
+### v1.1.0 — dashboard compactness and search UX fix
 
 - Three-way search now shows a short prompt until at least one of position, region, or industry is entered; it no longer renders every saved record by default.
 - Matching result tables are limited to 8 rows initially, with a bounded internal scroll area and an explicit expand/collapse control. The three dimension chip lists are also height-limited on mobile.
 - “Cập nhật gần đây” now has its own record-type filter (all, projects, clients, benchmarks/fees, opportunities), shows 3 records by default, and can expand to 20.
-- Product version remains `12.2.0`; Android `versionCode` is `29`.
+- Product version remains `1.1.0`; Android `versionCode` is `29`.
 
 
-## Quality pass (product version 12.2.0)
-- Android build code: 31 (product version remains 12.2.0).
+## Quality pass (product version 1.1.0)
+- Android build code: 31 (product version remains 1.1.0).
 - Uses system font fallbacks to avoid blocking startup on remote Google Fonts.
 - Filtered lists update in place, preserve current filter selections and show a live result count.
 - Navigation back button is removed from layout when unavailable; edge-swipe avoids controls, tables and modals.
@@ -186,35 +187,35 @@ Workflow `.github/workflows/build-ios-app.yml` dùng macOS runner, đóng gói `
 - Sidebar backup action is labeled JSON backup to match the actual exported format.
 
 
-### v12.2.0 — Three-way search suggestion popup fix
+### v1.1.0 — Three-way search suggestion popup fix
 
 - Replaced native HTML `datalist` suggestions in the three-way market finder with an opaque, theme-aware custom dropdown for Android WebView compatibility.
 - Supports tap-to-select, typing custom values, keyboard arrows, Enter, and Escape.
 - Preserves the existing search/filter logic and keeps results sourced from saved records only.
-- Product version remains 12.2.0; Android build code is 36.
+- Product version remains 1.1.0; Android build code is 36.
 
 
-## Version 12.2.0 — Settings icon refresh
+## Version 1.1.0 — Settings icon refresh
 - Replaced the Unicode gear with a crisp inline SVG precision-slider icon, better aligned with the app's modern theme.
 - Preserved the `settingsBtn` identifier and click handler so opening Settings continues to work.
-- Updated Android product version to `12.2.0` and build code to `42`.
+- Updated Android product version to `1.1.0` and build code to `42`.
 - Web assets are mirrored to Android assets and validated before build.
 
 
-## Settings icon correction — v12.2.0
+## Settings icon correction — v1.1.0
 - Replaced the mistaken three-slider symbol with a conventional outlined gear icon.
 - Kept the existing `settingsBtn` ID, click handler, theme-based `currentColor`, and Settings navigation.
-- Product version remains `12.2.0`; Android build code is `43`.
+- Product version remains `1.1.0`; Android build code is `43`.
 
 
-## Version 12.2.1 — status map and competitor / potential projects
+## Version 1.1.0 — status map and competitor / potential projects
 - Map markers distinguish active projects (green), projects requiring verification (red), and competitor/potential records (purple), with counts on each marker where the region can be matched.
 - Added `recordType` to opportunity records: `Dự án đối thủ`, `Dự án tiềm năng`, or `Cơ hội khách hàng`. Existing records remain compatible and default to `Cơ hội khách hàng` in the legacy opportunity list.
 - Regional statistics now include competitor and potential project counts, a separate filterable table, and public web-search links per region. Web results are opened externally and must be manually reviewed and saved; the app does not silently scrape external websites.
-- Product version `12.2.1`; Android `versionCode` `48`.
+- Product version `1.1.0`; Android `versionCode` `48`.
 
 
-## Version 12.3.5 — Daily Market Signals
+## Version 1.1.0 — Daily Market Signals
 
 - Added `.github/workflows/update-market-signals.yml`, scheduled daily at 08:00 Vietnam time (01:00 UTC), with a manual `workflow_dispatch` option.
 - `scripts/update-market-signals.py` collects public Google News RSS headlines on BPO/outsourcing, contact center/customer service, hiring, labor and salary topics. It records headline, publisher, original article URL, publication date and topic; it does not scrape article bodies or invent market facts.
@@ -222,23 +223,23 @@ Workflow `.github/workflows/build-ios-app.yml` dùng macOS runner, đóng gói `
 - The dashboard shows up to 10 current headlines, last refresh time and a manual refresh button. It attempts to fetch the remote feed when the app opens; the installed Android/iOS build receives its public raw GitHub feed URL during the build workflow. **The repository must be public for an unsigned client to fetch the raw JSON without credentials.** Never embed a personal access token in the app.
 - In hosted web deployments, `data/market-signals.json` is loaded relative to the site. The Android/iOS build workflows generate `market-feed-config.js` with the repository raw URL.
 - The daily feed action needs to run successfully at least once before fresh results appear. GitHub scheduled workflows may be delayed, and upstream RSS availability can vary. If all queries fail, the script preserves the previous feed and fails visibly in Actions.
-- Product version `12.3.5`; Android `versionCode 54`.
+- Product version `1.1.0`; Android `versionCode 54`.
 
 
-## Version 12.3.5 — Market signal list
+## Version 1.1.0 — Market signal list
 - Market signal panel now shows the first 10 items and provides a “Xem thêm” button to reveal 10 more per tap until all fetched RSS items are visible.
-- Product version `12.3.5`; Android `versionCode 54`.
+- Product version `1.1.0`; Android `versionCode 54`.
 
 
-## Version 12.3.5 — Numbered market signal pagination
+## Version 1.1.0 — Numbered market signal pagination
 - Market signals now use numbered pages (10 items per page), with previous/next buttons and current-page highlighting.
 - Shows the displayed range (for example, 1–10 / 60) and lets users select pages 1, 2, 3, 4, etc.
-- Product version `12.3.5`; Android `versionCode 54`.
+- Product version `1.1.0`; Android `versionCode 54`.
 
 
-## Version 12.3.5 — Android source validation fix
+## Version 1.1.0 — Android source validation fix
 
-- Updated validation assertions to match product version `12.3.5` and Android `versionCode 54`.
+- Updated validation assertions to match product version `1.1.0` and Android `versionCode 54`.
 - Fixed Android workflow to sync the header background asset before validating the synchronized source payload.
 
 ## Daily market-signal workflow
@@ -249,12 +250,12 @@ Workflow `.github/workflows/build-ios-app.yml` dùng macOS runner, đóng gói `
 - Scheduled workflows must be present on the repository's default branch. Repository Actions permissions must allow workflows to run, and scheduled runs can be delayed by GitHub.
 
 
-## Version 12.3.8 — Market & recruitment intelligence
-- Updated Android `versionName` to `12.3.8`, `versionCode` to `56`, and `targetSdk` to `35`.
+## Version 1.1.0 — Market & recruitment intelligence
+- Android release version: `versionName` `1.1.0`, `versionCode` `2`, and `targetSdk` `35`.
 - Added a release AAB workflow using GitHub Actions Secrets for signing. No keystore or password is stored in this repository.
 
 
-## Market and recruitment intelligence (12.3.8)
+## Market and recruitment intelligence (1.1.0)
 
 - `.github/workflows/update-market-signals.yml` runs directly every day at 08:00 Vietnam time (01:00 UTC), and can also be run manually from Actions. It collects public Google News RSS headlines into `web/data/market-signals.json` and `web/data/recruitment-signals.json`.
 - The updater validates both JSON files and commits successful updates. It preserves a prior feed if all upstream queries for that feed fail; check the Actions logs for source-query warnings.

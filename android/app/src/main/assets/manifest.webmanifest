@@ -1,7 +1,7 @@
 {
   "name": "BPO Intelligence Hub",
   "short_name": "BPO Hub",
-  "description": "Tra cứu và survey thị trường dịch vụ BPO",
+  "description": "BPO Intelligence Hub 1.1.0 — tra cứu và khảo sát thị trường dịch vụ BPO",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f7f9ff",
