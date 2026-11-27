@@ -37,6 +37,7 @@ public class MainActivity extends Activity {
     private byte[] pendingSaveBytes;
     private String pendingSaveMime = "application/octet-stream";
     private long lastRootBackAt = 0L;
+    private Toast exitToast;
 
     @Override public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -82,6 +83,22 @@ public class MainActivity extends Activity {
             }
         });
         webView.setWebViewClient(new WebViewClient() {
+            @Override public void onPageFinished(WebView view, String url) {
+                super.onPageFinished(view, url);
+                String versionName;
+                try {
+                    versionName = getPackageManager().getPackageInfo(getPackageName(), 0).versionName;
+                } catch (Exception ignored) {
+                    versionName = "";
+                }
+                String version = JSONObject.quote(versionName == null ? "" : versionName);
+                view.evaluateJavascript(
+                        "(function(){var label=document.querySelector('.footer span');"
+                                + "if(label)label.textContent='BPO Intelligence Hub · VERSION '+ " + version + ";})()",
+                        null
+                );
+            }
+
             @Override public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
                 Uri uri = request.getUrl();
                 if ("file".equals(uri.getScheme()) || "about".equals(uri.getScheme())) return false;
@@ -99,6 +116,18 @@ public class MainActivity extends Activity {
 
     private class FileSaveBridge {
         private static final int BACKUP_ITERATIONS = 210000;
+
+        @JavascriptInterface public String getBundledMarketSignals() {
+            try (InputStream in = getAssets().open("data/market-signals.json");
+                 ByteArrayOutputStream out = new ByteArrayOutputStream()) {
+                byte[] buffer = new byte[8192];
+                int count;
+                while ((count = in.read(buffer)) != -1) out.write(buffer, 0, count);
+                return new String(out.toByteArray(), StandardCharsets.UTF_8);
+            } catch (IOException e) {
+                return "";
+            }
+        }
         private SecretKey deriveBackupKey(String password, byte[] salt, int iterations) throws Exception {
             PBEKeySpec spec = new PBEKeySpec(password.toCharArray(), salt, iterations, 256);
             try {
@@ -208,14 +237,58 @@ public class MainActivity extends Activity {
     }
 
     @Override protected void onSaveInstanceState(Bundle outState) { super.onSaveInstanceState(outState); if (webView != null) webView.saveState(outState); }
-    @Override public void onBackPressed() {
-        if (webView == null) { super.onBackPressed(); return; }
+
+    @Override
+    public void onBackPressed() {
+        if (webView == null) {
+            super.onBackPressed();
+            return;
+        }
+
         webView.evaluateJavascript("(function(){return window.handleAppBack?window.handleAppBack():false})()", value -> {
+            if (isFinishing() || isDestroyed()) {
+                return;
+            }
+
             boolean handled = "true".equals(value);
-            if (handled) { lastRootBackAt = 0L; return; }
+            if (handled) {
+                lastRootBackAt = 0L;
+                return;
+            }
+
+            if (webView.canGoBack()) {
+                webView.goBack();
+                lastRootBackAt = 0L;
+                return;
+            }
+
             long now = SystemClock.elapsedRealtime();
-            if (now - lastRootBackAt < 2000L) { finish(); }
-            else { lastRootBackAt = now; Toast.makeText(MainActivity.this, "Đang ở trang chính. Nhấn Back lần nữa để thoát.", Toast.LENGTH_SHORT).show(); }
+            if (now - lastRootBackAt < 2000L) {
+                if (exitToast != null) {
+                    exitToast.cancel();
+                }
+                finish();
+            } else {
+                lastRootBackAt = now;
+                if (exitToast != null) {
+                    exitToast.cancel();
+                }
+                exitToast = Toast.makeText(
+                        MainActivity.this,
+                        "Đang ở trang chính. Nhấn Back lần nữa để thoát.",
+                        Toast.LENGTH_SHORT
+                );
+                exitToast.show();
+            }
         });
+    }
+
+    @Override
+    protected void onDestroy() {
+        if (exitToast != null) {
+            exitToast.cancel();
+            exitToast = null;
+        }
+        super.onDestroy();
     }
 }

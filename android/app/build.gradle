@@ -2,7 +2,7 @@ plugins { id 'com.android.application' }
 
 android {
     namespace 'com.bpohub.app'
-    compileSdk 35
+    compileSdk 36
     signingConfigs {
         release {
             storeFile file(System.getenv('ANDROID_KEYSTORE_PATH') ?: 'release-keystore.jks')
@@ -13,8 +13,8 @@ android {
     }
     defaultConfig {
         applicationId 'com.bpohub.app'
-        minSdk 23
-        targetSdk 35
+        minSdk 25
+        targetSdk 36
         versionCode 60
         versionName '12.4.2'
     }

@@ -19,7 +19,49 @@ let recruitmentSignalsState={items:[],updatedAt:'',loading:false,error:'',loaded
 const marketFeedUrl=()=>String(window.BPO_MARKET_FEED_URL||'').trim();
 const recruitmentFeedUrl=()=>String(window.BPO_RECRUITMENT_FEED_URL||'').trim();
 function marketSignalsPanel(){const state=marketSignalsState;const stamp=state.updatedAt?new Date(state.updatedAt).toLocaleString('vi-VN',{dateStyle:'medium',timeStyle:'short'}):'Chưa có lần đồng bộ';const pageSize=state.pageSize||10;const pageCount=Math.max(1,Math.ceil(state.items.length/pageSize));const page=Math.min(Math.max(1,state.page||1),pageCount);const first=state.items.length?(page-1)*pageSize:0;const last=Math.min(first+pageSize,state.items.length);const pageItems=state.items.slice(first,last);const pagination=pageCount>1?`<nav class="market-signal-pagination" aria-label="Phân trang tín hiệu thị trường"><button class="market-page-btn" type="button" data-market-page="${page-1}" ${page===1?'disabled':''} aria-label="Trang trước">‹</button>${Array.from({length:pageCount},(_,i)=>i+1).map(n=>`<button class="market-page-btn ${n===page?'active':''}" type="button" data-market-page="${n}" ${n===page?'aria-current="page"':''}>${n}</button>`).join('')}<button class="market-page-btn" type="button" data-market-page="${page+1}" ${page===pageCount?'disabled':''} aria-label="Trang sau">›</button></nav>`:'';return `<section class="panel market-live-panel"><div class="panel-head"><div><h3>Tín hiệu thị trường mới nhất</h3><p>Tự tổng hợp tin công khai về BPO, thuê ngoài, tuyển dụng và lao động tại Việt Nam.</p></div><button class="secondary-btn" type="button" data-refresh-market-signals ${state.loading?'disabled':''}>${state.loading?'Đang cập nhật…':'↻ Cập nhật ngay'}</button></div><div class="market-live-meta"><span>${state.loading?'Đang lấy nguồn công khai…':`Cập nhật dữ liệu: ${esc(stamp)}`}</span><span>${state.items.length} tin · nguồn RSS công khai</span></div>${state.error?`<div class="callout">Chưa tải được dữ liệu mới: ${esc(state.error)}. Dữ liệu hiển thị bên dưới (nếu có) là lần đồng bộ trước.</div>`:''}${state.items.length?`<div class="market-signal-range">Đang xem ${first+1}–${last} / ${state.items.length} tin</div><div class="market-signal-list">${pageItems.map(item=>`<article class="market-signal-item"><div class="market-signal-copy"><a href="${esc(item.url||'#')}" target="_blank" rel="noopener noreferrer">${esc(item.title||'Tin thị trường')}</a><p>${esc(item.source||'Nguồn công khai')} · ${esc(item.published||'Không rõ ngày đăng')}${item.topic?` · ${esc(item.topic)}`:''}</p></div><a class="market-signal-open" href="${esc(item.url||'#')}" target="_blank" rel="noopener noreferrer" aria-label="Mở nguồn">↗</a></article>`).join('')}</div>${pagination}`:`<div class="empty-hint">${state.loading?'Đang tải tín hiệu thị trường…':'Chưa có dữ liệu tin mới. Workflow hằng ngày sẽ thu thập các bài viết khi được bật trên GitHub.'}</div>`}<p class="market-source">Tin được lấy từ tiêu đề, nguồn và ngày đăng trong RSS của Google News; app không tự suy đoán doanh nghiệp, giá dịch vụ hoặc xác minh nội dung bài viết. Hãy mở nguồn gốc để kiểm tra trước khi dùng làm quyết định kinh doanh.</p></section>`}
-async function refreshMarketSignals(force=false){if(marketSignalsState.loading)return;marketSignalsState.loading=true;marketSignalsState.error='';if($('#marketLivePanel')||view==='overview')render();const candidates=[];const remote=marketFeedUrl();if(remote)candidates.push(remote);candidates.push('data/market-signals.json');let lastError='Không tìm thấy nguồn dữ liệu.';for(const url of [...new Set(candidates)]){try{const response=await fetch(url+(url.includes('?')?'&':'?')+'t='+Date.now(),{cache:'no-store'});if(!response.ok)throw new Error('HTTP '+response.status);const data=await response.json();if(!data||!Array.isArray(data.items))throw new Error('Sai định dạng dữ liệu');marketSignalsState={items:data.items,updatedAt:data.updatedAt||'',loading:false,error:'',loaded:true,page:1,pageSize:10};if(view==='overview')render();return}catch(err){lastError=err.message||String(err)}}marketSignalsState.loading=false;marketSignalsState.loaded=true;marketSignalsState.error=lastError;if(view==='overview')render()}
+async function refreshMarketSignals(force=false) {
+  if (marketSignalsState.loading) return;
+  marketSignalsState.loading = true;
+  marketSignalsState.error = '';
+  if ($('#marketLivePanel') || view === 'overview') render();
+
+  let lastError = 'Không tìm thấy nguồn dữ liệu.';
+  const remote = marketFeedUrl();
+  if (remote) {
+    try {
+      const response = await fetch(remote + (remote.includes('?') ? '&' : '?') + 't=' + Date.now(), { cache: 'no-store' });
+      if (!response.ok) throw new Error('HTTP ' + response.status);
+      const data = await response.json();
+      if (!data || !Array.isArray(data.items)) throw new Error('Sai định dạng dữ liệu');
+      marketSignalsState = { items: data.items, updatedAt: data.updatedAt || '', loading: false, error: '', loaded: true, page: 1, pageSize: 10 };
+      if (view === 'overview') render();
+      return;
+    } catch (err) {
+      lastError = err.message || String(err);
+    }
+  }
+
+  try {
+    let data = null;
+    const bridge = window.AndroidDownloads;
+    if (bridge && typeof bridge.getBundledMarketSignals === 'function') {
+      const bundled = bridge.getBundledMarketSignals();
+      if (bundled) data = JSON.parse(bundled);
+    }
+    if (!data) {
+      const response = await fetch('data/market-signals.json?t=' + Date.now(), { cache: 'no-store' });
+      if (!response.ok) throw new Error('HTTP ' + response.status);
+      data = await response.json();
+    }
+    if (!data || !Array.isArray(data.items)) throw new Error('Sai định dạng dữ liệu');
+    marketSignalsState = { items: data.items, updatedAt: data.updatedAt || '', loading: false, error: '', loaded: true, page: 1, pageSize: 10 };
+  } catch (err) {
+    marketSignalsState.loading = false;
+    marketSignalsState.loaded = true;
+    marketSignalsState.error = lastError || err.message || String(err);
+  }
+  if (view === 'overview') render();
+}
 
 function isBuiltInSampleRecord(record,key){const id=String(record?.id||'');if(/^P-DEMO-0[12]$/.test(id)||/^C-DEMO-0[12]$/.test(id)||/^L-DEMO-01$/.test(id)||/^R-PUBLIC-(0[1-9]|1[0-2])$/.test(id))return true;return false}
 function load(){
